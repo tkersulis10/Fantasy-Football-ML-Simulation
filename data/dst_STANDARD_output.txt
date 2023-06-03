@@ -1,0 +1,704 @@
+New England Patriots:
+https://www.fantasypros.com/nfl/games/new-england-defense.php
+Games:
+Week 1: 4.0
+Week 2: 8.0
+Week 3: 4.0
+Week 4: 11.0
+Week 5: 22.0
+Week 6: 13.0
+Week 7: 5.0
+Week 8: 9.0
+Week 9: 26.0
+Week 10: BYE Week
+Week 11: 17.0
+Week 12: 2.0
+Week 13: 4.0
+Week 14: 20.0
+Week 15: 11.0
+Week 16: 14.0
+Week 17: 12.0
+Week 18: 4.0
+
+Dallas Cowboys:
+https://www.fantasypros.com/nfl/games/dallas-defense.php
+Games:
+Week 1: 5.0
+Week 2: 7.0
+Week 3: 10.0
+Week 4: 10.0
+Week 5: 23.0
+Week 6: 4.0
+Week 7: 22.0
+Week 8: 11.0
+Week 9: BYE Week
+Week 10: 5.0
+Week 11: 16.0
+Week 12: 4.0
+Week 13: 20.0
+Week 14: 4.0
+Week 15: 6.0
+Week 16: 7.0
+Week 17: 10.0
+Week 18: 6.0
+
+San Francisco 49ers:
+https://www.fantasypros.com/nfl/games/san-francisco-defense.php
+Games:
+Week 1: 5.0
+Week 2: 15.0
+Week 3: 8.0
+Week 4: 21.0
+Week 5: 15.0
+Week 6: 1.0
+Week 7: 1.0
+Week 8: 3.0
+Week 9: BYE Week
+Week 10: 6.0
+Week 11: 11.0
+Week 12: 15.0
+Week 13: 18.0
+Week 14: 10.0
+Week 15: 9.0
+Week 16: 7.0
+Week 17: 3.0
+Week 18: 15.0
+
+Buffalo Bills:
+https://www.fantasypros.com/nfl/games/buffalo-defense.php
+Games:
+Week 1: 17.0
+Week 2: 20.0
+Week 3: 4.0
+Week 4: 7.0
+Week 5: 14.0
+Week 6: 8.0
+Week 7: BYE Week
+Week 8: 5.0
+Week 9: 5.0
+Week 10: 8.0
+Week 11: 5.0
+Week 12: 8.0
+Week 13: 5.0
+Week 14: 12.0
+Week 15: 1.0
+Week 16: 10.0
+Week 17: 4.0
+Week 18: 19.0
+
+Philadelphia Eagles:
+https://www.fantasypros.com/nfl/games/philadelphia-defense.php
+Games:
+Week 1: 5.0
+Week 2: 12.0
+Week 3: 15.0
+Week 4: 15.0
+Week 5: 4.0
+Week 6: 7.0
+Week 7: BYE Week
+Week 8: 14.0
+Week 9: 8.0
+Week 10: 7.0
+Week 11: 7.0
+Week 12: 6.0
+Week 13: 10.0
+Week 14: 9.0
+Week 15: 9.0
+Week 16: 10.0
+Week 17: 10.0
+Week 18: 3.0
+
+Jacksonville Jaguars:
+https://www.fantasypros.com/nfl/games/jacksonville-defense.php
+Games:
+Week 1: 6.0
+Week 2: 21.0
+Week 3: 9.0
+Week 4: 9.0
+Week 5: 5.0
+Week 6: -1.0
+Week 7: 1.0
+Week 8: 5.0
+Week 9: 5.0
+Week 10: 6.0
+Week 11: BYE Week
+Week 12: 5.0
+Week 13: -2.0
+Week 14: 12.0
+Week 15: 12.0
+Week 16: 14.0
+Week 17: 17.0
+Week 18: 15.0
+
+Baltimore Ravens:
+https://www.fantasypros.com/nfl/games/baltimore-defense.php
+Games:
+Week 1: 11.0
+Week 2: 7.0
+Week 3: 11.0
+Week 4: 5.0
+Week 5: 6.0
+Week 6: 6.0
+Week 7: 12.0
+Week 8: 5.0
+Week 9: 10.0
+Week 10: BYE Week
+Week 11: 17.0
+Week 12: 5.0
+Week 13: 6.0
+Week 14: 11.0
+Week 15: 7.0
+Week 16: 8.0
+Week 17: 3.0
+Week 18: 4.0
+
+Kansas City Chiefs:
+https://www.fantasypros.com/nfl/games/kansas-city-defense.php
+Games:
+Week 1: 3.0
+Week 2: 10.0
+Week 3: 8.0
+Week 4: 4.0
+Week 5: 1.0
+Week 6: 3.0
+Week 7: 13.0
+Week 8: BYE Week
+Week 9: 4.0
+Week 10: 6.0
+Week 11: 9.0
+Week 12: 11.0
+Week 13: 1.0
+Week 14: 15.0
+Week 15: 3.0
+Week 16: 8.0
+Week 17: 8.0
+Week 18: 14.0
+
+Carolina Panthers:
+https://www.fantasypros.com/nfl/games/carolina-defense.php
+Games:
+Week 1: 1.0
+Week 2: 4.0
+Week 3: 16.0
+Week 4: 9.0
+Week 5: 5.0
+Week 6: 9.0
+Week 7: 8.0
+Week 8: 5.0
+Week 9: -2.0
+Week 10: 10.0
+Week 11: 9.0
+Week 12: 11.0
+Week 13: BYE Week
+Week 14: 7.0
+Week 15: 1.0
+Week 16: 4.0
+Week 17: 6.0
+Week 18: 15.0
+
+New York Jets:
+https://www.fantasypros.com/nfl/games/new-york-jets-defense.php
+Games:
+Week 1: 4.0
+Week 2: 2.0
+Week 3: 4.0
+Week 4: 12.0
+Week 5: 9.0
+Week 6: 20.0
+Week 7: 7.0
+Week 8: 8.0
+Week 9: 10.0
+Week 10: BYE Week
+Week 11: 10.0
+Week 12: 8.0
+Week 13: 2.0
+Week 14: 8.0
+Week 15: 1.0
+Week 16: 4.0
+Week 17: 4.0
+Week 18: 5.0
+
+Washington Commanders:
+https://www.fantasypros.com/nfl/games/washington-defense.php
+Games:
+Week 1: 4.0
+Week 2: -1.0
+Week 3: 5.0
+Week 4: 3.0
+Week 5: 5.0
+Week 6: 13.0
+Week 7: 3.0
+Week 8: 7.0
+Week 9: 5.0
+Week 10: 15.0
+Week 11: 19.0
+Week 12: 7.0
+Week 13: 7.0
+Week 14: BYE Week
+Week 15: 1.0
+Week 16: 1.0
+Week 17: 5.0
+Week 18: 18.0
+
+Green Bay Packers:
+https://www.fantasypros.com/nfl/games/green-bay-defense.php
+Games:
+Week 1: 1.0
+Week 2: 9.0
+Week 3: 11.0
+Week 4: 7.0
+Week 5: 3.0
+Week 6: 2.0
+Week 7: 9.0
+Week 8: 6.0
+Week 9: 3.0
+Week 10: 5.0
+Week 11: 5.0
+Week 12: 0.0
+Week 13: 9.0
+Week 14: BYE Week
+Week 15: 11.0
+Week 16: 11.0
+Week 17: 23.0
+Week 18: 2.0
+
+Seattle Seahawks:
+https://www.fantasypros.com/nfl/games/seattle-defense.php
+Games:
+Week 1: 7.0
+Week 2: 9.0
+Week 3: 7.0
+Week 4: 7.0
+Week 5: 1.0
+Week 6: 17.0
+Week 7: 7.0
+Week 8: 13.0
+Week 9: 8.0
+Week 10: 4.0
+Week 11: BYE Week
+Week 12: 1.0
+Week 13: 8.0
+Week 14: 1.0
+Week 15: 1.0
+Week 16: 1.0
+Week 17: 17.0
+Week 18: 8.0
+
+Houston Texans:
+https://www.fantasypros.com/nfl/games/houston-defense.php
+Games:
+Week 1: 7.0
+Week 2: 6.0
+Week 3: 9.0
+Week 4: 2.0
+Week 5: 11.0
+Week 6: BYE Week
+Week 7: 0.0
+Week 8: 8.0
+Week 9: 5.0
+Week 10: 3.0
+Week 11: 1.0
+Week 12: 7.0
+Week 13: 8.0
+Week 14: 7.0
+Week 15: 5.0
+Week 16: 17.0
+Week 17: 6.0
+Week 18: 14.0
+
+Indianapolis Colts:
+https://www.fantasypros.com/nfl/games/indianapolis-defense.php
+Games:
+Week 1: 6.0
+Week 2: 0.0
+Week 3: 6.0
+Week 4: 3.0
+Week 5: 14.0
+Week 6: 6.0
+Week 7: 8.0
+Week 8: 5.0
+Week 9: 7.0
+Week 10: 3.0
+Week 11: 8.0
+Week 12: 3.0
+Week 13: 1.0
+Week 14: BYE Week
+Week 15: 23.0
+Week 16: 9.0
+Week 17: 1.0
+Week 18: 13.0
+
+New Orleans Saints:
+https://www.fantasypros.com/nfl/games/new-orleans-defense.php
+Games:
+Week 1: 6.0
+Week 2: 4.0
+Week 3: 4.0
+Week 4: 4.0
+Week 5: 4.0
+Week 6: 4.0
+Week 7: 1.0
+Week 8: 16.0
+Week 9: 3.0
+Week 10: 7.0
+Week 11: 5.0
+Week 12: 5.0
+Week 13: 6.0
+Week 14: BYE Week
+Week 15: 7.0
+Week 16: 8.0
+Week 17: 18.0
+Week 18: 13.0
+
+Cincinnati Bengals:
+https://www.fantasypros.com/nfl/games/cincinnati-defense.php
+Games:
+Week 1: 2.0
+Week 2: 4.0
+Week 3: 16.0
+Week 4: 8.0
+Week 5: 4.0
+Week 6: 1.0
+Week 7: 4.0
+Week 8: 7.0
+Week 9: 6.0
+Week 10: BYE Week
+Week 11: 1.0
+Week 12: 5.0
+Week 13: 4.0
+Week 14: 8.0
+Week 15: 9.0
+Week 16: 10.0
+Week 17: 7.0
+Week 18: 19.0
+
+New York Giants:
+https://www.fantasypros.com/nfl/games/new-york-giants-defense.php
+Games:
+Week 1: 4.0
+Week 2: 7.0
+Week 3: 0.0
+Week 4: 16.0
+Week 5: 2.0
+Week 6: 7.0
+Week 7: 5.0
+Week 8: 5.0
+Week 9: BYE Week
+Week 10: 9.0
+Week 11: -1.0
+Week 12: 3.0
+Week 13: 8.0
+Week 14: 2.0
+Week 15: 17.0
+Week 16: 4.0
+Week 17: 14.0
+Week 18: 5.0
+
+Pittsburgh Steelers:
+https://www.fantasypros.com/nfl/games/pittsburgh-defense.php
+Games:
+Week 1: 26.0
+Week 2: 3.0
+Week 3: 2.0
+Week 4: 5.0
+Week 5: 2.0
+Week 6: 3.0
+Week 7: 1.0
+Week 8: -1.0
+Week 9: BYE Week
+Week 10: 10.0
+Week 11: 2.0
+Week 12: 10.0
+Week 13: 4.0
+Week 14: 3.0
+Week 15: 5.0
+Week 16: 13.0
+Week 17: 7.0
+Week 18: 12.0
+
+Miami Dolphins:
+https://www.fantasypros.com/nfl/games/miami-defense.php
+Games:
+Week 1: 18.0
+Week 2: -4.0
+Week 3: 9.0
+Week 4: 1.0
+Week 5: -2.0
+Week 6: 3.0
+Week 7: 12.0
+Week 8: 1.0
+Week 9: 9.0
+Week 10: 6.0
+Week 11: BYE Week
+Week 12: 18.0
+Week 13: 6.0
+Week 14: 10.0
+Week 15: 3.0
+Week 16: 4.0
+Week 17: 4.0
+Week 18: 9.0
+
+Cleveland Browns:
+https://www.fantasypros.com/nfl/games/cleveland-defense.php
+Games:
+Week 1: 6.0
+Week 2: 3.0
+Week 3: 10.0
+Week 4: 3.0
+Week 5: 0.0
+Week 6: 0.0
+Week 7: 5.0
+Week 8: 13.0
+Week 9: BYE Week
+Week 10: -3.0
+Week 11: 1.0
+Week 12: 4.0
+Week 13: 27.0
+Week 14: 4.0
+Week 15: 16.0
+Week 16: 3.0
+Week 17: 13.0
+Week 18: 2.0
+
+Minnesota Vikings:
+https://www.fantasypros.com/nfl/games/minnesota-defense.php
+Games:
+Week 1: 12.0
+Week 2: 7.0
+Week 3: 2.0
+Week 4: 6.0
+Week 5: 4.0
+Week 6: 13.0
+Week 7: BYE Week
+Week 8: 10.0
+Week 9: 6.0
+Week 10: 15.0
+Week 11: -4.0
+Week 12: 9.0
+Week 13: 5.0
+Week 14: -1.0
+Week 15: 5.0
+Week 16: 9.0
+Week 17: -1.0
+Week 18: 9.0
+
+Los Angeles Chargers:
+https://www.fantasypros.com/nfl/games/san-diego-defense.php
+Games:
+Week 1: 13.0
+Week 2: 1.0
+Week 3: -4.0
+Week 4: 8.0
+Week 5: 1.0
+Week 6: 7.0
+Week 7: 4.0
+Week 8: BYE Week
+Week 9: 7.0
+Week 10: 3.0
+Week 11: 2.0
+Week 12: 5.0
+Week 13: 12.0
+Week 14: 6.0
+Week 15: 7.0
+Week 16: 20.0
+Week 17: 9.0
+Week 18: 5.0
+
+Los Angeles Rams:
+https://www.fantasypros.com/nfl/games/los-angeles-defense.php
+Games:
+Week 1: 9.0
+Week 2: 9.0
+Week 3: 6.0
+Week 4: 1.0
+Week 5: 4.0
+Week 6: 11.0
+Week 7: BYE Week
+Week 8: 2.0
+Week 9: 4.0
+Week 10: 2.0
+Week 11: 4.0
+Week 12: 4.0
+Week 13: 8.0
+Week 14: 5.0
+Week 15: 7.0
+Week 16: 21.0
+Week 17: -1.0
+Week 18: 8.0
+
+Tennessee Titans:
+https://www.fantasypros.com/nfl/games/tennessee-defense.php
+Games:
+Week 1: 9.0
+Week 2: -3.0
+Week 3: 3.0
+Week 4: 10.0
+Week 5: 6.0
+Week 6: BYE Week
+Week 7: 19.0
+Week 8: 9.0
+Week 9: 7.0
+Week 10: 12.0
+Week 11: 4.0
+Week 12: 8.0
+Week 13: -2.0
+Week 14: -4.0
+Week 15: 8.0
+Week 16: 7.0
+Week 17: 7.0
+Week 18: 4.0
+
+Tampa Bay Buccaneers:
+https://www.fantasypros.com/nfl/games/tampa-bay-defense.php
+Games:
+Week 1: 13.0
+Week 2: 26.0
+Week 3: 6.0
+Week 4: 1.0
+Week 5: 6.0
+Week 6: 3.0
+Week 7: 1.0
+Week 8: 5.0
+Week 9: 8.0
+Week 10: 6.0
+Week 11: BYE Week
+Week 12: 6.0
+Week 13: 3.0
+Week 14: -2.0
+Week 15: 3.0
+Week 16: 8.0
+Week 17: 8.0
+Week 18: 2.0
+
+Arizona Cardinals:
+https://www.fantasypros.com/nfl/games/arizona-defense.php
+Games:
+Week 1: -2.0
+Week 2: 9.0
+Week 3: 4.0
+Week 4: 12.0
+Week 5: 3.0
+Week 6: 14.0
+Week 7: 17.0
+Week 8: 6.0
+Week 9: 9.0
+Week 10: 8.0
+Week 11: -4.0
+Week 12: 4.0
+Week 13: BYE Week
+Week 14: 3.0
+Week 15: 11.0
+Week 16: 5.0
+Week 17: 4.0
+Week 18: 0.0
+
+Denver Broncos:
+https://www.fantasypros.com/nfl/games/denver-defense.php
+Games:
+Week 1: 5.0
+Week 2: 7.0
+Week 3: 16.0
+Week 4: 2.0
+Week 5: 14.0
+Week 6: 5.0
+Week 7: 4.0
+Week 8: 7.0
+Week 9: BYE Week
+Week 10: 4.0
+Week 11: 1.0
+Week 12: 2.0
+Week 13: 12.0
+Week 14: 7.0
+Week 15: 10.0
+Week 16: -4.0
+Week 17: 6.0
+Week 18: 4.0
+
+Detroit Lions:
+https://www.fantasypros.com/nfl/games/detroit-defense.php
+Games:
+Week 1: 0.0
+Week 2: 9.0
+Week 3: 2.0
+Week 4: -2.0
+Week 5: 2.0
+Week 6: BYE Week
+Week 7: 4.0
+Week 8: 3.0
+Week 9: 11.0
+Week 10: 10.0
+Week 11: 11.0
+Week 12: 4.0
+Week 13: 5.0
+Week 14: 8.0
+Week 15: 13.0
+Week 16: -4.0
+Week 17: 15.0
+Week 18: 7.0
+
+Atlanta Falcons:
+https://www.fantasypros.com/nfl/games/atlanta-defense.php
+Games:
+Week 1: 6.0
+Week 2: 16.0
+Week 3: 4.0
+Week 4: 6.0
+Week 5: 0.0
+Week 6: 13.0
+Week 7: -1.0
+Week 8: 8.0
+Week 9: 5.0
+Week 10: 1.0
+Week 11: 12.0
+Week 12: 3.0
+Week 13: 1.0
+Week 14: BYE Week
+Week 15: 4.0
+Week 16: 3.0
+Week 17: 5.0
+Week 18: 3.0
+
+Las Vegas Raiders:
+https://www.fantasypros.com/nfl/games/las-vegas-defense.php
+Games:
+Week 1: 0.0
+Week 2: 3.0
+Week 3: 3.0
+Week 4: 11.0
+Week 5: 2.0
+Week 6: BYE Week
+Week 7: 10.0
+Week 8: 0.0
+Week 9: 2.0
+Week 10: 3.0
+Week 11: 6.0
+Week 12: 6.0
+Week 13: 8.0
+Week 14: 7.0
+Week 15: 11.0
+Week 16: 6.0
+Week 17: -2.0
+Week 18: 1.0
+
+Chicago Bears:
+https://www.fantasypros.com/nfl/games/chicago-defense.php
+Games:
+Week 1: 10.0
+Week 2: 5.0
+Week 3: 6.0
+Week 4: 6.0
+Week 5: 4.0
+Week 6: 7.0
+Week 7: 10.0
+Week 8: -1.0
+Week 9: -1.0
+Week 10: 2.0
+Week 11: 4.0
+Week 12: 0.0
+Week 13: -1.0
+Week 14: BYE Week
+Week 15: 7.0
+Week 16: 3.0
+Week 17: -2.0
+Week 18: 3.0
+
