@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 
 def get_data(position, scoring_format_list):
     """
+    Get the fantasy football gamelogs for all players in position for the
+    2022 NFL season for all of the scoring formats in scoring_format_list
+    (i.e. PPR, HALF, STANDARD).
     """
     # URL for position
     position_url = "https://www.fantasypros.com/nfl/stats/" + position + ".php"
@@ -103,6 +106,7 @@ def get_data(position, scoring_format_list):
                 file.write("\n")
 
 
+# Execute function for all positions and scoring formats
 get_data("qb", ["STANDARD"])
 get_data("rb", ["PPR", "HALF", "STANDARD"])
 get_data("wr", ["PPR", "HALF", "STANDARD"])
