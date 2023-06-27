@@ -1,5 +1,6 @@
 import math
 import random
+import numpy as np
 
 
 def create_schedule(num_teams):
@@ -131,7 +132,7 @@ def ideal_simulate_season(schedule, roster):
     # Get the total points for the season for each team
     team_total_points = [0] * num_teams
     for team_id in range(num_teams):
-        team_total_points[team_id] = sum(weekly_points[team_id])
+        team_total_points[team_id] = np.sum(weekly_points[team_id])
 
     # Return a dictionary of the results
     result_dict = {}
