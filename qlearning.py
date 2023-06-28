@@ -31,7 +31,7 @@ class Draft:
         self.scoring_format = scoring_format
         self.initial_players = self.get_initial_players()
         self.available_players = copy.deepcopy(self.initial_players)
-        self.empty_rosters = [roster] * num_teams
+        self.empty_rosters = [copy.deepcopy(roster) for i in range(num_teams)]
         self.rosters = copy.deepcopy(self.empty_rosters)
         self.drafters = [QLearningDrafter(i, 0.4, 0.2)
                          for i in range(num_teams)]
@@ -83,7 +83,7 @@ class Draft:
     def pick_player(self, player_name, player_position):
         """
         Simulates drafting a player from the available players. Also checks
-        and sets self.endDraft to true if this is the end of the draft.
+        and sets self.end_draft to true if this is the end of the draft.
         """
         player_pick = self.available_players[player_position].pop(player_name)
         self.rosters[self.current_pick][player_position].append(player_pick)
@@ -161,6 +161,13 @@ class Draft:
                 self.pick_player(player_name, player_position)
                 output_string = "Round " + str(round_num) + ", Pick " + str(
                     team_id) + ": " + player_name + ", " + player_position + "\n"
+                file.write(output_string)
+            schedule = simulate.create_schedule(self.num_teams)
+            points_scored = simulate.ideal_simulate_season(schedule, self.rosters)[
+                "Total Points Scored"]
+            for team_num in range(self.num_teams):
+                output_string = "Team: " + \
+                    str(team_num) + ": " + str(points_scored[team_num]) + "\n"
                 file.write(output_string)
 
 
