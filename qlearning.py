@@ -2,6 +2,7 @@ import random
 import pickle5
 import numpy as np
 import simulate
+import copy
 
 
 class Draft:
@@ -17,18 +18,22 @@ class Draft:
         num_teams (# of teams in the draft), num_rounds (# of rounds in the
         draft), scoring format (i.e. "STANDARD", "HALF", or "PPR"), and
         num_training total number of training steps.
+
+        Roster is a dictionary where the keys are positions (i.e. "qb", "rb",
+        etc.) and the values are a list of the players on that team's roster
+        for that position (which is initially empty).
         """
         self.num_teams = num_teams
         self.current_pick = 0
         self.current_round = 1
         self.num_rounds = num_rounds
         self.end_draft = False
-        self.initial_players = self.get_initial_players()
-        self.available_players = self.initial_players
-        self.empty_rosters = [roster] * num_teams
-        self.rosters = self.empty_rosters
         self.scoring_format = scoring_format
-        self.drafters = [QLearningDrafter(i, 0.2, 0.05)
+        self.initial_players = self.get_initial_players()
+        self.available_players = copy.deepcopy(self.initial_players)
+        self.empty_rosters = [roster] * num_teams
+        self.rosters = copy.deepcopy(self.empty_rosters)
+        self.drafters = [QLearningDrafter(i, 0.4, 0.2)
                          for i in range(num_teams)]
         self.num_training = num_training
 
@@ -67,7 +72,10 @@ class Draft:
         new_dict = {}
         for player in players_dict:
             gamelog_list = players_dict[player]
-            if len(gamelog_list) > 0:
+            number_games = len(gamelog_list)
+            if number_games > 0:
+                if number_games < 17:
+                    gamelog_list += [0.0] * (17 - number_games)
                 new_dict[player] = np.array(
                     [0.0 if type(i) != float else i for i in gamelog_list])
         return new_dict
@@ -78,21 +86,21 @@ class Draft:
         and sets self.endDraft to true if this is the end of the draft.
         """
         player_pick = self.available_players[player_position].pop(player_name)
-        self.rosters[self.current_pick].append(player_pick)
+        self.rosters[self.current_pick][player_position].append(player_pick)
         if self.current_round % 2 == 1:
             if self.current_pick < self.num_teams - 1:
                 self.current_pick += 1
             else:
                 self.current_round += 1
                 if self.current_round > self.num_rounds:
-                    self.endDraft = True
+                    self.end_draft = True
         else:
             if self.current_pick > 0:
                 self.current_pick -= 1
             else:
                 self.current_round += 1
                 if self.current_round > self.num_rounds:
-                    self.endDraft = True
+                    self.end_draft = True
 
     def get_end_draft(self):
         """
@@ -105,26 +113,55 @@ class Draft:
         Runs the draft going pick by pick through the draft and does this for
         self.num_training total number of steps.
         """
+        draft_number = 1
+        print("Draft " + str(draft_number))
         for training_episode in range(self.num_training):
             if self.get_end_draft():
                 self.current_pick = 0
                 self.current_round = 1
                 self.end_draft = False
-                self.available_players = self.initial_players
-                self.rosters = self.empty_rosters
+                self.available_players = copy.deepcopy(self.initial_players)
+                self.rosters = copy.deepcopy(self.empty_rosters)
+                draft_number += 1
+                print("Draft " + str(draft_number))
             current_state = State(self.available_players, self.rosters)
             player_name, player_position = self.drafters[self.current_pick].getCurrentAction(
                 current_state)
             team_id = self.current_pick
+            round_num = self.current_round
             self.pick_player(player_name, player_position)
             next_state = State(self.available_players, self.rosters)
             reward = 0
-            if self.current_round >= self.num_rounds:
+            if round_num >= self.num_rounds:
                 schedule = simulate.create_schedule(self.num_teams)
                 reward = simulate.ideal_simulate_season(schedule, self.rosters)[
                     "Total Points Scored"][team_id]
             self.drafters[team_id].update(
                 current_state, (player_name, player_position), next_state, reward)
+
+    def get_results(self):
+        """
+        Returns the results of the draft.
+        """
+        with open("data/draft_results.txt", "a") as file:
+            # for team in self.drafters:
+            #     file.write("Team: " + str(team.team_id) + "\n")
+            #     file.write(str(team.q_values) + "\n\n")
+            self.current_pick = 0
+            self.current_round = 1
+            self.end_draft = False
+            self.available_players = copy.deepcopy(self.initial_players)
+            self.rosters = copy.deepcopy(self.empty_rosters)
+            while not self.get_end_draft():
+                current_state = State(self.available_players, self.rosters)
+                player_name, player_position = self.drafters[self.current_pick].getBestAction(
+                    current_state)
+                team_id = self.current_pick
+                round_num = self.current_round
+                self.pick_player(player_name, player_position)
+                output_string = "Round " + str(round_num) + ", Pick " + str(
+                    team_id) + ": " + player_name + ", " + player_position + "\n"
+                file.write(output_string)
 
 
 class State:
@@ -248,7 +285,3 @@ class QLearningDrafter:
             self.getQValue(nextState, self.getBestAction(nextState))
         self.q_values[(state, action)] = ((1 - self.alpha) *
                                           self.getQValue(state, action)) + (self.alpha * sample)
-
-
-initial_state = State(14, None, "HALF", 20)
-print(initial_state.getAvailablePlayers())

@@ -117,7 +117,9 @@ def ideal_simulate_season(schedule, roster):
 
     # Get the number of wins, ties, and losses for each team for the season
     num_teams = len(schedule)
-    team_wins, team_ties, team_losses = [0] * num_teams
+    team_wins = [0] * num_teams
+    team_ties = [0] * num_teams
+    team_losses = [0] * num_teams
     for team_id in range(num_teams):
         team_schedule = schedule[team_id]
         for week in range(17):
