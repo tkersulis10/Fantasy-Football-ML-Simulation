@@ -96,7 +96,7 @@ def ideal_simulate_season(schedule, roster):
                         best_flex[week] = best_te[week]
                     best_te[week] = te[week]
                 elif te[week] > best_flex[week]:
-                    best_flex[week] = wr[week]
+                    best_flex[week] = te[week]
 
             # Get best dst points from roster for each week of the season
             for dst in team["dst"]:
