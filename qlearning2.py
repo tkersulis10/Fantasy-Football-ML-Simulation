@@ -164,8 +164,12 @@ class Draft:
             self.rosters = copy.deepcopy(self.empty_rosters)
             while not self.get_end_draft():
                 current_state = State(self.rosters[self.current_pick])
-                player_name, player_position = self.drafters[self.current_pick].getBestAction(
-                    current_state, self.get_available_players())
+                if self.current_pick == 0:
+                    player_name, player_position = self.drafters[self.current_pick].getPolicy(
+                        current_state, self.get_available_players())
+                else:
+                    player_name, player_position = self.drafters[self.current_pick].getBestAction(
+                        current_state, self.get_available_players())
                 team_id = self.current_pick
                 round_num = self.current_round
                 self.pick_player(player_name, player_position)
@@ -287,3 +291,29 @@ class QLearningDrafter:
                 nextState, available_players))
         self.q_values[(state, action)] = ((1 - self.alpha) *
                                           self.getQValue(state, action)) + (self.alpha * sample)
+
+    def getPolicy(self, state, available_players):
+        """
+        Returns the action to take from state with available_players according
+        to the current policy.
+        """
+        with open("data/draft_results.txt", "a") as file:
+            file.write("\nRoster: \n")
+            file.write(str(state.get_rosters()) + "\n")
+            file.write("Available Players: \n")
+            file.write("Q Values: \n")
+            file.write(str(self.q_values))
+            if len(available_players) == 0:
+                return None
+            else:
+                best_action_value = float('-inf')
+                best_actions = []
+                for action in available_players:
+                    action_q_value = self.getQValue(state, action)
+                    # file.write(str(action) + ", " + str(action_q_value))
+                    if action_q_value == best_action_value:
+                        best_actions.append(action)
+                    elif action_q_value > best_action_value:
+                        best_actions = [action]
+                        best_action_value = action_q_value
+                return random.choice(best_actions)
