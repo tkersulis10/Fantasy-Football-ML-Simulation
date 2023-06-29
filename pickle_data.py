@@ -34,25 +34,40 @@ class Position:
             current_gamelog = []
             next_line_player = False
 
+            # Limit number of players for each position
+            num_players = 0
+            if self.position == "qb":
+                player_limit = 50
+            elif self.position == "rb":
+                player_limit = 70
+            elif self.position == "wr":
+                player_limit = 100
+            elif self.position == "te":
+                player_limit = 50
+            else:
+                player_limit = 50
+
             # Iterate over all file lines
             for line in lines[1:]:
-                # Check if the line is a player's name
-                if next_line_player:
-                    current_player = line[:-2]
-                    next_line_player = False
-                    current_gamelog = []
+                if num_players < player_limit:
+                    # Check if the line is a player's name
+                    if next_line_player:
+                        current_player = line[:-2]
+                        next_line_player = False
+                        current_gamelog = []
 
-                # Check if the line is the end of a player's gamelog
-                elif line == "\n":
-                    self.players[current_player] = current_gamelog
-                    next_line_player = True
+                    # Check if the line is the end of a player's gamelog
+                    elif line == "\n":
+                        self.players[current_player] = current_gamelog
+                        next_line_player = True
+                        num_players += 1
 
-                # Check if the line is a player's game
-                elif line[:4] == "Week":
-                    try:
-                        current_gamelog.append(float(line[8:-1].strip()))
-                    except:
-                        current_gamelog.append(line[8:-1].strip())
+                    # Check if the line is a player's game
+                    elif line[:4] == "Week":
+                        try:
+                            current_gamelog.append(float(line[8:-1].strip()))
+                        except:
+                            current_gamelog.append(line[8:-1].strip())
 
 
 # Iterate over all .txt files in the data directory
