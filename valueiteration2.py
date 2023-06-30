@@ -206,8 +206,12 @@ class Draft:
                 output_string = "Team: " + \
                     str(team_num) + ": " + str(points_scored[team_num]) + "\n"
                 file.write(output_string)
+        with open('data/draft_results_pickled.pkl', 'rb') as inp:
+            previous_drafters = pickle5.load(inp)
+        for i in range(self.num_teams):
+            previous_drafters[i].values.update(self.drafters[i].values)
         with open("data/draft_results_pickled.pkl", 'wb') as outp:
-            pickle5.dump(self.drafters, outp, pickle5.HIGHEST_PROTOCOL)
+            pickle5.dump(previous_drafters, outp, pickle5.HIGHEST_PROTOCOL)
 
 
 class State:
