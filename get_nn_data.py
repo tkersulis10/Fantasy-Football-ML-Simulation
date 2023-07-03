@@ -166,8 +166,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                 players_not_current = stat_type.find("tbody").find_all("tr")
                 for player in players_not_current:
                     try:
-                        player_name = player.find("a").text
-                        new_name = player_name + str(year)
+                        player_name = (player.find("a").text).split(" ")
+                        new_name = player_name[0].capitalize(
+                        ) + player_name[1].capitalize() + str(year)
                         player_stats = player.find_all("td")
                         if new_name not in player_dict:
                             player_dict[new_name] = {}
@@ -188,8 +189,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
             for player in players:
                 try:
-                    player_name = player.find("a").text
-                    new_name = player_name + str(year)
+                    player_name = (player.find("a").text).split(" ")
+                    new_name = player_name[0].capitalize(
+                    ) + player_name[1].capitalize() + str(year)
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
@@ -210,8 +212,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
             for player in players:
                 try:
-                    player_name = player.find("a").text
-                    new_name = player_name + str(year)
+                    player_name = (player.find("a").text).split(" ")
+                    new_name = player_name[0].capitalize(
+                    ) + player_name[1].capitalize() + str(year)
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
@@ -224,12 +227,403 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                 except:
                     pass
 
+        # URL for snap counts
+        player_snap_url = "https://www.fantasypros.com/nfl/reports/snap-count-analysis/?year=" + \
+            str(year) + "&scoring=HALF&snaps=10"
+        driver.get(player_snap_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get snap stats
+        results = soup.find("div", class_="mobile-table")
+        results_header = results.find("thead")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        indexes = [4, 6, 7, 8, 9, 10, 12]
+        stat_names = []
+        for header in headers:
+            stat_names.append(header.text)
+        stat_names = [stat_names[i] for i in indexes]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            index_count = 0
+            for stat in stat_list:
+                if stat_count == indexes[index_count]:
+                    player_dict[new_name][stat_names[index_count]] = stat.text
+                    index_count += 1
+                stat_count += 1
+
+        # URL for target gamelog
+        player_target_log_url = "https://www.fantasypros.com/nfl/reports/targets/?year=" + \
+            str(year) + "&start=1&end=18"
+        driver.get(player_target_log_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get target stats
+        results = soup.find("div", class_="mobile-table").find("tbody")
+        players = results.find_all("tr")
+
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            target_gamelog = []
+            for stat in stat_list[3:-2]:
+                target_gamelog.append(stat.text)
+            player_dict[new_name]["target gamelog"] = target_gamelog
+
+        # URL for fantasypros wr advanced stats
+        wr_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-wr.php?year=" + \
+            str(year)
+        driver.get(wr_adv_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get fantasypros wr advanced stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        indexes = [17, 20, 21, 22, 23, 24, 25]
+        stat_names = []
+        for header in headers:
+            stat_names.append(header.text)
+        stat_names = [stat_names[i] for i in indexes]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            index_count = 0
+            for stat in stat_list:
+                if stat_count == indexes[index_count]:
+                    player_dict[new_name][stat_names[index_count]] = stat.text
+                    index_count += 1
+                stat_count += 1
+
+        # URL for fantasypros te advanced stats
+        te_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-te.php?year=" + \
+            str(year)
+        driver.get(te_adv_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get fantasypros te advanced stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        indexes = [17, 20, 21, 22, 23, 24, 25]
+        stat_names = []
+        for header in headers:
+            stat_names.append(header.text)
+        stat_names = [stat_names[i] for i in indexes]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            index_count = 0
+            for stat in stat_list:
+                if stat_count == indexes[index_count]:
+                    player_dict[new_name][stat_names[index_count]] = stat.text
+                    index_count += 1
+                stat_count += 1
+
+        # URL for fantasypros rb advanced stats
+        rb_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-rb.php?year=" + \
+            str(year)
+        driver.get(rb_adv_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get fantasypros rb advanced stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        indexes = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+        stat_names = []
+        for header in headers:
+            stat_names.append(header.text)
+        stat_names = [stat_names[i] for i in indexes]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            index_count = 0
+            for stat in stat_list:
+                try:
+                    if stat_count == indexes[index_count]:
+                        player_dict[new_name][stat_names[index_count]
+                                              ] = stat.text
+                        index_count += 1
+                except:
+                    pass
+                stat_count += 1
+
+        # URL for fantasypros qb advanced stats
+        qb_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-qb.php?year=" + \
+            str(year)
+        driver.get(qb_adv_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get fantasypros qb advanced stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        indexes = [10, 11, 12, 13, 14, 23]
+        stat_names = []
+        for header in headers:
+            stat_names.append(header.text)
+        stat_names = [stat_names[i] for i in indexes]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            index_count = 0
+            for stat in stat_list:
+                if stat_count == indexes[index_count]:
+                    player_dict[new_name][stat_names[index_count]] = stat.text
+                    index_count += 1
+                stat_count += 1
+
+        # URL for qb redzone stats
+        qb_redzone_url = "https://www.fantasypros.com/nfl/red-zone-stats/qb.php?year=" + \
+            str(year) + "&range=full&scoring=HALF"
+        driver.get(qb_redzone_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get qb redzone stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        stat_names = ["redzone completions", "redzone attempts", "redzone completion %",
+                      "redzone passing yards", "redzone passing y/a", "redzone passing TDs",
+                      "redzone interceptions", "redzone sacks", "redzone rushing attempts",
+                      "redzone rushing yards", "redzone rushing TDs", "redzone fpts"]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            for stat in stat_list[2:13]:
+                player_dict[new_name][stat_names[stat_count]] = stat.text
+                stat_count += 1
+            player_dict[new_name][stat_names[stat_count]] = stat_list[16].text
+
+        # URL for rb redzone stats
+        rb_redzone_url = "https://www.fantasypros.com/nfl/red-zone-stats/rb.php?year=" + \
+            str(year) + "&range=full&scoring=HALF"
+        driver.get(rb_redzone_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get rb redzone stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        stat_names = ["redzone rushing attempts", "redzone rushing yards", "redzone rushing y/a",
+                      "redzone rushing TDs", "redzone rushing %", "redzone receptions",
+                      "redzone targets", "redzone receiving %", "redzone receiving yards",
+                      "redzone receiving y/r", "redzone receiving TDs", "redzone target %",
+                      "redzone fpts"]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            for stat in stat_list[2:14]:
+                player_dict[new_name][stat_names[stat_count]] = stat.text
+                stat_count += 1
+            player_dict[new_name][stat_names[stat_count]] = stat_list[16].text
+
+        # URL for wr redzone stats
+        wr_redzone_url = "https://www.fantasypros.com/nfl/red-zone-stats/wr.php?year=" + \
+            str(year) + "&range=full&scoring=HALF"
+        driver.get(wr_redzone_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get wr redzone stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        stat_names = ["redzone receptions", "redzone targets", "redzone receiving %",
+                      "redzone receiving yards", "redzone receiving y/r", "redzone receiving TDs",
+                      "redzone target %", "redzone rushing attempts", "redzone rushing yards",
+                      "redzone rushing TDs", "redzone rushing %", "redzone fpts"]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            for stat in stat_list[2:13]:
+                player_dict[new_name][stat_names[stat_count]] = stat.text
+                stat_count += 1
+            player_dict[new_name][stat_names[stat_count]] = stat_list[15].text
+
+        # URL for te redzone stats
+        te_redzone_url = "https://www.fantasypros.com/nfl/red-zone-stats/te.php?year=" + \
+            str(year) + "&range=full&scoring=HALF"
+        driver.get(te_redzone_url)
+        time.sleep(2)
+
+        # Parse the HTML content
+        htmlSource = driver.page_source
+        soup = BeautifulSoup(htmlSource, "html.parser")
+
+        # Get te redzone stats
+        results = soup.find("div", class_="mobile-table double-header")
+        results_header = results.find("thead").find(
+            "tr", class_="tablesorter-header")
+        results_players = results.find("tbody")
+        headers = results_header.find_all("th")
+        players = results_players.find_all("tr")
+
+        stat_names = ["redzone receptions", "redzone targets", "redzone receiving %",
+                      "redzone receiving yards", "redzone receiving y/r", "redzone receiving TDs",
+                      "redzone target %", "redzone rushing attempts", "redzone rushing yards",
+                      "redzone rushing TDs", "redzone rushing %", "redzone fpts"]
+        for player in players:
+            player_name = (player.find("a").text).split(" ")
+            player_name = check_name(player_name)
+            new_name = player_name[0].capitalize(
+            ) + player_name[1].capitalize() + str(year)
+            if new_name not in player_dict:
+                player_dict[new_name] = {}
+            stat_list = player.find_all("td")
+            stat_count = 0
+            for stat in stat_list[2:13]:
+                player_dict[new_name][stat_names[stat_count]] = stat.text
+                stat_count += 1
+            player_dict[new_name][stat_names[stat_count]] = stat_list[15].text
+
     with open('nn_data/player_stats.pkl', 'wb') as outp:
         pickle5.dump(player_dict, outp, pickle5.HIGHEST_PROTOCOL)
     with open('nn_data/player_stats.txt', "w") as file:
         for player in player_dict:
             file.write(player + ":\n")
             file.write(str(player_dict[player]) + "\n")
+
+
+def check_name(player_name):
+    """
+    Checks for discrepancies in player_name from fantasypros to
+    pro football reference.
+    """
+    first_name = player_name[0].capitalize()
+    last_name = player_name[1].capitalize()
+    if first_name == "Mitch" and last_name == "Trubisky":
+        return ["Mitchell", "Trubisky"]
+    elif first_name == "Dk" and last_name == "Metcalf":
+        return ["D.k.", "Metcalf"]
+    elif first_name == "Dj" and last_name == "Moore":
+        return ["D.j.", "Moore"]
+    elif first_name == "Gabe" and last_name == "Davis":
+        return ["Gabriel", "Davis"]
+    elif first_name == "Joshua" and last_name == "Palmer":
+        return ["Josh", "Palmer"]
+    else:
+        return player_name
 
 
 fp_team_abbrev_dict = {'ARI': 'Arizona Cardinals', 'ATL': 'Atlanta Falcons',
