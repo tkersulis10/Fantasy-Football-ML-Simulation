@@ -167,8 +167,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                 for player in players_not_current:
                     try:
                         player_name = (player.find("a").text).split(" ")
-                        new_name = player_name[0].capitalize(
-                        ) + player_name[1].capitalize() + str(year)
+                        player_name = check_name(player_name)
+                        new_name = player_name[0].title(
+                        ) + player_name[1].title() + str(year)
                         player_stats = player.find_all("td")
                         if new_name not in player_dict:
                             player_dict[new_name] = {}
@@ -190,8 +191,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
             for player in players:
                 try:
                     player_name = (player.find("a").text).split(" ")
-                    new_name = player_name[0].capitalize(
-                    ) + player_name[1].capitalize() + str(year)
+                    player_name = check_name(player_name)
+                    new_name = player_name[0].title(
+                    ) + player_name[1].title() + str(year)
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
@@ -213,8 +215,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
             for player in players:
                 try:
                     player_name = (player.find("a").text).split(" ")
-                    new_name = player_name[0].capitalize(
-                    ) + player_name[1].capitalize() + str(year)
+                    player_name = check_name(player_name)
+                    new_name = player_name[0].title(
+                    ) + player_name[1].title() + str(year)
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
@@ -252,8 +255,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -282,8 +285,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -318,8 +321,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -330,6 +333,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                     player_dict[new_name][stat_names[index_count]] = stat.text
                     index_count += 1
                 stat_count += 1
+            player_dict[new_name]["fp link"] = stat_list[1].find(
+                "a").get("href")
 
         # URL for fantasypros te advanced stats
         te_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-te.php?year=" + \
@@ -357,8 +362,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -369,6 +374,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                     player_dict[new_name][stat_names[index_count]] = stat.text
                     index_count += 1
                 stat_count += 1
+            player_dict[new_name]["fp link"] = stat_list[1].find(
+                "a").get("href")
 
         # URL for fantasypros rb advanced stats
         rb_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-rb.php?year=" + \
@@ -396,8 +403,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -412,6 +419,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                 except:
                     pass
                 stat_count += 1
+            player_dict[new_name]["fp link"] = stat_list[1].find(
+                "a").get("href")
 
         # URL for fantasypros qb advanced stats
         qb_adv_url = "https://www.fantasypros.com/nfl/advanced-stats-qb.php?year=" + \
@@ -439,8 +448,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -451,6 +460,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                     player_dict[new_name][stat_names[index_count]] = stat.text
                     index_count += 1
                 stat_count += 1
+            player_dict[new_name]["fp link"] = stat_list[1].find(
+                "a").get("href")
 
         # URL for qb redzone stats
         qb_redzone_url = "https://www.fantasypros.com/nfl/red-zone-stats/qb.php?year=" + \
@@ -464,10 +475,7 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
         # Get qb redzone stats
         results = soup.find("div", class_="mobile-table double-header")
-        results_header = results.find("thead").find(
-            "tr", class_="tablesorter-header")
         results_players = results.find("tbody")
-        headers = results_header.find_all("th")
         players = results_players.find_all("tr")
 
         stat_names = ["redzone completions", "redzone attempts", "redzone completion %",
@@ -477,8 +485,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -500,10 +508,7 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
         # Get rb redzone stats
         results = soup.find("div", class_="mobile-table double-header")
-        results_header = results.find("thead").find(
-            "tr", class_="tablesorter-header")
         results_players = results.find("tbody")
-        headers = results_header.find_all("th")
         players = results_players.find_all("tr")
 
         stat_names = ["redzone rushing attempts", "redzone rushing yards", "redzone rushing y/a",
@@ -514,8 +519,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -537,10 +542,7 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
         # Get wr redzone stats
         results = soup.find("div", class_="mobile-table double-header")
-        results_header = results.find("thead").find(
-            "tr", class_="tablesorter-header")
         results_players = results.find("tbody")
-        headers = results_header.find_all("th")
         players = results_players.find_all("tr")
 
         stat_names = ["redzone receptions", "redzone targets", "redzone receiving %",
@@ -550,8 +552,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -573,10 +575,7 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
 
         # Get te redzone stats
         results = soup.find("div", class_="mobile-table double-header")
-        results_header = results.find("thead").find(
-            "tr", class_="tablesorter-header")
         results_players = results.find("tbody")
-        headers = results_header.find_all("th")
         players = results_players.find_all("tr")
 
         stat_names = ["redzone receptions", "redzone targets", "redzone receiving %",
@@ -586,8 +585,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         for player in players:
             player_name = (player.find("a").text).split(" ")
             player_name = check_name(player_name)
-            new_name = player_name[0].capitalize(
-            ) + player_name[1].capitalize() + str(year)
+            new_name = player_name[0].title(
+            ) + player_name[1].title() + str(year)
             if new_name not in player_dict:
                 player_dict[new_name] = {}
             stat_list = player.find_all("td")
@@ -605,23 +604,111 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
             file.write(str(player_dict[player]) + "\n")
 
 
+def get_player_gamelogs(player_dict, fp_team_abbrev_dict):
+    """
+    Get the fantasy gamelogs and add them to player_dict for all the players
+    with gamelogs on fantasypros in player_dict. The opponents are converted
+    to full names using fp_team_abbrev_dict
+    """
+    # Chrome webdriver options
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+
+    # Different driver paths per computer
+    driver_path = "Program Files\Google\Chrome\Application\chrome.exe"
+    driver = webdriver.Chrome(executable_path=driver_path, options=options)
+    # driver = webdriver.Chrome(options=options)
+
+    player_gamelog_dict = {}
+    for player in player_dict:
+        try:
+            # Get player's fantasy gamelog url
+            year = player[-4:]
+            link = player_dict[player]["fp link"][11:]
+            gamelog_url = "https://www.fantasypros.com/nfl/games/" + \
+                link + "?season=" + year + "&scoring=HALF"
+            driver.get(gamelog_url)
+            time.sleep(2)
+
+            # Parse the HTML content
+            htmlSource = driver.page_source
+            soup = BeautifulSoup(htmlSource, "html.parser")
+
+            # Get player fantasy gamelog
+            results = soup.find("div", class_="mobile-table")
+            results_header = results.find("thead").find_all("tr")
+            top_header = results_header[0].find_all("th")
+            bottom_header = results_header[1].find_all("th")
+            results_games = results.find("tbody")
+            games = results_games.find_all("tr")
+
+            top_header_spans = [int(th.get("colspan")) for th in top_header]
+            top_header_labels = [th.text for th in top_header]
+            bottom_header_labels = [th.text for th in bottom_header]
+            player_gamelog = []
+            for game in games:
+                game_dict = {}
+                top_header_count = 1
+                top_header_index = 0
+                bottom_header_index = 1
+                stat_list = game.find_all("td")[1:]
+                if len(stat_list) < 3:
+                    game_dict = {"Game OPP": "BYE Week"}
+                else:
+                    opponent = fp_team_abbrev_dict[stat_list[0].text.split(" ")[
+                        1]] + year
+                    stat_name = top_header_labels[top_header_index] + \
+                        " " + bottom_header_labels[bottom_header_index]
+                    game_dict[stat_name] = opponent
+                    top_header_count += 1
+                    bottom_header_index += 1
+                    if top_header_count >= top_header_spans[top_header_index]:
+                        top_header_count = 0
+                        top_header_index += 1
+                    for stat in stat_list[1:]:
+                        stat_name = top_header_labels[top_header_index] + \
+                            " " + bottom_header_labels[bottom_header_index]
+                        stat_num = stat.text
+                        game_dict[stat_name] = stat_num
+                        top_header_count += 1
+                        bottom_header_index += 1
+                        if top_header_count >= top_header_spans[top_header_index]:
+                            top_header_count = 0
+                            top_header_index += 1
+                player_gamelog.append(game_dict)
+            player_gamelog_dict[player] = player_gamelog
+        except:
+            pass
+
+    with open('nn_data/player_gamelogs.pkl', 'wb') as outp:
+        pickle5.dump(player_gamelog_dict, outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/player_gamelogs.txt', "w") as file:
+        for player in player_gamelog_dict:
+            file.write(player + ":\n")
+            file.write(str(player_gamelog_dict[player]) + "\n")
+
+
 def check_name(player_name):
     """
     Checks for discrepancies in player_name from fantasypros to
     pro football reference.
     """
-    first_name = player_name[0].capitalize()
-    last_name = player_name[1].capitalize()
+    first_name = player_name[0].title()
+    last_name = player_name[1].title()
     if first_name == "Mitch" and last_name == "Trubisky":
         return ["Mitchell", "Trubisky"]
     elif first_name == "Dk" and last_name == "Metcalf":
-        return ["D.k.", "Metcalf"]
+        return ["D.K.", "Metcalf"]
     elif first_name == "Dj" and last_name == "Moore":
-        return ["D.j.", "Moore"]
+        return ["D.J.", "Moore"]
     elif first_name == "Gabe" and last_name == "Davis":
         return ["Gabriel", "Davis"]
     elif first_name == "Joshua" and last_name == "Palmer":
         return ["Josh", "Palmer"]
+    elif first_name == "Amon-Ra" and last_name == "St.":
+        return ["Amon-Ra", "St.Brown"]
+    elif first_name == "Equanimeous" and last_name == "St.":
+        return ["Equanimeous", "St.Brown"]
     else:
         return player_name
 
@@ -661,4 +748,9 @@ pfr_team_abbrev_dict = {'buf': 'Buffalo Bills', 'mia': 'Miami Dolphins',
                         'ram': 'Los Angeles Rams', 'crd': 'Arizona Cardinals'}
 
 # get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
-get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
+# get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
+
+player_dict = {}
+with open('nn_data/player_stats.pkl', 'rb') as inp:
+    player_dict = pickle5.load(inp)
+get_player_gamelogs(player_dict, fp_team_abbrev_dict)
