@@ -695,6 +695,121 @@ def get_player_gamelogs(player_dict, fp_team_abbrev_dict):
             file.write(str(player_gamelog_dict[player]) + "\n")
 
 
+def get_features(player_dict, team_dict, qb_keys, rb_keys, wr_keys, te_keys, player_position):
+    """
+    Get the feature data values for the neural network for all players in
+    player_dict using team_dict for the team's rosters and qb_keys, rb_keys,
+    wr_keys, te_keys as the keys from player_dict to use as features for each
+    respective position.
+    """
+    # qb_array = []
+    # rb_array = []
+    # wr_array = []
+    # te_array = []
+    x_array = []
+    y_array = []
+    for test_year in range(2019, 2023):
+        for player in player_dict:
+            position = player_dict[player]['pos']
+            year = player[-4:]
+            if position == player_position and test_year == int(year):
+                previous_year = str(test_year - 1)
+                player_name = player[:-4] + previous_year
+                try:
+                    team = player_dict[player_name]['team']
+                    team_roster = team_dict[team]['roster']
+                    player_features = []
+                    for team_player in team_roster:
+                        team_player_name = team_player[0].split(" ")
+                        team_player_name = check_name(team_player_name)
+                        new_name = team_player_name[0].title(
+                        ) + team_player_name[1].title() + previous_year
+                        team_player_pos = team_player[1]
+                        if new_name != player_name:
+                            player_features.append(float(team_player[3][:-1]))
+                            if team_player_pos == 'QB':
+                                for feature in qb_keys:
+                                    try:
+                                        stat = player_dict[new_name][feature]
+                                        if stat[-1:] == '%':
+                                            stat = float(stat[:-1])
+                                        player_features.append(stat)
+                                    except KeyError:
+                                        player_features.append(0.0)
+                            elif team_player_pos == 'RB' or team_player_pos == 'FB':
+                                for feature in rb_keys:
+                                    try:
+                                        stat = player_dict[new_name][feature]
+                                        if stat[-1:] == '%':
+                                            stat = float(stat[:-1])
+                                        player_features.append(stat)
+                                    except KeyError:
+                                        player_features.append(0.0)
+                            elif team_player_pos == 'WR':
+                                for feature in wr_keys:
+                                    try:
+                                        stat = player_dict[new_name][feature]
+                                        if stat[-1:] == '%':
+                                            stat = float(stat[:-1])
+                                        player_features.append(stat)
+                                    except KeyError:
+                                        player_features.append(0.0)
+                            elif team_player_pos == 'TE':
+                                for feature in te_keys:
+                                    try:
+                                        stat = player_dict[new_name][feature]
+                                        if stat[-1:] == '%':
+                                            stat = float(stat[:-1])
+                                        player_features.append(stat)
+                                    except KeyError:
+                                        player_features.append(0.0)
+                    if position == 'QB':
+                        for feature in qb_keys:
+                            try:
+                                stat = player_dict[player_name][feature]
+                                if stat[-1:] == '%':
+                                    stat = float(stat[:-1])
+                                player_features.append(stat)
+                            except KeyError:
+                                player_features.append(0.0)
+                        x_array.append(player_features)
+                    elif position == 'RB':
+                        for feature in rb_keys:
+                            try:
+                                stat = player_dict[player_name][feature]
+                                if stat[-1:] == '%':
+                                    stat = float(stat[:-1])
+                                player_features.append(stat)
+                            except KeyError:
+                                player_features.append(0.0)
+                        x_array.append(player_features)
+                    elif position == 'WR':
+                        for feature in wr_keys:
+                            try:
+                                stat = player_dict[player_name][feature]
+                                if stat[-1:] == '%':
+                                    stat = float(stat[:-1])
+                                player_features.append(stat)
+                            except KeyError:
+                                player_features.append(0.0)
+                        x_array.append(player_features)
+                    elif position == 'TE':
+                        for feature in te_keys:
+                            try:
+                                stat = player_dict[player_name][feature]
+                                if stat[-1:] == '%':
+                                    stat = float(stat[:-1])
+                                player_features.append(stat)
+                            except KeyError:
+                                player_features.append(0.0)
+                        x_array.append(player_features)
+                    y_array.append([float(player_dict[player]['Fantasy Pts'])])
+                except KeyError:
+                    pass
+
+    return x_array, y_array
+
+
 def check_name(player_name):
     """
     Checks for discrepancies in player_name from fantasypros to
@@ -754,10 +869,68 @@ pfr_team_abbrev_dict = {'buf': 'Buffalo Bills', 'mia': 'Miami Dolphins',
                         'sfo': 'San Francisco 49ers', 'sea': 'Seattle Seahawks',
                         'ram': 'Los Angeles Rams', 'crd': 'Arizona Cardinals'}
 
+qb_keys = ['age', 'g', 'gs', 'pass_cmp', 'pass_att', 'pass_yds', 'pass_target_yds',
+           'pass_tgt_yds_per_att', 'pass_air_yds', 'pass_air_yds_per_cmp', 'pass_air_yds_per_att',
+           'pass_yac', 'pass_yac_per_cmp', 'pass_batted_passes', 'pass_throwaways',
+           'pass_spikes', 'pass_drops', 'pass_drop_pct', 'pass_poor_throws', 'pass_poor_throw_pct',
+           'pass_on_target', 'pass_on_target_pct', 'pass_sacked', 'pocket_time', 'pass_blitzed',
+           'pass_hurried', 'pass_hits', 'pass_pressured', 'pass_pressured_pct', 'rush_scrambles',
+           'rush_scrambles_yds_per_att', 'pass_rpo', 'pass_rpo_yds', 'pass_rpo_pass_att',
+           'pass_rpo_pass_yds', 'pass_rpo_rush_att', 'pass_rpo_rush_yds', 'pass_play_action',
+           'pass_play_action_pass_yds', 'rush_att', 'rush_yds', 'rush_td', 'rush_first_down',
+           'rush_yds_before_contact', 'rush_yds_bc_per_rush', 'rush_yac', 'rush_yac_per_rush',
+           'rush_broken_tackles', 'rush_broken_tackles_per_rush', 'Snaps', 'Snap %', 'Rush %',
+           'Tgt %', 'Touch %', 'Util %', '10+ YDS', '20+ YDS', '30+ YDS', '40+ YDS', '50+ YDS',
+           'RTG', 'redzone completions', 'redzone attempts', 'redzone completion %',
+           'redzone passing yards', 'redzone passing y/a', 'redzone passing TDs',
+           'redzone interceptions', 'redzone sacks', 'redzone rushing attempts',
+           'redzone rushing yards', 'redzone rushing TDs']
+rb_keys = ['age', 'g', 'gs', 'rush_att', 'rush_yds', 'rush_td', 'rush_first_down',
+           'rush_yds_before_contact', 'rush_yds_bc_per_rush', 'rush_yac', 'rush_yac_per_rush',
+           'rush_broken_tackles', 'rush_broken_tackles_per_rush', 'targets', 'rec', 'rec_yds',
+           'rec_td', 'rec_first_down', 'rec_air_yds', 'rec_air_yds_per_rec', 'rec_yac',
+           'rec_yac_per_rec', 'rec_adot', 'rec_broken_tackles', 'rec_broken_tackles_per_rec',
+           'rec_drops', 'rec_drop_pct', 'rec_target_int', 'rec_pass_rating', 'Snaps', 'Snap %',
+           'Rush %', 'Tgt %', 'Touch %', 'Util %', 'TK LOSS', 'TK LOSS YDS', 'LNG TD', '10+ YDS',
+           '20+ YDS', '30+ YDS', '40+ YDS', '50+ YDS', 'LNG', 'redzone rushing attempts',
+           'redzone rushing yards', 'redzone rushing y/a', 'redzone rushing TDs', 'redzone rushing %',
+           'redzone receptions', 'redzone targets', 'redzone receiving %', 'redzone receiving yards',
+           'redzone receiving y/r', 'redzone receiving TDs', 'redzone target %']
+wr_keys = ['age', 'g', 'gs', 'rush_att', 'rush_yds', 'rush_td', 'rush_first_down',
+           'rush_yds_before_contact', 'rush_yds_bc_per_rush', 'rush_yac', 'rush_yac_per_rush',
+           'rush_broken_tackles', 'rush_broken_tackles_per_rush', 'targets', 'rec',
+           'rec_yds', 'rec_td', 'rec_first_down', 'rec_air_yds', 'rec_air_yds_per_rec',
+           'rec_yac', 'rec_yac_per_rec', 'rec_adot', 'rec_broken_tackles', 'rec_broken_tackles_per_rec',
+           'rec_drops', 'rec_drop_pct', 'rec_target_int', 'rec_pass_rating', 'Snaps',
+           'Snap %', 'Rush %', 'Tgt %', 'Touch %', 'Util %', 'CATCHABLE', '10+ YDS', '20+ YDS',
+           '30+ YDS', '40+ YDS', '50+ YDS', 'LNG', 'redzone receptions', 'redzone targets',
+           'redzone receiving %', 'redzone receiving yards', 'redzone receiving y/r',
+           'redzone receiving TDs', 'redzone target %', 'redzone rushing attempts',
+           'redzone rushing yards', 'redzone rushing TDs', 'redzone rushing %']
+te_keys = ['age', 'g', 'gs', 'rush_att', 'rush_yds', 'rush_td', 'rush_first_down',
+           'rush_yds_before_contact', 'rush_yds_bc_per_rush', 'rush_yac', 'rush_yac_per_rush',
+           'rush_broken_tackles', 'rush_broken_tackles_per_rush', 'targets', 'rec', 'rec_yds',
+           'rec_td', 'rec_first_down', 'rec_air_yds', 'rec_air_yds_per_rec', 'rec_yac',
+           'rec_yac_per_rec', 'rec_adot', 'rec_broken_tackles', 'rec_broken_tackles_per_rec',
+           'rec_drops', 'rec_drop_pct', 'rec_target_int', 'rec_pass_rating', 'Snaps',
+           'Snap %', 'Rush %', 'Tgt %', 'Touch %', 'Util %', 'CATCHABLE', '10+ YDS', '20+ YDS',
+           '30+ YDS', '40+ YDS', '50+ YDS', 'LNG', 'redzone receptions', 'redzone targets',
+           'redzone receiving %', 'redzone receiving yards', 'redzone receiving y/r',
+           'redzone receiving TDs', 'redzone target %', 'redzone rushing attempts',
+           'redzone rushing yards', 'redzone rushing TDs', 'redzone rushing %']
 # get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 # get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 
 player_dict = {}
 with open('nn_data/player_stats.pkl', 'rb') as inp:
     player_dict = pickle5.load(inp)
-get_player_gamelogs(player_dict, fp_team_abbrev_dict)
+team_dict = {}
+with open('nn_data/team_stats.pkl', 'rb') as inp:
+    team_dict = pickle5.load(inp)
+
+# get_player_gamelogs(player_dict, fp_team_abbrev_dict)
+test_player_dict = {}
+test_player_dict['JoshAllen2022'] = player_dict['JoshAllen2022']
+test_player_dict['JoshAllen2021'] = player_dict['JoshAllen2021']
+print(get_features(test_player_dict, team_dict,
+      qb_keys, rb_keys, wr_keys, te_keys, "QB"))
