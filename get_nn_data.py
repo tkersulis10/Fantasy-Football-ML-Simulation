@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pickle5
+import numpy as np
 
 
 def get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
@@ -21,9 +22,9 @@ def get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
     # driver = webdriver.Chrome(options=options)
 
     # Load the URL in the webdriver
-    year = 2020
+    year = 2018
     team_dict = {}
-    for year in range(2020, 2023):
+    for year in range(2018, 2023):
         # URL for team targets
         team_target_url = "https://www.fantasypros.com/nfl/reports/targets-distribution/?year=" + \
             str(year) + "&start=1&end=18"
@@ -143,9 +144,9 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
     # driver = webdriver.Chrome(options=options)
 
     # Load the URL in the webdriver
-    year = 2020
+    year = 2018
     player_dict = {}
-    for year in range(2020, 2023):
+    for year in range(2018, 2023):
         # URL for players's stats
         for team in pfr_team_abbrev_dict:
             team_adv_stats_url = "https://www.pro-football-reference.com/teams/" + \
@@ -253,7 +254,7 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
         headers = results_header.find_all("th")
         players = results_players.find_all("tr")
 
-        indexes = [4, 6, 7, 8, 9, 10, 12]
+        indexes = [4, 6, 7, 8, 9, 10, 11, 12]
         stat_names = []
         for header in headers:
             stat_names.append(header.text)
@@ -754,9 +755,9 @@ pfr_team_abbrev_dict = {'buf': 'Buffalo Bills', 'mia': 'Miami Dolphins',
                         'ram': 'Los Angeles Rams', 'crd': 'Arizona Cardinals'}
 
 # get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
-get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
+# get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 
-# player_dict = {}
-# with open('nn_data/player_stats.pkl', 'rb') as inp:
-#     player_dict = pickle5.load(inp)
-# get_player_gamelogs(player_dict, fp_team_abbrev_dict)
+player_dict = {}
+with open('nn_data/player_stats.pkl', 'rb') as inp:
+    player_dict = pickle5.load(inp)
+get_player_gamelogs(player_dict, fp_team_abbrev_dict)
