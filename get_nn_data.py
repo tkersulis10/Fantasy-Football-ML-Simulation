@@ -173,6 +173,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                         player_stats = player.find_all("td")
                         if new_name not in player_dict:
                             player_dict[new_name] = {}
+                            player_dict[new_name]["team"] = pfr_team_abbrev_dict[team] + \
+                                str(year)
                         for stat in player_stats:
                             stat_name = stat.get("data-stat")
                             statistic_num = stat.text
@@ -197,6 +199,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
+                        player_dict[new_name]["team"] = pfr_team_abbrev_dict[team] + \
+                            str(year)
                     for stat in player_stats:
                         stat_name = stat.get("data-stat")
                         statistic_num = stat.text
@@ -221,6 +225,8 @@ def get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                     player_stats = player.find_all("td")
                     if new_name not in player_dict:
                         player_dict[new_name] = {}
+                        player_dict[new_name]["team"] = pfr_team_abbrev_dict[team] + \
+                            str(year)
                     for stat in player_stats:
                         stat_name = stat.get("data-stat")
                         statistic_num = stat.text
@@ -748,9 +754,9 @@ pfr_team_abbrev_dict = {'buf': 'Buffalo Bills', 'mia': 'Miami Dolphins',
                         'ram': 'Los Angeles Rams', 'crd': 'Arizona Cardinals'}
 
 # get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
-# get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
+get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 
-player_dict = {}
-with open('nn_data/player_stats.pkl', 'rb') as inp:
-    player_dict = pickle5.load(inp)
-get_player_gamelogs(player_dict, fp_team_abbrev_dict)
+# player_dict = {}
+# with open('nn_data/player_stats.pkl', 'rb') as inp:
+#     player_dict = pickle5.load(inp)
+# get_player_gamelogs(player_dict, fp_team_abbrev_dict)
