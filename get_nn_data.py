@@ -114,6 +114,14 @@ def get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict):
                         stat_name = stat.get("data-stat")
                         if stat_name == "pos":
                             player_pos = stat.text
+                            comma_index = player_pos.find(",")
+                            slash_index = player_pos.find("/")
+                            if player_pos == "HB":
+                                player_pos = "RB"
+                            elif comma_index >= 0:
+                                player_pos = player_pos[:comma_index]
+                            elif slash_index >= 0:
+                                player_pos = player_pos[:slash_index]
                         elif stat_name == "offense":
                             snap_num = stat.text
                         elif stat_name == "off_pct":
@@ -710,104 +718,238 @@ def get_features(player_dict, team_dict, qb_keys, rb_keys, wr_keys, te_keys, pla
     y_array = []
     for test_year in range(2019, 2023):
         for player in player_dict:
-            position = player_dict[player]['pos']
-            year = player[-4:]
-            if position == player_position and test_year == int(year):
-                previous_year = str(test_year - 1)
-                player_name = player[:-4] + previous_year
-                try:
-                    team = player_dict[player_name]['team']
+            try:
+                position = player_dict[player]['pos']
+                year = player[-4:]
+                if position == player_position and test_year == int(year):
+                    previous_year = str(test_year - 1)
+                    player_name = player[:-4] + previous_year
+                    previous_year_player = player_dict[player_name]
+                    fantasy_pts_scored = [
+                        float(player_dict[player]['Fantasy Pts'])]
+                    team = player_dict[player]['team']
                     team_roster = team_dict[team]['roster']
+                    used_roster_list = get_roster(
+                        team_roster, player[:-4], position)
                     player_features = []
-                    for team_player in team_roster:
-                        team_player_name = team_player[0].split(" ")
-                        team_player_name = check_name(team_player_name)
-                        new_name = team_player_name[0].title(
-                        ) + team_player_name[1].title() + previous_year
+                    for team_player in used_roster_list:
+                        # team_player_name = team_player[0].split(" ")
+                        # team_player_name = check_name(team_player_name)
+                        # new_name = team_player_name[0].title(
+                        # ) + team_player_name[1].title() + previous_year
+                        new_name = team_player[0] + previous_year
                         team_player_pos = team_player[1]
                         if new_name != player_name:
                             player_features.append(float(team_player[3][:-1]))
                             if team_player_pos == 'QB':
                                 for feature in qb_keys:
                                     try:
-                                        stat = player_dict[new_name][feature]
+                                        stat = str(
+                                            player_dict[new_name][feature])
                                         if stat[-1:] == '%':
-                                            stat = float(stat[:-1])
-                                        player_features.append(stat)
+                                            stat = stat[:-1]
+                                        player_features.append(
+                                            float(stat.replace(',', '')))
                                     except KeyError:
                                         player_features.append(0.0)
                             elif team_player_pos == 'RB' or team_player_pos == 'FB':
                                 for feature in rb_keys:
                                     try:
-                                        stat = player_dict[new_name][feature]
+                                        stat = str(
+                                            player_dict[new_name][feature])
                                         if stat[-1:] == '%':
-                                            stat = float(stat[:-1])
-                                        player_features.append(stat)
+                                            stat = stat[:-1]
+                                        player_features.append(
+                                            float(stat.replace(',', '')))
                                     except KeyError:
                                         player_features.append(0.0)
                             elif team_player_pos == 'WR':
                                 for feature in wr_keys:
                                     try:
-                                        stat = player_dict[new_name][feature]
+                                        stat = str(
+                                            player_dict[new_name][feature])
                                         if stat[-1:] == '%':
-                                            stat = float(stat[:-1])
-                                        player_features.append(stat)
+                                            stat = stat[:-1]
+                                        player_features.append(
+                                            float(stat.replace(',', '')))
                                     except KeyError:
                                         player_features.append(0.0)
                             elif team_player_pos == 'TE':
                                 for feature in te_keys:
                                     try:
-                                        stat = player_dict[new_name][feature]
+                                        stat = str(
+                                            player_dict[new_name][feature])
                                         if stat[-1:] == '%':
-                                            stat = float(stat[:-1])
-                                        player_features.append(stat)
+                                            stat = stat[:-1]
+                                        player_features.append(
+                                            float(stat.replace(',', '')))
                                     except KeyError:
                                         player_features.append(0.0)
                     if position == 'QB':
                         for feature in qb_keys:
                             try:
-                                stat = player_dict[player_name][feature]
+                                stat = str(player_dict[player_name][feature])
                                 if stat[-1:] == '%':
-                                    stat = float(stat[:-1])
-                                player_features.append(stat)
+                                    stat = stat[:-1]
+                                player_features.append(
+                                    float(stat.replace(',', '')))
                             except KeyError:
                                 player_features.append(0.0)
                         x_array.append(player_features)
                     elif position == 'RB':
                         for feature in rb_keys:
                             try:
-                                stat = player_dict[player_name][feature]
+                                stat = str(player_dict[player_name][feature])
                                 if stat[-1:] == '%':
-                                    stat = float(stat[:-1])
-                                player_features.append(stat)
+                                    stat = stat[:-1]
+                                player_features.append(
+                                    float(stat.replace(',', '')))
                             except KeyError:
                                 player_features.append(0.0)
                         x_array.append(player_features)
                     elif position == 'WR':
                         for feature in wr_keys:
                             try:
-                                stat = player_dict[player_name][feature]
+                                stat = str(player_dict[player_name][feature])
                                 if stat[-1:] == '%':
-                                    stat = float(stat[:-1])
-                                player_features.append(stat)
+                                    stat = stat[:-1]
+                                player_features.append(
+                                    float(stat.replace(',', '')))
                             except KeyError:
                                 player_features.append(0.0)
                         x_array.append(player_features)
                     elif position == 'TE':
                         for feature in te_keys:
                             try:
-                                stat = player_dict[player_name][feature]
+                                stat = str(player_dict[player_name][feature])
                                 if stat[-1:] == '%':
-                                    stat = float(stat[:-1])
-                                player_features.append(stat)
+                                    stat = stat[:-1]
+                                player_features.append(
+                                    float(stat.replace(',', '')))
                             except KeyError:
                                 player_features.append(0.0)
                         x_array.append(player_features)
-                    y_array.append([float(player_dict[player]['Fantasy Pts'])])
-                except KeyError:
-                    pass
+                    y_array.append(fantasy_pts_scored)
+            except KeyError:
+                pass
 
     return x_array, y_array
+
+
+def store_features(player_dict, team_dict, qb_keys, rb_keys, wr_keys, te_keys):
+    """
+    Stores the features and values for each position in .txt and .pkl files.
+    """
+    qb_x, qb_y = get_features(player_dict, team_dict,
+                              qb_keys, rb_keys, wr_keys, te_keys, "QB")
+    rb_x, rb_y = get_features(player_dict, team_dict,
+                              qb_keys, rb_keys, wr_keys, te_keys, "RB")
+    wr_x, wr_y = get_features(player_dict, team_dict,
+                              qb_keys, rb_keys, wr_keys, te_keys, "WR")
+    te_x, te_y = get_features(player_dict, team_dict,
+                              qb_keys, rb_keys, wr_keys, te_keys, "TE")
+
+    with open('nn_data/qb_features.txt', "w") as file:
+        file.write(str(qb_x))
+    with open('nn_data/qb_values.txt', "w") as file:
+        file.write(str(qb_y))
+    with open('nn_data/rb_features.txt', "w") as file:
+        file.write(str(rb_x))
+    with open('nn_data/rb_values.txt', "w") as file:
+        file.write(str(rb_y))
+    with open('nn_data/wr_features.txt', "w") as file:
+        file.write(str(wr_x))
+    with open('nn_data/wr_values.txt', "w") as file:
+        file.write(str(wr_y))
+    with open('nn_data/te_features.txt', "w") as file:
+        file.write(str(te_x))
+    with open('nn_data/te_values.txt', "w") as file:
+        file.write(str(te_y))
+
+    with open('nn_data/qb_features.pkl', 'wb') as outp:
+        pickle5.dump(np.array(qb_x, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/qb_values.pkl', 'wb') as outp:
+        pickle5.dump(np.array(qb_y, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/rb_features.pkl', 'wb') as outp:
+        pickle5.dump(np.array(rb_x, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/rb_values.pkl', 'wb') as outp:
+        pickle5.dump(np.array(rb_y, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/wr_features.pkl', 'wb') as outp:
+        pickle5.dump(np.array(wr_x, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/wr_values.pkl', 'wb') as outp:
+        pickle5.dump(np.array(wr_y, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/te_features.pkl', 'wb') as outp:
+        pickle5.dump(np.array(te_x, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+    with open('nn_data/te_values.pkl', 'wb') as outp:
+        pickle5.dump(np.array(te_y, dtype='float32'),
+                     outp, pickle5.HIGHEST_PROTOCOL)
+
+
+def get_roster(team_roster, player_name, position):
+    """
+    Get the roster for team in team_dict in year with player_name added as well.
+    """
+    qb_list = []
+    rb_list = []
+    wr_list = []
+    te_list = []
+    qb_limit = 1
+    rb_limit = 3
+    wr_limit = 5
+    te_limit = 3
+    if position == "QB":
+        qb_list.append((player_name, position, '1000', '100.0%'))
+    elif position == "RB":
+        rb_list.append((player_name, position, '1000', '100.0%'))
+    elif position == "WR":
+        wr_list.append((player_name, position, '1000', '100.0%'))
+    elif position == "TE":
+        te_list.append((player_name, position, '1000', '100.0%'))
+    for player in team_roster:
+        team_player_name = player[0].split(" ")
+        team_player_name = check_name(team_player_name)
+        new_name = team_player_name[0].title() + team_player_name[1].title()
+        if new_name != player_name:
+            position = player[1]
+            snap_pct = float(player[3][:-1])
+            if position == "QB":
+                position_limit = qb_limit
+                position_list = qb_list
+            elif position == "RB" or position == "FB":
+                position_limit = rb_limit
+                position_list = rb_list
+            elif position == "WR":
+                position_limit = wr_limit
+                position_list = wr_list
+            elif position == "TE":
+                position_limit = te_limit
+                position_list = te_list
+            if len(position_list) < position_limit:
+                position_list.append(
+                    (new_name, position, player[2], player[3]))
+            else:
+                min_snap_pct = float('inf')
+                replace_index = None
+                for i in range(position_limit):
+                    i_snap_pct = float(position_list[i][3][:-1])
+                    if i_snap_pct < min_snap_pct:
+                        min_snap_pct = i_snap_pct
+                        replace_index = i
+                if snap_pct > min_snap_pct:
+                    position_list[replace_index] = (
+                        new_name, position, player[2], player[3])
+
+    roster_list = qb_list + rb_list + wr_list + te_list
+    # if player_name not in [i[0] for i in roster_list]:
+    #    roster_list += [(player_name, None, None, None)]
+    return roster_list
 
 
 def check_name(player_name):
@@ -918,6 +1060,7 @@ te_keys = ['age', 'g', 'gs', 'rush_att', 'rush_yds', 'rush_td', 'rush_first_down
            'redzone receiving %', 'redzone receiving yards', 'redzone receiving y/r',
            'redzone receiving TDs', 'redzone target %', 'redzone rushing attempts',
            'redzone rushing yards', 'redzone rushing TDs', 'redzone rushing %']
+
 # get_nn_team_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 # get_nn_player_data(fp_team_abbrev_dict, pfr_team_abbrev_dict)
 
@@ -929,8 +1072,4 @@ with open('nn_data/team_stats.pkl', 'rb') as inp:
     team_dict = pickle5.load(inp)
 
 # get_player_gamelogs(player_dict, fp_team_abbrev_dict)
-test_player_dict = {}
-test_player_dict['JoshAllen2022'] = player_dict['JoshAllen2022']
-test_player_dict['JoshAllen2021'] = player_dict['JoshAllen2021']
-print(get_features(test_player_dict, team_dict,
-      qb_keys, rb_keys, wr_keys, te_keys, "QB"))
+store_features(player_dict, team_dict, qb_keys, rb_keys, wr_keys, te_keys)
