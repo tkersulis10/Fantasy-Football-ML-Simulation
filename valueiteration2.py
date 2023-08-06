@@ -3,6 +3,7 @@ import pickle5
 import numpy as np
 import simulate2
 import copy
+from itertools import combinations
 
 
 class Tuple:
@@ -14,6 +15,7 @@ class Tuple:
         return hash(self.player_name)
 
     def __eq__(self, other):
+        # print("other: " + str(other))
         return self.player_name == other.player_name
 
     def __repr__(self):
@@ -33,7 +35,7 @@ class Draft:
     draft has ended of not.
     """
 
-    def __init__(self, num_teams, roster, num_rounds, scoring_format, num_training):
+    def __init__(self, num_teams, roster, num_rounds, scoring_format, num_training, values_file):
         """
         Initializes the draft to the start (first pick of the draft) with
         num_teams (# of teams in the draft), num_rounds (# of rounds in the
@@ -42,7 +44,8 @@ class Draft:
 
         Roster is a dictionary where the keys are positions (i.e. "qb", "rb",
         etc.) and the values are a list of the players on that team's roster
-        for that position (which is initially empty).
+        for that position (which is initially empty). values_file is the file
+        where the values for rosters are stored.
         """
         self.num_teams = num_teams
         self.current_pick = 0
@@ -54,8 +57,11 @@ class Draft:
         self.available_players = copy.deepcopy(self.initial_players)
         self.empty_rosters = [copy.deepcopy(roster) for i in range(num_teams)]
         self.rosters = copy.deepcopy(self.empty_rosters)
-        self.drafters = [ValueIterationDrafter(i, 0.5, 0.5)
+        self.values_file = values_file
+        self.drafters = [ValueIterationDrafter(i, 0.5, 0.5, values_file)
                          for i in range(num_teams)]
+        self.drafters_together = ValueIterationDrafter(
+            0, 0.5, 0.5, values_file)
         self.num_training = num_training
 
     def get_initial_players(self):
@@ -108,18 +114,130 @@ class Draft:
         all_positions_list = []
         for position in self.available_players:
             for player_name in self.available_players[position]:
-                all_positions_list.append((player_name, position))
+                all_positions_list.append(
+                    (Tuple(player_name, self.available_players[position][player_name]), position))
         return all_positions_list
 
-    def pick_player(self, player_name, player_position):
+    def test_rosters(self):
+        """
+        Test the results of different rosters.
+        """
+        with open('data/iterated_rosters_qb_pickled.pkl', 'rb') as inp:
+            qb_dict = pickle5.load(inp)
+        with open('data/iterated_rosters_rb_pickled.pkl', 'rb') as inp:
+            rb_dict = pickle5.load(inp)
+        with open('data/iterated_rosters_wr_pickled.pkl', 'rb') as inp:
+            wr_dict = pickle5.load(inp)
+        with open('data/iterated_rosters_te_pickled.pkl', 'rb') as inp:
+            te_dict = pickle5.load(inp)
+        values_dict = {}
+        with open("data/iterated_rosters_pickled.pkl", 'wb') as outp:
+            for qb_comb in qb_dict:
+                qb_set = qb_comb.get_rosters()["qb"]
+                print(qb_set)
+                for rb_comb in rb_dict:
+                    rb_set = rb_comb.get_rosters()["rb"]
+                    print(rb_set)
+                    values_dict = {}
+                    for wr_comb in wr_dict:
+                        wr_set = wr_comb.get_rosters()["wr"]
+                        for te_comb in te_dict:
+                            te_set = te_comb.get_rosters()["te"]
+                            roster = State(None, True, qb_set,
+                                           rb_set, wr_set, te_set)
+                            values_dict[roster] = simulate2.team_pts_scored_3wr(
+                                roster.get_rosters())
+                            # roster = State(None, True, set(),
+                            #             rb_set, wr_set, te_set)
+                            # values_dict[roster] = rb_dict[rb_comb] + \
+                            #     wr_dict[wr_comb] + te_dict[te_comb]
+                    pickle5.dump(values_dict, outp,
+                                 pickle5.HIGHEST_PROTOCOL)
+                    # file.write(str(values_dict))
+        # with open("data/iterated_rosters.txt", "a") as file:
+        #     file.write(str(values_dict))
+        # with open("data/iterated_rosters_pickled.pkl", 'wb') as outp:
+        #     pickle5.dump(values_dict, outp, pickle5.HIGHEST_PROTOCOL)
+        # with open("data/iterated_rosters_flex.txt", "a") as file:
+        #     file.write(str(values_dict))
+        # with open("data/iterated_rosters_flex_pickled.pkl", 'wb') as outp:
+        #     pickle5.dump(values_dict, outp, pickle5.HIGHEST_PROTOCOL)
+
+    def test_rosters_position(self, position):
+        """
+        Test rosters by position.
+        """
+        # with open('data/iterated_rosters_' + position + '_pickled.pkl', 'rb') as inp:
+        #     values_dict = pickle5.load(inp)
+        values_dict = {}
+        if position == "wr":
+            end_range = 4
+        elif position == "rb":
+            end_range = 4
+        else:
+            end_range = 4
+        for i in range(0, end_range):
+            roster_position = list(combinations(
+                self.initial_players[position], i))
+            for position_combination in roster_position:
+                position_set = set()
+                for player in position_combination:
+                    position_set.add(
+                        Tuple(player, self.initial_players[position][player]))
+                if position == "qb":
+                    roster = State(None, True, position_set,
+                                   set(), set(), set())
+                elif position == "rb":
+                    roster = State(None, True, set(),
+                                   position_set, set(), set())
+                elif position == "wr":
+                    roster = State(None, True, set(),
+                                   set(), position_set, set())
+                elif position == "te":
+                    roster = State(None, True, set(),
+                                   set(), set(), position_set)
+                values_dict[roster] = simulate2.team_pts_scored_3wr(
+                    roster.get_rosters())
+        with open("data/iterated_rosters_" + position + ".txt", "w") as file:
+            file.write(str(values_dict))
+        with open("data/iterated_rosters_" + position + "_pickled.pkl", 'wb') as outp:
+            pickle5.dump(values_dict, outp, pickle5.HIGHEST_PROTOCOL)
+
+    def test_rosters_rbwr(self):
+        """
+        Test rosters by rbs and wrs.
+        """
+        # with open('data/iterated_rosters_flex_pickled.pkl', 'rb') as inp:
+        #    values_dict = pickle5.load(inp)
+        with open('data/iterated_rosters_rb_pickled.pkl', 'rb') as inp:
+            rb_dict = pickle5.load(inp)
+        with open('data/iterated_rosters_wr_pickled.pkl', 'rb') as inp:
+            wr_dict = pickle5.load(inp)
+        values_dict = {}
+        # values_dict[State(roster)] = 0
+        with open("data/iterated_rosters_rbwr_pickled.pkl", 'wb') as outp:
+            for rb_comb in rb_dict:
+                rb_set = rb_comb.get_rosters()["rb"]
+                print(rb_set)
+                values_dict = {}
+                for wr_comb in wr_dict:
+                    wr_set = wr_comb.get_rosters()["wr"]
+                    roster = State(None, True, set(),
+                                   rb_set, wr_set, set())
+                    values_dict[roster] = simulate2.team_pts_scored_3wr(
+                        roster.get_rosters())
+                # pickle5.dump(values_dict, outp,
+                #             pickle5.HIGHEST_PROTOCOL)
+            pickle5.dump(values_dict, outp, pickle5.HIGHEST_PROTOCOL)
+
+    def pick_player(self, player_tuple, player_position):
         """
         Simulates drafting a player from the available players. Also checks
         and sets self.end_draft to true if this is the end of the draft.
         """
-        player_pick = self.available_players[player_position].pop(player_name)
+        self.available_players[player_position].pop(player_tuple)
         # self.rosters[self.current_pick][player_position].add(player_pick)
-        self.rosters[self.current_pick][player_position].add(
-            Tuple(player_name, player_pick))
+        self.rosters[self.current_pick][player_position].add(player_tuple)
         if self.current_round % 2 == 1:
             if self.current_pick < self.num_teams - 1:
                 self.current_pick += 1
@@ -172,6 +290,39 @@ class Draft:
             self.drafters[team_id].update(
                 current_state, next_state, reward)
 
+    def run_draft_together(self):
+        """
+        Runs the draft going pick by pick through the draft and does this for
+        self.num_training total number of steps, but does with each team learning
+        together instead of individually.
+        """
+        draft_number = 1
+        print("Draft " + str(draft_number))
+        for training_episode in range(self.num_training):
+            if self.get_end_draft():
+                self.current_pick = 0
+                self.current_round = 1
+                self.end_draft = False
+                self.available_players = copy.deepcopy(self.initial_players)
+                self.rosters = copy.deepcopy(self.empty_rosters)
+                draft_number += 1
+                print("Draft " + str(draft_number))
+            print(self.current_pick)
+            current_state = State(self.rosters[self.current_pick])
+            player_tuple, player_position = self.drafters_together.getCurrentAction(
+                current_state, self.get_available_players())
+            team_id = self.current_pick
+            round_num = self.current_round
+            self.pick_player(player_tuple, player_position)
+            next_state = State(self.rosters[team_id])
+            reward = 0
+            if round_num >= self.num_rounds:
+                schedule = simulate2.create_schedule(self.num_teams)
+                reward = simulate2.ideal_simulate_season(schedule, self.rosters)[
+                    "Total Points Scored"][team_id]
+            self.drafters_together.update(
+                current_state, next_state, reward)
+
     def get_results(self):
         """
         Returns the results of the draft.
@@ -213,6 +364,50 @@ class Draft:
         with open("data/draft_results_pickled.pkl", 'wb') as outp:
             pickle5.dump(previous_drafters, outp, pickle5.HIGHEST_PROTOCOL)
 
+    def get_results_together(self):
+        """
+        Returns the results of the draft where teams are tracked together.
+        """
+        with open("data/draft_results_together.txt", "a") as file:
+            # for team in self.drafters:
+            #     file.write("Team: " + str(team.team_id) + "\n")
+            #     file.write(str(team.q_values) + "\n\n")
+            self.current_pick = 0
+            self.current_round = 1
+            self.end_draft = False
+            self.available_players = copy.deepcopy(self.initial_players)
+            self.rosters = copy.deepcopy(self.empty_rosters)
+            while not self.get_end_draft():
+                current_state = State(self.rosters[self.current_pick])
+                if self.current_pick == 0:
+                    player_name, player_position = self.drafters_together.getPolicy(
+                        current_state, self.get_available_players())
+                else:
+                    player_name, player_position = self.drafters_together.getBestAction(
+                        current_state, self.get_available_players())
+                team_id = self.current_pick
+                round_num = self.current_round
+                self.pick_player(player_name, player_position)
+                output_string = "Round " + str(round_num) + ", Pick " + str(
+                    team_id) + ": " + player_name + ", " + player_position + "\n"
+                file.write(output_string)
+            schedule = simulate2.create_schedule(self.num_teams)
+            points_scored = simulate2.ideal_simulate_season(schedule, self.rosters)[
+                "Total Points Scored"]
+            for team_num in range(self.num_teams):
+                output_string = "Team: " + \
+                    str(team_num) + ": " + str(points_scored[team_num]) + "\n"
+                file.write(output_string)
+        # with open('data/draft_results_pickled.pkl', 'rb') as inp:
+        #     previous_drafters = pickle5.load(inp)
+        # for i in range(self.num_teams):
+        #     previous_drafters[i].values.update(self.drafters[i].values)
+        # with open("data/draft_results_pickled.pkl", 'wb') as outp:
+        #     pickle5.dump(previous_drafters, outp, pickle5.HIGHEST_PROTOCOL)
+        with open("data/draft_results_pickled_together.pkl", 'wb') as outp:
+            pickle5.dump(self.drafters_together.values,
+                         outp, pickle5.HIGHEST_PROTOCOL)
+
 
 class State:
     """
@@ -220,18 +415,60 @@ class State:
     The State keeps track of the players already picked on their roster.
     """
 
-    def __init__(self, rosters):
+    def __init__(self, rosters, create_own=False, qbs=None, rbs=None, wrs=None, tes=None):
         """
         Initializes the state with rosters as the team's current roster of players
         already picked.
+
+        If create_own is True, then the roster is created here using the players
+        specified in qbs, rbs, wrs, and tes.
         """
-        self.rosters = rosters
+        if create_own == False:
+            self.rosters = rosters
+        else:
+            roster = {}
+            roster["qb"] = qbs
+            roster["rb"] = rbs
+            roster["wr"] = wrs
+            roster["te"] = tes
+            roster["dst"] = set()
+            roster["k"] = set()
+            self.rosters = roster
 
     def get_rosters(self):
         """
         Returns the rosters of the state.
         """
         return self.rosters
+
+    def set_rosters(self, qb_list, rb_list, wr_list, te_list):
+        """
+        Sets the rosters to have the qbs in qb_list, rbs in rb_list, wrs in
+        wr_list, and tes and te_list.
+        """
+        roster = {}
+        roster["qb"] = set(qb_list)
+        roster["rb"] = set(rb_list)
+        roster["wr"] = set(wr_list)
+        roster["te"] = set(te_list)
+        roster["dst"] = set()
+        roster["k"] = set()
+        self.rosters = roster
+
+    def __repr__(self):
+        """
+        Returns the representation of the roster.
+        """
+        output_string = ""
+        for qb in self.rosters["qb"]:
+            output_string += str(qb) + ", "
+        for rb in self.rosters["rb"]:
+            output_string += str(rb) + ", "
+        for wr in self.rosters["wr"]:
+            output_string += str(wr) + ", "
+        for te in self.rosters["te"]:
+            output_string += str(te) + ", "
+        return output_string
 
 
 class ValueIterationDrafter:
@@ -244,22 +481,47 @@ class ValueIterationDrafter:
     and transitions are deterministic.
     """
 
-    def __init__(self, team_id, learning_rate, exploration_rate):
+    def __init__(self, team_id, learning_rate, exploration_rate, values_file):
         """
         Initializes a Value Iteration Drafter to having the team_id pick in the
         draft with learning_rate for value updates and exploration_rate for
         the chance to explore new actions instead of the current best action.
+
+        values_file is the file where the initial values are located.
         """
         self.team_id = team_id
         self.alpha = learning_rate
         self.exp_rate = exploration_rate
         self.values = {}
+        self.values_file = values_file
 
     def getValue(self, state):
         """
         Gives the Value of a state. Returns 0 if this state has not been
         explored yet.
         """
+        rb_set = state.get_rosters()["rb"]
+        # print("rb_set: " + str(rb_set))
+        with open('data/iterated_rosters_pickled.pkl', 'rb') as inp:
+            stop_loop = False
+            while not stop_loop:
+                try:
+                    values_dict = pickle5.load(inp)
+                    # print(list(values_dict.keys())[0].get_rosters()["rb"])
+                    if list(values_dict.keys())[0].get_rosters()["rb"] == rb_set:
+                        # print("here")
+                        stop_loop = True
+                        for roster in values_dict:
+                            if roster.get_rosters()["qb"] == state.get_rosters()["qb"] and \
+                                    roster.get_rosters()["rb"] == state.get_rosters()["rb"] and \
+                                    roster.get_rosters()["wr"] == state.get_rosters()["wr"] and \
+                                    roster.get_rosters()["te"] == state.get_rosters()["te"] and \
+                                    roster.get_rosters()["dst"] == state.get_rosters()["dst"] and \
+                                    roster.get_rosters()["k"] == state.get_rosters()["k"]:
+                                # print("match")
+                                return values_dict[roster]
+                except EOFError:
+                    stop_loop = True
         try:
             return self.values[state]
         except:
@@ -316,11 +578,11 @@ class ValueIterationDrafter:
         to the current policy.
         """
         with open("data/draft_results.txt", "a") as file:
-            file.write("\nRoster: \n")
-            file.write(str(state.get_rosters()) + "\n")
-            file.write("Available Players: \n")
-            file.write("Values: \n")
-            file.write(str(self.values))
+            # file.write("\nRoster: \n")
+            # file.write(str(state.get_rosters()) + "\n")
+            # file.write("Available Players: \n")
+            # file.write("Values: \n")
+            # file.write(str(self.values))
             if len(available_players) == 0:
                 return None
             else:

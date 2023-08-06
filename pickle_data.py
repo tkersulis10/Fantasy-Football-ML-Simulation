@@ -37,15 +37,15 @@ class Position:
             # Limit number of players for each position
             num_players = 0
             if self.position == "qb":
-                player_limit = 50
+                player_limit = 30
             elif self.position == "rb":
-                player_limit = 70
+                player_limit = 50
             elif self.position == "wr":
-                player_limit = 100
+                player_limit = 60
             elif self.position == "te":
-                player_limit = 50
+                player_limit = 30
             else:
-                player_limit = 50
+                player_limit = 30
 
             # Iterate over all file lines
             for line in lines[1:]:
@@ -72,7 +72,7 @@ class Position:
 
 # Iterate over all .txt files in the data directory
 for file in os.listdir("./data"):
-    if file.endswith(".txt"):
+    if file.endswith("output.txt"):
         # Get the file name and the position and scoring format of the file
         file_name = os.path.join("data", file)
 
