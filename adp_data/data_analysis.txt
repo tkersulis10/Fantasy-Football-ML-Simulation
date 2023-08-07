@@ -1,0 +1,299 @@
+2018:
+# QBs: 2.23944
+# RBs: 4.28708
+# WRs: 5.56364
+# TEs: 1.77288
+first QB drafted: 7.1078
+first RB drafted: 2.13616
+first WR drafted: 2.20664
+first TE drafted: 7.1078
+1st round QB: 0.00028
+1st round RB: 0.6866
+1st round WR: 0.31024
+1st round TE: 0.00028
+2nd round QB: 0.00848
+2nd round RB: 0.38
+2nd round WR: 0.55776
+2nd round TE: 0.00848
+3rd round QB: 0.0538
+3rd round RB: 0.2056
+3rd round WR: 0.56912
+3rd round TE: 0.0538
+4th round QB: 0.10052
+4th round RB: 0.2126
+4th round WR: 0.55796
+4th round TE: 0.10052
+5th round QB: 0.2532
+5th round RB: 0.2272
+5th round WR: 0.40668
+5th round TE: 0.2532
+6th round QB: 0.18128
+6th round RB: 0.2768
+6th round WR: 0.42756
+6th round TE: 0.18128
+7th round QB: 0.13964
+7th round RB: 0.2708
+7th round WR: 0.41392
+7th round TE: 0.13964
+8th round QB: 0.1516
+8th round RB: 0.30372
+8th round WR: 0.44984
+8th round TE: 0.1516
+9th round QB: 0.40092
+9th round RB: 0.29548
+9th round WR: 0.25216
+9th round TE: 0.40092
+10th round QB: 0.36056
+10th round RB: 0.23064
+10th round WR: 0.29384
+10th round TE: 0.36056
+
+2019:
+# QBs: 2.04896
+# RBs: 4.80092
+# WRs: 5.09208
+# TEs: 1.74512
+first QB drafted: 8.35088
+first RB drafted: 1.5414
+first WR drafted: 2.821
+first TE drafted: 8.35088
+1st round QB: 0.00184
+1st round RB: 0.76256
+1st round WR: 0.22204
+1st round TE: 0.00184
+2nd round QB: 0.0408
+2nd round RB: 0.40208
+2nd round WR: 0.41884
+2nd round TE: 0.0408
+3rd round QB: 0.02032
+3rd round RB: 0.5246
+3rd round WR: 0.31288
+3rd round TE: 0.02032
+4th round QB: 0.09088
+4th round RB: 0.37176
+4th round WR: 0.5086
+4th round TE: 0.09088
+5th round QB: 0.10304
+5th round RB: 0.234
+5th round WR: 0.54544
+5th round TE: 0.10304
+6th round QB: 0.1312
+6th round RB: 0.3614
+6th round WR: 0.37584
+6th round TE: 0.1312
+7th round QB: 0.23328
+7th round RB: 0.34456
+7th round WR: 0.28616
+7th round TE: 0.23328
+8th round QB: 0.1784
+8th round RB: 0.22084
+8th round WR: 0.408
+8th round TE: 0.1784
+9th round QB: 0.27772
+9th round RB: 0.2784
+9th round WR: 0.31976
+9th round TE: 0.27772
+10th round QB: 0.22184
+10th round RB: 0.21724
+10th round WR: 0.28188
+10th round TE: 0.22184
+
+2020:
+# QBs: 2.2326
+# RBs: 4.67568
+# WRs: 5.12736
+# TEs: 1.72812
+first QB drafted: 7.10516
+first RB drafted: 1.53984
+first WR drafted: 2.71388
+first TE drafted: 7.10516
+1st round QB: 0.0126
+1st round RB: 0.73092
+1st round WR: 0.2348
+1st round TE: 0.0126
+2nd round QB: 0.08844
+2nd round RB: 0.47408
+2nd round WR: 0.29248
+2nd round TE: 0.08844
+3rd round QB: 0.03196
+3rd round RB: 0.3728
+3rd round WR: 0.537
+3rd round TE: 0.03196
+4th round QB: 0.0396
+4th round RB: 0.31088
+4th round WR: 0.56484
+4th round TE: 0.0396
+5th round QB: 0.22508
+5th round RB: 0.23008
+5th round WR: 0.43604
+5th round TE: 0.22508
+6th round QB: 0.17364
+6th round RB: 0.36768
+6th round WR: 0.35272
+6th round TE: 0.17364
+7th round QB: 0.26032
+7th round RB: 0.23464
+7th round WR: 0.32476
+7th round TE: 0.26032
+8th round QB: 0.24844
+8th round RB: 0.28952
+8th round WR: 0.34368
+8th round TE: 0.24844
+9th round QB: 0.09608
+9th round RB: 0.259
+9th round WR: 0.39044
+9th round TE: 0.09608
+10th round QB: 0.06952
+10th round RB: 0.24136
+10th round WR: 0.40932
+10th round TE: 0.06952
+
+2021:
+# QBs: 2.10916
+# RBs: 4.53668
+# WRs: 5.4312
+# TEs: 1.56632
+first QB drafted: 6.76448
+first RB drafted: 1.7276
+first WR drafted: 2.81356
+first TE drafted: 6.76448
+1st round QB: 0.0138
+1st round RB: 0.73428
+1st round WR: 0.209
+1st round TE: 0.0138
+2nd round QB: 0.07064
+2nd round RB: 0.50116
+2nd round WR: 0.34288
+2nd round TE: 0.07064
+3rd round QB: 0.14916
+3rd round RB: 0.3104
+3rd round WR: 0.47276
+3rd round TE: 0.14916
+4th round QB: 0.13496
+4th round RB: 0.1976
+4th round WR: 0.58184
+4th round TE: 0.13496
+5th round QB: 0.25612
+5th round RB: 0.20828
+5th round WR: 0.39576
+5th round TE: 0.25612
+6th round QB: 0.22296
+6th round RB: 0.31088
+6th round WR: 0.43104
+6th round TE: 0.22296
+7th round QB: 0.10468
+7th round RB: 0.23252
+7th round WR: 0.55836
+7th round TE: 0.10468
+8th round QB: 0.1916
+8th round RB: 0.3494
+8th round WR: 0.31004
+8th round TE: 0.1916
+9th round QB: 0.07568
+9th round RB: 0.35216
+9th round WR: 0.30512
+9th round TE: 0.07568
+10th round QB: 0.09048
+10th round RB: 0.23124
+10th round WR: 0.40536
+10th round TE: 0.09048
+
+2022:
+# QBs: 2.0348
+# RBs: 4.67596
+# WRs: 5.24968
+# TEs: 1.67416
+first QB drafted: 5.76364
+first RB drafted: 2.10996
+first WR drafted: 2.5398
+first TE drafted: 5.76364
+1st round QB: 0.00616
+1st round RB: 0.58508
+1st round WR: 0.35832
+1st round TE: 0.00616
+2nd round QB: 0.08192
+2nd round RB: 0.42212
+2nd round WR: 0.383
+2nd round TE: 0.08192
+3rd round QB: 0.21316
+3rd round RB: 0.24268
+3rd round WR: 0.4264
+3rd round TE: 0.21316
+4th round QB: 0.1844
+4th round RB: 0.3512
+4th round WR: 0.36316
+4th round TE: 0.1844
+5th round QB: 0.28492
+5th round RB: 0.29296
+5th round WR: 0.34276
+5th round TE: 0.28492
+6th round QB: 0.217
+6th round RB: 0.18012
+6th round WR: 0.42536
+6th round TE: 0.217
+7th round QB: 0.0854
+7th round RB: 0.43584
+7th round WR: 0.33772
+7th round TE: 0.0854
+8th round QB: 0.12324
+8th round RB: 0.44044
+8th round WR: 0.32544
+8th round TE: 0.12324
+9th round QB: 0.09324
+9th round RB: 0.21976
+9th round WR: 0.39184
+9th round TE: 0.09324
+10th round QB: 0.1062
+10th round RB: 0.19216
+10th round WR: 0.34964
+10th round TE: 0.1062
+
+Overall: 
+# QBs: 2.132992
+# RBs: 4.595263999999999
+# WRs: 5.292792
+# TEs: 1.69732
+first QB drafted: 7.018392
+first RB drafted: 1.810992
+first WR drafted: 2.618976
+first TE drafted: 7.018392
+1st round QB: 0.006936
+1st round RB: 0.6998880000000001
+1st round WR: 0.26688
+1st round TE: 0.006936
+2nd round QB: 0.058055999999999996
+2nd round RB: 0.435888
+2nd round WR: 0.398992
+2nd round TE: 0.058055999999999996
+3rd round QB: 0.09368000000000001
+3rd round RB: 0.331216
+3rd round WR: 0.46363200000000004
+3rd round TE: 0.09368000000000001
+4th round QB: 0.11007199999999999
+4th round RB: 0.288808
+4th round WR: 0.51528
+4th round TE: 0.11007199999999999
+5th round QB: 0.224472
+5th round RB: 0.238504
+5th round WR: 0.42533600000000005
+5th round TE: 0.224472
+6th round QB: 0.185216
+6th round RB: 0.299376
+6th round WR: 0.402504
+6th round TE: 0.185216
+7th round QB: 0.164664
+7th round RB: 0.303672
+7th round WR: 0.38418399999999997
+7th round TE: 0.164664
+8th round QB: 0.178656
+8th round RB: 0.320784
+8th round WR: 0.36739999999999995
+8th round TE: 0.178656
+9th round QB: 0.188728
+9th round RB: 0.28096
+9th round WR: 0.331864
+9th round TE: 0.188728
+10th round QB: 0.16972
+10th round RB: 0.22252799999999998
+10th round WR: 0.348008
+10th round TE: 0.16972
