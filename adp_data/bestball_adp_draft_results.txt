@@ -1,0 +1,1160 @@
+2018:
+Round 1, pick 0: Todd Gurley II, rb
+Round 1, pick 1: Antonio Brown, wr
+Round 1, pick 2: David Johnson, rb
+Round 1, pick 3: Leonard Fournette, rb
+Round 1, pick 4: Alvin Kamara, rb
+Round 1, pick 5: Le'Veon Bell, rb
+Round 1, pick 6: Kareem Hunt, rb
+Round 1, pick 7: Ezekiel Elliott, rb
+Round 1, pick 8: Keenan Allen, wr
+Round 1, pick 9: Julio Jones, wr
+Round 1, pick 10: Dalvin Cook, rb
+Round 1, pick 11: Melvin Gordon III, rb
+Round 2, pick 11: Devonta Freeman, rb
+Round 2, pick 10: DeAndre Hopkins, wr
+Round 2, pick 9: Saquon Barkley, rb
+Round 2, pick 8: Christian McCaffrey, rb
+Round 2, pick 7: Tyreek Hill, wr
+Round 2, pick 6: Odell Beckham Jr., wr
+Round 2, pick 5: Michael Thomas, wr
+Round 2, pick 4: Joe Mixon, rb
+Round 2, pick 3: Rob Gronkowski, te
+Round 2, pick 2: LeSean McCoy, rb
+Round 2, pick 1: T.Y. Hilton, wr
+Round 2, pick 0: Travis Kelce, te
+Round 3, pick 0: Davante Adams, wr
+Round 3, pick 1: Adam Thielen, wr
+Round 3, pick 2: A.J. Green, wr
+Round 3, pick 3: Mike Evans, wr
+Round 3, pick 4: Amari Cooper, wr
+Round 3, pick 5: Aaron Rodgers, qb
+Round 3, pick 6: Zach Ertz, te
+Round 3, pick 7: Jordan Howard, rb
+Round 3, pick 8: Kenyan Drake, rb
+Round 3, pick 9: Larry Fitzgerald, wr
+Round 3, pick 10: Doug Baldwin, wr
+Round 3, pick 11: Alex Collins, rb
+Round 4, pick 11: Stefon Diggs, wr
+Round 4, pick 10: Demaryius Thomas, wr
+Round 4, pick 9: Derrick Henry, rb
+Round 4, pick 8: Brandin Cooks, wr
+Round 4, pick 7: Lamar Miller, rb
+Round 4, pick 6: Josh Gordon, wr
+Round 4, pick 5: Jay Ajayi, rb
+Round 4, pick 4: Royce Freeman, rb
+Round 4, pick 3: Mark Ingram II, rb
+Round 4, pick 2: Marvin Jones Jr., wr
+Round 4, pick 1: Jarvis Landry, wr
+Round 4, pick 0: Rashaad Penny, rb
+Round 5, pick 0: JuJu Smith-Schuster, wr
+Round 5, pick 1: Marshawn Lynch, rb
+Round 5, pick 2: Allen Robinson II, wr
+Round 5, pick 3: Chris Hogan, wr
+Round 5, pick 4: Jimmy Graham, te
+Round 5, pick 5: Sony Michel, rb
+Round 5, pick 6: Russell Wilson, qb
+Round 5, pick 7: Golden Tate, wr
+Round 5, pick 8: Carlos Hyde, rb
+Round 5, pick 9: Deshaun Watson, qb
+Round 5, pick 10: Greg Olsen, te
+Round 5, pick 11: Cam Newton, qb
+Round 6, pick 11: Evan Engram, te
+Round 6, pick 10: Corey Davis, wr
+Round 6, pick 9: Dion Lewis, rb
+Round 6, pick 8: Tom Brady, qb
+Round 6, pick 7: Alshon Jeffery, wr
+Round 6, pick 6: Kerryon Johnson, rb
+Round 6, pick 5: Michael Crabtree, wr
+Round 6, pick 4: Drew Brees, qb
+Round 6, pick 3: Julian Edelman, wr
+Round 6, pick 2: Emmanuel Sanders, wr
+Round 6, pick 1: Rex Burkhead, rb
+Round 6, pick 0: William Fuller V, wr
+Round 7, pick 0: Jamaal Williams, rb
+Round 7, pick 1: Trey Burton, te
+Round 7, pick 2: Marlon Mack, rb
+Round 7, pick 3: Sammy Watkins, wr
+Round 7, pick 4: Devin Funchess, wr
+Round 7, pick 5: Kirk Cousins, qb
+Round 7, pick 6: Ronald Jones II, rb
+Round 7, pick 7: Marquise Goodwin, wr
+Round 7, pick 8: Delanie Walker, te
+Round 7, pick 9: Tarik Cohen, rb
+Round 7, pick 10: Tevin Coleman, rb
+Round 7, pick 11: Carson Wentz, qb
+Round 8, pick 11: Cooper Kupp, wr
+Round 8, pick 10: Isaiah Crowell, rb
+Round 8, pick 9: Jordan Reed, te
+Round 8, pick 8: Kyle Rudolph, te
+Round 8, pick 7: Robbie Chosen, wr
+Round 8, pick 6: Peyton Barber, rb
+Round 8, pick 5: Robert Woods, wr
+Round 8, pick 4: Andrew Luck, qb
+Round 8, pick 3: Chris Carson, rb
+Round 8, pick 2: Jordy Nelson, wr
+Round 8, pick 1: Jimmy Garoppolo, qb
+Round 8, pick 0: Aaron Jones, rb
+Round 9, pick 0: Jamison Crowder, wr
+Round 9, pick 1: Nelson Agholor, wr
+Round 9, pick 2: Kelvin Benjamin, wr
+Round 9, pick 3: Matthew Stafford, qb
+Round 9, pick 4: Nick Chubb, rb
+Round 9, pick 5: Duke Johnson Jr., rb
+Round 9, pick 6: Matt Ryan, qb
+Round 9, pick 7: Philip Rivers, qb
+Round 9, pick 8: C.J. Anderson, rb
+Round 9, pick 9: Patrick Mahomes II, qb
+Round 9, pick 10: Pierre Garcon, wr
+Round 9, pick 11: Sterling Shepard, wr
+Round 10, pick 11: Randall Cobb, wr
+Round 10, pick 10: Ben Roethlisberger, qb
+Round 10, pick 9: David Njoku, te
+Round 10, pick 8: Allen Hurns, wr
+Round 10, pick 7: Jared Goff, qb
+Round 10, pick 6: Kenny Stills, wr
+Round 10, pick 5: Calvin Ridley, wr
+Round 10, pick 4: Adrian Peterson, rb
+Round 10, pick 3: DJ Moore, wr
+Round 10, pick 2: DeVante Parker, wr
+Round 10, pick 1: Jack Doyle, te
+Round 10, pick 0: Latavius Murray, rb
+Round 11, pick 0: LeGarrette Blount, rb
+Round 11, pick 1: Marcus Mariota, qb
+Round 11, pick 2: Cameron Meredith, wr
+Round 11, pick 3: George Kittle, te
+Round 11, pick 4: Kenny Golladay, wr
+Round 11, pick 5: Ty Montgomery, rb
+Round 11, pick 6: Bilal Powell, rb
+Round 11, pick 7: Corey Clement, rb
+Round 11, pick 8: Devontae Booker, rb
+Round 11, pick 9: Giovani Bernard, rb
+Round 11, pick 10: Matt Breida, rb
+Round 11, pick 11: James White, rb
+Round 12, pick 11: Tyler Eifert, te
+Round 12, pick 10: Alex Smith, qb
+Round 12, pick 9: Derek Carr, qb
+Round 12, pick 8: Chris Thompson, rb
+Round 12, pick 7: Tyler Lockett, wr
+Round 12, pick 6: Anthony Miller, wr
+Round 12, pick 5: Michael Gallup, wr
+Round 12, pick 4: O.J. Howard, te
+Round 12, pick 3: Martavis Bryant, wr
+Round 12, pick 2: Doug Martin, rb
+Round 12, pick 1: Eric Ebron, te
+Round 12, pick 0: Dede Westbrook, wr
+Round 13, pick 0: D'Onta Foreman, rb
+Round 13, pick 1: Keelan Cole Sr., wr
+Round 13, pick 2: Mike Williams, wr
+Round 13, pick 3: Josh Doctson, wr
+Round 13, pick 4: Dak Prescott, qb
+Round 13, pick 5: Marqise Lee, wr
+Round 13, pick 6: Alfred Morris, rb
+Round 13, pick 7: Mohamed Sanu Sr., wr
+Round 13, pick 8: Rishard Matthews, wr
+Round 13, pick 9: Dez Bryant, wr
+Round 13, pick 10: John Brown, wr
+Round 13, pick 11: Mitch Trubisky, qb
+Round 14, pick 11: Jordan Wilkins, rb
+Round 14, pick 10: Austin Seferian-Jenkins, te
+Round 14, pick 9: DeSean Jackson, wr
+Round 14, pick 8: Eli Manning, qb
+Round 14, pick 7: Chris Godwin, wr
+Round 14, pick 6: Austin Hooper, te
+Round 14, pick 5: Cameron Brate, te
+Round 14, pick 4: Benjamin Watson, te
+Round 14, pick 3: Geronimo Allison, wr
+Round 14, pick 2: Robert Kelley, rb
+Round 14, pick 1: Jameis Winston, qb
+Round 14, pick 0: Ricky Seals-Jones, te
+Round 15, pick 0: Alex Erickson, wr
+Round 15, pick 1: Case Keenum, qb
+Round 15, pick 2: Blake Bortles, qb
+Round 15, pick 3: Austin Ekeler, rb
+Round 15, pick 4: Theo Riddick, rb
+Round 15, pick 5: Nyheim Hines, rb
+Round 15, pick 6: Tyrod Taylor, qb
+Round 15, pick 7: John Ross, wr
+Round 15, pick 8: Donte Moncrief, wr
+Round 15, pick 9: Pharoh Cooper, wr
+Round 15, pick 10: Ryan Switzer, wr
+Round 15, pick 11: Christian Kirk, wr
+Round 16, pick 11: Frank Gore, rb
+Round 16, pick 10: Jared Cook, te
+Round 16, pick 9: Tyrell Williams, wr
+Round 16, pick 8: Paul Richardson Jr., wr
+Round 16, pick 7: Jonathan Williams, rb
+Round 16, pick 6: Kenneth Dixon, rb
+Round 16, pick 5: Ted Ginn Jr., wr
+Round 16, pick 4: James Conner, rb
+Round 16, pick 3: Andy Dalton, qb
+Round 16, pick 2: Mike Gesicki, te
+Round 16, pick 1: Courtland Sutton, wr
+Round 16, pick 0: Vance McDonald, te
+Round 17, pick 0: Lamar Jackson, qb
+Round 17, pick 1: Samaje Perine, rb
+Round 17, pick 2: Hayden Hurst, te
+Round 17, pick 3: Jakeem Grant Sr., wr
+Round 17, pick 4: Chris Ivory, rb
+Round 17, pick 5: Javorius Allen, rb
+Round 17, pick 6: Spencer Ware, rb
+Round 17, pick 7: Charles Clay, te
+Round 17, pick 8: T.J. Yeldon, rb
+Round 17, pick 9: Quincy Enunwa, wr
+Round 17, pick 10: Andre Roberts, wr
+Round 17, pick 11: Danny Amendola, wr
+Round 18, pick 11: Kalen Ballage, rb
+Round 18, pick 10: Jordan Matthews, wr
+Round 18, pick 9: James Washington, wr
+Round 18, pick 8: Terrelle Pryor Sr., wr
+Round 18, pick 7: Jake Butt, te
+Round 18, pick 6: Jermaine Kearse, wr
+Round 18, pick 5: Luke Willson, te
+Round 18, pick 4: John Kelly Jr., rb
+Round 18, pick 3: Rod Smith, rb
+Round 18, pick 2: Baker Mayfield, qb
+Round 18, pick 1: Cole Beasley, wr
+Round 18, pick 0: Ryan Tannehill, qb
+
+Points Scored:
+Team 0: 1885.9
+Team 1: 1508.4
+Team 2: 1411.6999999999998
+Team 3: 1684.7
+Team 4: 2001.1
+Team 5: 1561.6999999999998
+Team 6: 1801.9
+Team 7: 1849.5000000000005
+Team 8: 1707.1
+Team 9: 2009.0999999999997
+Team 10: 1619.3000000000002
+Team 11: 1732.9999999999995
+
+2019:
+Round 1, pick 0: Saquon Barkley, rb
+Round 1, pick 1: DeAndre Hopkins, wr
+Round 1, pick 2: JuJu Smith-Schuster, wr
+Round 1, pick 3: Todd Gurley II, rb
+Round 1, pick 4: Keenan Allen, wr
+Round 1, pick 5: Christian McCaffrey, rb
+Round 1, pick 6: Michael Thomas, wr
+Round 1, pick 7: David Johnson, rb
+Round 1, pick 8: James Conner, rb
+Round 1, pick 9: Le'Veon Bell, rb
+Round 1, pick 10: Joe Mixon, rb
+Round 1, pick 11: Alvin Kamara, rb
+Round 2, pick 11: Davante Adams, wr
+Round 2, pick 10: Ezekiel Elliott, rb
+Round 2, pick 9: Travis Kelce, te
+Round 2, pick 8: Odell Beckham Jr., wr
+Round 2, pick 7: Nick Chubb, rb
+Round 2, pick 6: Patrick Mahomes II, qb
+Round 2, pick 5: Dalvin Cook, rb
+Round 2, pick 4: Julio Jones, wr
+Round 2, pick 3: Antonio Brown, wr
+Round 2, pick 2: Adam Thielen, wr
+Round 2, pick 1: George Kittle, te
+Round 2, pick 0: Marlon Mack, rb
+Round 3, pick 0: Zach Ertz, te
+Round 3, pick 1: Kerryon Johnson, rb
+Round 3, pick 2: Tyreek Hill, wr
+Round 3, pick 3: Leonard Fournette, rb
+Round 3, pick 4: Damien Williams, rb
+Round 3, pick 5: Devonta Freeman, rb
+Round 3, pick 6: Robert Woods, wr
+Round 3, pick 7: Derrick Henry, rb
+Round 3, pick 8: Amari Cooper, wr
+Round 3, pick 9: Stefon Diggs, wr
+Round 3, pick 10: Mike Evans, wr
+Round 3, pick 11: Aaron Jones, rb
+Round 4, pick 11: David Montgomery, rb
+Round 4, pick 10: Josh Jacobs, rb
+Round 4, pick 9: Julian Edelman, wr
+Round 4, pick 8: Brandin Cooks, wr
+Round 4, pick 7: Chris Godwin, wr
+Round 4, pick 6: Tyler Lockett, wr
+Round 4, pick 5: T.Y. Hilton, wr
+Round 4, pick 4: A.J. Green, wr
+Round 4, pick 3: Kenny Golladay, wr
+Round 4, pick 2: Deshaun Watson, qb
+Round 4, pick 1: Cooper Kupp, wr
+Round 4, pick 0: Tyler Boyd, wr
+Round 5, pick 0: Chris Carson, rb
+Round 5, pick 1: Melvin Gordon III, rb
+Round 5, pick 2: Sony Michel, rb
+Round 5, pick 3: Josh Gordon, wr
+Round 5, pick 4: Mark Ingram II, rb
+Round 5, pick 5: Evan Engram, te
+Round 5, pick 6: Aaron Rodgers, qb
+Round 5, pick 7: Jarvis Landry, wr
+Round 5, pick 8: Phillip Lindsay, rb
+Round 5, pick 9: Baker Mayfield, qb
+Round 5, pick 10: O.J. Howard, te
+Round 5, pick 11: Robbie Chosen, wr
+Round 6, pick 11: Hunter Henry, te
+Round 6, pick 10: DJ Moore, wr
+Round 6, pick 9: Tevin Coleman, rb
+Round 6, pick 8: Mike Williams, wr
+Round 6, pick 7: Allen Robinson II, wr
+Round 6, pick 6: James White, rb
+Round 6, pick 5: Russell Wilson, qb
+Round 6, pick 4: Calvin Ridley, wr
+Round 6, pick 3: Miles Sanders, rb
+Round 6, pick 2: Kenyan Drake, rb
+Round 6, pick 1: Duke Johnson Jr., rb
+Round 6, pick 0: Tarik Cohen, rb
+Round 7, pick 0: Matt Ryan, qb
+Round 7, pick 1: Austin Ekeler, rb
+Round 7, pick 2: Alshon Jeffery, wr
+Round 7, pick 3: Carson Wentz, qb
+Round 7, pick 4: Dede Westbrook, wr
+Round 7, pick 5: Jared Cook, te
+Round 7, pick 6: Sterling Shepard, wr
+Round 7, pick 7: Drew Brees, qb
+Round 7, pick 8: Latavius Murray, rb
+Round 7, pick 9: Christian Kirk, wr
+Round 7, pick 10: Jared Goff, qb
+Round 7, pick 11: William Fuller V, wr
+Round 8, pick 11: Curtis Samuel, wr
+Round 8, pick 10: Vance McDonald, te
+Round 8, pick 9: Derrius Guice, rb
+Round 8, pick 8: Eric Ebron, te
+Round 8, pick 7: David Njoku, te
+Round 8, pick 6: Devin Singletary, rb
+Round 8, pick 5: Marvin Jones Jr., wr
+Round 8, pick 4: LeSean McCoy, rb
+Round 8, pick 3: Jordan Howard, rb
+Round 8, pick 2: Corey Davis, wr
+Round 8, pick 1: Sammy Watkins, wr
+Round 8, pick 0: Royce Freeman, rb
+Round 9, pick 0: Cam Newton, qb
+Round 9, pick 1: Lamar Jackson, qb
+Round 9, pick 2: Kyler Murray, qb
+Round 9, pick 3: Rashaad Penny, rb
+Round 9, pick 4: Matt Breida, rb
+Round 9, pick 5: Kareem Hunt, rb
+Round 9, pick 6: Dante Pettis, wr
+Round 9, pick 7: Delanie Walker, te
+Round 9, pick 8: Jameis Winston, qb
+Round 9, pick 9: James Washington, wr
+Round 9, pick 10: Larry Fitzgerald, wr
+Round 9, pick 11: Emmanuel Sanders, wr
+Round 10, pick 11: Donte Moncrief, wr
+Round 10, pick 10: Philip Rivers, qb
+Round 10, pick 9: Marquez Valdes-Scantling, wr
+Round 10, pick 8: Ben Roethlisberger, qb
+Round 10, pick 7: DeSean Jackson, wr
+Round 10, pick 6: Justin Jackson, rb
+Round 10, pick 5: Jaylen Samuels, rb
+Round 10, pick 4: Adrian Peterson, rb
+Round 10, pick 3: Geronimo Allison, wr
+Round 10, pick 2: Mark Andrews, te
+Round 10, pick 1: Darrell Henderson Jr., rb
+Round 10, pick 0: Austin Hooper, te
+Round 11, pick 0: Mecole Hardman Jr., wr
+Round 11, pick 1: Tom Brady, qb
+Round 11, pick 2: Courtland Sutton, wr
+Round 11, pick 3: Dak Prescott, qb
+Round 11, pick 4: Tyrell Williams, wr
+Round 11, pick 5: Kalen Ballage, rb
+Round 11, pick 6: Michael Gallup, wr
+Round 11, pick 7: DK Metcalf, wr
+Round 11, pick 8: N'Keal Harry, wr
+Round 11, pick 9: Golden Tate, wr
+Round 11, pick 10: Ronald Jones II, rb
+Round 11, pick 11: Damien Harris, rb
+Round 12, pick 11: Peyton Barber, rb
+Round 12, pick 10: Tony Pollard, rb
+Round 12, pick 9: Justice Hill, rb
+Round 12, pick 8: Anthony Miller, wr
+Round 12, pick 7: Keke Coutee, wr
+Round 12, pick 6: Jason Witten, te
+Round 12, pick 5: Greg Olsen, te
+Round 12, pick 4: Carlos Hyde, rb
+Round 12, pick 3: T.J. Hockenson, te
+Round 12, pick 2: Dion Lewis, rb
+Round 12, pick 1: Mitch Trubisky, qb
+Round 12, pick 0: Kirk Cousins, qb
+Round 13, pick 0: John Brown, wr
+Round 13, pick 1: Randall Cobb, wr
+Round 13, pick 2: Deebo Samuel, wr
+Round 13, pick 3: Jamison Crowder, wr
+Round 13, pick 4: Jimmy Graham, te
+Round 13, pick 5: Devin Funchess, wr
+Round 13, pick 6: Trey Burton, te
+Round 13, pick 7: Matthew Stafford, qb
+Round 13, pick 8: Ito Smith, rb
+Round 13, pick 9: Kyle Rudolph, te
+Round 13, pick 10: Darwin Thompson, rb
+Round 13, pick 11: Alexander Mattison, rb
+Round 14, pick 11: Nyheim Hines, rb
+Round 14, pick 10: Jordan Reed, te
+Round 14, pick 9: Parris Campbell, wr
+Round 14, pick 8: Jimmy Garoppolo, qb
+Round 14, pick 7: Josh Allen, qb
+Round 14, pick 6: Ted Ginn Jr., wr
+Round 14, pick 5: Nick Foles, qb
+Round 14, pick 4: D'Onta Foreman, rb
+Round 14, pick 3: Adam Humphries, wr
+Round 14, pick 2: Marquise Brown, wr
+Round 14, pick 1: Demaryius Thomas, wr
+Round 14, pick 0: A.J. Brown, wr
+Round 15, pick 0: Marquise Goodwin, wr
+Round 15, pick 1: Tre'Quan Smith, wr
+Round 15, pick 2: Dare Ogunbowale, rb
+Round 15, pick 3: Derek Carr, qb
+Round 15, pick 4: Rex Burkhead, rb
+Round 15, pick 5: C.J. Anderson, rb
+Round 15, pick 6: Jacoby Brissett, qb
+Round 15, pick 7: Mohamed Sanu Sr., wr
+Round 15, pick 8: Malcolm Brown, rb
+Round 15, pick 9: Sam Darnold, qb
+Round 15, pick 10: Kenny Stills, wr
+Round 15, pick 11: Chris Herndon IV, te
+Round 16, pick 11: DaeSean Hamilton, wr
+Round 16, pick 10: Kelvin Harmon, wr
+Round 16, pick 9: Noah Fant, te
+Round 16, pick 8: J.J. Arcega-Whiteside, wr
+Round 16, pick 7: Tyler Eifert, te
+Round 16, pick 6: Zay Jones, wr
+Round 16, pick 5: Nelson Agholor, wr
+Round 16, pick 4: Darren Waller, te
+Round 16, pick 3: DeVante Parker, wr
+Round 16, pick 2: Mike Davis, rb
+Round 16, pick 1: Chris Thompson, rb
+Round 16, pick 0: Antonio Callaway, wr
+Round 17, pick 0: Darrel Williams, rb
+Round 17, pick 1: Jamaal Williams, rb
+Round 17, pick 2: T.J. Yeldon, rb
+Round 17, pick 3: Ty Montgomery, rb
+Round 17, pick 4: Dwayne Haskins, qb
+Round 17, pick 5: Jalen Richard, rb
+Round 17, pick 6: Jack Doyle, te
+Round 17, pick 7: Marcus Mariota, qb
+Round 17, pick 8: Dallas Goedert, te
+Round 17, pick 9: Robert Foster, wr
+Round 17, pick 10: Andy Isabella, wr
+Round 17, pick 11: Josh Rosen, qb
+Round 18, pick 11: Ryan Fitzpatrick, qb
+Round 18, pick 10: Dontrell Hilliard, rb
+Round 18, pick 9: Ryquell Armstead, rb
+Round 18, pick 8: Brian Hill, rb
+Round 18, pick 7: Albert Wilson, wr
+Round 18, pick 6: Devine Ozigbo, rb
+Round 18, pick 5: Chase Edmonds, rb
+Round 18, pick 4: Andy Dalton, qb
+Round 18, pick 3: Geoff Swaim, te
+Round 18, pick 2: Matt LaCosse, te
+Round 18, pick 1: Mike Gesicki, te
+Round 18, pick 0: Trayveon Williams, rb
+
+Points Scored:
+Team 0: 1875.8000000000004
+Team 1: 1965.3000000000002
+Team 2: 1687.0000000000002
+Team 3: 1734.5999999999997
+Team 4: 1588.0
+Team 5: 1867.1
+Team 6: 1660.6999999999998
+Team 7: 1856.3000000000002
+Team 8: 1589.6000000000001
+Team 9: 1598.7
+Team 10: 1662.2000000000003
+Team 11: 1666.8999999999999
+
+2020:
+Round 1, pick 0: Derrick Henry, rb
+Round 1, pick 1: Saquon Barkley, rb
+Round 1, pick 2: Christian McCaffrey, rb
+Round 1, pick 3: Alvin Kamara, rb
+Round 1, pick 4: Joe Mixon, rb
+Round 1, pick 5: Ezekiel Elliott, rb
+Round 1, pick 6: Nick Chubb, rb
+Round 1, pick 7: Michael Thomas, wr
+Round 1, pick 8: Austin Ekeler, rb
+Round 1, pick 9: Davante Adams, wr
+Round 1, pick 10: Tyreek Hill, wr
+Round 1, pick 11: Clyde Edwards-Helaire, rb
+Round 2, pick 11: George Kittle, te
+Round 2, pick 10: Dalvin Cook, rb
+Round 2, pick 9: Miles Sanders, rb
+Round 2, pick 8: Josh Jacobs, rb
+Round 2, pick 7: DeAndre Hopkins, wr
+Round 2, pick 6: Travis Kelce, te
+Round 2, pick 5: Julio Jones, wr
+Round 2, pick 4: Kenyan Drake, rb
+Round 2, pick 3: Lamar Jackson, qb
+Round 2, pick 2: Patrick Mahomes II, qb
+Round 2, pick 1: Aaron Jones, rb
+Round 2, pick 0: Kenny Golladay, wr
+Round 3, pick 0: Chris Carson, rb
+Round 3, pick 1: Amari Cooper, wr
+Round 3, pick 2: Chris Godwin, wr
+Round 3, pick 3: Jonathan Taylor, rb
+Round 3, pick 4: Adam Thielen, wr
+Round 3, pick 5: Le'Veon Bell, rb
+Round 3, pick 6: Allen Robinson II, wr
+Round 3, pick 7: Odell Beckham Jr., wr
+Round 3, pick 8: James Conner, rb
+Round 3, pick 9: David Johnson, rb
+Round 3, pick 10: Todd Gurley II, rb
+Round 3, pick 11: A.J. Brown, wr
+Round 4, pick 11: Calvin Ridley, wr
+Round 4, pick 10: Mike Evans, wr
+Round 4, pick 9: Dak Prescott, qb
+Round 4, pick 8: Keenan Allen, wr
+Round 4, pick 7: Mark Ingram II, rb
+Round 4, pick 6: DJ Moore, wr
+Round 4, pick 5: Raheem Mostert, rb
+Round 4, pick 4: Mark Andrews, te
+Round 4, pick 3: Melvin Gordon III, rb
+Round 4, pick 2: JuJu Smith-Schuster, wr
+Round 4, pick 1: Cooper Kupp, wr
+Round 4, pick 0: Courtland Sutton, wr
+Round 5, pick 0: Zach Ertz, te
+Round 5, pick 1: Tyler Lockett, wr
+Round 5, pick 2: Terry McLaurin, wr
+Round 5, pick 3: Robert Woods, wr
+Round 5, pick 4: DJ Chark Jr., wr
+Round 5, pick 5: Russell Wilson, qb
+Round 5, pick 6: DK Metcalf, wr
+Round 5, pick 7: Kyler Murray, qb
+Round 5, pick 8: T.Y. Hilton, wr
+Round 5, pick 9: Cam Akers, rb
+Round 5, pick 10: Michael Gallup, wr
+Round 5, pick 11: Devin Singletary, rb
+Round 6, pick 11: A.J. Green, wr
+Round 6, pick 10: Leonard Fournette, rb
+Round 6, pick 9: D'Andre Swift, rb
+Round 6, pick 8: DeVante Parker, wr
+Round 6, pick 7: David Montgomery, rb
+Round 6, pick 6: Deshaun Watson, qb
+Round 6, pick 5: Kareem Hunt, rb
+Round 6, pick 4: Matt Ryan, qb
+Round 6, pick 3: Julian Edelman, wr
+Round 6, pick 2: Tyler Boyd, wr
+Round 6, pick 1: Darren Waller, te
+Round 6, pick 0: Marquise Brown, wr
+Round 7, pick 0: Drew Brees, qb
+Round 7, pick 1: Ronald Jones II, rb
+Round 7, pick 2: Stefon Diggs, wr
+Round 7, pick 3: Tyler Higbee, te
+Round 7, pick 4: Rob Gronkowski, te
+Round 7, pick 5: Evan Engram, te
+Round 7, pick 6: Josh Allen, qb
+Round 7, pick 7: J.K. Dobbins, rb
+Round 7, pick 8: William Fuller V, wr
+Round 7, pick 9: Hunter Henry, te
+Round 7, pick 10: Deebo Samuel, wr
+Round 7, pick 11: Aaron Rodgers, qb
+Round 8, pick 11: Kerryon Johnson, rb
+Round 8, pick 10: CeeDee Lamb, wr
+Round 8, pick 9: Jarvis Landry, wr
+Round 8, pick 8: Jordan Howard, rb
+Round 8, pick 7: James White, rb
+Round 8, pick 6: Diontae Johnson, wr
+Round 8, pick 5: Tom Brady, qb
+Round 8, pick 4: Marlon Mack, rb
+Round 8, pick 3: Noah Fant, te
+Round 8, pick 2: Brandin Cooks, wr
+Round 8, pick 1: Hayden Hurst, te
+Round 8, pick 0: Marvin Jones Jr., wr
+Round 9, pick 0: Matt Breida, rb
+Round 9, pick 1: Phillip Lindsay, rb
+Round 9, pick 2: Jared Cook, te
+Round 9, pick 3: Carson Wentz, qb
+Round 9, pick 4: Sony Michel, rb
+Round 9, pick 5: Zack Moss, rb
+Round 9, pick 6: Tarik Cohen, rb
+Round 9, pick 7: Latavius Murray, rb
+Round 9, pick 8: Jerry Jeudy, wr
+Round 9, pick 9: Darius Slayton, wr
+Round 9, pick 10: Christian Kirk, wr
+Round 9, pick 11: Jamison Crowder, wr
+Round 10, pick 11: Tevin Coleman, rb
+Round 10, pick 10: Alexander Mattison, rb
+Round 10, pick 9: Emmanuel Sanders, wr
+Round 10, pick 8: Antonio Gibson, rb
+Round 10, pick 7: John Brown, wr
+Round 10, pick 6: Matthew Stafford, qb
+Round 10, pick 5: Darrell Henderson Jr., rb
+Round 10, pick 4: Sterling Shepard, wr
+Round 10, pick 3: Mecole Hardman Jr., wr
+Round 10, pick 2: Henry Ruggs III, wr
+Round 10, pick 1: Jared Goff, qb
+Round 10, pick 0: Mike Gesicki, te
+Round 11, pick 0: Justin Jefferson, wr
+Round 11, pick 1: Ben Roethlisberger, qb
+Round 11, pick 2: Austin Hooper, te
+Round 11, pick 3: Daniel Jones, qb
+Round 11, pick 4: Baker Mayfield, qb
+Round 11, pick 5: Preston Williams, wr
+Round 11, pick 6: Joe Burrow, qb
+Round 11, pick 7: Ke'Shawn Vaughn, rb
+Round 11, pick 8: T.J. Hockenson, te
+Round 11, pick 9: Cam Newton, qb
+Round 11, pick 10: Jalen Reagor, wr
+Round 11, pick 11: Duke Johnson Jr., rb
+Round 12, pick 11: Adrian Peterson, rb
+Round 12, pick 10: DeSean Jackson, wr
+Round 12, pick 9: Tony Pollard, rb
+Round 12, pick 8: Boston Scott, rb
+Round 12, pick 7: Derrius Guice, rb
+Round 12, pick 6: Sammy Watkins, wr
+Round 12, pick 5: Mike Williams, wr
+Round 12, pick 4: Chase Edmonds, rb
+Round 12, pick 3: Ryquell Armstead, rb
+Round 12, pick 2: Golden Tate, wr
+Round 12, pick 1: Damien Harris, rb
+Round 12, pick 0: Philip Rivers, qb
+Round 13, pick 0: Jimmy Garoppolo, qb
+Round 13, pick 1: Allen Lazard, wr
+Round 13, pick 2: Anthony Miller, wr
+Round 13, pick 3: AJ Dillon, rb
+Round 13, pick 4: Ryan Tannehill, qb
+Round 13, pick 5: Drew Lock, qb
+Round 13, pick 6: Justin Jackson, rb
+Round 13, pick 7: Jonnu Smith, te
+Round 13, pick 8: Robbie Chosen, wr
+Round 13, pick 9: Gardner Minshew II, qb
+Round 13, pick 10: Chris Thompson, rb
+Round 13, pick 11: Blake Jarwin, te
+Round 14, pick 11: Nyheim Hines, rb
+Round 14, pick 10: N'Keal Harry, wr
+Round 14, pick 9: Larry Fitzgerald, wr
+Round 14, pick 8: Dallas Goedert, te
+Round 14, pick 7: Parris Campbell, wr
+Round 14, pick 6: Darrel Williams, rb
+Round 14, pick 5: Kirk Cousins, qb
+Round 14, pick 4: Hunter Renfrow, wr
+Round 14, pick 3: Alshon Jeffery, wr
+Round 14, pick 2: Jimmy Graham, te
+Round 14, pick 1: Breshad Perriman, wr
+Round 14, pick 0: Eric Ebron, te
+Round 15, pick 0: Michael Pittman Jr., wr
+Round 15, pick 1: Teddy Bridgewater, qb
+Round 15, pick 2: Derek Carr, qb
+Round 15, pick 3: Kyle Rudolph, te
+Round 15, pick 4: Chris Herndon IV, te
+Round 15, pick 5: LeSean McCoy, rb
+Round 15, pick 6: Irv Smith Jr., te
+Round 15, pick 7: Curtis Samuel, wr
+Round 15, pick 8: Carlos Hyde, rb
+Round 15, pick 9: Joshua Kelley, rb
+Round 15, pick 10: Jack Doyle, te
+Round 15, pick 11: Bryan Edwards, wr
+Round 16, pick 11: James Robinson, rb
+Round 16, pick 10: Tua Tagovailoa, qb
+Round 16, pick 9: Greg Olsen, te
+Round 16, pick 8: Jerick McKinnon, rb
+Round 16, pick 7: Ian Thomas, te
+Round 16, pick 6: Laviska Shenault Jr., wr
+Round 16, pick 5: Dede Westbrook, wr
+Round 16, pick 4: Brandon Aiyuk, wr
+Round 16, pick 3: Bryce Love, rb
+Round 16, pick 2: Sam Darnold, qb
+Round 16, pick 1: Benny Snell Jr., rb
+Round 16, pick 0: O.J. Howard, te
+Round 17, pick 0: Antonio Brown, wr
+Round 17, pick 1: Tee Higgins, wr
+Round 17, pick 2: Jamaal Williams, rb
+Round 17, pick 3: Tyler Eifert, te
+Round 17, pick 4: Anthony McFarland Jr., rb
+Round 17, pick 5: Lamar Miller, rb
+Round 17, pick 6: Josh Gordon, wr
+Round 17, pick 7: Denzel Mims, wr
+Round 17, pick 8: Nick Foles, qb
+Round 17, pick 9: Rashaad Penny, rb
+Round 17, pick 10: Jalen Hurts, qb
+Round 17, pick 11: Darrynton Evans, rb
+Round 18, pick 11: Jarrett Stidham, qb
+Round 18, pick 10: Devin Asiasi, te
+Round 18, pick 9: Chase Claypool, wr
+Round 18, pick 8: Mitch Trubisky, qb
+Round 18, pick 7: Tyrod Taylor, qb
+Round 18, pick 6: Devonta Freeman, rb
+Round 18, pick 5: Dawson Knox, te
+Round 18, pick 4: Corey Davis, wr
+Round 18, pick 3: John Ross, wr
+Round 18, pick 2: Justice Hill, rb
+Round 18, pick 1: James Washington, wr
+Round 18, pick 0: Devin Duvernay, wr
+
+Points Scored:
+Team 0: 1725.7999999999997
+Team 1: 1851.1000000000001
+Team 2: 1681.9999999999998
+Team 3: 1710.2999999999997
+Team 4: 1759.1000000000001
+Team 5: 1556.8000000000002
+Team 6: 1881.6
+Team 7: 1636.4
+Team 8: 1762.6999999999998
+Team 9: 1814.3000000000002
+Team 10: 1584.7
+Team 11: 1722.3000000000002
+
+2021:
+Round 1, pick 0: Christian McCaffrey, rb
+Round 1, pick 1: Dalvin Cook, rb
+Round 1, pick 2: Derrick Henry, rb
+Round 1, pick 3: Davante Adams, wr
+Round 1, pick 4: Nick Chubb, rb
+Round 1, pick 5: Najee Harris, rb
+Round 1, pick 6: Tyreek Hill, wr
+Round 1, pick 7: Aaron Jones, rb
+Round 1, pick 8: Alvin Kamara, rb
+Round 1, pick 9: Austin Ekeler, rb
+Round 1, pick 10: Travis Kelce, te
+Round 1, pick 11: Ezekiel Elliott, rb
+Round 2, pick 11: Jonathan Taylor, rb
+Round 2, pick 10: Stefon Diggs, wr
+Round 2, pick 9: Saquon Barkley, rb
+Round 2, pick 8: A.J. Brown, wr
+Round 2, pick 7: Antonio Gibson, rb
+Round 2, pick 6: Joe Mixon, rb
+Round 2, pick 5: Clyde Edwards-Helaire, rb
+Round 2, pick 4: Patrick Mahomes II, qb
+Round 2, pick 3: DK Metcalf, wr
+Round 2, pick 2: David Montgomery, rb
+Round 2, pick 1: Darren Waller, te
+Round 2, pick 0: Miles Sanders, rb
+Round 3, pick 0: Justin Jefferson, wr
+Round 3, pick 1: George Kittle, te
+Round 3, pick 2: Josh Allen, qb
+Round 3, pick 3: Keenan Allen, wr
+Round 3, pick 4: Terry McLaurin, wr
+Round 3, pick 5: DeAndre Hopkins, wr
+Round 3, pick 6: Allen Robinson II, wr
+Round 3, pick 7: Calvin Ridley, wr
+Round 3, pick 8: James Robinson, rb
+Round 3, pick 9: Josh Jacobs, rb
+Round 3, pick 10: Chris Carson, rb
+Round 3, pick 11: CeeDee Lamb, wr
+Round 4, pick 11: Kyler Murray, qb
+Round 4, pick 10: Mike Evans, wr
+Round 4, pick 9: Cooper Kupp, wr
+Round 4, pick 8: Lamar Jackson, qb
+Round 4, pick 7: Robert Woods, wr
+Round 4, pick 6: Chris Godwin, wr
+Round 4, pick 5: D'Andre Swift, rb
+Round 4, pick 4: Myles Gaskin, rb
+Round 4, pick 3: Amari Cooper, wr
+Round 4, pick 2: Mark Andrews, te
+Round 4, pick 1: Tyler Lockett, wr
+Round 4, pick 0: Julio Jones, wr
+Round 5, pick 0: Kareem Hunt, rb
+Round 5, pick 1: Russell Wilson, qb
+Round 5, pick 2: Adam Thielen, wr
+Round 5, pick 3: Damien Harris, rb
+Round 5, pick 4: DJ Moore, wr
+Round 5, pick 5: Diontae Johnson, wr
+Round 5, pick 6: Dak Prescott, qb
+Round 5, pick 7: Aaron Rodgers, qb
+Round 5, pick 8: Darrell Henderson Jr., rb
+Round 5, pick 9: Kyle Pitts, te
+Round 5, pick 10: Javonte Williams, rb
+Round 5, pick 11: Tee Higgins, wr
+Round 6, pick 11: Brandon Aiyuk, wr
+Round 6, pick 10: Tom Brady, qb
+Round 6, pick 9: Chase Edmonds, rb
+Round 6, pick 8: Ja'Marr Chase, wr
+Round 6, pick 7: Trey Sermon, rb
+Round 6, pick 6: Justin Herbert, qb
+Round 6, pick 5: Ronald Jones II, rb
+Round 6, pick 4: Robbie Chosen, wr
+Round 6, pick 3: Raheem Mostert, rb
+Round 6, pick 2: Jerry Jeudy, wr
+Round 6, pick 1: Michael Thomas, wr
+Round 6, pick 0: Chase Claypool, wr
+Round 7, pick 0: Gus Edwards, rb
+Round 7, pick 1: Melvin Gordon III, rb
+Round 7, pick 2: Logan Thomas, te
+Round 7, pick 3: T.J. Hockenson, te
+Round 7, pick 4: Robert Tonyan, te
+Round 7, pick 5: Kenny Golladay, wr
+Round 7, pick 6: DeVonta Smith, wr
+Round 7, pick 7: Odell Beckham Jr., wr
+Round 7, pick 8: Noah Fant, te
+Round 7, pick 9: JuJu Smith-Schuster, wr
+Round 7, pick 10: Courtland Sutton, wr
+Round 7, pick 11: Antonio Brown, wr
+Round 8, pick 11: Tyler Boyd, wr
+Round 8, pick 10: Leonard Fournette, rb
+Round 8, pick 9: Deebo Samuel, wr
+Round 8, pick 8: Jalen Hurts, qb
+Round 8, pick 7: Ryan Tannehill, qb
+Round 8, pick 6: AJ Dillon, rb
+Round 8, pick 5: Tyler Higbee, te
+Round 8, pick 4: Matthew Stafford, qb
+Round 8, pick 3: Brandin Cooks, wr
+Round 8, pick 2: James Conner, rb
+Round 8, pick 1: Michael Carter, rb
+Round 8, pick 0: Corey Davis, wr
+Round 9, pick 0: Dallas Goedert, te
+Round 9, pick 1: Zack Moss, rb
+Round 9, pick 2: Devin Singletary, rb
+Round 9, pick 3: Kenyan Drake, rb
+Round 9, pick 4: David Johnson, rb
+Round 9, pick 5: Mike Davis, rb
+Round 9, pick 6: Jamaal Williams, rb
+Round 9, pick 7: Jarvis Landry, wr
+Round 9, pick 8: William Fuller V, wr
+Round 9, pick 9: DJ Chark Jr., wr
+Round 9, pick 10: Joe Burrow, qb
+Round 9, pick 11: Jaylen Waddle, wr
+Round 10, pick 11: Mike Williams, wr
+Round 10, pick 10: Mike Gesicki, te
+Round 10, pick 9: Rob Gronkowski, te
+Round 10, pick 8: Marquez Callaway, wr
+Round 10, pick 7: Michael Gallup, wr
+Round 10, pick 6: Mecole Hardman Jr., wr
+Round 10, pick 5: Sony Michel, rb
+Round 10, pick 4: Darnell Mooney, wr
+Round 10, pick 3: Tony Pollard, rb
+Round 10, pick 2: Henry Ruggs III, wr
+Round 10, pick 1: Marvin Jones Jr., wr
+Round 10, pick 0: Jakobi Meyers, wr
+Round 11, pick 0: Michael Pittman Jr., wr
+Round 11, pick 1: Baker Mayfield, qb
+Round 11, pick 2: Curtis Samuel, wr
+Round 11, pick 3: Laviska Shenault Jr., wr
+Round 11, pick 4: Alexander Mattison, rb
+Round 11, pick 5: Nyheim Hines, rb
+Round 11, pick 6: Trevor Lawrence, qb
+Round 11, pick 7: Justin Fields, qb
+Round 11, pick 8: Elijah Moore, wr
+Round 11, pick 9: Trey Lance, qb
+Round 11, pick 10: Cole Beasley, wr
+Round 11, pick 11: Rhamondre Stevenson, rb
+Round 12, pick 11: Marquise Brown, wr
+Round 12, pick 10: Hunter Henry, te
+Round 12, pick 9: J.D. McKissic, rb
+Round 12, pick 8: Tevin Coleman, rb
+Round 12, pick 7: Jonnu Smith, te
+Round 12, pick 6: DeVante Parker, wr
+Round 12, pick 5: Matt Ryan, qb
+Round 12, pick 4: Kirk Cousins, qb
+Round 12, pick 3: Latavius Murray, rb
+Round 12, pick 2: Russell Gage, wr
+Round 12, pick 1: James White, rb
+Round 12, pick 0: Chuba Hubbard, rb
+Round 13, pick 0: Zach Ertz, te
+Round 13, pick 1: Tua Tagovailoa, qb
+Round 13, pick 2: Terrace Marshall Jr., wr
+Round 13, pick 3: Ben Roethlisberger, qb
+Round 13, pick 4: Jared Cook, te
+Round 13, pick 5: Nelson Agholor, wr
+Round 13, pick 6: Gerald Everett, te
+Round 13, pick 7: Giovani Bernard, rb
+Round 13, pick 8: Rashaad Penny, rb
+Round 13, pick 9: Phillip Lindsay, rb
+Round 13, pick 10: Zach Wilson, qb
+Round 13, pick 11: Mac Jones, qb
+Round 14, pick 11: A.J. Green, wr
+Round 14, pick 10: Mark Ingram II, rb
+Round 14, pick 9: Ryan Fitzpatrick, qb
+Round 14, pick 8: Evan Engram, te
+Round 14, pick 7: Bryan Edwards, wr
+Round 14, pick 6: Rondale Moore, wr
+Round 14, pick 5: Deshaun Watson, qb
+Round 14, pick 4: Randall Cobb, wr
+Round 14, pick 3: Jameis Winston, qb
+Round 14, pick 2: Gabe Davis, wr
+Round 14, pick 1: Sterling Shepard, wr
+Round 14, pick 0: Derek Carr, qb
+Round 15, pick 0: Emmanuel Sanders, wr
+Round 15, pick 1: Tyrell Williams, wr
+Round 15, pick 2: Marlon Mack, rb
+Round 15, pick 3: Darrel Williams, rb
+Round 15, pick 4: Marquez Valdes-Scantling, wr
+Round 15, pick 5: Amon-Ra St. Brown, wr
+Round 15, pick 6: Kenneth Gainwell, rb
+Round 15, pick 7: Jalen Reagor, wr
+Round 15, pick 8: Ty'Son Williams, rb
+Round 15, pick 9: Ty Johnson, rb
+Round 15, pick 10: T.Y. Hilton, wr
+Round 15, pick 11: Jamison Crowder, wr
+Round 16, pick 11: Devontae Booker, rb
+Round 16, pick 10: Tony Jones Jr., rb
+Round 16, pick 9: Blake Jarwin, te
+Round 16, pick 8: Austin Hooper, te
+Round 16, pick 7: Cole Kmet, te
+Round 16, pick 6: Cam Akers, rb
+Round 16, pick 5: Pat Freiermuth, te
+Round 16, pick 4: Damien Williams, rb
+Round 16, pick 3: Malcolm Brown, rb
+Round 16, pick 2: Anthony Firkser, te
+Round 16, pick 1: Rashod Bateman, wr
+Round 16, pick 0: Christian Kirk, wr
+Round 17, pick 0: Tre'Quan Smith, wr
+Round 17, pick 1: Cam Newton, qb
+Round 17, pick 2: Benny Snell Jr., rb
+Round 17, pick 3: Sam Darnold, qb
+Round 17, pick 4: Teddy Bridgewater, qb
+Round 17, pick 5: Darrynton Evans, rb
+Round 17, pick 6: Eric Ebron, te
+Round 17, pick 7: Carson Wentz, qb
+Round 17, pick 8: Salvon Ahmed, rb
+Round 17, pick 9: Kadarius Toney, wr
+Round 17, pick 10: Dawson Knox, te
+Round 17, pick 11: Jordan Akins, te
+Round 18, pick 11: Adam Trautman, te
+Round 18, pick 10: Boston Scott, rb
+Round 18, pick 9: Anthony McFarland Jr., rb
+Round 18, pick 8: Elijah Mitchell, rb
+Round 18, pick 7: Parris Campbell, wr
+Round 18, pick 6: Donovan Peoples-Jones, wr
+Round 18, pick 5: Jerick McKinnon, rb
+Round 18, pick 4: Joshua Palmer, wr
+Round 18, pick 3: Taysom Hill, te
+Round 18, pick 2: Nick Tiano, qb
+Round 18, pick 1: Tarik Cohen, rb
+Round 18, pick 0: Daniel Jones, qb
+
+Points Scored:
+Team 0: 1595.1
+Team 1: 1498.5
+Team 2: 1797.9
+Team 3: 1705.2
+Team 4: 1605.6999999999998
+Team 5: 1592.6000000000001
+Team 6: 1754.8000000000002
+Team 7: 1392.6999999999998
+Team 8: 1866.8999999999999
+Team 9: 1698.8
+Team 10: 1916.7000000000003
+Team 11: 1928.1999999999998
+
+2022:
+Round 1, pick 0: Austin Ekeler, rb
+Round 1, pick 1: Jonathan Taylor, rb
+Round 1, pick 2: Cooper Kupp, wr
+Round 1, pick 3: Christian McCaffrey, rb
+Round 1, pick 4: Davante Adams, wr
+Round 1, pick 5: Stefon Diggs, wr
+Round 1, pick 6: Ja'Marr Chase, wr
+Round 1, pick 7: Derrick Henry, rb
+Round 1, pick 8: Justin Jefferson, wr
+Round 1, pick 9: Dalvin Cook, rb
+Round 1, pick 10: Najee Harris, rb
+Round 1, pick 11: Joe Mixon, rb
+Round 2, pick 11: Travis Kelce, te
+Round 2, pick 10: Saquon Barkley, rb
+Round 2, pick 9: Alvin Kamara, rb
+Round 2, pick 8: CeeDee Lamb, wr
+Round 2, pick 7: Aaron Jones, rb
+Round 2, pick 6: Nick Chubb, rb
+Round 2, pick 5: D'Andre Swift, rb
+Round 2, pick 4: Josh Allen, qb
+Round 2, pick 3: Tyreek Hill, wr
+Round 2, pick 2: Javonte Williams, rb
+Round 2, pick 1: A.J. Brown, wr
+Round 2, pick 0: Keenan Allen, wr
+Round 3, pick 0: Leonard Fournette, rb
+Round 3, pick 1: Michael Pittman Jr., wr
+Round 3, pick 2: Deebo Samuel, wr
+Round 3, pick 3: Ezekiel Elliott, rb
+Round 3, pick 4: James Conner, rb
+Round 3, pick 5: DJ Moore, wr
+Round 3, pick 6: Kyle Pitts, te
+Round 3, pick 7: Patrick Mahomes II, qb
+Round 3, pick 8: Mike Evans, wr
+Round 3, pick 9: George Kittle, te
+Round 3, pick 10: Mark Andrews, te
+Round 3, pick 11: Mike Williams, wr
+Round 4, pick 11: Justin Herbert, qb
+Round 4, pick 10: Tee Higgins, wr
+Round 4, pick 9: Travis Etienne Jr., rb
+Round 4, pick 8: Jaylen Waddle, wr
+Round 4, pick 7: Breece Hall, rb
+Round 4, pick 6: Diontae Johnson, wr
+Round 4, pick 5: Terry McLaurin, wr
+Round 4, pick 4: Josh Jacobs, rb
+Round 4, pick 3: David Montgomery, rb
+Round 4, pick 2: Courtland Sutton, wr
+Round 4, pick 1: Jerry Jeudy, wr
+Round 4, pick 0: DK Metcalf, wr
+Round 5, pick 0: Lamar Jackson, qb
+Round 5, pick 1: AJ Dillon, rb
+Round 5, pick 2: Elijah Mitchell, rb
+Round 5, pick 3: Cam Akers, rb
+Round 5, pick 4: Darren Waller, te
+Round 5, pick 5: Joe Burrow, qb
+Round 5, pick 6: Allen Robinson II, wr
+Round 5, pick 7: Marquise Brown, wr
+Round 5, pick 8: Dalton Schultz, te
+Round 5, pick 9: Antonio Gibson, rb
+Round 5, pick 10: J.K. Dobbins, rb
+Round 5, pick 11: Clyde Edwards-Helaire, rb
+Round 6, pick 11: Gabe Davis, wr
+Round 6, pick 10: JuJu Smith-Schuster, wr
+Round 6, pick 9: Kyler Murray, qb
+Round 6, pick 8: Jalen Hurts, qb
+Round 6, pick 7: T.J. Hockenson, te
+Round 6, pick 6: Amon-Ra St. Brown, wr
+Round 6, pick 5: Dallas Goedert, te
+Round 6, pick 4: Damien Harris, rb
+Round 6, pick 3: Russell Wilson, qb
+Round 6, pick 2: Brandin Cooks, wr
+Round 6, pick 1: Chase Edmonds, rb
+Round 6, pick 0: Adam Thielen, wr
+Round 7, pick 0: Devin Singletary, rb
+Round 7, pick 1: Michael Thomas, wr
+Round 7, pick 2: Tom Brady, qb
+Round 7, pick 3: Darnell Mooney, wr
+Round 7, pick 4: Rashod Bateman, wr
+Round 7, pick 5: Dameon Pierce, rb
+Round 7, pick 6: Kareem Hunt, rb
+Round 7, pick 7: Chris Godwin, wr
+Round 7, pick 8: Rashaad Penny, rb
+Round 7, pick 9: Amari Cooper, wr
+Round 7, pick 10: Dak Prescott, qb
+Round 7, pick 11: Tony Pollard, rb
+Round 8, pick 11: Hunter Renfrow, wr
+Round 8, pick 10: Dawson Knox, te
+Round 8, pick 9: Cordarrelle Patterson, rb
+Round 8, pick 8: DeAndre Hopkins, wr
+Round 8, pick 7: DeVonta Smith, wr
+Round 8, pick 6: Miles Sanders, rb
+Round 8, pick 5: Aaron Rodgers, qb
+Round 8, pick 4: Rhamondre Stevenson, rb
+Round 8, pick 3: Zach Ertz, te
+Round 8, pick 2: Trey Lance, qb
+Round 8, pick 1: Allen Lazard, wr
+Round 8, pick 0: Chris Olave, wr
+Round 9, pick 0: Brandon Aiyuk, wr
+Round 9, pick 1: Cole Kmet, te
+Round 9, pick 2: Elijah Moore, wr
+Round 9, pick 3: Melvin Gordon III, rb
+Round 9, pick 4: Kenneth Walker III, rb
+Round 9, pick 5: James Robinson, rb
+Round 9, pick 6: Tyler Lockett, wr
+Round 9, pick 7: Christian Kirk, wr
+Round 9, pick 8: Matthew Stafford, qb
+Round 9, pick 9: James Cook, rb
+Round 9, pick 10: Michael Carter, rb
+Round 9, pick 11: Robert Woods, wr
+Round 10, pick 11: Mike Gesicki, te
+Round 10, pick 10: Drake London, wr
+Round 10, pick 9: Derek Carr, qb
+Round 10, pick 8: Darrell Henderson Jr., rb
+Round 10, pick 7: George Pickens, wr
+Round 10, pick 6: Kadarius Toney, wr
+Round 10, pick 5: Kirk Cousins, qb
+Round 10, pick 4: Alexander Mattison, rb
+Round 10, pick 3: Nyheim Hines, rb
+Round 10, pick 2: Tyler Boyd, wr
+Round 10, pick 1: Albert Okwuegbunam, te
+Round 10, pick 0: Garrett Wilson, wr
+Round 11, pick 0: Hunter Henry, te
+Round 11, pick 1: Brian Robinson Jr., rb
+Round 11, pick 2: Treylon Burks, wr
+Round 11, pick 3: Marquez Valdes-Scantling, wr
+Round 11, pick 4: Chase Claypool, wr
+Round 11, pick 5: Raheem Mostert, rb
+Round 11, pick 6: Kenneth Gainwell, rb
+Round 11, pick 7: DeVante Parker, wr
+Round 11, pick 8: Romeo Doubs, wr
+Round 11, pick 9: Mark Ingram II, rb
+Round 11, pick 10: Mecole Hardman Jr., wr
+Round 11, pick 11: Julio Jones, wr
+Round 12, pick 11: Skyy Moore, wr
+Round 12, pick 10: Pat Freiermuth, te
+Round 12, pick 9: Tua Tagovailoa, qb
+Round 12, pick 8: Tyler Allgeier, rb
+Round 12, pick 7: Justin Fields, qb
+Round 12, pick 6: Jarvis Landry, wr
+Round 12, pick 5: Ronald Jones II, rb
+Round 12, pick 4: Russell Gage, wr
+Round 12, pick 3: David Njoku, te
+Round 12, pick 2: Isiah Pacheco, rb
+Round 12, pick 1: Baker Mayfield, qb
+Round 12, pick 0: Tyler Higbee, te
+Round 13, pick 0: Rachaad White, rb
+Round 13, pick 1: Trevor Lawrence, qb
+Round 13, pick 2: Isaiah Spiller, rb
+Round 13, pick 3: Rondale Moore, wr
+Round 13, pick 4: Jahan Dotson, wr
+Round 13, pick 5: Michael Gallup, wr
+Round 13, pick 6: Khalil Herbert, rb
+Round 13, pick 7: Jamaal Williams, rb
+Round 13, pick 8: Kenny Golladay, wr
+Round 13, pick 9: Zamir White, rb
+Round 13, pick 10: Marlon Mack, rb
+Round 13, pick 11: Isaiah McKenzie, wr
+Round 14, pick 11: Sammy Watkins, wr
+Round 14, pick 10: Joshua Palmer, wr
+Round 14, pick 9: Jalen Tolbert, wr
+Round 14, pick 8: Odell Beckham Jr., wr
+Round 14, pick 7: Taysom Hill, te
+Round 14, pick 6: Christian Watson, wr
+Round 14, pick 5: Mac Jones, qb
+Round 14, pick 4: Isaiah Likely, te
+Round 14, pick 3: Mo Alie-Cox, te
+Round 14, pick 2: DJ Chark Jr., wr
+Round 14, pick 1: Jakobi Meyers, wr
+Round 14, pick 0: D'Onta Foreman, rb
+Round 15, pick 0: Carson Wentz, qb
+Round 15, pick 1: J.D. McKissic, rb
+Round 15, pick 2: Deshaun Watson, qb
+Round 15, pick 3: Kenny Pickett, qb
+Round 15, pick 4: Hayden Hurst, te
+Round 15, pick 5: Robert Tonyan, te
+Round 15, pick 6: Jameis Winston, qb
+Round 15, pick 7: Ryan Tannehill, qb
+Round 15, pick 8: Cameron Brate, te
+Round 15, pick 9: Mike Davis, rb
+Round 15, pick 10: Sony Michel, rb
+Round 15, pick 11: Nico Collins, wr
+Round 16, pick 11: Austin Hooper, te
+Round 16, pick 10: Irv Smith Jr., te
+Round 16, pick 9: Jameson Williams, wr
+Round 16, pick 8: Matt Ryan, qb
+Round 16, pick 7: Gerald Everett, te
+Round 16, pick 6: Eno Benjamin, rb
+Round 16, pick 5: KJ Hamler, wr
+Round 16, pick 4: Tyrion Davis-Price, rb
+Round 16, pick 3: Wan'Dale Robinson, wr
+Round 16, pick 2: Darrel Williams, rb
+Round 16, pick 1: Noah Fant, te
+Round 16, pick 0: Chuba Hubbard, rb
+Round 17, pick 0: Jared Goff, qb
+Round 17, pick 1: Gus Edwards, rb
+Round 17, pick 2: Evan Engram, te
+Round 17, pick 3: Alec Pierce, wr
+Round 17, pick 4: Marvin Jones Jr., wr
+Round 17, pick 5: Devin Duvernay, wr
+Round 17, pick 6: Daniel Jones, qb
+Round 17, pick 7: Zay Jones, wr
+Round 17, pick 8: Kenyan Drake, rb
+Round 17, pick 9: Jeff Wilson Jr., rb
+Round 17, pick 10: K.J. Osborn, wr
+Round 17, pick 11: Logan Thomas, te
+Round 18, pick 11: Jake Heaps, qb
+Round 18, pick 10: Levi Lewis, qb
+Round 18, pick 9: Parker Houston, te
+Round 18, pick 8: Robbie Chosen, wr
+Round 18, pick 7: Van Jefferson, wr
+Round 18, pick 6: Shane Zylstra, te
+Round 18, pick 5: Randall Cobb, wr
+Round 18, pick 4: Blake Sims, qb
+Round 18, pick 3: Parris Campbell, wr
+Round 18, pick 2: Cade Brewer, te
+Round 18, pick 1: Jerick McKinnon, rb
+Round 18, pick 0: Samaje Perine, rb
+
+Points Scored:
+Team 0: 1915.3
+Team 1: 1616.8
+Team 2: 1189.9000000000003
+Team 3: 1649.0
+Team 4: 1878.0000000000005
+Team 5: 1658.4
+Team 6: 1673.8999999999999
+Team 7: 2086.4
+Team 8: 1674.3
+Team 9: 1483.8999999999999
+Team 10: 1596.9
+Team 11: 1575.7999999999997
+
