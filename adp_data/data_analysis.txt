@@ -1,299 +1,1318 @@
 2018:
-# QBs: 2.23944
-# RBs: 4.28708
-# WRs: 5.56364
-# TEs: 1.77288
-first QB drafted: 7.1078
-first RB drafted: 2.13616
-first WR drafted: 2.20664
-first TE drafted: 8.037
-1st round QB: 0.00028
-1st round RB: 0.6866
-1st round WR: 0.31024
-1st round TE: 0.00288
-2nd round QB: 0.00848
-2nd round RB: 0.38
-2nd round WR: 0.55776
-2nd round TE: 0.05376
-3rd round QB: 0.0538
-3rd round RB: 0.2056
-3rd round WR: 0.56912
-3rd round TE: 0.17148
-4th round QB: 0.10052
-4th round RB: 0.2126
-4th round WR: 0.55796
-4th round TE: 0.12892
-5th round QB: 0.2532
-5th round RB: 0.2272
-5th round WR: 0.40668
-5th round TE: 0.11292
-6th round QB: 0.18128
-6th round RB: 0.2768
-6th round WR: 0.42756
-6th round TE: 0.11436
-7th round QB: 0.13964
-7th round RB: 0.2708
-7th round WR: 0.41392
-7th round TE: 0.17564
-8th round QB: 0.1516
-8th round RB: 0.30372
-8th round WR: 0.44984
-8th round TE: 0.09484
-9th round QB: 0.40092
-9th round RB: 0.29548
-9th round WR: 0.25216
-9th round TE: 0.05108
-10th round QB: 0.36056
-10th round RB: 0.23064
-10th round WR: 0.29384
-10th round TE: 0.10312
+# QBs: 2.0922
+# RBs: 4.7657
+# WRs: 5.31185
+# TEs: 1.74095
+first QB drafted: 6.9912
+first RB drafted: 1.4627
+first WR drafted: 2.4268
+first TE drafted: 7.1407
+1st round QB: 0.0001
+1st round RB: 0.781
+1st round WR: 0.21755
+1st round TE: 0.00135
+2nd round QB: 0.00815
+2nd round RB: 0.44665
+2nd round WR: 0.49285
+2nd round TE: 0.05235
+3rd round QB: 0.046
+3rd round RB: 0.2504
+3rd round WR: 0.5198
+3rd round TE: 0.1838
+4th round QB: 0.09525
+4th round RB: 0.2531
+4th round WR: 0.5247
+4th round TE: 0.12695
+5th round QB: 0.2411
+5th round RB: 0.2893
+5th round WR: 0.36545
+5th round TE: 0.10415
+6th round QB: 0.1454
+6th round RB: 0.35545
+6th round WR: 0.4017
+6th round TE: 0.09745
+7th round QB: 0.1231
+7th round RB: 0.34175
+7th round WR: 0.3908
+7th round TE: 0.14435
+8th round QB: 0.15205
+8th round RB: 0.351
+8th round WR: 0.39015
+8th round TE: 0.1068
+9th round QB: 0.36015
+9th round RB: 0.3634
+9th round WR: 0.22925
+9th round TE: 0.0467
+10th round QB: 0.328
+10th round RB: 0.2866
+10th round WR: 0.27475
+10th round TE: 0.09715
+
+Percentage of time player seen on highest scoring team:
+George Kittle: 0.20645
+Christian McCaffrey: 0.20405
+Patrick Mahomes II: 0.2
+Todd Gurley II: 0.1869
+Eric Ebron: 0.1868
+Saquon Barkley: 0.1728
+James White: 0.16935
+Travis Kelce: 0.16385
+Tyreek Hill: 0.15475
+Zach Ertz: 0.1547
+Alvin Kamara: 0.15145
+Robert Woods: 0.14205
+Tarik Cohen: 0.13935
+Marlon Mack: 0.13605
+Nick Chubb: 0.13305
+Matt Ryan: 0.1326
+Chris Carson: 0.13115
+JuJu Smith-Schuster: 0.13095
+Tyler Lockett: 0.12585
+Davante Adams: 0.1218
+Drew Brees: 0.11915
+Tevin Coleman: 0.11855
+Mike Williams: 0.1181
+Deshaun Watson: 0.1175
+Adam Thielen: 0.1154
+Ben Roethlisberger: 0.11515
+Julian Edelman: 0.11445
+Matt Breida: 0.1143
+Chris Godwin: 0.1139
+Aaron Jones: 0.11045
+Jared Goff: 0.10945
+Ezekiel Elliott: 0.1091
+Mitch Trubisky: 0.1073
+Andrew Luck: 0.1057
+Dak Prescott: 0.10525
+Alshon Jeffery: 0.10505
+Brandin Cooks: 0.10365
+Mohamed Sanu Sr.: 0.10325
+Adrian Peterson: 0.10245
+O.J. Howard: 0.1023
+Calvin Ridley: 0.10055
+Kenny Golladay: 0.0997
+Emmanuel Sanders: 0.0994
+Mike Evans: 0.0982
+Russell Wilson: 0.0976
+Melvin Gordon III: 0.0976
+Joe Mixon: 0.09665
+Austin Hooper: 0.0965
+Dede Westbrook: 0.094
+Sony Michel: 0.0929
+Corey Davis: 0.0926
+Derrick Henry: 0.0925
+Cam Newton: 0.0922
+Julio Jones: 0.09015
+Isaiah Crowell: 0.0894
+Michael Thomas: 0.08845
+Robbie Chosen: 0.0876
+Dion Lewis: 0.0873
+Lamar Miller: 0.08655
+Jarvis Landry: 0.086
+Stefon Diggs: 0.0856
+Kerryon Johnson: 0.08455
+Anthony Miller: 0.0845
+Mark Ingram II: 0.08425
+Evan Engram: 0.0831
+Tom Brady: 0.08275
+Kyle Rudolph: 0.0826
+Kenyan Drake: 0.08255
+Jameis Winston: 0.0823
+Trey Burton: 0.0821
+Cooper Kupp: 0.0814
+DeAndre Hopkins: 0.08115
+Amari Cooper: 0.0809
+T.Y. Hilton: 0.0801
+Kirk Cousins: 0.0795
+Peyton Barber: 0.07945
+Golden Tate: 0.0792
+Latavius Murray: 0.07905
+Chris Thompson: 0.07745
+Philip Rivers: 0.07705
+Giovani Bernard: 0.07675
+Carlos Hyde: 0.07585
+Kareem Hunt: 0.07505
+Jamaal Williams: 0.07475
+Alfred Morris: 0.07415
+William Fuller V: 0.07335
+Josh Doctson: 0.07275
+Antonio Brown: 0.0724
+John Brown: 0.07225
+Michael Gallup: 0.0721
+Sammy Watkins: 0.0717
+Sterling Shepard: 0.07075
+DJ Moore: 0.0707
+Nelson Agholor: 0.0706
+Allen Robinson II: 0.06875
+David Njoku: 0.0685
+DeSean Jackson: 0.0685
+Keelan Cole Sr.: 0.068
+Duke Johnson Jr.: 0.0667
+Marquise Goodwin: 0.0665
+Jordan Reed: 0.06625
+Kenny Stills: 0.0661
+Marvin Jones Jr.: 0.06595
+Jimmy Graham: 0.06595
+Chris Hogan: 0.06445
+Michael Crabtree: 0.0643
+Bilal Powell: 0.06425
+Carson Wentz: 0.0638
+Eli Manning: 0.06375
+Keenan Allen: 0.06365
+Devin Funchess: 0.0632
+Marcus Mariota: 0.0621
+Rashaad Penny: 0.06165
+C.J. Anderson: 0.0615
+Rishard Matthews: 0.06145
+Randall Cobb: 0.0607
+Dez Bryant: 0.0607
+Demaryius Thomas: 0.06055
+D'Onta Foreman: 0.06025
+Jordan Wilkins: 0.05995
+Josh Gordon: 0.0596
+Aaron Rodgers: 0.05955
+Marqise Lee: 0.0594
+Devontae Booker: 0.059
+Greg Olsen: 0.05895
+Larry Fitzgerald: 0.05895
+LeGarrette Blount: 0.0586
+Martavis Bryant: 0.0583
+Tyler Eifert: 0.05735
+Corey Clement: 0.05735
+Jamison Crowder: 0.05685
+Doug Martin: 0.05645
+Matthew Stafford: 0.05635
+Alex Smith: 0.05345
+Rex Burkhead: 0.0533
+Cameron Meredith: 0.0527
+Ty Montgomery: 0.0513
+Jack Doyle: 0.0512
+Ronald Jones II: 0.0509
+Jordan Howard: 0.05075
+Odell Beckham Jr.: 0.0507
+Doug Baldwin: 0.0504
+DeVante Parker: 0.0501
+Pierre Garcon: 0.05005
+Jordy Nelson: 0.04975
+Austin Seferian-Jenkins: 0.04945
+Marshawn Lynch: 0.0484
+Derek Carr: 0.04785
+Royce Freeman: 0.04725
+Kelvin Benjamin: 0.0466
+Allen Hurns: 0.04555
+David Johnson: 0.04395
+Delanie Walker: 0.0424
+Jimmy Garoppolo: 0.041
+Alex Collins: 0.04035
+Geronimo Allison: 0.04005
+A.J. Green: 0.0394
+Benjamin Watson: 0.0392
+Jay Ajayi: 0.0382
+Nyheim Hines: 0.0381
+Rob Gronkowski: 0.03755
+Dalvin Cook: 0.03725
+Theo Riddick: 0.03615
+LeSean McCoy: 0.0337
+Cameron Brate: 0.0314
+Robert Kelley: 0.0263
+Leonard Fournette: 0.025
+Devonta Freeman: 0.0186
+Christian Kirk: 0.01715
+Austin Ekeler: 0.0136
+Case Keenum: 0.0125
+Alex Erickson: 0.0092
+Le'Veon Bell: 0.0076
+Jared Cook: 0.0065
+Frank Gore: 0.00585
+Jonathan Williams: 0.00405
+Andy Dalton: 0.004
+Mike Gesicki: 0.00325
+Tyrell Williams: 0.003
+Blake Bortles: 0.00295
+James Conner: 0.00255
+Pharoh Cooper: 0.00245
+Ryan Switzer: 0.0021
+Ricky Seals-Jones: 0.00175
+Hayden Hurst: 0.0015
+Vance McDonald: 0.0011
+Tyrod Taylor: 0.00105
+Samaje Perine: 0.00075
+Donte Moncrief: 0.00055
+Paul Richardson Jr.: 0.0005
+Ted Ginn Jr.: 0.0002
+Ryan Tannehill: 0.0002
+Chris Ivory: 0.00015
+Lamar Jackson: 0.0001
+Jesse James: 0.0001
+John Ross: 0.0001
+Kenneth Dixon: 5e-05
+Dallas Goedert: 5e-05
+Garrett Celek: 5e-05
+Javorius Allen: 5e-05
+Courtland Sutton: 5e-05
+T.J. Yeldon: 5e-05
+Charles Clay: 5e-05
+Jakeem Grant Sr.: 5e-05
+Jaylen Samuels: 5e-05
+Baker Mayfield: 5e-05
 
 2019:
-# QBs: 2.04896
-# RBs: 4.80092
-# WRs: 5.09208
-# TEs: 1.74512
-first QB drafted: 8.35088
-first RB drafted: 1.5414
-first WR drafted: 2.821
-first TE drafted: 8.21404
-1st round QB: 0.00184
-1st round RB: 0.76256
-1st round WR: 0.22204
-1st round TE: 0.01356
-2nd round QB: 0.0408
-2nd round RB: 0.40208
-2nd round WR: 0.41884
-2nd round TE: 0.13828
-3rd round QB: 0.02032
-3rd round RB: 0.5246
-3rd round WR: 0.31288
-3rd round TE: 0.1422
-4th round QB: 0.09088
-4th round RB: 0.37176
-4th round WR: 0.5086
-4th round TE: 0.02876
-5th round QB: 0.10304
-5th round RB: 0.234
-5th round WR: 0.54544
-5th round TE: 0.11732
-6th round QB: 0.1312
-6th round RB: 0.3614
-6th round WR: 0.37584
-6th round TE: 0.1208
-7th round QB: 0.23328
-7th round RB: 0.34456
-7th round WR: 0.28616
-7th round TE: 0.08828
-8th round QB: 0.1784
-8th round RB: 0.22084
-8th round WR: 0.408
-8th round TE: 0.11424
-9th round QB: 0.27772
-9th round RB: 0.2784
-9th round WR: 0.31976
-9th round TE: 0.052
-10th round QB: 0.22184
-10th round RB: 0.21724
-10th round WR: 0.28188
-10th round TE: 0.12928
+# QBs: 2.1355
+# RBs: 4.8759
+# WRs: 4.99125
+# TEs: 1.7617
+first QB drafted: 7.2453
+first RB drafted: 1.38
+first WR drafted: 2.83535
+first TE drafted: 7.3228
+1st round QB: 0.0018
+1st round RB: 0.79235
+1st round WR: 0.19165
+1st round TE: 0.0142
+2nd round QB: 0.04535
+2nd round RB: 0.41185
+2nd round WR: 0.39105
+2nd round TE: 0.15175
+3rd round QB: 0.02295
+3rd round RB: 0.54075
+3rd round WR: 0.29215
+3rd round TE: 0.14415
+4th round QB: 0.10435
+4th round RB: 0.36655
+4th round WR: 0.50605
+4th round TE: 0.02305
+5th round QB: 0.11155
+5th round RB: 0.23055
+5th round WR: 0.5494
+5th round TE: 0.10845
+6th round QB: 0.1324
+6th round RB: 0.3966
+6th round WR: 0.36065
+6th round TE: 0.10825
+7th round QB: 0.24335
+7th round RB: 0.33755
+7th round WR: 0.2794
+7th round TE: 0.0862
+8th round QB: 0.2073
+8th round RB: 0.2123
+8th round WR: 0.3857
+8th round TE: 0.1203
+9th round QB: 0.29075
+9th round RB: 0.28405
+9th round WR: 0.2949
+9th round TE: 0.05265
+10th round QB: 0.2213
+10th round RB: 0.2171
+10th round WR: 0.26905
+10th round TE: 0.12855
+
+Percentage of time player seen on highest scoring team:
+Christian McCaffrey: 0.4178
+Lamar Jackson: 0.24195
+Aaron Jones: 0.2043
+Austin Ekeler: 0.19565
+Derrick Henry: 0.1582
+Austin Hooper: 0.1553
+Chris Godwin: 0.1453
+Mark Andrews: 0.14395
+Cooper Kupp: 0.1419
+Dak Prescott: 0.13845
+Marvin Jones Jr.: 0.12865
+George Kittle: 0.12365
+Kenyan Drake: 0.1229
+Kenny Golladay: 0.12085
+Courtland Sutton: 0.12055
+Michael Gallup: 0.1177
+Jared Cook: 0.1174
+Mark Ingram II: 0.1171
+Michael Thomas: 0.1165
+Tyler Lockett: 0.1156
+Greg Olsen: 0.1145
+Ezekiel Elliott: 0.11375
+Jamison Crowder: 0.1132
+Allen Robinson II: 0.11255
+John Brown: 0.11205
+Dalvin Cook: 0.112
+Josh Allen: 0.1099
+Russell Wilson: 0.10925
+Leonard Fournette: 0.10775
+Deebo Samuel: 0.1071
+Miles Sanders: 0.1068
+Jason Witten: 0.1062
+Kyler Murray: 0.1058
+Travis Kelce: 0.10575
+Kyle Rudolph: 0.10505
+Jameis Winston: 0.10365
+Mike Evans: 0.10335
+Tyler Boyd: 0.10145
+Jimmy Graham: 0.10005
+Emmanuel Sanders: 0.0999
+Mecole Hardman Jr.: 0.09895
+Keenan Allen: 0.09815
+Matthew Stafford: 0.09735
+Randall Cobb: 0.09385
+Sterling Shepard: 0.09385
+Drew Brees: 0.0926
+Deshaun Watson: 0.09215
+Zach Ertz: 0.0919
+Carlos Hyde: 0.09165
+Aaron Rodgers: 0.09165
+Adrian Peterson: 0.09075
+Robbie Chosen: 0.09045
+James Washington: 0.08985
+Julian Edelman: 0.08905
+DK Metcalf: 0.08865
+Golden Tate: 0.08785
+Jimmy Garoppolo: 0.08695
+Melvin Gordon III: 0.0862
+Mitch Trubisky: 0.08605
+Amari Cooper: 0.0857
+Calvin Ridley: 0.0857
+Jarvis Landry: 0.08565
+Carson Wentz: 0.0855
+Matt Ryan: 0.0851
+Phillip Lindsay: 0.08505
+Larry Fitzgerald: 0.08405
+DJ Moore: 0.08375
+Jordan Howard: 0.0832
+Ronald Jones II: 0.08285
+Eric Ebron: 0.08155
+Anthony Miller: 0.0815
+Nyheim Hines: 0.081
+Chris Carson: 0.0807
+Peyton Barber: 0.08045
+Joe Mixon: 0.0803
+Philip Rivers: 0.08015
+Curtis Samuel: 0.0795
+Tony Pollard: 0.07935
+Matt Breida: 0.0793
+Royce Freeman: 0.079
+Latavius Murray: 0.07875
+Kirk Cousins: 0.0779
+Justice Hill: 0.07665
+Devin Singletary: 0.0763
+Dion Lewis: 0.07625
+Sony Michel: 0.07565
+Tom Brady: 0.07495
+Corey Davis: 0.0741
+Dede Westbrook: 0.0732
+Hunter Henry: 0.07225
+Tarik Cohen: 0.07225
+Saquon Barkley: 0.07195
+Darwin Thompson: 0.0719
+Duke Johnson Jr.: 0.07125
+Christian Kirk: 0.0712
+Sammy Watkins: 0.07085
+James White: 0.0708
+Ito Smith: 0.07045
+William Fuller V: 0.0702
+Tyreek Hill: 0.06995
+Jared Goff: 0.06935
+Robert Woods: 0.06925
+T.J. Hockenson: 0.06835
+Justin Jackson: 0.0672
+Rashaad Penny: 0.067
+N'Keal Harry: 0.0668
+Kalen Ballage: 0.06655
+Damien Harris: 0.0665
+Damien Williams: 0.06625
+Stefon Diggs: 0.06535
+Nick Chubb: 0.0648
+Alshon Jeffery: 0.0646
+Darrell Henderson Jr.: 0.06455
+Devonta Freeman: 0.0641
+DeSean Jackson: 0.064
+Mike Williams: 0.06225
+Patrick Mahomes II: 0.06215
+Julio Jones: 0.06165
+Devin Funchess: 0.0609
+LeSean McCoy: 0.0608
+Marquez Valdes-Scantling: 0.06075
+Jaylen Samuels: 0.06055
+Alvin Kamara: 0.0603
+Marlon Mack: 0.0591
+Adam Thielen: 0.0575
+Todd Gurley II: 0.05695
+David Montgomery: 0.0556
+DeAndre Hopkins: 0.0556
+Derrius Guice: 0.055
+Geronimo Allison: 0.0549
+Tevin Coleman: 0.05395
+Delanie Walker: 0.0539
+Evan Engram: 0.0526
+Vance McDonald: 0.0513
+Baker Mayfield: 0.0507
+Keke Coutee: 0.0506
+Alexander Mattison: 0.0503
+Kareem Hunt: 0.04975
+David Njoku: 0.0491
+Tyrell Williams: 0.04885
+Trey Burton: 0.04875
+O.J. Howard: 0.0472
+Nick Foles: 0.04525
+Kerryon Johnson: 0.0442
+Tre'Quan Smith: 0.044
+Dante Pettis: 0.04395
+T.Y. Hilton: 0.0426
+Parris Campbell: 0.0424
+Donte Moncrief: 0.04225
+Jordan Reed: 0.0414
+Josh Gordon: 0.04065
+Rex Burkhead: 0.03955
+Ben Roethlisberger: 0.0395
+Cam Newton: 0.0379
+Davante Adams: 0.0374
+Le'Veon Bell: 0.03725
+Derek Carr: 0.03525
+A.J. Green: 0.03455
+Antonio Brown: 0.0341
+Odell Beckham Jr.: 0.03395
+Brandin Cooks: 0.0337
+Adam Humphries: 0.03165
+James Conner: 0.03095
+David Johnson: 0.0309
+JuJu Smith-Schuster: 0.0295
+Sam Darnold: 0.0245
+Josh Jacobs: 0.02215
+Ted Ginn Jr.: 0.0191
+Marquise Goodwin: 0.01655
+Marquise Brown: 0.01315
+Noah Fant: 0.0131
+Dare Ogunbowale: 0.0128
+Jacoby Brissett: 0.01115
+Chris Herndon IV: 0.0102
+C.J. Anderson: 0.00785
+Jamaal Williams: 0.00565
+Malcolm Brown: 0.0042
+Dallas Goedert: 0.0028
+Darren Waller: 0.00245
+DaeSean Hamilton: 0.00195
+Chris Thompson: 0.0016
+Tyler Eifert: 0.00135
+Demaryius Thomas: 0.00125
+A.J. Brown: 0.00125
+Jack Doyle: 0.00105
+Kenny Stills: 0.001
+Mike Davis: 0.00065
+Mike Gesicki: 0.00035
+D'Onta Foreman: 0.0003
+Jalen Richard: 0.0003
+Mohamed Sanu Sr.: 0.0003
+Andy Dalton: 0.0002
+Marcus Mariota: 0.00015
+J.J. Arcega-Whiteside: 0.00015
+Matt LaCosse: 0.0001
+Irv Smith Jr.: 0.0001
+T.J. Yeldon: 5e-05
+Zay Jones: 5e-05
+DeVante Parker: 5e-05
+Kelvin Harmon: 5e-05
+Nelson Agholor: 5e-05
+Joe Flacco: 5e-05
+Hayden Hurst: 5e-05
 
 2020:
-# QBs: 2.2326
-# RBs: 4.67568
-# WRs: 5.12736
-# TEs: 1.72812
-first QB drafted: 7.10516
-first RB drafted: 1.53984
-first WR drafted: 2.71388
-first TE drafted: 8.02236
-1st round QB: 0.0126
-1st round RB: 0.73092
-1st round WR: 0.2348
-1st round TE: 0.02168
-2nd round QB: 0.08844
-2nd round RB: 0.47408
-2nd round WR: 0.29248
-2nd round TE: 0.145
-3rd round QB: 0.03196
-3rd round RB: 0.3728
-3rd round WR: 0.537
-3rd round TE: 0.05824
-4th round QB: 0.0396
-4th round RB: 0.31088
-4th round WR: 0.56484
-4th round TE: 0.08468
-5th round QB: 0.22508
-5th round RB: 0.23008
-5th round WR: 0.43604
-5th round TE: 0.1088
-6th round QB: 0.17364
-6th round RB: 0.36768
-6th round WR: 0.35272
-6th round TE: 0.10592
-7th round QB: 0.26032
-7th round RB: 0.23464
-7th round WR: 0.32476
-7th round TE: 0.17836
-8th round QB: 0.24844
-8th round RB: 0.28952
-8th round WR: 0.34368
-8th round TE: 0.09304
-9th round QB: 0.09608
-9th round RB: 0.259
-9th round WR: 0.39044
-9th round TE: 0.11308
-10th round QB: 0.06952
-10th round RB: 0.24136
-10th round WR: 0.40932
-10th round TE: 0.12976
+# QBs: 2.17705
+# RBs: 4.69645
+# WRs: 5.20695
+# TEs: 1.70245
+first QB drafted: 6.61055
+first RB drafted: 1.55015
+first WR drafted: 2.65165
+first TE drafted: 7.02675
+1st round QB: 0.0132
+1st round RB: 0.7279
+1st round WR: 0.23595
+1st round TE: 0.02295
+2nd round QB: 0.0907
+2nd round RB: 0.46705
+2nd round WR: 0.2898
+2nd round TE: 0.15245
+3rd round QB: 0.03405
+3rd round RB: 0.36745
+3rd round WR: 0.5371
+3rd round TE: 0.0614
+4th round QB: 0.035
+4th round RB: 0.30235
+4th round WR: 0.59155
+4th round TE: 0.0711
+5th round QB: 0.234
+5th round RB: 0.2192
+5th round WR: 0.4353
+5th round TE: 0.1115
+6th round QB: 0.1503
+6th round RB: 0.37165
+6th round WR: 0.3686
+6th round TE: 0.10945
+7th round QB: 0.24945
+7th round RB: 0.2314
+7th round WR: 0.3261
+7th round TE: 0.19115
+8th round QB: 0.2809
+8th round RB: 0.26115
+8th round WR: 0.3183
+8th round TE: 0.1122
+9th round QB: 0.09625
+9th round RB: 0.248
+9th round WR: 0.38905
+9th round TE: 0.1163
+10th round QB: 0.06505
+10th round RB: 0.2402
+10th round WR: 0.4087
+10th round TE: 0.1379
+
+Percentage of time player seen on highest scoring team:
+Alvin Kamara: 0.22375
+Derrick Henry: 0.20605
+Justin Jefferson: 0.20195
+Darren Waller: 0.18055
+Dalvin Cook: 0.1768
+Stefon Diggs: 0.1747
+Travis Kelce: 0.16845
+Josh Allen: 0.165
+Jonathan Taylor: 0.16395
+Davante Adams: 0.16095
+David Montgomery: 0.15425
+Aaron Rodgers: 0.151
+Ryan Tannehill: 0.14655
+Calvin Ridley: 0.14265
+Tom Brady: 0.1352
+Brandin Cooks: 0.13355
+Tyreek Hill: 0.12905
+Marvin Jones Jr.: 0.1287
+Kyler Murray: 0.1279
+A.J. Brown: 0.1263
+Nyheim Hines: 0.1225
+T.J. Hockenson: 0.1223
+Mike Gesicki: 0.11955
+Antonio Gibson: 0.1193
+Aaron Jones: 0.1179
+Jonnu Smith: 0.11575
+Jamison Crowder: 0.1151
+Adam Thielen: 0.1144
+Robbie Chosen: 0.11335
+William Fuller V: 0.11255
+Tyler Lockett: 0.1075
+Melvin Gordon III: 0.10695
+Deshaun Watson: 0.10655
+DK Metcalf: 0.1064
+CeeDee Lamb: 0.1062
+Diontae Johnson: 0.1059
+Kareem Hunt: 0.1049
+J.K. Dobbins: 0.10375
+Mike Williams: 0.1036
+Russell Wilson: 0.10355
+D'Andre Swift: 0.10175
+Latavius Murray: 0.0995
+Tony Pollard: 0.0994
+Emmanuel Sanders: 0.095
+Amari Cooper: 0.0934
+Josh Jacobs: 0.0934
+Noah Fant: 0.09275
+Chase Edmonds: 0.09245
+JuJu Smith-Schuster: 0.09225
+Ronald Jones II: 0.0905
+Allen Robinson II: 0.0901
+Cam Newton: 0.0899
+Damien Harris: 0.0895
+David Johnson: 0.0891
+DeAndre Hopkins: 0.08905
+Keenan Allen: 0.0887
+Darius Slayton: 0.08845
+Baker Mayfield: 0.08725
+Sterling Shepard: 0.0865
+Christian Kirk: 0.0854
+Hayden Hurst: 0.08525
+Darrell Henderson Jr.: 0.085
+Robert Woods: 0.0836
+Nick Chubb: 0.08315
+Eric Ebron: 0.0819
+Austin Hooper: 0.08095
+Rob Gronkowski: 0.08085
+James Conner: 0.08065
+Mecole Hardman Jr.: 0.08055
+Patrick Mahomes II: 0.08015
+DJ Moore: 0.07955
+Jerry Jeudy: 0.0794
+Philip Rivers: 0.07845
+Adrian Peterson: 0.0781
+Mike Evans: 0.07785
+Terry McLaurin: 0.0773
+AJ Dillon: 0.07715
+Matthew Stafford: 0.07675
+Allen Lazard: 0.07645
+Hunter Henry: 0.0764
+Jarvis Landry: 0.0756
+Jared Goff: 0.07555
+Golden Tate: 0.0752
+Boston Scott: 0.07445
+Preston Williams: 0.0744
+Drew Lock: 0.0742
+John Brown: 0.0731
+Mark Andrews: 0.0728
+Cooper Kupp: 0.0728
+Ryquell Armstead: 0.07225
+Joe Burrow: 0.07135
+Kenyan Drake: 0.0708
+Jalen Reagor: 0.0708
+Jared Cook: 0.0708
+Todd Gurley II: 0.06975
+Ben Roethlisberger: 0.0684
+Anthony Miller: 0.0683
+Duke Johnson Jr.: 0.06775
+Zack Moss: 0.06775
+Chris Carson: 0.06775
+Leonard Fournette: 0.06745
+Justin Jackson: 0.06695
+Deebo Samuel: 0.06595
+Alexander Mattison: 0.06575
+T.Y. Hilton: 0.0651
+Ke'Shawn Vaughn: 0.0639
+Derrius Guice: 0.06315
+James White: 0.0621
+Marquise Brown: 0.0614
+Phillip Lindsay: 0.0613
+Tyler Higbee: 0.0611
+DeVante Parker: 0.0609
+Devin Singletary: 0.06035
+Carson Wentz: 0.06005
+Darrel Williams: 0.05995
+Daniel Jones: 0.0597
+Tevin Coleman: 0.05965
+Chris Thompson: 0.0591
+Kirk Cousins: 0.05845
+Cam Akers: 0.0582
+Jimmy Garoppolo: 0.05805
+Matt Ryan: 0.0579
+DeSean Jackson: 0.0577
+Tyler Boyd: 0.05765
+Lamar Jackson: 0.05765
+Miles Sanders: 0.0575
+Gardner Minshew II: 0.0573
+Sammy Watkins: 0.0573
+Larry Fitzgerald: 0.0558
+Austin Ekeler: 0.05575
+Michael Gallup: 0.05565
+Henry Ruggs III: 0.0554
+N'Keal Harry: 0.0544
+Sony Michel: 0.0544
+Julian Edelman: 0.0543
+DJ Chark Jr.: 0.05415
+Tarik Cohen: 0.05395
+Evan Engram: 0.05335
+Dallas Goedert: 0.05315
+Chris Godwin: 0.0512
+Clyde Edwards-Helaire: 0.0507
+Michael Pittman Jr.: 0.05065
+Jordan Howard: 0.0486
+Kerryon Johnson: 0.04845
+Raheem Mostert: 0.04705
+Julio Jones: 0.04445
+Matt Breida: 0.0441
+Blake Jarwin: 0.04375
+Drew Brees: 0.04315
+George Kittle: 0.0424
+Marlon Mack: 0.042
+Odell Beckham Jr.: 0.0402
+Le'Veon Bell: 0.0382
+Ezekiel Elliott: 0.0376
+A.J. Green: 0.03745
+Dak Prescott: 0.0366
+Parris Campbell: 0.03645
+Teddy Bridgewater: 0.0331
+Mark Ingram II: 0.03095
+Zach Ertz: 0.02925
+Kenny Golladay: 0.02855
+Joe Mixon: 0.0277
+Courtland Sutton: 0.0266
+Alshon Jeffery: 0.0253
+Hunter Renfrow: 0.02435
+Jimmy Graham: 0.0229
+Jack Doyle: 0.0177
+LeSean McCoy: 0.01715
+Derek Carr: 0.01585
+Christian McCaffrey: 0.01495
+Michael Thomas: 0.01445
+Jamaal Williams: 0.01325
+Kyle Rudolph: 0.00995
+Greg Olsen: 0.009
+Curtis Samuel: 0.007
+Breshad Perriman: 0.0067
+Saquon Barkley: 0.00665
+Ian Thomas: 0.0063
+Chris Herndon IV: 0.0038
+Rashaad Penny: 0.0029
+Carlos Hyde: 0.0018
+Lamar Miller: 0.0013
+Joshua Kelley: 0.0013
+O.J. Howard: 0.0012
+Tua Tagovailoa: 0.0011
+Jerick McKinnon: 0.0009
+Brandon Aiyuk: 0.0006
+Bryce Love: 0.00055
+Dede Westbrook: 0.00045
+Devonta Freeman: 0.00035
+Sam Darnold: 0.00035
+Irv Smith Jr.: 0.0002
+Malcolm Brown: 0.00015
+Bryan Edwards: 0.00015
+Benny Snell Jr.: 0.0001
+Dawson Knox: 5e-05
+Antonio Brown: 5e-05
+John Ross: 5e-05
+Devin Asiasi: 5e-05
+Jalen Hurts: 5e-05
+James Robinson: 5e-05
 
 2021:
-# QBs: 2.10916
-# RBs: 4.53668
-# WRs: 5.4312
-# TEs: 1.56632
-first QB drafted: 6.76448
-first RB drafted: 1.7276
-first WR drafted: 2.81356
-first TE drafted: 9.26892
-1st round QB: 0.0138
-1st round RB: 0.73428
-1st round WR: 0.209
-1st round TE: 0.04292
-2nd round QB: 0.07064
-2nd round RB: 0.50116
-2nd round WR: 0.34288
-2nd round TE: 0.08532
-3rd round QB: 0.14916
-3rd round RB: 0.3104
-3rd round WR: 0.47276
-3rd round TE: 0.06768
-4th round QB: 0.13496
-4th round RB: 0.1976
-4th round WR: 0.58184
-4th round TE: 0.0856
-5th round QB: 0.25612
-5th round RB: 0.20828
-5th round WR: 0.39576
-5th round TE: 0.13984
-6th round QB: 0.22296
-6th round RB: 0.31088
-6th round WR: 0.43104
-6th round TE: 0.03512
-7th round QB: 0.10468
-7th round RB: 0.23252
-7th round WR: 0.55836
-7th round TE: 0.10224
-8th round QB: 0.1916
-8th round RB: 0.3494
-8th round WR: 0.31004
-8th round TE: 0.10936
-9th round QB: 0.07568
-9th round RB: 0.35216
-9th round WR: 0.30512
-9th round TE: 0.0826
-10th round QB: 0.09048
-10th round RB: 0.23124
-10th round WR: 0.40536
-10th round TE: 0.11848
+# QBs: 2.0802
+# RBs: 4.6404
+# WRs: 5.30005
+# TEs: 1.6719
+first QB drafted: 5.9766
+first RB drafted: 1.4864
+first WR drafted: 2.83525
+first TE drafted: 7.46095
+1st round QB: 0.0115
+1st round RB: 0.76505
+1st round WR: 0.17845
+1st round TE: 0.045
+2nd round QB: 0.0686
+2nd round RB: 0.5283
+2nd round WR: 0.30745
+2nd round TE: 0.09565
+3rd round QB: 0.14715
+3rd round RB: 0.32275
+3rd round WR: 0.45155
+3rd round TE: 0.07855
+4th round QB: 0.116
+4th round RB: 0.198
+4th round WR: 0.59065
+4th round TE: 0.09535
+5th round QB: 0.22355
+5th round RB: 0.21275
+5th round WR: 0.3762
+5th round TE: 0.1875
+6th round QB: 0.21265
+6th round RB: 0.32245
+6th round WR: 0.4247
+6th round TE: 0.0402
+7th round QB: 0.10255
+7th round RB: 0.24315
+7th round WR: 0.5459
+7th round TE: 0.1064
+8th round QB: 0.22145
+8th round RB: 0.34405
+8th round WR: 0.2531
+8th round TE: 0.1421
+9th round QB: 0.07355
+9th round RB: 0.3749
+9th round WR: 0.2874
+9th round TE: 0.09565
+10th round QB: 0.09555
+10th round RB: 0.2251
+10th round WR: 0.39365
+10th round TE: 0.1414
+
+Percentage of time player seen on highest scoring team:
+Cooper Kupp: 0.30325
+Jonathan Taylor: 0.2562
+Deebo Samuel: 0.2236
+Ja'Marr Chase: 0.18175
+Mark Andrews: 0.17205
+Leonard Fournette: 0.17105
+Austin Ekeler: 0.16585
+James Conner: 0.15495
+Joe Mixon: 0.1471
+Tom Brady: 0.1462
+Justin Herbert: 0.145
+Josh Allen: 0.14255
+Joe Burrow: 0.1311
+Marquise Brown: 0.1311
+Najee Harris: 0.1308
+Hunter Henry: 0.12575
+Zach Ertz: 0.125
+Jaylen Waddle: 0.12175
+Mike Williams: 0.1194
+Justin Jefferson: 0.11915
+Damien Harris: 0.11705
+Davante Adams: 0.11695
+Rob Gronkowski: 0.1161
+Darnell Mooney: 0.1144
+Tee Higgins: 0.11175
+Jalen Hurts: 0.1086
+Mike Evans: 0.10835
+Devin Singletary: 0.1076
+Kirk Cousins: 0.1054
+Michael Pittman Jr.: 0.10475
+Matthew Stafford: 0.1046
+Javonte Williams: 0.1019
+Brandin Cooks: 0.10125
+Diontae Johnson: 0.101
+Rashaad Penny: 0.101
+Aaron Rodgers: 0.09915
+Tony Pollard: 0.09685
+Alexander Mattison: 0.09685
+Travis Kelce: 0.09555
+J.D. McKissic: 0.0954
+Elijah Moore: 0.0948
+Sony Michel: 0.0948
+Chris Godwin: 0.0932
+Tyreek Hill: 0.0928
+CeeDee Lamb: 0.09235
+AJ Dillon: 0.09235
+Russell Gage: 0.09235
+Rhamondre Stevenson: 0.09155
+Dallas Goedert: 0.0906
+Chuba Hubbard: 0.09055
+Marvin Jones Jr.: 0.09005
+Melvin Gordon III: 0.08975
+Mike Gesicki: 0.08965
+Josh Jacobs: 0.0873
+Jakobi Meyers: 0.0871
+D'Andre Swift: 0.08695
+Mac Jones: 0.08515
+Matt Ryan: 0.08485
+James Robinson: 0.084
+Michael Carter: 0.0839
+Jared Cook: 0.08325
+DeVante Parker: 0.0832
+David Montgomery: 0.0828
+Cole Beasley: 0.0813
+Gerald Everett: 0.08115
+DeVonta Smith: 0.081
+George Kittle: 0.08005
+Dak Prescott: 0.08005
+Noah Fant: 0.0792
+Jamaal Williams: 0.0784
+Mike Davis: 0.0783
+Tyler Boyd: 0.07815
+Adam Thielen: 0.078
+Nyheim Hines: 0.0779
+Evan Engram: 0.07755
+Henry Ruggs III: 0.07695
+Marquez Callaway: 0.07635
+Derrick Henry: 0.0763
+Ezekiel Elliott: 0.076
+Aaron Jones: 0.0759
+Alvin Kamara: 0.0759
+T.J. Hockenson: 0.0754
+Tua Tagovailoa: 0.07485
+Tyler Lockett: 0.0745
+Kenyan Drake: 0.07445
+Antonio Brown: 0.0743
+Patrick Mahomes II: 0.07325
+Keenan Allen: 0.07295
+Chase Edmonds: 0.0727
+Baker Mayfield: 0.07205
+Latavius Murray: 0.0716
+Jarvis Landry: 0.0711
+Antonio Gibson: 0.07085
+Brandon Aiyuk: 0.07075
+Ben Roethlisberger: 0.07045
+A.J. Green: 0.0703
+Rondale Moore: 0.07005
+Nick Chubb: 0.0698
+DK Metcalf: 0.06925
+Corey Davis: 0.0691
+Kyle Pitts: 0.0678
+Trevor Lawrence: 0.06765
+Terry McLaurin: 0.0676
+Ryan Tannehill: 0.06745
+Courtland Sutton: 0.0674
+Mecole Hardman Jr.: 0.0674
+Amari Cooper: 0.06735
+Kyler Murray: 0.0667
+DJ Moore: 0.0651
+Justin Fields: 0.0641
+Stefon Diggs: 0.06355
+Michael Gallup: 0.0629
+Darrell Henderson Jr.: 0.06255
+Odell Beckham Jr.: 0.06205
+Myles Gaskin: 0.06205
+Jonnu Smith: 0.06185
+Terrace Marshall Jr.: 0.0612
+Chase Claypool: 0.06115
+David Johnson: 0.06105
+Tyler Higbee: 0.0609
+Tevin Coleman: 0.0607
+Dalvin Cook: 0.06065
+Giovani Bernard: 0.0594
+James White: 0.05935
+Phillip Lindsay: 0.0591
+Nelson Agholor: 0.0581
+Jameis Winston: 0.0577
+Lamar Jackson: 0.0565
+Kareem Hunt: 0.0558
+A.J. Brown: 0.05515
+Zack Moss: 0.05465
+Curtis Samuel: 0.0545
+Robbie Chosen: 0.0539
+Russell Wilson: 0.05375
+Trey Lance: 0.05375
+William Fuller V: 0.05305
+Laviska Shenault Jr.: 0.0529
+Robert Woods: 0.05235
+Ronald Jones II: 0.0522
+Jerry Jeudy: 0.04875
+Robert Tonyan: 0.0478
+Miles Sanders: 0.0473
+DJ Chark Jr.: 0.04525
+Logan Thomas: 0.0448
+Clyde Edwards-Helaire: 0.0443
+JuJu Smith-Schuster: 0.04405
+Kenny Golladay: 0.04385
+Tyrell Williams: 0.0418
+DeAndre Hopkins: 0.04105
+Darren Waller: 0.04105
+Marlon Mack: 0.04045
+Michael Thomas: 0.0403
+Trey Sermon: 0.0389
+Saquon Barkley: 0.0387
+Raheem Mostert: 0.0386
+Mark Ingram II: 0.03805
+Pat Freiermuth: 0.03805
+Gus Edwards: 0.0372
+Christian McCaffrey: 0.03705
+Chris Carson: 0.03635
+Allen Robinson II: 0.03225
+Bryan Edwards: 0.0313
+Zach Wilson: 0.03055
+Julio Jones: 0.0303
+Ryan Fitzpatrick: 0.028
+Kenneth Gainwell: 0.0264
+Calvin Ridley: 0.02575
+Darrel Williams: 0.02495
+Jalen Reagor: 0.0182
+Sterling Shepard: 0.01105
+Derek Carr: 0.0099
+Ty'Son Williams: 0.00965
+Jordan Akins: 0.00865
+Randall Cobb: 0.0085
+Devontae Booker: 0.0074
+Marquez Valdes-Scantling: 0.00655
+Austin Hooper: 0.0056
+Gabe Davis: 0.0032
+Emmanuel Sanders: 0.0021
+Blake Jarwin: 0.00175
+Tony Jones Jr.: 0.00165
+Amon-Ra St. Brown: 0.00155
+Taysom Hill: 0.0009
+Ty Johnson: 0.00075
+Cole Kmet: 0.00065
+Deshaun Watson: 0.0006
+Adam Trautman: 0.00035
+Damien Williams: 0.00035
+Dawson Knox: 0.0003
+Anthony Firkser: 0.0001
+Teddy Bridgewater: 0.0001
+Rashod Bateman: 0.0001
+Cam Akers: 0.0001
+T.Y. Hilton: 0.0001
+Elijah Mitchell: 0.0001
+Cam Newton: 0.0001
+Jamison Crowder: 5e-05
+Daniel Jones: 5e-05
+Eric Ebron: 5e-05
+Carson Wentz: 5e-05
 
 2022:
-# QBs: 2.0348
-# RBs: 4.67596
-# WRs: 5.24968
-# TEs: 1.67416
-first QB drafted: 5.76364
-first RB drafted: 2.10996
-first WR drafted: 2.5398
-first TE drafted: 8.07532
-1st round QB: 0.00616
-1st round RB: 0.58508
-1st round WR: 0.35832
-1st round TE: 0.05044
-2nd round QB: 0.08192
-2nd round RB: 0.42212
-2nd round WR: 0.383
-2nd round TE: 0.11296
-3rd round QB: 0.21316
-3rd round RB: 0.24268
-3rd round WR: 0.4264
-3rd round TE: 0.11776
-4th round QB: 0.1844
-4th round RB: 0.3512
-4th round WR: 0.36316
-4th round TE: 0.10124
-5th round QB: 0.28492
-5th round RB: 0.29296
-5th round WR: 0.34276
-5th round TE: 0.07908
-6th round QB: 0.217
-6th round RB: 0.18012
-6th round WR: 0.42536
-6th round TE: 0.174
-7th round QB: 0.0854
-7th round RB: 0.43584
-7th round WR: 0.33772
-7th round TE: 0.09564
-8th round QB: 0.12324
-8th round RB: 0.44044
-8th round WR: 0.32544
-8th round TE: 0.0506
-9th round QB: 0.09324
-9th round RB: 0.21976
-9th round WR: 0.39184
-9th round TE: 0.06796
-10th round QB: 0.1062
-10th round RB: 0.19216
-10th round WR: 0.34964
-10th round TE: 0.14336
+# QBs: 1.9315
+# RBs: 4.7345
+# WRs: 5.35135
+# TEs: 1.6753
+first QB drafted: 5.76055
+first RB drafted: 2.0078
+first WR drafted: 2.41765
+first TE drafted: 6.64025
+1st round QB: 0.00605
+1st round RB: 0.5794
+1st round WR: 0.357
+1st round TE: 0.05755
+2nd round QB: 0.08525
+2nd round RB: 0.40645
+2nd round WR: 0.38445
+2nd round TE: 0.12385
+3rd round QB: 0.1865
+3rd round RB: 0.25025
+3rd round WR: 0.4351
+3rd round TE: 0.12815
+4th round QB: 0.1541
+4th round RB: 0.3711
+4th round WR: 0.37565
+4th round TE: 0.09915
+5th round QB: 0.2424
+5th round RB: 0.32525
+5th round WR: 0.35615
+5th round TE: 0.0762
+6th round QB: 0.1752
+6th round RB: 0.18355
+6th round WR: 0.44715
+6th round TE: 0.1931
+7th round QB: 0.0709
+7th round RB: 0.45255
+7th round WR: 0.3238
+7th round TE: 0.09895
+8th round QB: 0.13355
+8th round RB: 0.4075
+8th round WR: 0.31915
+8th round TE: 0.0769
+9th round QB: 0.08425
+9th round RB: 0.21165
+9th round WR: 0.38985
+9th round TE: 0.06815
+10th round QB: 0.0871
+10th round RB: 0.1923
+10th round WR: 0.34
+10th round TE: 0.15725
+
+Percentage of time player seen on highest scoring team:
+Josh Jacobs: 0.2606
+Patrick Mahomes II: 0.19105
+Tony Pollard: 0.18735
+Jalen Hurts: 0.1739
+Justin Fields: 0.17295
+Jamaal Williams: 0.1677
+Travis Kelce: 0.1608
+Austin Ekeler: 0.1583
+Justin Jefferson: 0.1475
+T.J. Hockenson: 0.14425
+Miles Sanders: 0.14405
+Tyreek Hill: 0.14145
+Joe Burrow: 0.14055
+A.J. Brown: 0.13785
+Davante Adams: 0.13725
+Rhamondre Stevenson: 0.137
+Amon-Ra St. Brown: 0.13435
+Kenneth Walker III: 0.13355
+Amari Cooper: 0.13315
+Christian McCaffrey: 0.12905
+Tyler Lockett: 0.1281
+DeVonta Smith: 0.1272
+Garrett Wilson: 0.12445
+Jaylen Waddle: 0.12415
+Christian Kirk: 0.12355
+Josh Allen: 0.1186
+Trevor Lawrence: 0.11725
+Kirk Cousins: 0.1166
+Raheem Mostert: 0.111
+Tyler Allgeier: 0.10815
+Derrick Henry: 0.10705
+Tua Tagovailoa: 0.106
+Saquon Barkley: 0.10475
+David Njoku: 0.10465
+Tyler Higbee: 0.10445
+Cole Kmet: 0.10435
+George Kittle: 0.1038
+Brandon Aiyuk: 0.10285
+Pat Freiermuth: 0.10255
+Nick Chubb: 0.1016
+Khalil Herbert: 0.0983
+Tyler Boyd: 0.09735
+Travis Etienne Jr.: 0.0962
+Chris Olave: 0.0939
+Jahan Dotson: 0.0939
+Chris Godwin: 0.0926
+Dameon Pierce: 0.09125
+Mecole Hardman Jr.: 0.09105
+Brian Robinson Jr.: 0.0905
+Devin Singletary: 0.0902
+Stefon Diggs: 0.08985
+Cordarrelle Patterson: 0.08875
+Isiah Pacheco: 0.0882
+DeAndre Hopkins: 0.0882
+Rachaad White: 0.08755
+DK Metcalf: 0.08615
+Tee Higgins: 0.08575
+Mike Gesicki: 0.0849
+Dawson Knox: 0.0849
+George Pickens: 0.08415
+Hunter Henry: 0.08325
+CeeDee Lamb: 0.0831
+DJ Moore: 0.08245
+Jerry Jeudy: 0.08165
+David Montgomery: 0.08075
+Mark Andrews: 0.0807
+Gabe Davis: 0.0804
+Dallas Goedert: 0.07995
+Mike Williams: 0.0799
+Terry McLaurin: 0.0776
+Joshua Palmer: 0.07735
+Drake London: 0.077
+Allen Lazard: 0.0769
+Russell Gage: 0.07675
+Derek Carr: 0.0758
+James Conner: 0.07565
+Zach Ertz: 0.07555
+Mike Evans: 0.07545
+James Robinson: 0.0748
+Tom Brady: 0.0747
+JuJu Smith-Schuster: 0.07445
+Marquez Valdes-Scantling: 0.0739
+Rondale Moore: 0.0739
+Dalton Schultz: 0.07345
+Michael Carter: 0.07255
+Aaron Jones: 0.0721
+Kenneth Gainwell: 0.0718
+Romeo Doubs: 0.07115
+Michael Gallup: 0.07045
+Dak Prescott: 0.0699
+Treylon Burks: 0.06915
+AJ Dillon: 0.0688
+Marlon Mack: 0.06865
+James Cook: 0.0679
+DeVante Parker: 0.0677
+Cam Akers: 0.0676
+Robert Woods: 0.0675
+Isaiah McKenzie: 0.06715
+Antonio Gibson: 0.0671
+Chase Claypool: 0.067
+Marquise Brown: 0.06625
+Julio Jones: 0.06565
+Adam Thielen: 0.0656
+Aaron Rodgers: 0.065
+Ezekiel Elliott: 0.0645
+Leonard Fournette: 0.06415
+Joe Mixon: 0.06405
+Breece Hall: 0.0629
+Christian Watson: 0.06275
+Lamar Jackson: 0.06235
+Alexander Mattison: 0.06165
+Jarvis Landry: 0.0614
+Nyheim Hines: 0.0611
+Albert Okwuegbunam: 0.0605
+Mark Ingram II: 0.0603
+Skyy Moore: 0.06
+Darrell Henderson Jr.: 0.05985
+Baker Mayfield: 0.05905
+Kareem Hunt: 0.05895
+Kadarius Toney: 0.05875
+Clyde Edwards-Helaire: 0.05845
+Isaiah Spiller: 0.0584
+Kenny Pickett: 0.05835
+Dalvin Cook: 0.05795
+Melvin Gordon III: 0.0575
+Michael Pittman Jr.: 0.0568
+Ronald Jones II: 0.05675
+Russell Wilson: 0.0561
+Justin Herbert: 0.0551
+Darnell Mooney: 0.0549
+Kenny Golladay: 0.05415
+Ja'Marr Chase: 0.05305
+Rashaad Penny: 0.05295
+Zamir White: 0.0524
+Taysom Hill: 0.0523
+Courtland Sutton: 0.0515
+Alvin Kamara: 0.05145
+J.K. Dobbins: 0.051
+Damien Harris: 0.05045
+Rashod Bateman: 0.04965
+Diontae Johnson: 0.0493
+Brandin Cooks: 0.04855
+Michael Thomas: 0.04845
+Matthew Stafford: 0.0477
+Odell Beckham Jr.: 0.0476
+Elijah Moore: 0.0473
+Chase Edmonds: 0.0468
+Mac Jones: 0.04675
+Cooper Kupp: 0.0464
+Keenan Allen: 0.0463
+Deebo Samuel: 0.04555
+Hayden Hurst: 0.04555
+Kyler Murray: 0.04515
+Darren Waller: 0.0445
+Hunter Renfrow: 0.04385
+Allen Robinson II: 0.0419
+D'Andre Swift: 0.04185
+Najee Harris: 0.04145
+Sammy Watkins: 0.0395
+Trey Lance: 0.03935
+Kyle Pitts: 0.0379
+Elijah Mitchell: 0.03515
+DJ Chark Jr.: 0.02945
+Jonathan Taylor: 0.02675
+Cameron Brate: 0.0211
+Javonte Williams: 0.02045
+Jalen Tolbert: 0.0182
+J.D. McKissic: 0.01735
+D'Onta Foreman: 0.0159
+Mo Alie-Cox: 0.0151
+Jared Goff: 0.01335
+Deshaun Watson: 0.01225
+Mike Davis: 0.0094
+Carson Wentz: 0.0061
+Jameis Winston: 0.00575
+Isaiah Likely: 0.0055
+Irv Smith Jr.: 0.00245
+Sony Michel: 0.00215
+Chuba Hubbard: 0.00205
+Jakobi Meyers: 0.00195
+Robert Tonyan: 0.0015
+Ryan Tannehill: 0.0012
+Gerald Everett: 0.0007
+Tyrion Davis-Price: 0.00065
+Noah Fant: 0.0006
+Matt Ryan: 0.0005
+Jeff Wilson Jr.: 0.0005
+Wan'Dale Robinson: 0.0003
+K.J. Osborn: 0.00025
+Darrel Williams: 0.00025
+Eno Benjamin: 0.00015
+Daniel Jones: 0.00015
+Jameson Williams: 0.00015
+KJ Hamler: 0.0001
+Nico Collins: 0.0001
+Alec Pierce: 5e-05
+Javon Leake: 5e-05
+Parker Houston: 5e-05
+Gus Edwards: 5e-05
 
 Overall: 
-# QBs: 2.132992
-# RBs: 4.595263999999999
-# WRs: 5.292792
-# TEs: 1.69732
-first QB drafted: 7.018392
-first RB drafted: 1.810992
-first WR drafted: 2.618976
-first TE drafted: 8.323528
-1st round QB: 0.006936
-1st round RB: 0.6998880000000001
-1st round WR: 0.26688
-1st round TE: 0.026295999999999996
-2nd round QB: 0.058055999999999996
-2nd round RB: 0.435888
-2nd round WR: 0.398992
-2nd round TE: 0.107064
-3rd round QB: 0.09368000000000001
-3rd round RB: 0.331216
-3rd round WR: 0.46363200000000004
-3rd round TE: 0.11147199999999999
-4th round QB: 0.11007199999999999
-4th round RB: 0.288808
-4th round WR: 0.51528
-4th round TE: 0.08584
-5th round QB: 0.224472
-5th round RB: 0.238504
-5th round WR: 0.42533600000000005
-5th round TE: 0.111592
-6th round QB: 0.185216
-6th round RB: 0.299376
-6th round WR: 0.402504
-6th round TE: 0.11004
-7th round QB: 0.164664
-7th round RB: 0.303672
-7th round WR: 0.38418399999999997
-7th round TE: 0.128032
-8th round QB: 0.178656
-8th round RB: 0.320784
-8th round WR: 0.36739999999999995
-8th round TE: 0.092416
-9th round QB: 0.188728
-9th round RB: 0.28096
-9th round WR: 0.331864
-9th round TE: 0.073344
-10th round QB: 0.16972
-10th round RB: 0.22252799999999998
-10th round WR: 0.348008
-10th round TE: 0.12479999999999998
+# QBs: 2.08329
+# RBs: 4.74259
+# WRs: 5.23229
+# TEs: 1.7104599999999999
+first QB drafted: 6.51684
+first RB drafted: 1.5774099999999998
+first WR drafted: 2.63334
+first TE drafted: 7.11829
+1st round QB: 0.006529999999999999
+1st round RB: 0.72914
+1st round WR: 0.23612000000000002
+1st round TE: 0.028210000000000002
+2nd round QB: 0.059609999999999996
+2nd round RB: 0.45206
+2nd round WR: 0.37312
+2nd round TE: 0.11521
+3rd round QB: 0.08732999999999999
+3rd round RB: 0.34631999999999996
+3rd round WR: 0.44714
+3rd round TE: 0.11921
+4th round QB: 0.10094
+4th round RB: 0.29822000000000004
+4th round WR: 0.51772
+4th round TE: 0.08312
+5th round QB: 0.21051999999999998
+5th round RB: 0.25541
+5th round WR: 0.4165
+5th round TE: 0.11756000000000003
+6th round QB: 0.16319
+6th round RB: 0.32593999999999995
+6th round WR: 0.40056
+6th round TE: 0.10969
+7th round QB: 0.15787
+7th round RB: 0.32128
+7th round WR: 0.37320000000000003
+7th round TE: 0.12541
+8th round QB: 0.19905
+8th round RB: 0.3152
+8th round WR: 0.33327999999999997
+8th round TE: 0.11166000000000001
+9th round QB: 0.18099
+9th round RB: 0.29640000000000005
+9th round WR: 0.31809000000000004
+9th round TE: 0.07589
+10th round QB: 0.1594
+10th round RB: 0.23226
+10th round WR: 0.33723000000000003
+10th round TE: 0.13245
