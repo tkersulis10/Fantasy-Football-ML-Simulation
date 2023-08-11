@@ -36,7 +36,7 @@ class Triple:
 
 def get_adp_data():
     """
-    Get the 2022 NFL season ADP data.
+    Get the 2018 - 2022 NFL season ADP data.
     """
     # Chrome webdriver options
     options = webdriver.ChromeOptions()
@@ -47,115 +47,132 @@ def get_adp_data():
     driver = webdriver.Chrome(executable_path=driver_path, options=options)
     # driver = webdriver.Chrome(options=options)
 
-    yearly_adps = {'2018': [], '2019': [], '2020': [], '2021': [], '2022': []}
-    for year in range(2018, 2023):
-        # Load the URL in the webdriver
-        adp_url = "https://www.fantasypros.com/nfl/adp/half-point-ppr-overall.php?year=" + \
-            str(year)
-        driver.get(adp_url)
-        time.sleep(2)
+    bestball_format = [False, True]
+    for bestball in bestball_format:
+        yearly_adps = {'2018': [], '2019': [],
+                       '2020': [], '2021': [], '2022': []}
+        for year in range(2018, 2023):
+            # Load the URL in the webdriver
+            if bestball == False:
+                adp_url = "https://www.fantasypros.com/nfl/adp/half-point-ppr-overall.php?year=" + \
+                    str(year)
+            else:
+                adp_url = "https://www.fantasypros.com/nfl/adp/best-ball-overall.php?year=" + \
+                    str(year)
 
-        # Parse the HTML content
-        htmlSource = driver.page_source
-        soup = BeautifulSoup(htmlSource, "html.parser")
+            driver.get(adp_url)
+            time.sleep(2)
 
-        results = soup.find(
-            "div", class_="mobile-table").find("tbody")
-        players = results.find_all("tr")
+            # Parse the HTML content
+            htmlSource = driver.page_source
+            soup = BeautifulSoup(htmlSource, "html.parser")
 
-        with open('nn_data/player_gamelogs.pkl', 'rb') as inp:
-            player_gamelog_dict = pickle5.load(inp)
+            results = soup.find(
+                "div", class_="mobile-table").find("tbody")
+            players = results.find_all("tr")
 
-        adp_list = []
-        for player in players:
-            stats = player.find_all("td")
-            player_name = stats[1].find("a").text
-            if player_name != "":
-                player_pos = stats[2].text[:1]
-                player_avg_adp = stats[6].text
+            with open('nn_data/player_gamelogs.pkl', 'rb') as inp:
+                player_gamelog_dict = pickle5.load(inp)
 
-                if player_pos == "Q":
-                    player_pos = "QB"
-                    fp_index = 19
-                elif player_pos == "R":
-                    player_pos = "RB"
-                    fp_index = 16
-                elif player_pos == "W":
-                    player_pos = "WR"
-                    fp_index = 16
-                elif player_pos == "T":
-                    player_pos = "TE"
-                    fp_index = 16
-                elif player_pos == "D":
-                    player_pos = "DST"
-                    fp_index = 10
-                else:
-                    fp_index = 14
-
-                player_name_lookup = player_name.split(" ")
-                player_name_lookup = get_nn_data.check_name(
-                    player_name_lookup)
-                player_name_lookup = player_name_lookup[0].title(
-                ) + player_name_lookup[1].title() + str(year)
-
-                try:
-                    player_gamelog = player_gamelog_dict[player_name_lookup]
-                    fantasy_pts = []
-                    for game in player_gamelog:
-                        if game['Game OPP'] == 'BYE Week':
-                            fantasy_pts.append(0)
-                        else:
-                            fantasy_pts.append(game['Fantasy  Points'])
-                except KeyError:
-                    fp_link = stats[1].find("a").get("href")
-                    if player_pos == "DST":
-                        link = fp_link[11:]
+            adp_list = []
+            for player in players:
+                stats = player.find_all("td")
+                player_name = stats[1].find("a").text
+                if player_name != "":
+                    player_pos = stats[2].text[:2]
+                    if bestball:
+                        player_avg_adp = stats[7].text
                     else:
-                        link = fp_link[13:]
-                    gamelog_url = "https://www.fantasypros.com/nfl/games/" + \
-                        link + "?season=" + str(year) + "&scoring=HALF"
+                        player_avg_adp = stats[6].text
 
-                    driver.get(gamelog_url)
-                    time.sleep(2)
-
-                    # Parse the HTML content
-                    htmlSource = driver.page_source
-                    soup = BeautifulSoup(htmlSource, "html.parser")
-
-                    # Get player fantasy gamelog
-                    results = soup.find("div", class_="mobile-table")
-                    games = results.find("tbody").find_all("tr")
-
-                    fantasy_pts = []
-                    if len(games) == 1:
-                        fantasy_pts = [0] * 18
+                    invalid_pos = False
+                    if player_pos == "QB":
+                        fp_index = 19
+                    elif player_pos == "RB":
+                        fp_index = 16
+                    elif player_pos == "WR":
+                        fp_index = 16
+                    elif player_pos == "TE":
+                        fp_index = 16
+                    elif player_pos == "DS":
+                        player_pos = "DST"
+                        fp_index = 10
+                    elif player_pos[:1] == "K":
+                        player_pos = "K"
+                        fp_index = 14
                     else:
-                        for game in games:
-                            stats = game.find_all("td")
-                            if len(stats) < 3:
-                                fantasy_pts.append(0)
-                            else:
-                                try:
-                                    fantasy_pts.append(stats[fp_index].text)
-                                except:
+                        invalid_pos = True
+
+                    if not invalid_pos:
+                        player_name_lookup = player_name.split(" ")
+                        player_name_lookup = get_nn_data.check_name(
+                            player_name_lookup)
+                        player_name_lookup = player_name_lookup[0].title(
+                        ) + player_name_lookup[1].title() + str(year)
+
+                        try:
+                            player_gamelog = player_gamelog_dict[player_name_lookup]
+                            fantasy_pts = []
+                            for game in player_gamelog:
+                                if game['Game OPP'] == 'BYE Week':
                                     fantasy_pts.append(0)
-                    print(player_name)
-                    print(fantasy_pts)
+                                else:
+                                    fantasy_pts.append(game['Fantasy  Points'])
+                        except KeyError:
+                            fp_link = stats[1].find("a").get("href")
+                            if player_pos == "DST":
+                                link = fp_link[11:]
+                            else:
+                                link = fp_link[13:]
+                            gamelog_url = "https://www.fantasypros.com/nfl/games/" + \
+                                link + "?season=" + str(year) + "&scoring=HALF"
 
-                adp_list.append(
-                    (player_name, player_pos, player_avg_adp, fantasy_pts))
+                            driver.get(gamelog_url)
+                            time.sleep(2)
 
-        yearly_adps[str(year)] = adp_list
+                            # Parse the HTML content
+                            htmlSource = driver.page_source
+                            soup = BeautifulSoup(htmlSource, "html.parser")
 
-    with open('adp_data/adp_data.pkl', 'wb') as outp:
-        pickle5.dump(yearly_adps, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/adp_data.txt', "w") as file:
-        for year in yearly_adps:
-            file.write(year + ":\n")
-            file.write(str(yearly_adps[year]) + "\n\n")
+                            # Get player fantasy gamelog
+                            results = soup.find("div", class_="mobile-table")
+                            games = results.find("tbody").find_all("tr")
+
+                            fantasy_pts = []
+                            if len(games) == 1:
+                                fantasy_pts = [0] * 18
+                            else:
+                                for game in games:
+                                    stats = game.find_all("td")
+                                    if len(stats) < 3:
+                                        fantasy_pts.append(0)
+                                    else:
+                                        try:
+                                            fantasy_pts.append(
+                                                stats[fp_index].text)
+                                        except:
+                                            fantasy_pts.append(0)
+                            print(player_name)
+                            print(fantasy_pts)
+
+                        adp_list.append(
+                            (player_name, player_pos, player_avg_adp, fantasy_pts))
+
+            yearly_adps[str(year)] = adp_list
+
+        if bestball:
+            output_file = 'adp_data/bestball_adp_data'
+        else:
+            output_file = 'adp_data/adp_data'
+        with open(output_file + '.pkl', 'wb') as outp:
+            pickle5.dump(yearly_adps, outp, pickle5.HIGHEST_PROTOCOL)
+        with open(output_file + '.txt', "w") as file:
+            for year in yearly_adps:
+                file.write(year + ":\n")
+                file.write(str(yearly_adps[year]) + "\n\n")
 
 
-def simulate_drafts(num_drafts, num_teams, num_rounds, bestball):
+def simulate_drafts_store_data(num_drafts, num_teams, num_rounds, bestball):
     """
     Simulate drafts.
 
@@ -164,149 +181,163 @@ def simulate_drafts(num_drafts, num_teams, num_rounds, bestball):
     num_rounds is the number of rounds in the draft.
     bestball is True if this league is in bestball format, False otherwise.
     """
+    # if bestball == True:
+    #     with open('adp_data/bestball_adp_data.pkl', 'rb') as inp:
+    #         adp_values = pickle5.load(inp)
+    # else:
+    #     with open('adp_data/adp_data.pkl', 'rb') as inp:
+    #         adp_values = pickle5.load(inp)
+    # with open('adp_data/qb_adp_data.pkl', 'rb') as inp:
+    #     qb_values = pickle5.load(inp)
+    # with open('adp_data/rb_adp_data.pkl', 'rb') as inp:
+    #     rb_values = pickle5.load(inp)
+    # with open('adp_data/wr_adp_data.pkl', 'rb') as inp:
+    #     wr_values = pickle5.load(inp)
+    # with open('adp_data/te_adp_data.pkl', 'rb') as inp:
+    #     te_values = pickle5.load(inp)
+    # with open('adp_data/dst_adp_data.pkl', 'rb') as inp:
+    #     dst_values = pickle5.load(inp)
+    # with open('adp_data/k_adp_data.pkl', 'rb') as inp:
+    #     k_values = pickle5.load(inp)
+
+    # roster = {}
+    # roster["qb"] = set()
+    # roster["rb"] = set()
+    # roster["wr"] = set()
+    # roster["te"] = set()
+    # roster["dst"] = set()
+    # roster["k"] = set()
+    # if bestball == False:
+    #     roster["dst"].add(Triple("Streaming", None, np.array([5] * 17)))
+    #     roster["k"].add(Triple("Streaming", None, np.array([6] * 17)))
+
+    # position_min = ['rb', 'rb', 'rb', 'wr', 'wr', 'wr', 'te', 'qb']
+    # if bestball == True:
+    #     position_min += ['qb', 'te']
+    # else:
+    #     position_min += ['dst', 'k']
+    # best_teams = {'2018': [], '2019': [], '2020': [], '2021': [], '2022': []}
+    # for year in range(2018, 2023):
+    #     for draft in range(num_drafts):
+    #         print(draft)
+    #         year_adps = copy.deepcopy(adp_values[str(year)])
+    #         team_rosters = [copy.deepcopy(roster)
+    #                         for i in range(num_teams)]
+    #         qb_players = copy.deepcopy(qb_values)
+    #         rb_players = copy.deepcopy(rb_values)
+    #         wr_players = copy.deepcopy(wr_values)
+    #         te_players = copy.deepcopy(te_values)
+    #         dst_players = copy.deepcopy(dst_values)
+    #         k_players = copy.deepcopy(k_values)
+    #         team_position_mins = [copy.deepcopy(
+    #             position_min) for i in range(num_teams)]
+    #         current_round = 1
+    #         current_pick = 0
+    #         end_draft = False
+
+    #         while not end_draft:
+    #             # satisfactory_pick = False
+    #             # while not satisfactory_pick:
+    #             #     random_pick = np.random.geometric(p=0.25) - 1
+    #             #     while random_pick >= len(year_adps):
+    #             #         random_pick = np.random.geometric(p=0.25) - 1
+    #             #     player_picked = year_adps[random_pick]
+    #             #     player_pos = player_picked[1].lower()
+    #             #     if player_pos in team_position_mins[current_pick]:
+    #             #         team_position_mins[current_pick].remove(player_pos)
+    #             #     if num_rounds - current_round >= len(team_position_mins[current_pick]):
+    #             #         satisfactory_pick = True
+
+    #             random_pick = np.random.geometric(p=0.25) - 1
+    #             while random_pick >= len(year_adps):
+    #                 random_pick = np.random.geometric(p=0.25) - 1
+    #             player_picked = year_adps[random_pick]
+    #             player_pos = player_picked[1].lower()
+    #             if player_pos in team_position_mins[current_pick]:
+    #                 team_position_mins[current_pick].remove(player_pos)
+    #             if num_rounds - current_round < len(team_position_mins[current_pick]):
+    #                 positions_needed = []
+    #                 if "qb" in team_position_mins[current_pick]:
+    #                     positions_needed += qb_players[str(year)]
+    #                 if "rb" in team_position_mins[current_pick]:
+    #                     positions_needed += rb_players[str(year)]
+    #                 if "wr" in team_position_mins[current_pick]:
+    #                     positions_needed += wr_players[str(year)]
+    #                 if "te" in team_position_mins[current_pick]:
+    #                     positions_needed += te_players[str(year)]
+    #                 if "dst" in team_position_mins[current_pick]:
+    #                     positions_needed += dst_players[str(year)]
+    #                 if "k" in team_position_mins[current_pick]:
+    #                     positions_needed += k_players[str(year)]
+    #                 positions_needed.sort(key=lambda x: x[2])
+    #                 random_pick = np.random.geometric(p=0.5) - 1
+    #                 while random_pick >= len(positions_needed):
+    #                     random_pick = np.random.geometric(p=0.5) - 1
+    #                 player_picked = positions_needed[random_pick]
+    #                 player_pos = player_picked[1].lower()
+    #                 team_position_mins[current_pick].remove(player_pos)
+    #                 year_adps.remove(player_picked)
+    #             else:
+    #                 year_adps.pop(random_pick)
+
+    #             if player_pos == "qb":
+    #                 qb_players[str(year)].remove(player_picked)
+    #             elif player_pos == "rb":
+    #                 rb_players[str(year)].remove(player_picked)
+    #             elif player_pos == "wr":
+    #                 wr_players[str(year)].remove(player_picked)
+    #             elif player_pos == "te":
+    #                 te_players[str(year)].remove(player_picked)
+    #             elif player_pos == "dst":
+    #                 dst_players[str(year)].remove(player_picked)
+    #             elif player_pos == "k":
+    #                 k_players[str(year)].remove(player_picked)
+
+    #             try:
+    #                 team_rosters[current_pick][player_pos].add(Triple(
+    #                     player_picked[0], (current_round, current_pick), convert_gamelog(player_picked[3])))
+    #             except:
+    #                 team_rosters[current_pick]['k'].add(Triple(
+    #                     player_picked[0], (current_round, current_pick), convert_gamelog(player_picked[3])))
+    #             if current_round % 2 == 1:
+    #                 if current_pick < num_teams - 1:
+    #                     current_pick += 1
+    #                 else:
+    #                     current_round += 1
+    #                     if current_round > num_rounds:
+    #                         end_draft = True
+    #             else:
+    #                 if current_pick > 0:
+    #                     current_pick -= 1
+    #                 else:
+    #                     current_round += 1
+    #                     if current_round > num_rounds:
+    #                         end_draft = True
+
+    #         team_pts = [0] * num_teams
+    #         best_team_pts = -100
+    #         for team in range(num_teams):
+    #             if bestball == True:
+    #                 season_pts = simulate2.team_pts_scored_3wr(
+    #                     team_rosters[team])
+    #             else:
+    #                 season_pts = simulate2.team_pts_scored(team_rosters[team])
+    #             team_pts[team] = season_pts
+    #             if season_pts > best_team_pts:
+    #                 best_team_pts = season_pts
+    #                 best_team_roster = team_rosters[team]
+
+    #         best_teams[str(year)].append((best_team_roster, best_team_pts))
+
+    #     best_teams[str(year)].sort(key=lambda x: x[1], reverse=True)
+
     if bestball == True:
-        with open('adp_data/bestball_adp_data.pkl', 'rb') as inp:
-            adp_values = pickle5.load(inp)
+        output_file = 'adp_data/bestball_adp_draft_results.pkl'
     else:
-        with open('adp_data/adp_data.pkl', 'rb') as inp:
-            adp_values = pickle5.load(inp)
-    with open('adp_data/qb_adp_data.pkl', 'rb') as inp:
-        qb_values = pickle5.load(inp)
-    with open('adp_data/rb_adp_data.pkl', 'rb') as inp:
-        rb_values = pickle5.load(inp)
-    with open('adp_data/wr_adp_data.pkl', 'rb') as inp:
-        wr_values = pickle5.load(inp)
-    with open('adp_data/te_adp_data.pkl', 'rb') as inp:
-        te_values = pickle5.load(inp)
-    with open('adp_data/dst_adp_data.pkl', 'rb') as inp:
-        dst_values = pickle5.load(inp)
-    with open('adp_data/k_adp_data.pkl', 'rb') as inp:
-        k_values = pickle5.load(inp)
-
-    roster = {}
-    roster["qb"] = set()
-    roster["rb"] = set()
-    roster["wr"] = set()
-    roster["te"] = set()
-    roster["dst"] = set()
-    roster["k"] = set()
-    if bestball == False:
-        roster["dst"].add(Triple("Streaming", None, np.array([5] * 17)))
-        roster["k"].add(Triple("Streaming", None, np.array([6] * 17)))
-
-    player_limit = ['rb', 'rb', 'rb', 'wr', 'wr', 'wr', 'te', 'qb']
-    if bestball == True:
-        player_limit += ['qb', 'te']
-    else:
-        player_limit += ['dst', 'k']
-    best_teams = {'2018': [], '2019': [], '2020': [], '2021': [], '2022': []}
-    for year in range(2018, 2023):
-        for draft in range(num_drafts):
-            print(draft)
-            year_adps = copy.deepcopy(adp_values[str(year)])
-            team_rosters = [copy.deepcopy(roster)
-                            for i in range(num_teams)]
-            team_player_limits = [copy.deepcopy(
-                player_limit) for i in range(num_teams)]
-            current_round = 1
-            current_pick = 0
-            end_draft = False
-
-            while not end_draft:
-                # satisfactory_pick = False
-                # while not satisfactory_pick:
-                #     random_pick = np.random.geometric(p=0.25) - 1
-                #     while random_pick >= len(year_adps):
-                #         random_pick = np.random.geometric(p=0.25) - 1
-                #     player_picked = year_adps[random_pick]
-                #     player_pos = player_picked[1].lower()
-                #     if player_pos in team_player_limits[current_pick]:
-                #         team_player_limits[current_pick].remove(player_pos)
-                #     if num_rounds - current_round >= len(team_player_limits[current_pick]):
-                #         satisfactory_pick = True
-
-                random_pick = np.random.geometric(p=0.25) - 1
-                while random_pick >= len(year_adps):
-                    random_pick = np.random.geometric(p=0.25) - 1
-                player_picked = year_adps[random_pick]
-                player_pos = player_picked[1].lower()
-                if player_pos in team_player_limits[current_pick]:
-                    team_player_limits[current_pick].remove(player_pos)
-                elif num_rounds - current_round < len(team_player_limits[current_pick]):
-                    positions_needed = []
-                    if "qb" in team_player_limits[current_pick]:
-                        positions_needed += qb_values[str(year)]
-                    if "rb" in team_player_limits[current_pick]:
-                        positions_needed += rb_values[str(year)]
-                    if "wr" in team_player_limits[current_pick]:
-                        positions_needed += wr_values[str(year)]
-                    if "te" in team_player_limits[current_pick]:
-                        positions_needed += te_values[str(year)]
-                    if "dst" in team_player_limits[current_pick]:
-                        positions_needed += dst_values[str(year)]
-                    if "k" in team_player_limits[current_pick]:
-                        positions_needed += k_values[str(year)]
-                    positions_needed.sort(key=lambda x: x[2])
-                    random_pick = np.random.geometric(p=0.5) - 1
-                    while random_pick >= len(positions_needed):
-                        random_pick = np.random.geometric(p=0.5) - 1
-                    player_picked = positions_needed[random_pick]
-                    player_pos = player_picked[1].lower()
-                    team_player_limits[current_pick].remove(player_pos)
-
-                year_adps.pop(random_pick)
-                try:
-                    team_rosters[current_pick][player_pos].add(Triple(
-                        player_picked[0], (current_round, current_pick), convert_gamelog(player_picked[3])))
-                except:
-                    team_rosters[current_pick]['k'].add(Triple(
-                        player_picked[0], (current_round, current_pick), convert_gamelog(player_picked[3])))
-                if current_round % 2 == 1:
-                    if current_pick < num_teams - 1:
-                        current_pick += 1
-                    else:
-                        current_round += 1
-                        if current_round > num_rounds:
-                            end_draft = True
-                else:
-                    if current_pick > 0:
-                        current_pick -= 1
-                    else:
-                        current_round += 1
-                        if current_round > num_rounds:
-                            end_draft = True
-
-            team_pts = [0] * num_teams
-            best_team_pts = -100
-            for team in range(num_teams):
-                if bestball == True:
-                    season_pts = simulate2.team_pts_scored_3wr(
-                        team_rosters[team])
-                else:
-                    season_pts = simulate2.team_pts_scored(team_rosters[team])
-                team_pts[team] = season_pts
-                if season_pts > best_team_pts:
-                    best_team_pts = season_pts
-                    best_team_roster = team_rosters[team]
-
-            best_teams[str(year)].append((best_team_roster, best_team_pts))
-
-        best_teams[str(year)].sort(key=lambda x: x[1], reverse=True)
-
-    if bestball == True:
-        with open('adp_data/bestball_adp_draft_results.pkl', 'wb') as outp:
-            pickle5.dump(best_teams, outp, pickle5.HIGHEST_PROTOCOL)
-        # with open('adp_data/bestball_adp_draft_results.txt', "w") as file:
-        #     for year in best_teams:
-        #         file.write(year + ":\n")
-        #         file.write(str(best_teams[year]) + "\n\n")
-    else:
-        with open('adp_data/adp_draft_results.pkl', 'wb') as outp:
-            pickle5.dump(best_teams, outp, pickle5.HIGHEST_PROTOCOL)
-        # with open('adp_data/adp_draft_results.txt', "w") as file:
-        #     for year in best_teams:
-        #         file.write(year + ":\n")
-        #         file.write(str(best_teams[year]) + "\n\n")
+        output_file = 'adp_data/adp_draft_results.pkl'
+    with open(output_file, 'wb') as outp:
+        simulate_season(
+            False, outp, num_drafts, num_teams, num_rounds, bestball)
 
 
 def simulate_season_display_draft(num_teams, num_rounds, bestball):
@@ -314,18 +345,35 @@ def simulate_season_display_draft(num_teams, num_rounds, bestball):
     Simulates one draft/season and outputs the draft results.
     """
     if bestball == True:
+        output_file = 'adp_data/bestball_adp_draft_results.txt'
+    else:
+        output_file = 'adp_data/adp_draft_results.txt'
+    with open(output_file, "w") as file:
+        simulate_season(True, file, 1, num_teams, num_rounds, bestball)
+
+
+def simulate_season(draft_output, file, num_drafts, num_teams, num_rounds, bestball):
+    """
+    Simulates a season.
+
+    draft_output is True if the draft picks and results should be written to file.
+    """
+    if bestball == True:
         with open('adp_data/bestball_adp_data.pkl', 'rb') as inp:
             adp_values = pickle5.load(inp)
+        file_prefix = 'bestball_'
     else:
         with open('adp_data/adp_data.pkl', 'rb') as inp:
             adp_values = pickle5.load(inp)
-    with open('adp_data/qb_adp_data.pkl', 'rb') as inp:
+        file_prefix = ''
+
+    with open('adp_data/' + file_prefix + 'qb_adp_data.pkl', 'rb') as inp:
         qb_values = pickle5.load(inp)
-    with open('adp_data/rb_adp_data.pkl', 'rb') as inp:
+    with open('adp_data/' + file_prefix + 'rb_adp_data.pkl', 'rb') as inp:
         rb_values = pickle5.load(inp)
-    with open('adp_data/wr_adp_data.pkl', 'rb') as inp:
+    with open('adp_data/' + file_prefix + 'wr_adp_data.pkl', 'rb') as inp:
         wr_values = pickle5.load(inp)
-    with open('adp_data/te_adp_data.pkl', 'rb') as inp:
+    with open('adp_data/' + file_prefix + 'te_adp_data.pkl', 'rb') as inp:
         te_values = pickle5.load(inp)
     with open('adp_data/dst_adp_data.pkl', 'rb') as inp:
         dst_values = pickle5.load(inp)
@@ -343,21 +391,33 @@ def simulate_season_display_draft(num_teams, num_rounds, bestball):
         roster["dst"].add(Triple("Streaming", None, np.array([5] * 17)))
         roster["k"].add(Triple("Streaming", None, np.array([6] * 17)))
 
-    player_limit = ['rb', 'rb', 'rb', 'wr', 'wr', 'wr', 'te', 'qb']
+    position_min = ['rb', 'rb', 'rb', 'wr', 'wr', 'wr', 'te', 'qb']
     if bestball == True:
-        player_limit += ['qb', 'te']
-        output_file = 'adp_data/bestball_adp_draft_results.txt'
+        position_min += ['qb', 'te']
+        position_limit = {'qb': 0.2, 'rb': 0.75, 'wr': 0.75, 'te': 0.2}
     else:
-        player_limit += ['dst', 'k']
-        output_file = 'adp_data/adp_draft_results.txt'
-    with open(output_file, "w") as file:
-        for year in range(2018, 2023):
-            file.write(str(year) + ":\n")
+        position_min += ['dst', 'k']
+        position_limit = {'qb': 0.15, 'rb': 0.75,
+                          'wr': 0.75, 'te': 0.15, 'dst': 0.2, 'k': 0.2}
+    # best_teams = {'2018': [], '2019': [],
+    #               '2020': [], '2021': [], '2022': []}
+    for year in range(2018, 2023):
+        year_leagues = []
+        for draft in range(num_drafts):
+            print(draft)
+            if draft_output:
+                file.write(str(year) + ":\n")
             year_adps = copy.deepcopy(adp_values[str(year)])
             team_rosters = [copy.deepcopy(roster)
                             for i in range(num_teams)]
-            team_player_limits = [copy.deepcopy(
-                player_limit) for i in range(num_teams)]
+            qb_players = copy.deepcopy(qb_values)
+            rb_players = copy.deepcopy(rb_values)
+            wr_players = copy.deepcopy(wr_values)
+            te_players = copy.deepcopy(te_values)
+            dst_players = copy.deepcopy(dst_values)
+            k_players = copy.deepcopy(k_values)
+            team_position_mins = [copy.deepcopy(
+                position_min) for i in range(num_teams)]
             current_round = 1
             current_pick = 0
             end_draft = False
@@ -370,9 +430,9 @@ def simulate_season_display_draft(num_teams, num_rounds, bestball):
                 #         random_pick = np.random.geometric(p=0.25) - 1
                 #     player_picked = year_adps[random_pick]
                 #     player_pos = player_picked[1].lower()
-                #     if player_pos in team_player_limits[current_pick]:
-                #         team_player_limits[current_pick].remove(player_pos)
-                #     if num_rounds - current_round >= len(team_player_limits[current_pick]):
+                #     if player_pos in team_position_mins[current_pick]:
+                #         team_position_mins[current_pick].remove(player_pos)
+                #     if num_rounds - current_round >= len(team_position_mins[current_pick]):
                 #         satisfactory_pick = True
 
                 random_pick = np.random.geometric(p=0.25) - 1
@@ -380,33 +440,66 @@ def simulate_season_display_draft(num_teams, num_rounds, bestball):
                     random_pick = np.random.geometric(p=0.25) - 1
                 player_picked = year_adps[random_pick]
                 player_pos = player_picked[1].lower()
-                if player_pos in team_player_limits[current_pick]:
-                    team_player_limits[current_pick].remove(player_pos)
-                elif num_rounds - current_round < len(team_player_limits[current_pick]):
-                    positions_needed = []
-                    if "qb" in team_player_limits[current_pick]:
-                        positions_needed += qb_values[str(year)]
-                    if "rb" in team_player_limits[current_pick]:
-                        positions_needed += rb_values[str(year)]
-                    if "wr" in team_player_limits[current_pick]:
-                        positions_needed += wr_values[str(year)]
-                    if "te" in team_player_limits[current_pick]:
-                        positions_needed += te_values[str(year)]
-                    if "dst" in team_player_limits[current_pick]:
-                        positions_needed += dst_values[str(year)]
-                    if "k" in team_player_limits[current_pick]:
-                        positions_needed += k_values[str(year)]
-                    positions_needed.sort(key=lambda x: x[2])
-                    random_pick = np.random.geometric(p=0.5) - 1
-                    while random_pick >= len(positions_needed):
-                        random_pick = np.random.geometric(p=0.5) - 1
-                    player_picked = positions_needed[random_pick]
-                    player_pos = player_picked[1].lower()
-                    team_player_limits[current_pick].remove(player_pos)
 
-                year_adps.pop(random_pick)
-                file.write("Round " + str(current_round) + ", pick " +
-                           str(current_pick) + ": " + player_picked[0] + ", " + player_pos + "\n")
+                if current_round > 3:
+                    if len(team_rosters[current_pick][player_pos]) / (current_round - 1) >= position_limit[player_pos]:
+                        random_pick = np.random.geometric(p=0.25) - 1
+                        while random_pick >= len(year_adps):
+                            random_pick = np.random.geometric(p=0.25) - 1
+                        player_picked = year_adps[random_pick]
+                        player_pos = player_picked[1].lower()
+
+                if player_pos in team_position_mins[current_pick]:
+                    team_position_mins[current_pick].remove(player_pos)
+                if num_rounds - current_round < len(team_position_mins[current_pick]):
+                    positions_needed = []
+                    if "qb" in team_position_mins[current_pick]:
+                        positions_needed += qb_players[str(year)]
+                    if "rb" in team_position_mins[current_pick]:
+                        positions_needed += rb_players[str(year)]
+                    if "wr" in team_position_mins[current_pick]:
+                        positions_needed += wr_players[str(year)]
+                    if "te" in team_position_mins[current_pick]:
+                        positions_needed += te_players[str(year)]
+                    if "dst" in team_position_mins[current_pick]:
+                        positions_needed += dst_players[str(year)]
+                    if "k" in team_position_mins[current_pick]:
+                        positions_needed += k_players[str(year)]
+                    if len(positions_needed) == 0:
+                        random_pick = np.random.geometric(p=0.25) - 1
+                        while random_pick >= len(year_adps):
+                            random_pick = np.random.geometric(p=0.25) - 1
+                        player_picked = year_adps[random_pick]
+                        player_pos = player_picked[1].lower()
+                        year_adps.pop(random_pick)
+                    else:
+                        positions_needed.sort(key=lambda x: x[2])
+                        random_pick = np.random.geometric(p=0.5) - 1
+                        while random_pick >= len(positions_needed):
+                            random_pick = np.random.geometric(p=0.5) - 1
+                        player_picked = positions_needed[random_pick]
+                        player_pos = player_picked[1].lower()
+                        team_position_mins[current_pick].remove(player_pos)
+                        year_adps.remove(player_picked)
+                else:
+                    year_adps.pop(random_pick)
+
+                if player_pos == "qb":
+                    qb_players[str(year)].remove(player_picked)
+                elif player_pos == "rb":
+                    rb_players[str(year)].remove(player_picked)
+                elif player_pos == "wr":
+                    wr_players[str(year)].remove(player_picked)
+                elif player_pos == "te":
+                    te_players[str(year)].remove(player_picked)
+                elif player_pos == "dst":
+                    dst_players[str(year)].remove(player_picked)
+                elif player_pos == "k":
+                    k_players[str(year)].remove(player_picked)
+
+                if draft_output:
+                    file.write("Round " + str(current_round) + ", pick " +
+                               str(current_pick) + ": " + player_picked[0] + ", " + player_pos + "\n")
                 try:
                     team_rosters[current_pick][player_pos].add(Triple(
                         player_picked[0], (current_round, current_pick), convert_gamelog(player_picked[3])))
@@ -428,15 +521,53 @@ def simulate_season_display_draft(num_teams, num_rounds, bestball):
                         if current_round > num_rounds:
                             end_draft = True
 
-            file.write("\nPoints Scored:\n")
-            for team in range(num_teams):
-                if bestball == True:
-                    season_pts = simulate2.team_pts_scored_3wr(
-                        team_rosters[team])
-                else:
-                    season_pts = simulate2.team_pts_scored(team_rosters[team])
-                file.write("Team " + str(team) + ": " +
-                           str(season_pts) + "\n")
+            if draft_output:
+                file.write("\nPoints Scored:\n")
+                for team in range(num_teams):
+                    if bestball == True:
+                        season_pts = simulate2.team_pts_scored_3wr(
+                            team_rosters[team])
+                    else:
+                        season_pts = simulate2.team_pts_scored(
+                            team_rosters[team])
+                    file.write("Team " + str(team) + ": " +
+                               str(season_pts) + "\n")
+                file.write("\n")
+            else:
+                league_teams = []
+                for team in range(num_teams):
+                    if bestball == True:
+                        season_pts = simulate2.team_pts_scored_3wr(
+                            team_rosters[team])
+                    else:
+                        season_pts = simulate2.team_pts_scored(
+                            team_rosters[team])
+                    league_teams.append((team_rosters[team], season_pts))
+                league_teams.sort(key=lambda x: x[1], reverse=True)
+                year_leagues.append(league_teams)
+
+                # team_pts = [0] * num_teams
+                # best_team_pts = -100
+                # for team in range(num_teams):
+                #     if bestball == True:
+                #         season_pts = simulate2.team_pts_scored_3wr(
+                #             team_rosters[team])
+                #     else:
+                #         season_pts = simulate2.team_pts_scored(
+                #             team_rosters[team])
+                #     team_pts[team] = season_pts
+                #     if season_pts > best_team_pts:
+                #         best_team_pts = season_pts
+                #         best_team_roster = team_rosters[team]
+                # best_teams[str(year)].append(
+                #     (best_team_roster, best_team_pts))
+
+        if not draft_output:
+            pickle5.dump(year_leagues, file, pickle5.HIGHEST_PROTOCOL)
+        # if not draft_output:
+            # best_teams[str(year)].sort(key=lambda x: x[1], reverse=True)
+
+    # return best_teams
 
 
 def convert_gamelog(gamelog_list):
@@ -453,15 +584,23 @@ def adp_data_to_bestball():
     """
     Convert adp data to best ball data (no defense and kicker).
     """
-    with open('adp_data/adp_data.pkl', 'rb') as inp:
+    with open('adp_data/bestball_adp_data.pkl', 'rb') as inp:
         adp_values = pickle5.load(inp)
     bestball_adp_values = {'2018': [], '2019': [],
                            '2020': [], '2021': [], '2022': []}
     for year in adp_values:
         for player in adp_values[year]:
+            player_name = player[0]
             player_pos = player[1]
             if player_pos != "DST" and player_pos != "K":
-                bestball_adp_values[year].append(player)
+                if player_name == "David Johnson" and year == '2018':
+                    bestball_adp_values[year].insert(
+                        2, (player_name, player_pos, '3.0', player[3]))
+                elif player_name == "Mike Williams" and year == '2019':
+                    bestball_adp_values[year].insert(
+                        53, (player_name, player_pos, '53.5', player[3]))
+                else:
+                    bestball_adp_values[year].append(player)
 
     with open('adp_data/bestball_adp_data.pkl', 'wb') as outp:
         pickle5.dump(bestball_adp_values, outp, pickle5.HIGHEST_PROTOCOL)
@@ -471,12 +610,16 @@ def adp_data_to_bestball():
             file.write(str(bestball_adp_values[year]) + "\n\n")
 
 
-def get_positional_adps():
+def get_positional_adps(bestball):
     """
     Store positional adps in files.
     """
-    with open('adp_data/adp_data.pkl', 'rb') as inp:
-        adp_values = pickle5.load(inp)
+    if bestball:
+        with open('adp_data/bestball_adp_data.pkl', 'rb') as inp:
+            adp_values = pickle5.load(inp)
+    else:
+        with open('adp_data/adp_data.pkl', 'rb') as inp:
+            adp_values = pickle5.load(inp)
 
     qb_values = {'2018': [], '2019': [], '2020': [], '2021': [], '2022': []}
     rb_values = {'2018': [], '2019': [], '2020': [], '2021': [], '2022': []}
@@ -501,47 +644,76 @@ def get_positional_adps():
             elif player_pos == 'K':
                 k_values[year].append(player)
 
-    with open('adp_data/qb_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(qb_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/qb_adp_data.txt', "w") as file:
-        for year in qb_values:
-            file.write(year + ":\n")
-            file.write(str(qb_values[year]) + "\n\n")
+    if bestball:
+        with open('adp_data/bestball_qb_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(qb_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/bestball_qb_adp_data.txt', "w") as file:
+            for year in qb_values:
+                file.write(year + ":\n")
+                file.write(str(qb_values[year]) + "\n\n")
 
-    with open('adp_data/rb_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(rb_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/rb_adp_data.txt', "w") as file:
-        for year in rb_values:
-            file.write(year + ":\n")
-            file.write(str(rb_values[year]) + "\n\n")
+        with open('adp_data/bestball_rb_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(rb_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/bestball_rb_adp_data.txt', "w") as file:
+            for year in rb_values:
+                file.write(year + ":\n")
+                file.write(str(rb_values[year]) + "\n\n")
 
-    with open('adp_data/wr_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(wr_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/wr_adp_data.txt', "w") as file:
-        for year in wr_values:
-            file.write(year + ":\n")
-            file.write(str(wr_values[year]) + "\n\n")
+        with open('adp_data/bestball_wr_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(wr_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/bestball_wr_adp_data.txt', "w") as file:
+            for year in wr_values:
+                file.write(year + ":\n")
+                file.write(str(wr_values[year]) + "\n\n")
 
-    with open('adp_data/te_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(te_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/te_adp_data.txt', "w") as file:
-        for year in te_values:
-            file.write(year + ":\n")
-            file.write(str(te_values[year]) + "\n\n")
+        with open('adp_data/bestball_te_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(te_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/bestball_te_adp_data.txt', "w") as file:
+            for year in te_values:
+                file.write(year + ":\n")
+                file.write(str(te_values[year]) + "\n\n")
+    else:
+        with open('adp_data/qb_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(qb_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/qb_adp_data.txt', "w") as file:
+            for year in qb_values:
+                file.write(year + ":\n")
+                file.write(str(qb_values[year]) + "\n\n")
 
-    with open('adp_data/dst_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(dst_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/dst_adp_data.txt', "w") as file:
-        for year in dst_values:
-            file.write(year + ":\n")
-            file.write(str(dst_values[year]) + "\n\n")
+        with open('adp_data/rb_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(rb_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/rb_adp_data.txt', "w") as file:
+            for year in rb_values:
+                file.write(year + ":\n")
+                file.write(str(rb_values[year]) + "\n\n")
 
-    with open('adp_data/k_adp_data.pkl', 'wb') as outp:
-        pickle5.dump(k_values, outp, pickle5.HIGHEST_PROTOCOL)
-    with open('adp_data/k_adp_data.txt', "w") as file:
-        for year in k_values:
-            file.write(year + ":\n")
-            file.write(str(k_values[year]) + "\n\n")
+        with open('adp_data/wr_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(wr_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/wr_adp_data.txt', "w") as file:
+            for year in wr_values:
+                file.write(year + ":\n")
+                file.write(str(wr_values[year]) + "\n\n")
+
+        with open('adp_data/te_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(te_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/te_adp_data.txt', "w") as file:
+            for year in te_values:
+                file.write(year + ":\n")
+                file.write(str(te_values[year]) + "\n\n")
+
+        with open('adp_data/dst_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(dst_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/dst_adp_data.txt', "w") as file:
+            for year in dst_values:
+                file.write(year + ":\n")
+                file.write(str(dst_values[year]) + "\n\n")
+
+        with open('adp_data/k_adp_data.pkl', 'wb') as outp:
+            pickle5.dump(k_values, outp, pickle5.HIGHEST_PROTOCOL)
+        with open('adp_data/k_adp_data.txt', "w") as file:
+            for year in k_values:
+                file.write(year + ":\n")
+                file.write(str(k_values[year]) + "\n\n")
 
 
 def get_statistics(bestball):
@@ -682,7 +854,7 @@ def get_statistics(bestball):
                     yearly_stats[year]['10th round WR'] += 1
             yearly_stats[year]['first WR drafted'] += first_wr
 
-            for te in roster_qbs:
+            for te in roster_tes:
                 round = te.get_round()
                 if round < first_te:
                     first_te = round
@@ -734,8 +906,11 @@ def get_statistics(bestball):
 
 # get_adp_data()
 # adp_data_to_bestball()
-# get_positional_adps()
-# simulate_drafts(25000, 12, 16, False)
-# simulate_drafts(25000, 12, 18, True)
+# get_positional_adps(False)
+# get_positional_adps(True)
+simulate_drafts_store_data(20000, 12, 16, False)
+simulate_drafts_store_data(20000, 12, 18, True)
 # get_statistics(False)
 # get_statistics(True)
+# simulate_season_display_draft(12, 16, False)
+# simulate_season_display_draft(12, 18, True)
