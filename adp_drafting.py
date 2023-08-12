@@ -756,10 +756,26 @@ def get_statistics(bestball):
                  '9th round QB': 0, '9th round RB': 0,
                  '9th round WR': 0, '9th round TE': 0,
                  '10th round QB': 0, '10th round RB': 0,
-                 '10th round WR': 0, '10th round TE': 0}
-    yearly_stats = {'2018': copy.deepcopy(stat_dict), '2019': copy.deepcopy(stat_dict), '2020': copy.deepcopy(
+                 '10th round WR': 0, '10th round TE': 0,
+                 'RB, RB': 0, 'RB, WR': 0, 'WR, RB': 0,
+                 'WR, WR': 0, 'RB, TE': 0, 'RB, QB': 0,
+                 'TE, RB': 0, 'QB, RB': 0, 'WR, TE': 0,
+                 'WR, QB': 0, 'TE, WR': 0, 'QB, WR': 0,
+                 'TE, TE': 0, 'TE, QB': 0, 'QB, TE': 0,
+                 'QB, QB': 0, 'Zero RB': 0, 'Zero WR': 0,
+                 'Early QB (1-3)': 0, 'Mid QB (4-7)': 0, 'Late QB (8+)': 0,
+                 'Early TE (1-3)': 0, 'Mid TE (4-7)': 0, 'Late TE (8+)': 0,
+                 'Hero RB': 0}
+    winning_yearly_stats = {'2018': copy.deepcopy(stat_dict), '2019': copy.deepcopy(stat_dict), '2020': copy.deepcopy(
         stat_dict), '2021': copy.deepcopy(stat_dict), '2022': copy.deepcopy(stat_dict)}
-    player_stats = {'2018': {}, '2019': {}, '2020': {}, '2021': {}, '2022': {}}
+    top200_yearly_stats = {'2018': copy.deepcopy(stat_dict), '2019': copy.deepcopy(stat_dict), '2020': copy.deepcopy(
+        stat_dict), '2021': copy.deepcopy(stat_dict), '2022': copy.deepcopy(stat_dict)}
+    average_yearly_stats = {'2018': copy.deepcopy(stat_dict), '2019': copy.deepcopy(stat_dict), '2020': copy.deepcopy(
+        stat_dict), '2021': copy.deepcopy(stat_dict), '2022': copy.deepcopy(stat_dict)}
+    top200_player_stats = {'2018': {}, '2019': {},
+                           '2020': {}, '2021': {}, '2022': {}}
+    winning_player_stats = {'2018': {}, '2019': {},
+                            '2020': {}, '2021': {}, '2022': {}}
     with open(input_file, 'rb') as inp:
         for int_year in range(2018, 2023):
             print(int_year)
@@ -767,186 +783,316 @@ def get_statistics(bestball):
             league_count = len(year_draft_results)
             year = str(int_year)
             count = 0
+
+            league_winners = []
+            for league in year_draft_results:
+                league_winners.append(league[0])
+            league_winners.sort(key=lambda x: x[1], reverse=True)
+            top200_points = league_winners[199][1]
+
             for league in year_draft_results:
                 print(count)
                 count += 1
-                winning_team = league[0]
-                roster = winning_team[0]
-                roster_qbs = roster['qb']
-                roster_rbs = roster['rb']
-                roster_wrs = roster['wr']
-                roster_tes = roster['te']
+                num_teams = len(league)
+                for team_index in range(num_teams):
+                    current_team = league[team_index]
+                    roster = current_team[0]
+                    roster_qbs = roster['qb']
+                    roster_rbs = roster['rb']
+                    roster_wrs = roster['wr']
+                    roster_tes = roster['te']
 
-                num_qbs = len(roster_qbs)
-                yearly_stats[year]['# QBs'] += num_qbs
-                num_rbs = len(roster_rbs)
-                yearly_stats[year]['# RBs'] += num_rbs
-                num_wrs = len(roster_wrs)
-                yearly_stats[year]['# WRs'] += num_wrs
-                num_tes = len(roster_tes)
-                yearly_stats[year]['# TEs'] += num_tes
+                    if team_index == 0:
+                        if current_team[1] >= top200_points:
+                            yearly_stats = top200_yearly_stats
+                            player_stats = top200_player_stats
+                        else:
+                            yearly_stats = winning_yearly_stats
+                            player_stats = winning_player_stats
+                    else:
+                        yearly_stats = average_yearly_stats
 
-                first_qb = float('inf')
-                first_rb = float('inf')
-                first_wr = float('inf')
-                first_te = float('inf')
-                for qb in roster_qbs:
-                    round = qb.get_round()
-                    name = qb.get_name()
-                    try:
-                        player_stats[year][name] += 1
-                    except:
-                        player_stats[year][name] = 1
-                    if round < first_qb:
-                        first_qb = round
-                    if round == 1:
-                        yearly_stats[year]['1st round QB'] += 1
-                    elif round == 2:
-                        yearly_stats[year]['2nd round QB'] += 1
-                    elif round == 3:
-                        yearly_stats[year]['3rd round QB'] += 1
-                    elif round == 4:
-                        yearly_stats[year]['4th round QB'] += 1
-                    elif round == 5:
-                        yearly_stats[year]['5th round QB'] += 1
-                    elif round == 6:
-                        yearly_stats[year]['6th round QB'] += 1
-                    elif round == 7:
-                        yearly_stats[year]['7th round QB'] += 1
-                    elif round == 8:
-                        yearly_stats[year]['8th round QB'] += 1
-                    elif round == 9:
-                        yearly_stats[year]['9th round QB'] += 1
-                    elif round == 10:
-                        yearly_stats[year]['10th round QB'] += 1
-                yearly_stats[year]['first QB drafted'] += first_qb
+                    num_qbs = len(roster_qbs)
+                    yearly_stats[year]['# QBs'] += num_qbs
+                    num_rbs = len(roster_rbs)
+                    yearly_stats[year]['# RBs'] += num_rbs
+                    num_wrs = len(roster_wrs)
+                    yearly_stats[year]['# WRs'] += num_wrs
+                    num_tes = len(roster_tes)
+                    yearly_stats[year]['# TEs'] += num_tes
 
-                for rb in roster_rbs:
-                    round = rb.get_round()
-                    name = rb.get_name()
-                    try:
-                        player_stats[year][name] += 1
-                    except:
-                        player_stats[year][name] = 1
-                    if round < first_rb:
-                        first_rb = round
-                    if round == 1:
-                        yearly_stats[year]['1st round RB'] += 1
-                    elif round == 2:
-                        yearly_stats[year]['2nd round RB'] += 1
-                    elif round == 3:
-                        yearly_stats[year]['3rd round RB'] += 1
-                    elif round == 4:
-                        yearly_stats[year]['4th round RB'] += 1
-                    elif round == 5:
-                        yearly_stats[year]['5th round RB'] += 1
-                    elif round == 6:
-                        yearly_stats[year]['6th round RB'] += 1
-                    elif round == 7:
-                        yearly_stats[year]['7th round RB'] += 1
-                    elif round == 8:
-                        yearly_stats[year]['8th round RB'] += 1
-                    elif round == 9:
-                        yearly_stats[year]['9th round RB'] += 1
-                    elif round == 10:
-                        yearly_stats[year]['10th round RB'] += 1
-                yearly_stats[year]['first RB drafted'] += first_rb
+                    first_qb = float('inf')
+                    first_rb = float('inf')
+                    first_wr = float('inf')
+                    first_te = float('inf')
+                    round_one_pick = ''
+                    round_two_pick = ''
+                    for qb in roster_qbs:
+                        round = qb.get_round()
+                        name = qb.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][name] += 1
+                            except:
+                                player_stats[year][name] = 1
+                        if round < first_qb:
+                            first_qb = round
+                        if round == 1:
+                            yearly_stats[year]['1st round QB'] += 1
+                            round_one_pick = 'QB'
+                        elif round == 2:
+                            yearly_stats[year]['2nd round QB'] += 1
+                            round_two_pick = 'QB'
+                        elif round == 3:
+                            yearly_stats[year]['3rd round QB'] += 1
+                        elif round == 4:
+                            yearly_stats[year]['4th round QB'] += 1
+                        elif round == 5:
+                            yearly_stats[year]['5th round QB'] += 1
+                        elif round == 6:
+                            yearly_stats[year]['6th round QB'] += 1
+                        elif round == 7:
+                            yearly_stats[year]['7th round QB'] += 1
+                        elif round == 8:
+                            yearly_stats[year]['8th round QB'] += 1
+                        elif round == 9:
+                            yearly_stats[year]['9th round QB'] += 1
+                        elif round == 10:
+                            yearly_stats[year]['10th round QB'] += 1
+                    yearly_stats[year]['first QB drafted'] += first_qb
 
-                for wr in roster_wrs:
-                    round = wr.get_round()
-                    name = wr.get_name()
-                    try:
-                        player_stats[year][name] += 1
-                    except:
-                        player_stats[year][name] = 1
-                    if round < first_wr:
-                        first_wr = round
-                    if round == 1:
-                        yearly_stats[year]['1st round WR'] += 1
-                    elif round == 2:
-                        yearly_stats[year]['2nd round WR'] += 1
-                    elif round == 3:
-                        yearly_stats[year]['3rd round WR'] += 1
-                    elif round == 4:
-                        yearly_stats[year]['4th round WR'] += 1
-                    elif round == 5:
-                        yearly_stats[year]['5th round WR'] += 1
-                    elif round == 6:
-                        yearly_stats[year]['6th round WR'] += 1
-                    elif round == 7:
-                        yearly_stats[year]['7th round WR'] += 1
-                    elif round == 8:
-                        yearly_stats[year]['8th round WR'] += 1
-                    elif round == 9:
-                        yearly_stats[year]['9th round WR'] += 1
-                    elif round == 10:
-                        yearly_stats[year]['10th round WR'] += 1
-                yearly_stats[year]['first WR drafted'] += first_wr
+                    for rb in roster_rbs:
+                        round = rb.get_round()
+                        name = rb.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][name] += 1
+                            except:
+                                player_stats[year][name] = 1
+                        if round < first_rb:
+                            first_rb = round
+                        if round == 1:
+                            yearly_stats[year]['1st round RB'] += 1
+                            round_one_pick = 'RB'
+                        elif round == 2:
+                            yearly_stats[year]['2nd round RB'] += 1
+                            round_two_pick = 'RB'
+                        elif round == 3:
+                            yearly_stats[year]['3rd round RB'] += 1
+                        elif round == 4:
+                            yearly_stats[year]['4th round RB'] += 1
+                        elif round == 5:
+                            yearly_stats[year]['5th round RB'] += 1
+                        elif round == 6:
+                            yearly_stats[year]['6th round RB'] += 1
+                        elif round == 7:
+                            yearly_stats[year]['7th round RB'] += 1
+                        elif round == 8:
+                            yearly_stats[year]['8th round RB'] += 1
+                        elif round == 9:
+                            yearly_stats[year]['9th round RB'] += 1
+                        elif round == 10:
+                            yearly_stats[year]['10th round RB'] += 1
+                    yearly_stats[year]['first RB drafted'] += first_rb
 
-                for te in roster_tes:
-                    round = te.get_round()
-                    name = te.get_name()
-                    try:
-                        player_stats[year][name] += 1
-                    except:
-                        player_stats[year][name] = 1
-                    if round < first_te:
-                        first_te = round
-                    if round == 1:
-                        yearly_stats[year]['1st round TE'] += 1
-                    elif round == 2:
-                        yearly_stats[year]['2nd round TE'] += 1
-                    elif round == 3:
-                        yearly_stats[year]['3rd round TE'] += 1
-                    elif round == 4:
-                        yearly_stats[year]['4th round TE'] += 1
-                    elif round == 5:
-                        yearly_stats[year]['5th round TE'] += 1
-                    elif round == 6:
-                        yearly_stats[year]['6th round TE'] += 1
-                    elif round == 7:
-                        yearly_stats[year]['7th round TE'] += 1
-                    elif round == 8:
-                        yearly_stats[year]['8th round TE'] += 1
-                    elif round == 9:
-                        yearly_stats[year]['9th round TE'] += 1
-                    elif round == 10:
-                        yearly_stats[year]['10th round TE'] += 1
-                yearly_stats[year]['first TE drafted'] += first_te
+                    for wr in roster_wrs:
+                        round = wr.get_round()
+                        name = wr.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][name] += 1
+                            except:
+                                player_stats[year][name] = 1
+                        if round < first_wr:
+                            first_wr = round
+                        if round == 1:
+                            yearly_stats[year]['1st round WR'] += 1
+                            round_one_pick = 'WR'
+                        elif round == 2:
+                            yearly_stats[year]['2nd round WR'] += 1
+                            round_two_pick = 'WR'
+                        elif round == 3:
+                            yearly_stats[year]['3rd round WR'] += 1
+                        elif round == 4:
+                            yearly_stats[year]['4th round WR'] += 1
+                        elif round == 5:
+                            yearly_stats[year]['5th round WR'] += 1
+                        elif round == 6:
+                            yearly_stats[year]['6th round WR'] += 1
+                        elif round == 7:
+                            yearly_stats[year]['7th round WR'] += 1
+                        elif round == 8:
+                            yearly_stats[year]['8th round WR'] += 1
+                        elif round == 9:
+                            yearly_stats[year]['9th round WR'] += 1
+                        elif round == 10:
+                            yearly_stats[year]['10th round WR'] += 1
+                    yearly_stats[year]['first WR drafted'] += first_wr
 
-            for stat in yearly_stats[year]:
-                yearly_stats[year][stat] /= league_count
-            for player in player_stats[year]:
-                player_stats[year][player] /= league_count
+                    for te in roster_tes:
+                        round = te.get_round()
+                        name = te.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][name] += 1
+                            except:
+                                player_stats[year][name] = 1
+                        if round < first_te:
+                            first_te = round
+                        if round == 1:
+                            yearly_stats[year]['1st round TE'] += 1
+                            round_one_pick = 'TE'
+                        elif round == 2:
+                            yearly_stats[year]['2nd round TE'] += 1
+                            round_two_pick = 'TE'
+                        elif round == 3:
+                            yearly_stats[year]['3rd round TE'] += 1
+                        elif round == 4:
+                            yearly_stats[year]['4th round TE'] += 1
+                        elif round == 5:
+                            yearly_stats[year]['5th round TE'] += 1
+                        elif round == 6:
+                            yearly_stats[year]['6th round TE'] += 1
+                        elif round == 7:
+                            yearly_stats[year]['7th round TE'] += 1
+                        elif round == 8:
+                            yearly_stats[year]['8th round TE'] += 1
+                        elif round == 9:
+                            yearly_stats[year]['9th round TE'] += 1
+                        elif round == 10:
+                            yearly_stats[year]['10th round TE'] += 1
+                    yearly_stats[year]['first TE drafted'] += first_te
 
-            player_stats[year] = dict(
-                sorted(player_stats[year].items(), key=lambda x: x[1], reverse=True))
+                    if round_one_pick == 'RB':
+                        if round_two_pick == 'RB':
+                            yearly_stats[year]['RB, RB'] += 1
+                        elif round_two_pick == 'WR':
+                            yearly_stats[year]['RB, WR'] += 1
+                        elif round_two_pick == 'TE':
+                            yearly_stats[year]['RB, TE'] += 1
+                        elif round_two_pick == 'QB':
+                            yearly_stats[year]['RB, QB'] += 1
+                    elif round_one_pick == 'WR':
+                        if round_two_pick == 'RB':
+                            yearly_stats[year]['WR, RB'] += 1
+                        elif round_two_pick == 'WR':
+                            yearly_stats[year]['WR, WR'] += 1
+                        elif round_two_pick == 'TE':
+                            yearly_stats[year]['WR, TE'] += 1
+                        elif round_two_pick == 'QB':
+                            yearly_stats[year]['WR, QB'] += 1
+                    elif round_one_pick == 'TE':
+                        if round_two_pick == 'RB':
+                            yearly_stats[year]['TE, RB'] += 1
+                        elif round_two_pick == 'WR':
+                            yearly_stats[year]['TE, WR'] += 1
+                        elif round_two_pick == 'TE':
+                            yearly_stats[year]['TE, TE'] += 1
+                        elif round_two_pick == 'QB':
+                            yearly_stats[year]['TE, QB'] += 1
+                    elif round_one_pick == 'QB':
+                        if round_two_pick == 'RB':
+                            yearly_stats[year]['QB, RB'] += 1
+                        elif round_two_pick == 'WR':
+                            yearly_stats[year]['QB, WR'] += 1
+                        elif round_two_pick == 'TE':
+                            yearly_stats[year]['QB, TE'] += 1
+                        elif round_two_pick == 'QB':
+                            yearly_stats[year]['QB, QB'] += 1
 
-    overall_stats = copy.deepcopy(stat_dict)
-    for stat in overall_stats:
-        overall_stats[stat] = (yearly_stats['2018'][stat] + yearly_stats['2019'][stat] +
-                               yearly_stats['2020'][stat] + yearly_stats['2021'][stat] +
-                               yearly_stats['2022'][stat]) / 5
+                    if first_qb < 4:
+                        yearly_stats[year]['Early QB (1-3)'] += 1
+                    elif first_qb < 8:
+                        yearly_stats[year]['Mid QB (4-7)'] += 1
+                    else:
+                        yearly_stats[year]['Late QB (8+)'] += 1
+                    if first_te < 4:
+                        yearly_stats[year]['Early TE (1-3)'] += 1
+                    elif first_te < 8:
+                        yearly_stats[year]['Mid TE (4-7)'] += 1
+                    else:
+                        yearly_stats[year]['Late TE (8+)'] += 1
+                    if first_rb > 4:
+                        yearly_stats[year]['Zero RB'] += 1
+                    if first_wr > 4:
+                        yearly_stats[year]['Zero WR'] += 1
+                    if first_rb == 1:
+                        second_rb = float('inf')
+                        for rb in roster_rbs:
+                            round = rb.get_round()
+                            if round != 1:
+                                if round < second_rb:
+                                    second_rb = round
+                        if second_rb > 5:
+                            yearly_stats[year]['Hero RB'] += 1
+
+            for stat in average_yearly_stats[year]:
+                average_yearly_stats[year][stat] = (
+                    average_yearly_stats[year][stat] + winning_yearly_stats[year][stat] + top200_yearly_stats[year][stat]) / (league_count * num_teams)
+            for stat in winning_yearly_stats[year]:
+                winning_yearly_stats[year][stat] = (
+                    winning_yearly_stats[year][stat] + top200_yearly_stats[year][stat]) / league_count
+            for stat in top200_yearly_stats[year]:
+                top200_yearly_stats[year][stat] /= 200
+            for player in winning_player_stats[year]:
+                try:
+                    winning_player_stats[year][player] = (
+                        winning_player_stats[year][player] + top200_player_stats[year][player]) / league_count
+                except KeyError:
+                    winning_player_stats[year][player] /= league_count
+            for player in top200_player_stats[year]:
+                top200_player_stats[year][player] /= 200
+
+            winning_player_stats[year] = dict(
+                sorted(winning_player_stats[year].items(), key=lambda x: x[1], reverse=True))
+
+    top200_overall_stats = copy.deepcopy(stat_dict)
+    for stat in top200_overall_stats:
+        top200_overall_stats[stat] = (top200_yearly_stats['2018'][stat] + top200_yearly_stats['2019'][stat] +
+                                      top200_yearly_stats['2020'][stat] + top200_yearly_stats['2021'][stat] +
+                                      top200_yearly_stats['2022'][stat]) / 5
+
+    winning_overall_stats = copy.deepcopy(stat_dict)
+    for stat in winning_overall_stats:
+        winning_overall_stats[stat] = (winning_yearly_stats['2018'][stat] + winning_yearly_stats['2019'][stat] +
+                                       winning_yearly_stats['2020'][stat] + winning_yearly_stats['2021'][stat] +
+                                       winning_yearly_stats['2022'][stat]) / 5
+
+    average_overall_stats = copy.deepcopy(stat_dict)
+    for stat in average_overall_stats:
+        average_overall_stats[stat] = (average_yearly_stats['2018'][stat] + average_yearly_stats['2019'][stat] +
+                                       average_yearly_stats['2020'][stat] + average_yearly_stats['2021'][stat] +
+                                       average_yearly_stats['2022'][stat]) / 5
 
     if bestball == True:
         output_file_name = 'adp_data/bestball_data_analysis.txt'
     else:
         output_file_name = 'adp_data/data_analysis.txt'
     with open(output_file_name, "w") as file:
-        for year in yearly_stats:
+        for year in winning_yearly_stats:
             file.write(year + ":\n")
-            for stat in yearly_stats[year]:
-                file.write(stat + ": " + str(yearly_stats[year][stat]) + "\n")
+            file.write(
+                "Top 200 teams' stats (left) vs league's highest scoring team's stats (middle) vs average team's stats (right):\n")
+            for stat in winning_yearly_stats[year]:
+                file.write(stat + ": " +
+                           str(top200_yearly_stats[year][stat]) + ", " + str(winning_yearly_stats[year][stat]) + ", " + str(average_yearly_stats[year][stat]) + "\n")
             file.write("\n")
             file.write(
-                "Percentage of time player seen on highest scoring team:\n")
-            for player in player_stats[year]:
-                file.write(player + ": " +
-                           str(player_stats[year][player]) + "\n")
+                "Percentage of time player seen on top 200 team (left) and league's highest scoring team (right):\n")
+            for player in winning_player_stats[year]:
+                try:
+                    file.write(player + ": " + str(top200_player_stats[year][player]) + ", " +
+                               str(winning_player_stats[year][player]) + "\n")
+                except KeyError:
+                    file.write(player + ": 0, " +
+                               str(winning_player_stats[year][player]) + "\n")
             file.write("\n")
         file.write("Overall: \n")
-        for stat in overall_stats:
-            file.write(stat + ": " + str(overall_stats[stat]) + "\n")
+        file.write(
+            "Top 200 teams' stats (left) vs league's highest scoring team's stats (middle) vs average team's stats (right):\n")
+        for stat in winning_overall_stats:
+            file.write(stat + ": " + str(top200_overall_stats[stat]) + ", " + str(winning_overall_stats[stat]) + ", " + str(
+                average_overall_stats[stat]) + "\n")
 
 
 # get_adp_data()
