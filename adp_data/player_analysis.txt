@@ -1,0 +1,2324 @@
+2018:
+Top player ownership (all positions):
+Player, ownership, ADP, Ranking
+James Conner: 21.39%, RB63, RB6
+George Kittle: 20.39%, TE13, TE3
+Christian McCaffrey: 20.28%, RB11, RB3
+Patrick Mahomes II: 20.01%, QB15, QB1
+Eric Ebron: 19.08%, TE16, TE4
+Todd Gurley II: 18.29%, RB1, RB1
+Saquon Barkley: 18.25%, RB6, RB2
+James White: 16.97%, RB47, RB8
+Travis Kelce: 16.35%, TE2, TE1
+Tyreek Hill: 15.38%, WR10, WR1
+Zach Ertz: 14.92%, TE3, TE2
+Alvin Kamara: 14.56%, RB5, RB4
+Chicago Bears DST: 14.27%, DST10, DST1
+Robert Woods: 14.12%, WR36, WR10
+Tarik Cohen: 13.86%, RB34, RB13
+Nick Chubb: 13.63%, RB38, RB16
+Chris Carson: 13.38%, RB36, RB15
+Marlon Mack: 13.12%, RB33, RB21
+JuJu Smith-Schuster: 13.10%, WR17, WR9
+Matt Ryan: 12.76%, QB13, QB2
+Tyler Lockett: 12.65%, WR53, WR15
+Ka'imi Fairbairn: 12.15%, K18, K1
+Drew Brees: 12.09%, QB6, QB8
+Mike Williams: 12.07%, WR57, WR24
+Davante Adams: 11.93%, WR7, WR3
+Tevin Coleman: 11.91%, RB27, RB19
+Adam Thielen: 11.89%, WR13, WR7
+Chris Godwin: 11.68%, WR63, WR25
+Ben Roethlisberger: 11.65%, QB14, QB3
+Mitch Trubisky: 11.53%, QB22, QB15
+Matt Breida: 11.50%, RB51, RB25
+Julian Edelman: 11.41%, WR30, WR22
+Austin Ekeler: 11.35%, RB60, RB24
+Austin Hooper: 11.33%, TE18, TE6
+Ezekiel Elliott: 11.33%, RB4, RB5
+Deshaun Watson: 11.28%, QB2, QB4
+Aaron Jones: 11.18%, RB37, RB23
+DeSean Jackson: 10.91%, WR66, WR37
+Jared Goff: 10.85%, QB16, QB7
+Adrian Peterson: 10.71%, RB42, RB18
+Alshon Jeffery: 10.7%, WR26, WR26
+Mason Crosby: 10.59%, K10, K6
+Kenny Golladay: 10.57%, WR50, WR21
+Dak Prescott: 10.45%, QB20, QB10
+Emmanuel Sanders: 10.43%, WR31, WR23
+O.J. Howard: 10.38%, TE15, TE13
+Mohamed Sanu Sr.: 10.32%, WR59, WR31
+Andrew Luck: 10.24%, QB9, QB5
+Brandin Cooks: 10.09%, WR18, WR13
+Justin Tucker: 10.02%, K3, K2
+Tyrell Williams: 9.97%, WR71, WR47
+Los Angeles Rams DST: 9.86%, DST2, DST2
+Calvin Ridley: 9.83%, WR47, WR20
+John Brown: 9.78%, WR65, WR43
+Mike Evans: 9.74%, WR9, WR8
+Melvin Gordon III: 9.74%, RB8, RB7
+Sony Michel: 9.68%, RB28, RB28
+New England Patriots DST: 9.67%, DST13, DST4
+Derrick Henry: 9.65%, RB17, RB14
+Dede Westbrook: 9.59%, WR64, WR33
+Joe Mixon: 9.52%, RB14, RB9
+Robbie Gould: 9.43%, K8, K8
+Christian Kirk: 9.41%, WR68, WR58
+Julio Jones: 9.27%, WR4, WR5
+Corey Davis: 9.26%, WR27, WR28
+Russell Wilson: 9.19%, QB4, QB9
+Cam Newton: 9.01%, QB5, QB12
+Jarvis Landry: 8.95%, WR21, WR19
+Isaiah Crowell: 8.91%, RB35, RB32
+Michael Thomas: 8.87%, WR5, WR6
+Pittsburgh Steelers DST: 8.84%, DST14, DST12
+Robbie Chosen: 8.72%, WR38, WR36
+Ryan Succop: 8.70%, K19, K18
+Vance McDonald: 8.69%, TE25, TE10
+Stefon Diggs: 8.69%, WR11, WR11
+Matt Prater: 8.63%, K12, K11
+Dion Lewis: 8.62%, RB25, RB31
+Houston Texans DST: 8.60%, DST6, DST3
+Baltimore Ravens DST: 8.58%, DST7, DST6
+Lamar Miller: 8.57%, RB21, RB22
+New Orleans Saints DST: 8.55%, DST9, DST14
+Cooper Kupp: 8.55%, WR35, WR52
+Trey Burton: 8.55%, TE9, TE7
+Kerryon Johnson: 8.54%, RB29, RB34
+Wil Lutz: 8.50%, K4, K4
+Tom Brady: 8.47%, QB3, QB14
+Evan Engram: 8.44%, TE6, TE12
+Harrison Butker: 8.43%, K6, K5
+Nyheim Hines: 8.42%, RB59, RB33
+Mark Ingram II: 8.41%, RB22, RB30
+Kyle Rudolph: 8.35%, TE8, TE8
+T.Y. Hilton: 8.34%, WR12, WR14
+Peyton Barber: 8.33%, RB40, RB27
+Giovani Bernard: 8.25%, RB50, RB54
+Minnesota Vikings DST: 8.24%, DST3, DST8
+Kirk Cousins: 8.2%, QB8, QB13
+Anthony Miller: 8.16%, WR55, WR56
+Jameis Winston: 8.10%, QB21, QB22
+Matt Bryant: 8.09%, K7, K19
+Kenyan Drake: 8.08%, RB18, RB17
+Arizona Cardinals DST: 8.02%, DST16, DST19
+Josh Lambo: 8.01%, K17, K27
+Frank Gore: 7.98%, RB61, RB45
+Philip Rivers: 7.96%, QB12, QB11
+DeAndre Hopkins: 7.92%, WR2, WR2
+Eli Manning: 7.87%, QB23, QB17
+Denver Broncos DST: 7.84%, DST8, DST5
+Brandon McManus: 7.81%, K15, K20
+Golden Tate: 7.80%, WR23, WR32
+Graham Gano: 7.76%, K16, K30
+Tennessee Titans DST: 7.69%, DST17, DST13
+Detroit Lions DST: 7.67%, DST18, DST21
+Josh Doctson: 7.66%, WR58, WR71
+Greg Zuerlein: 7.59%, K1, K12
+Atlanta Falcons DST: 7.59%, DST15, DST29
+William Fuller V: 7.57%, WR33, WR67
+Latavius Murray: 7.57%, RB43, RB36
+Jacksonville Jaguars DST: 7.55%, DST1, DST15
+Chris Thompson: 7.55%, RB54, RB61
+Kareem Hunt: 7.54%, RB9, RB11
+Benjamin Watson: 7.50%, TE19, TE22
+Amari Cooper: 7.49%, WR15, WR18
+Jamaal Williams: 7.45%, RB31, RB44
+Alfred Morris: 7.44%, RB56, RB67
+Cleveland Browns DST: 7.39%, DST12, DST20
+Geronimo Allison: 7.32%, WR67, WR99
+Sammy Watkins: 7.30%, WR32, WR63
+Sterling Shepard: 7.28%, WR44, WR30
+Jake Elliott: 7.26%, K5, K16
+Allen Robinson II: 7.15%, WR22, WR41
+Carlos Hyde: 7.1%, RB24, RB47
+Stephen Gostkowski: 7.1%, K2, K10
+Nelson Agholor: 7.02%, WR42, WR35
+DJ Moore: 6.99%, WR49, WR38
+David Njoku: 6.95%, TE11, TE9
+Keelan Cole Sr.: 6.95%, WR54, WR82
+Antonio Brown: 6.94%, WR1, WR4
+Michael Gallup: 6.93%, WR52, WR77
+Carolina Panthers DST: 6.90%, DST11, DST26
+Jimmy Graham: 6.83%, TE4, TE14
+Duke Johnson Jr.: 6.8%, RB39, RB41
+Marvin Jones Jr.: 6.74%, WR24, WR61
+Los Angeles Chargers DST: 6.71%, DST5, DST16
+Marquise Goodwin: 6.69%, WR29, WR79
+Kenny Stills: 6.67%, WR45, WR50
+Chris Boswell: 6.67%, K9, K25
+Keenan Allen: 6.62%, WR6, WR12
+Chris Hogan: 6.48%, WR25, WR69
+Jordan Reed: 6.47%, TE10, TE16
+Bilal Powell: 6.47%, RB49, RB70
+Devin Funchess: 6.41%, WR34, WR59
+C.J. Anderson: 6.31%, RB41, RB66
+Josh Gordon: 6.29%, WR19, WR45
+Michael Crabtree: 6.27%, WR28, WR55
+Doug Martin: 6.21%, RB53, RB38
+Devontae Booker: 6.19%, RB48, RB64
+Paul Richardson Jr.: 6.13%, WR74, WR105
+Larry Fitzgerald: 6.13%, WR16, WR27
+Jordan Wilkins: 6.11%, RB55, RB77
+LeGarrette Blount: 6.10%, RB46, RB53
+Carson Wentz: 6.07%, QB7, QB23
+Demaryius Thomas: 6.07%, WR20, WR39
+Marcus Mariota: 6.06%, QB17, QB24
+Theo Riddick: 6.02%, RB58, RB51
+Marqise Lee: 6.00%, WR62, WRDNP
+Rishard Matthews: 5.99%, WR60, WR178
+Dez Bryant: 5.99%, WR61, WRDNP
+Randall Cobb: 5.87%, WR41, WR86
+Corey Clement: 5.83%, RB45, RB62
+Case Keenum: 5.79%, QB24, QB19
+Rashaad Penny: 5.76%, RB26, RB65
+D'Onta Foreman: 5.73%, RB52, RB112
+Aaron Rodgers: 5.66%, QB1, QB6
+Tyler Eifert: 5.63%, TE14, TE54
+Alex Erickson: 5.61%, WR69, WR135
+Martavis Bryant: 5.61%, WR56, WR122
+Jamison Crowder: 5.57%, WR39, WR84
+Daniel Carlson: 5.56%, K11, K26
+Matthew Stafford: 5.45%, QB11, QB20
+Rex Burkhead: 5.45%, RB30, RB79
+Greg Olsen: 5.42%, TE5, TE24
+Austin Seferian-Jenkins: 5.39%, TE17, TE67
+Robert Kelley: 5.38%, RB57, RB149
+Alex Smith: 5.38%, QB18, QB31
+Cameron Brate: 5.35%, TE20, TE19
+Doug Baldwin: 5.33%, WR14, WR49
+Pierre Garcon: 5.22%, WR40, WR109
+Ty Montgomery: 5.19%, RB44, RB69
+Pharoh Cooper: 5.13%, WR70, WR240
+Jack Doyle: 5.00%, TE12, TE36
+Royce Freeman: 4.98%, RB20, RB46
+Jordan Howard: 4.93%, RB13, RB20
+Philadelphia Eagles DST: 4.92%, DST4, DST23
+Ronald Jones II: 4.85%, RB32, RB95
+Cameron Meredith: 4.85%, WR51, WR147
+Ricky Seals-Jones: 4.82%, TE21, TE30
+DeVante Parker: 4.8%, WR48, WR106
+Marshawn Lynch: 4.73%, RB23, RB59
+Odell Beckham Jr.: 4.73%, WR3, WR16
+Derek Carr: 4.71%, QB19, QB18
+Jordy Nelson: 4.61%, WR37, WR42
+Ryan Switzer: 4.52%, WR72, WR102
+Kelvin Benjamin: 4.51%, WR43, WR94
+Allen Hurns: 4.47%, WR46, WR101
+David Johnson: 4.21%, RB3, RB10
+Delanie Walker: 4.10%, TE7, TE96
+Jimmy Garoppolo: 4.02%, QB10, QB40
+A.J. Green: 4.00%, WR8, WR40
+Alex Collins: 3.89%, RB16, RB43
+Jay Ajayi: 3.87%, RB19, RB80
+LeSean McCoy: 3.86%, RB15, RB39
+Dalvin Cook: 3.74%, RB10, RB29
+Rob Gronkowski: 3.57%, TE1, TE11
+Andy Dalton: 3.11%, QB25, QB25
+Leonard Fournette: 2.92%, RB7, RB40
+Jonathan Williams: 2.66%, RB62, RB152
+Samaje Perine: 2.59%, RB64, RB123
+Mike Gesicki: 2.47%, TE23, TE58
+Hayden Hurst: 2.34%, TE24, TE60
+Tyrod Taylor: 2.29%, QB26, QB41
+Jared Cook: 1.73%, TE22, TE5
+Devonta Freeman: 1.61%, RB12, RB105
+Blake Bortles: 1.47%, QB27, QB26
+Le'Veon Bell: 0.80%, RB2, RBDNP
+
+QB:
+Patrick Mahomes II: 20.01%, QB15, QB1
+Matt Ryan: 12.76%, QB13, QB2
+Drew Brees: 12.09%, QB6, QB8
+Ben Roethlisberger: 11.65%, QB14, QB3
+Mitch Trubisky: 11.53%, QB22, QB15
+Deshaun Watson: 11.28%, QB2, QB4
+Jared Goff: 10.85%, QB16, QB7
+Dak Prescott: 10.45%, QB20, QB10
+Andrew Luck: 10.24%, QB9, QB5
+Russell Wilson: 9.19%, QB4, QB9
+Cam Newton: 9.01%, QB5, QB12
+Tom Brady: 8.47%, QB3, QB14
+Kirk Cousins: 8.2%, QB8, QB13
+Jameis Winston: 8.10%, QB21, QB22
+Philip Rivers: 7.96%, QB12, QB11
+Eli Manning: 7.87%, QB23, QB17
+Carson Wentz: 6.07%, QB7, QB23
+Marcus Mariota: 6.06%, QB17, QB24
+Case Keenum: 5.79%, QB24, QB19
+Aaron Rodgers: 5.66%, QB1, QB6
+Matthew Stafford: 5.45%, QB11, QB20
+Alex Smith: 5.38%, QB18, QB31
+Derek Carr: 4.71%, QB19, QB18
+Jimmy Garoppolo: 4.02%, QB10, QB40
+Andy Dalton: 3.11%, QB25, QB25
+Tyrod Taylor: 2.29%, QB26, QB41
+Blake Bortles: 1.47%, QB27, QB26
+
+RB:
+James Conner: 21.39%, RB63, RB6
+Christian McCaffrey: 20.28%, RB11, RB3
+Todd Gurley II: 18.29%, RB1, RB1
+Saquon Barkley: 18.25%, RB6, RB2
+James White: 16.97%, RB47, RB8
+Alvin Kamara: 14.56%, RB5, RB4
+Tarik Cohen: 13.86%, RB34, RB13
+Nick Chubb: 13.63%, RB38, RB16
+Chris Carson: 13.38%, RB36, RB15
+Marlon Mack: 13.12%, RB33, RB21
+Tevin Coleman: 11.91%, RB27, RB19
+Matt Breida: 11.50%, RB51, RB25
+Austin Ekeler: 11.35%, RB60, RB24
+Ezekiel Elliott: 11.33%, RB4, RB5
+Aaron Jones: 11.18%, RB37, RB23
+Adrian Peterson: 10.71%, RB42, RB18
+Melvin Gordon III: 9.74%, RB8, RB7
+Sony Michel: 9.68%, RB28, RB28
+Derrick Henry: 9.65%, RB17, RB14
+Joe Mixon: 9.52%, RB14, RB9
+Isaiah Crowell: 8.91%, RB35, RB32
+Dion Lewis: 8.62%, RB25, RB31
+Lamar Miller: 8.57%, RB21, RB22
+Kerryon Johnson: 8.54%, RB29, RB34
+Nyheim Hines: 8.42%, RB59, RB33
+Mark Ingram II: 8.41%, RB22, RB30
+Peyton Barber: 8.33%, RB40, RB27
+Giovani Bernard: 8.25%, RB50, RB54
+Kenyan Drake: 8.08%, RB18, RB17
+Frank Gore: 7.98%, RB61, RB45
+Latavius Murray: 7.57%, RB43, RB36
+Chris Thompson: 7.55%, RB54, RB61
+Kareem Hunt: 7.54%, RB9, RB11
+Jamaal Williams: 7.45%, RB31, RB44
+Alfred Morris: 7.44%, RB56, RB67
+Carlos Hyde: 7.1%, RB24, RB47
+Duke Johnson Jr.: 6.8%, RB39, RB41
+Bilal Powell: 6.47%, RB49, RB70
+C.J. Anderson: 6.31%, RB41, RB66
+Doug Martin: 6.21%, RB53, RB38
+Devontae Booker: 6.19%, RB48, RB64
+Jordan Wilkins: 6.11%, RB55, RB77
+LeGarrette Blount: 6.10%, RB46, RB53
+Theo Riddick: 6.02%, RB58, RB51
+Corey Clement: 5.83%, RB45, RB62
+Rashaad Penny: 5.76%, RB26, RB65
+D'Onta Foreman: 5.73%, RB52, RB112
+Rex Burkhead: 5.45%, RB30, RB79
+Robert Kelley: 5.38%, RB57, RB149
+Ty Montgomery: 5.19%, RB44, RB69
+Royce Freeman: 4.98%, RB20, RB46
+Jordan Howard: 4.93%, RB13, RB20
+Ronald Jones II: 4.85%, RB32, RB95
+Marshawn Lynch: 4.73%, RB23, RB59
+David Johnson: 4.21%, RB3, RB10
+Alex Collins: 3.89%, RB16, RB43
+Jay Ajayi: 3.87%, RB19, RB80
+LeSean McCoy: 3.86%, RB15, RB39
+Dalvin Cook: 3.74%, RB10, RB29
+Leonard Fournette: 2.92%, RB7, RB40
+Jonathan Williams: 2.66%, RB62, RB152
+Samaje Perine: 2.59%, RB64, RB123
+Devonta Freeman: 1.61%, RB12, RB105
+Le'Veon Bell: 0.80%, RB2, RBDNP
+
+WR:
+Tyreek Hill: 15.38%, WR10, WR1
+Robert Woods: 14.12%, WR36, WR10
+JuJu Smith-Schuster: 13.10%, WR17, WR9
+Tyler Lockett: 12.65%, WR53, WR15
+Mike Williams: 12.07%, WR57, WR24
+Davante Adams: 11.93%, WR7, WR3
+Adam Thielen: 11.89%, WR13, WR7
+Chris Godwin: 11.68%, WR63, WR25
+Julian Edelman: 11.41%, WR30, WR22
+DeSean Jackson: 10.91%, WR66, WR37
+Alshon Jeffery: 10.7%, WR26, WR26
+Kenny Golladay: 10.57%, WR50, WR21
+Emmanuel Sanders: 10.43%, WR31, WR23
+Mohamed Sanu Sr.: 10.32%, WR59, WR31
+Brandin Cooks: 10.09%, WR18, WR13
+Tyrell Williams: 9.97%, WR71, WR47
+Calvin Ridley: 9.83%, WR47, WR20
+John Brown: 9.78%, WR65, WR43
+Mike Evans: 9.74%, WR9, WR8
+Dede Westbrook: 9.59%, WR64, WR33
+Christian Kirk: 9.41%, WR68, WR58
+Julio Jones: 9.27%, WR4, WR5
+Corey Davis: 9.26%, WR27, WR28
+Jarvis Landry: 8.95%, WR21, WR19
+Michael Thomas: 8.87%, WR5, WR6
+Robbie Chosen: 8.72%, WR38, WR36
+Stefon Diggs: 8.69%, WR11, WR11
+Cooper Kupp: 8.55%, WR35, WR52
+T.Y. Hilton: 8.34%, WR12, WR14
+Anthony Miller: 8.16%, WR55, WR56
+DeAndre Hopkins: 7.92%, WR2, WR2
+Golden Tate: 7.80%, WR23, WR32
+Josh Doctson: 7.66%, WR58, WR71
+William Fuller V: 7.57%, WR33, WR67
+Amari Cooper: 7.49%, WR15, WR18
+Geronimo Allison: 7.32%, WR67, WR99
+Sammy Watkins: 7.30%, WR32, WR63
+Sterling Shepard: 7.28%, WR44, WR30
+Allen Robinson II: 7.15%, WR22, WR41
+Nelson Agholor: 7.02%, WR42, WR35
+DJ Moore: 6.99%, WR49, WR38
+Keelan Cole Sr.: 6.95%, WR54, WR82
+Antonio Brown: 6.94%, WR1, WR4
+Michael Gallup: 6.93%, WR52, WR77
+Marvin Jones Jr.: 6.74%, WR24, WR61
+Marquise Goodwin: 6.69%, WR29, WR79
+Kenny Stills: 6.67%, WR45, WR50
+Keenan Allen: 6.62%, WR6, WR12
+Chris Hogan: 6.48%, WR25, WR69
+Devin Funchess: 6.41%, WR34, WR59
+Josh Gordon: 6.29%, WR19, WR45
+Michael Crabtree: 6.27%, WR28, WR55
+Paul Richardson Jr.: 6.13%, WR74, WR105
+Larry Fitzgerald: 6.13%, WR16, WR27
+Demaryius Thomas: 6.07%, WR20, WR39
+Marqise Lee: 6.00%, WR62, WRDNP
+Rishard Matthews: 5.99%, WR60, WR178
+Dez Bryant: 5.99%, WR61, WRDNP
+Randall Cobb: 5.87%, WR41, WR86
+Alex Erickson: 5.61%, WR69, WR135
+Martavis Bryant: 5.61%, WR56, WR122
+Jamison Crowder: 5.57%, WR39, WR84
+Doug Baldwin: 5.33%, WR14, WR49
+Pierre Garcon: 5.22%, WR40, WR109
+Pharoh Cooper: 5.13%, WR70, WR240
+Cameron Meredith: 4.85%, WR51, WR147
+DeVante Parker: 4.8%, WR48, WR106
+Odell Beckham Jr.: 4.73%, WR3, WR16
+Jordy Nelson: 4.61%, WR37, WR42
+Ryan Switzer: 4.52%, WR72, WR102
+Kelvin Benjamin: 4.51%, WR43, WR94
+Allen Hurns: 4.47%, WR46, WR101
+A.J. Green: 4.00%, WR8, WR40
+
+TE:
+George Kittle: 20.39%, TE13, TE3
+Eric Ebron: 19.08%, TE16, TE4
+Travis Kelce: 16.35%, TE2, TE1
+Zach Ertz: 14.92%, TE3, TE2
+Austin Hooper: 11.33%, TE18, TE6
+O.J. Howard: 10.38%, TE15, TE13
+Vance McDonald: 8.69%, TE25, TE10
+Trey Burton: 8.55%, TE9, TE7
+Evan Engram: 8.44%, TE6, TE12
+Kyle Rudolph: 8.35%, TE8, TE8
+Benjamin Watson: 7.50%, TE19, TE22
+David Njoku: 6.95%, TE11, TE9
+Jimmy Graham: 6.83%, TE4, TE14
+Jordan Reed: 6.47%, TE10, TE16
+Tyler Eifert: 5.63%, TE14, TE54
+Greg Olsen: 5.42%, TE5, TE24
+Austin Seferian-Jenkins: 5.39%, TE17, TE67
+Cameron Brate: 5.35%, TE20, TE19
+Jack Doyle: 5.00%, TE12, TE36
+Ricky Seals-Jones: 4.82%, TE21, TE30
+Delanie Walker: 4.10%, TE7, TE96
+Rob Gronkowski: 3.57%, TE1, TE11
+Mike Gesicki: 2.47%, TE23, TE58
+Hayden Hurst: 2.34%, TE24, TE60
+Jared Cook: 1.73%, TE22, TE5
+
+DST:
+Chicago Bears DST: 14.27%, DST10, DST1
+Los Angeles Rams DST: 9.86%, DST2, DST2
+New England Patriots DST: 9.67%, DST13, DST4
+Pittsburgh Steelers DST: 8.84%, DST14, DST12
+Houston Texans DST: 8.60%, DST6, DST3
+Baltimore Ravens DST: 8.58%, DST7, DST6
+New Orleans Saints DST: 8.55%, DST9, DST14
+Minnesota Vikings DST: 8.24%, DST3, DST8
+Arizona Cardinals DST: 8.02%, DST16, DST19
+Denver Broncos DST: 7.84%, DST8, DST5
+Tennessee Titans DST: 7.69%, DST17, DST13
+Detroit Lions DST: 7.67%, DST18, DST21
+Atlanta Falcons DST: 7.59%, DST15, DST29
+Jacksonville Jaguars DST: 7.55%, DST1, DST15
+Cleveland Browns DST: 7.39%, DST12, DST20
+Carolina Panthers DST: 6.90%, DST11, DST26
+Los Angeles Chargers DST: 6.71%, DST5, DST16
+Philadelphia Eagles DST: 4.92%, DST4, DST23
+
+K:
+Ka'imi Fairbairn: 12.15%, K18, K1
+Mason Crosby: 10.59%, K10, K6
+Justin Tucker: 10.02%, K3, K2
+Robbie Gould: 9.43%, K8, K8
+Ryan Succop: 8.70%, K19, K18
+Matt Prater: 8.63%, K12, K11
+Wil Lutz: 8.50%, K4, K4
+Harrison Butker: 8.43%, K6, K5
+Matt Bryant: 8.09%, K7, K19
+Josh Lambo: 8.01%, K17, K27
+Brandon McManus: 7.81%, K15, K20
+Graham Gano: 7.76%, K16, K30
+Greg Zuerlein: 7.59%, K1, K12
+Jake Elliott: 7.26%, K5, K16
+Stephen Gostkowski: 7.1%, K2, K10
+Chris Boswell: 6.67%, K9, K25
+Daniel Carlson: 5.56%, K11, K26
+
+2019:
+Top player ownership (all positions):
+Player, ownership, ADP, Ranking
+Christian McCaffrey: 41.79%, RB3, RB1
+Lamar Jackson: 23.99%, QB12, QB1
+Aaron Jones: 20.32%, RB14, RB2
+Austin Ekeler: 19.34%, RB30, RB6
+New England Patriots DST: 17.94%, DST7, DST1
+Derrick Henry: 15.72%, RB17, RB3
+Austin Hooper: 15.19%, TE12, TE6
+Mark Andrews: 15.14%, TE13, TE4
+Cooper Kupp: 14.93%, WR21, WR4
+Chris Godwin: 14.35%, WR18, WR2
+Pittsburgh Steelers DST: 13.90%, DST21, DST2
+Dak Prescott: 13.37%, QB17, QB2
+Matt Prater: 13.22%, K14, K7
+Michael Gallup: 13.18%, WR46, WR22
+Marvin Jones Jr.: 13.17%, WR39, WR27
+Kenny Golladay: 12.70%, WR19, WR6
+Courtland Sutton: 12.54%, WR44, WR19
+Jared Cook: 12.45%, TE7, TE7
+George Kittle: 12.41%, TE2, TE2
+Kenyan Drake: 12.39%, RB32, RB16
+Josh Allen: 12.33%, QB21, QB6
+Mark Ingram II: 11.84%, RB22, RB8
+Dalvin Cook: 11.8%, RB10, RB5
+Jamison Crowder: 11.72%, WR59, WR31
+Chris Boswell: 11.68%, K17, K11
+Tyler Lockett: 11.65%, WR20, WR14
+Ezekiel Elliott: 11.53%, RB4, RB4
+Marquise Brown: 11.45%, WR67, WR46
+Jason Witten: 11.40%, TE19, TE12
+Allen Robinson II: 11.33%, WR30, WR11
+Brett Maher: 11.24%, K15, K22
+Michael Thomas: 11.21%, WR3, WR1
+Greg Olsen: 11.19%, TE14, TE13
+Leonard Fournette: 11.16%, RB12, RB9
+Austin Seibert: 11.15%, K13, K16
+Russell Wilson: 11.12%, QB8, QB4
+Miles Sanders: 11.11%, RB28, RB15
+John Brown: 11.08%, WR57, WR20
+Eddy Pineiro: 11.00%, K18, K23
+Kansas City Chiefs DST: 10.98%, DST20, DST5
+Deebo Samuel: 10.83%, WR58, WR29
+Jameis Winston: 10.81%, QB13, QB3
+Randall Cobb: 10.72%, WR61, WR44
+Jimmy Graham: 10.66%, TE18, TE21
+Jason Myers: 10.57%, K16, K14
+Kyler Murray: 10.45%, QB11, QB7
+Travis Kelce: 10.38%, TE1, TE1
+Mike Evans: 10.35%, WR8, WR12
+Kyle Rudolph: 10.34%, TE17, TE14
+Matthew Stafford: 10.30%, QB20, QB29
+Mecole Hardman Jr.: 10.29%, WR54, WR56
+Demaryius Thomas: 10.24%, WR68, WR85
+Harrison Butker: 10.22%, K3, K1
+Jake Elliott: 10.19%, K12, K20
+Kenny Stills: 10.08%, WR69, WR60
+Jimmy Garoppolo: 9.88%, QB22, QB14
+Sterling Shepard: 9.86%, WR38, WR50
+Tyler Eifert: 9.83%, TE21, TE20
+Keenan Allen: 9.8%, WR10, WR8
+Emmanuel Sanders: 9.74%, WR41, WR33
+Dallas Goedert: 9.70%, TE25, TE10
+Adrian Peterson: 9.66%, RB44, RB30
+Tyler Boyd: 9.65%, WR22, WR23
+Atlanta Falcons DST: 9.58%, DST14, DST21
+Zach Ertz: 9.49%, TE3, TE5
+Deshaun Watson: 9.27%, QB2, QB5
+Aaron Rodgers: 9.25%, QB3, QB10
+Baltimore Ravens DST: 9.21%, DST5, DST4
+Carlos Hyde: 9.13%, RB52, RB27
+Los Angeles Rams DST: 9.10%, DST2, DST6
+Justin Tucker: 9.07%, K2, K3
+Drew Brees: 9.07%, QB7, QB22
+DK Metcalf: 8.96%, WR52, WR32
+New Orleans Saints DST: 8.95%, DST18, DST8
+Green Bay Packers DST: 8.92%, DST12, DST16
+Julian Edelman: 8.89%, WR17, WR10
+Phillip Lindsay: 8.77%, RB25, RB19
+Calvin Ridley: 8.76%, WR24, WR25
+Melvin Gordon III: 8.7%, RB23, RB23
+Kirk Cousins: 8.67%, QB19, QB18
+James Washington: 8.63%, WR45, WR52
+Amari Cooper: 8.61%, WR12, WR9
+Carolina Panthers DST: 8.60%, DST11, DST22
+Jack Doyle: 8.55%, TE26, TE17
+Robbie Gould: 8.52%, K7, K15
+Golden Tate: 8.52%, WR49, WR43
+Matt Breida: 8.49%, RB36, RB45
+Seattle Seahawks DST: 8.45%, DST16, DST14
+Denver Broncos DST: 8.44%, DST9, DST19
+Robbie Chosen: 8.44%, WR31, WR39
+Ronald Jones II: 8.43%, RB53, RB26
+Philip Rivers: 8.43%, QB16, QB15
+Jarvis Landry: 8.41%, WR26, WR13
+Adam Vinatieri: 8.35%, K10, K29
+Larry Fitzgerald: 8.33%, WR40, WR37
+Mitch Trubisky: 8.30%, QB18, QB26
+Buffalo Bills DST: 8.29%, DST17, DST9
+Wil Lutz: 8.29%, K6, K2
+Carson Wentz: 8.28%, QB6, QB9
+Matt Ryan: 8.28%, QB5, QB11
+Rex Burkhead: 8.26%, RB58, RB48
+DJ Moore: 8.21%, WR28, WR18
+Philadelphia Eagles DST: 8.19%, DST15, DST15
+Justice Hill: 8.13%, RB50, RB73
+Latavius Murray: 8.11%, RB33, RB29
+Giorgio Tavecchio: 8.09%, K11, K50
+Jordan Howard: 8.08%, RB35, RB41
+Eric Ebron: 8.07%, TE10, TE27
+Cleveland Browns DST: 8.02%, DST6, DST25
+Peyton Barber: 7.99%, RB47, RB40
+Joe Mixon: 7.98%, RB11, RB13
+Anthony Miller: 7.97%, WR53, WR58
+Nyheim Hines: 7.94%, RB55, RB44
+Chris Carson: 7.86%, RB20, RB11
+Tony Pollard: 7.83%, RB42, RB52
+Noah Fant: 7.81%, TE24, TE16
+Corey Davis: 7.77%, WR37, WR64
+Curtis Samuel: 7.71%, WR36, WR36
+Adam Humphries: 7.66%, WR64, WR82
+Marquise Goodwin: 7.65%, WR66, WR125
+Jacoby Brissett: 7.64%, QB26, QB24
+Tarik Cohen: 7.55%, RB31, RB37
+Duke Johnson Jr.: 7.54%, RB29, RB32
+Dion Lewis: 7.54%, RB51, RB66
+Ito Smith: 7.48%, RB56, RB84
+Darwin Thompson: 7.46%, RB57, RB89
+Tom Brady: 7.44%, QB14, QB12
+Royce Freeman: 7.43%, RB37, RB39
+Devin Singletary: 7.42%, RB39, RB31
+Sam Darnold: 7.37%, QB25, QB27
+Tre'Quan Smith: 7.34%, WR63, WR88
+Saquon Barkley: 7.33%, RB1, RB10
+Sony Michel: 7.27%, RB24, RB28
+Ted Ginn Jr.: 7.26%, WR65, WR79
+Dallas Cowboys DST: 7.20%, DST10, DST20
+Houston Texans DST: 7.16%, DST8, DST23
+Sammy Watkins: 7.16%, WR35, WR51
+William Fuller V: 7.11%, WR33, WR54
+Mason Crosby: 7.11%, K8, K18
+Minnesota Vikings DST: 7.02%, DST4, DST7
+Jared Goff: 6.96%, QB9, QB13
+Dede Westbrook: 6.95%, WR32, WR45
+Tyreek Hill: 6.94%, WR7, WR30
+Kalen Ballage: 6.87%, RB48, RB75
+Christian Kirk: 6.86%, WR34, WR40
+Hunter Henry: 6.84%, TE6, TE9
+Nick Chubb: 6.8%, RB8, RB7
+Robert Woods: 6.79%, WR15, WR17
+James White: 6.79%, RB27, RB22
+Damien Harris: 6.68%, RB49, RB139
+Devonta Freeman: 6.63%, RB16, RB21
+Marquez Valdes-Scantling: 6.61%, WR43, WR80
+Malcolm Brown: 6.56%, RB60, RB62
+Stefon Diggs: 6.56%, WR13, WR21
+DaeSean Hamilton: 6.54%, WR71, WR98
+Ka'imi Fairbairn: 6.53%, K5, K19
+Rashaad Penny: 6.52%, RB38, RB56
+Parris Campbell: 6.51%, WR62, WR129
+Alshon Jeffery: 6.51%, WR29, WR59
+N'Keal Harry: 6.48%, WR55, WR123
+Los Angeles Chargers DST: 6.46%, DST13, DST27
+Damien Williams: 6.46%, RB13, RB35
+Jamaal Williams: 6.45%, RB65, RB34
+Darrell Henderson Jr.: 6.44%, RB43, RB96
+T.J. Hockenson: 6.37%, TE16, TE31
+Justin Jackson: 6.36%, RB45, RB90
+Julio Jones: 6.22%, WR4, WR3
+DeSean Jackson: 6.13%, WR47, WR124
+Patrick Mahomes II: 6.12%, QB1, QB8
+Adam Thielen: 6.02%, WR11, WR61
+Nick Foles: 5.97%, QB23, QB42
+Michael Badgley: 5.92%, K9, K31
+LeSean McCoy: 5.92%, RB40, RB42
+Mike Williams: 5.91%, WR23, WR38
+Marlon Mack: 5.86%, RB19, RB20
+Jaylen Samuels: 5.84%, RB46, RB51
+Todd Gurley II: 5.82%, RB9, RB14
+Devin Funchess: 5.80%, WR60, WR178
+Alvin Kamara: 5.78%, RB2, RB12
+Greg Zuerlein: 5.67%, K1, K10
+Geronimo Allison: 5.57%, WR48, WR90
+Tevin Coleman: 5.57%, RB26, RB36
+Chicago Bears DST: 5.5%, DST1, DST18
+Vance McDonald: 5.42%, TE8, TE32
+Evan Engram: 5.41%, TE5, TE18
+David Montgomery: 5.32%, RB21, RB25
+David Njoku: 5.27%, TE9, TE83
+Stephen Gostkowski: 5.26%, K4, K36
+Delanie Walker: 5.23%, TE11, TE42
+DeAndre Hopkins: 5.18%, WR1, WR5
+Derrius Guice: 5.17%, RB34, RB67
+Kareem Hunt: 5.16%, RB41, RB50
+Keke Coutee: 5.11%, WR56, WR106
+Alexander Mattison: 5.11%, RB54, RB59
+Jacksonville Jaguars DST: 5.08%, DST3, DST17
+Jordan Reed: 4.89%, TE20, TE129
+Trey Burton: 4.83%, TE15, TE75
+Derek Carr: 4.80%, QB24, QB17
+Baker Mayfield: 4.71%, QB4, QB19
+O.J. Howard: 4.65%, TE4, TE29
+Tyrell Williams: 4.57%, WR51, WR47
+Kerryon Johnson: 4.4%, RB15, RB53
+Dante Pettis: 4.36%, WR42, WR130
+Chris Thompson: 4.30%, RB66, RB55
+T.Y. Hilton: 4.18%, WR16, WR57
+Donte Moncrief: 4.17%, WR50, WR187
+Ben Roethlisberger: 4.07%, QB15, QB52
+Dare Ogunbowale: 4.04%, RB59, RB63
+Cam Newton: 3.92%, QB10, QB51
+Josh Gordon: 3.91%, WR27, WR89
+Darren Waller: 3.81%, TE22, TE3
+Davante Adams: 3.73%, WR2, WR24
+Jalen Richard: 3.64%, RB67, RB58
+Le'Veon Bell: 3.61%, RB7, RB17
+Odell Beckham Jr.: 3.56%, WR5, WR26
+A.J. Green: 3.55%, WR25, WR242
+Brandin Cooks: 3.39%, WR14, WR62
+Antonio Brown: 3.34%, WR9, WR148
+Mike Davis: 3.33%, RB64, RB116
+C.J. Anderson: 3.26%, RB61, RB126
+Chris Herndon IV: 3.24%, TE23, TE112
+JuJu Smith-Schuster: 3.02%, WR6, WR66
+James Conner: 2.86%, RB6, RB33
+David Johnson: 2.81%, RB5, RB38
+Josh Jacobs: 2.26%, RB18, RB18
+Marcus Mariota: 0.50%, QB27, QB34
+Dwayne Haskins: 0.40%, QB28, QB35
+
+QB:
+Lamar Jackson: 23.99%, QB12, QB1
+Dak Prescott: 13.37%, QB17, QB2
+Josh Allen: 12.33%, QB21, QB6
+Russell Wilson: 11.12%, QB8, QB4
+Jameis Winston: 10.81%, QB13, QB3
+Kyler Murray: 10.45%, QB11, QB7
+Matthew Stafford: 10.30%, QB20, QB29
+Jimmy Garoppolo: 9.88%, QB22, QB14
+Deshaun Watson: 9.27%, QB2, QB5
+Aaron Rodgers: 9.25%, QB3, QB10
+Drew Brees: 9.07%, QB7, QB22
+Kirk Cousins: 8.67%, QB19, QB18
+Philip Rivers: 8.43%, QB16, QB15
+Mitch Trubisky: 8.30%, QB18, QB26
+Carson Wentz: 8.28%, QB6, QB9
+Matt Ryan: 8.28%, QB5, QB11
+Jacoby Brissett: 7.64%, QB26, QB24
+Tom Brady: 7.44%, QB14, QB12
+Sam Darnold: 7.37%, QB25, QB27
+Jared Goff: 6.96%, QB9, QB13
+Patrick Mahomes II: 6.12%, QB1, QB8
+Nick Foles: 5.97%, QB23, QB42
+Derek Carr: 4.80%, QB24, QB17
+Baker Mayfield: 4.71%, QB4, QB19
+Ben Roethlisberger: 4.07%, QB15, QB52
+Cam Newton: 3.92%, QB10, QB51
+Marcus Mariota: 0.50%, QB27, QB34
+Dwayne Haskins: 0.40%, QB28, QB35
+
+RB:
+Christian McCaffrey: 41.79%, RB3, RB1
+Aaron Jones: 20.32%, RB14, RB2
+Austin Ekeler: 19.34%, RB30, RB6
+Derrick Henry: 15.72%, RB17, RB3
+Kenyan Drake: 12.39%, RB32, RB16
+Mark Ingram II: 11.84%, RB22, RB8
+Dalvin Cook: 11.8%, RB10, RB5
+Ezekiel Elliott: 11.53%, RB4, RB4
+Leonard Fournette: 11.16%, RB12, RB9
+Miles Sanders: 11.11%, RB28, RB15
+Adrian Peterson: 9.66%, RB44, RB30
+Carlos Hyde: 9.13%, RB52, RB27
+Phillip Lindsay: 8.77%, RB25, RB19
+Melvin Gordon III: 8.7%, RB23, RB23
+Matt Breida: 8.49%, RB36, RB45
+Ronald Jones II: 8.43%, RB53, RB26
+Rex Burkhead: 8.26%, RB58, RB48
+Justice Hill: 8.13%, RB50, RB73
+Latavius Murray: 8.11%, RB33, RB29
+Jordan Howard: 8.08%, RB35, RB41
+Peyton Barber: 7.99%, RB47, RB40
+Joe Mixon: 7.98%, RB11, RB13
+Nyheim Hines: 7.94%, RB55, RB44
+Chris Carson: 7.86%, RB20, RB11
+Tony Pollard: 7.83%, RB42, RB52
+Tarik Cohen: 7.55%, RB31, RB37
+Duke Johnson Jr.: 7.54%, RB29, RB32
+Dion Lewis: 7.54%, RB51, RB66
+Ito Smith: 7.48%, RB56, RB84
+Darwin Thompson: 7.46%, RB57, RB89
+Royce Freeman: 7.43%, RB37, RB39
+Devin Singletary: 7.42%, RB39, RB31
+Saquon Barkley: 7.33%, RB1, RB10
+Sony Michel: 7.27%, RB24, RB28
+Kalen Ballage: 6.87%, RB48, RB75
+Nick Chubb: 6.8%, RB8, RB7
+James White: 6.79%, RB27, RB22
+Damien Harris: 6.68%, RB49, RB139
+Devonta Freeman: 6.63%, RB16, RB21
+Malcolm Brown: 6.56%, RB60, RB62
+Rashaad Penny: 6.52%, RB38, RB56
+Damien Williams: 6.46%, RB13, RB35
+Jamaal Williams: 6.45%, RB65, RB34
+Darrell Henderson Jr.: 6.44%, RB43, RB96
+Justin Jackson: 6.36%, RB45, RB90
+LeSean McCoy: 5.92%, RB40, RB42
+Marlon Mack: 5.86%, RB19, RB20
+Jaylen Samuels: 5.84%, RB46, RB51
+Todd Gurley II: 5.82%, RB9, RB14
+Alvin Kamara: 5.78%, RB2, RB12
+Tevin Coleman: 5.57%, RB26, RB36
+David Montgomery: 5.32%, RB21, RB25
+Derrius Guice: 5.17%, RB34, RB67
+Kareem Hunt: 5.16%, RB41, RB50
+Alexander Mattison: 5.11%, RB54, RB59
+Kerryon Johnson: 4.4%, RB15, RB53
+Chris Thompson: 4.30%, RB66, RB55
+Dare Ogunbowale: 4.04%, RB59, RB63
+Jalen Richard: 3.64%, RB67, RB58
+Le'Veon Bell: 3.61%, RB7, RB17
+Mike Davis: 3.33%, RB64, RB116
+C.J. Anderson: 3.26%, RB61, RB126
+James Conner: 2.86%, RB6, RB33
+David Johnson: 2.81%, RB5, RB38
+Josh Jacobs: 2.26%, RB18, RB18
+
+WR:
+Cooper Kupp: 14.93%, WR21, WR4
+Chris Godwin: 14.35%, WR18, WR2
+Michael Gallup: 13.18%, WR46, WR22
+Marvin Jones Jr.: 13.17%, WR39, WR27
+Kenny Golladay: 12.70%, WR19, WR6
+Courtland Sutton: 12.54%, WR44, WR19
+Jamison Crowder: 11.72%, WR59, WR31
+Tyler Lockett: 11.65%, WR20, WR14
+Marquise Brown: 11.45%, WR67, WR46
+Allen Robinson II: 11.33%, WR30, WR11
+Michael Thomas: 11.21%, WR3, WR1
+John Brown: 11.08%, WR57, WR20
+Deebo Samuel: 10.83%, WR58, WR29
+Randall Cobb: 10.72%, WR61, WR44
+Mike Evans: 10.35%, WR8, WR12
+Mecole Hardman Jr.: 10.29%, WR54, WR56
+Demaryius Thomas: 10.24%, WR68, WR85
+Kenny Stills: 10.08%, WR69, WR60
+Sterling Shepard: 9.86%, WR38, WR50
+Keenan Allen: 9.8%, WR10, WR8
+Emmanuel Sanders: 9.74%, WR41, WR33
+Tyler Boyd: 9.65%, WR22, WR23
+DK Metcalf: 8.96%, WR52, WR32
+Julian Edelman: 8.89%, WR17, WR10
+Calvin Ridley: 8.76%, WR24, WR25
+James Washington: 8.63%, WR45, WR52
+Amari Cooper: 8.61%, WR12, WR9
+Golden Tate: 8.52%, WR49, WR43
+Robbie Chosen: 8.44%, WR31, WR39
+Jarvis Landry: 8.41%, WR26, WR13
+Larry Fitzgerald: 8.33%, WR40, WR37
+DJ Moore: 8.21%, WR28, WR18
+Anthony Miller: 7.97%, WR53, WR58
+Corey Davis: 7.77%, WR37, WR64
+Curtis Samuel: 7.71%, WR36, WR36
+Adam Humphries: 7.66%, WR64, WR82
+Marquise Goodwin: 7.65%, WR66, WR125
+Tre'Quan Smith: 7.34%, WR63, WR88
+Ted Ginn Jr.: 7.26%, WR65, WR79
+Sammy Watkins: 7.16%, WR35, WR51
+William Fuller V: 7.11%, WR33, WR54
+Dede Westbrook: 6.95%, WR32, WR45
+Tyreek Hill: 6.94%, WR7, WR30
+Christian Kirk: 6.86%, WR34, WR40
+Robert Woods: 6.79%, WR15, WR17
+Marquez Valdes-Scantling: 6.61%, WR43, WR80
+Stefon Diggs: 6.56%, WR13, WR21
+DaeSean Hamilton: 6.54%, WR71, WR98
+Parris Campbell: 6.51%, WR62, WR129
+Alshon Jeffery: 6.51%, WR29, WR59
+N'Keal Harry: 6.48%, WR55, WR123
+Julio Jones: 6.22%, WR4, WR3
+DeSean Jackson: 6.13%, WR47, WR124
+Adam Thielen: 6.02%, WR11, WR61
+Mike Williams: 5.91%, WR23, WR38
+Devin Funchess: 5.80%, WR60, WR178
+Geronimo Allison: 5.57%, WR48, WR90
+DeAndre Hopkins: 5.18%, WR1, WR5
+Keke Coutee: 5.11%, WR56, WR106
+Tyrell Williams: 4.57%, WR51, WR47
+Dante Pettis: 4.36%, WR42, WR130
+T.Y. Hilton: 4.18%, WR16, WR57
+Donte Moncrief: 4.17%, WR50, WR187
+Josh Gordon: 3.91%, WR27, WR89
+Davante Adams: 3.73%, WR2, WR24
+Odell Beckham Jr.: 3.56%, WR5, WR26
+A.J. Green: 3.55%, WR25, WR242
+Brandin Cooks: 3.39%, WR14, WR62
+Antonio Brown: 3.34%, WR9, WR148
+JuJu Smith-Schuster: 3.02%, WR6, WR66
+
+TE:
+Austin Hooper: 15.19%, TE12, TE6
+Mark Andrews: 15.14%, TE13, TE4
+Jared Cook: 12.45%, TE7, TE7
+George Kittle: 12.41%, TE2, TE2
+Jason Witten: 11.40%, TE19, TE12
+Greg Olsen: 11.19%, TE14, TE13
+Jimmy Graham: 10.66%, TE18, TE21
+Travis Kelce: 10.38%, TE1, TE1
+Kyle Rudolph: 10.34%, TE17, TE14
+Tyler Eifert: 9.83%, TE21, TE20
+Dallas Goedert: 9.70%, TE25, TE10
+Zach Ertz: 9.49%, TE3, TE5
+Jack Doyle: 8.55%, TE26, TE17
+Eric Ebron: 8.07%, TE10, TE27
+Noah Fant: 7.81%, TE24, TE16
+Hunter Henry: 6.84%, TE6, TE9
+T.J. Hockenson: 6.37%, TE16, TE31
+Vance McDonald: 5.42%, TE8, TE32
+Evan Engram: 5.41%, TE5, TE18
+David Njoku: 5.27%, TE9, TE83
+Delanie Walker: 5.23%, TE11, TE42
+Jordan Reed: 4.89%, TE20, TE129
+Trey Burton: 4.83%, TE15, TE75
+O.J. Howard: 4.65%, TE4, TE29
+Darren Waller: 3.81%, TE22, TE3
+Chris Herndon IV: 3.24%, TE23, TE112
+
+DST:
+New England Patriots DST: 17.94%, DST7, DST1
+Pittsburgh Steelers DST: 13.90%, DST21, DST2
+Kansas City Chiefs DST: 10.98%, DST20, DST5
+Atlanta Falcons DST: 9.58%, DST14, DST21
+Baltimore Ravens DST: 9.21%, DST5, DST4
+Los Angeles Rams DST: 9.10%, DST2, DST6
+New Orleans Saints DST: 8.95%, DST18, DST8
+Green Bay Packers DST: 8.92%, DST12, DST16
+Carolina Panthers DST: 8.60%, DST11, DST22
+Seattle Seahawks DST: 8.45%, DST16, DST14
+Denver Broncos DST: 8.44%, DST9, DST19
+Buffalo Bills DST: 8.29%, DST17, DST9
+Philadelphia Eagles DST: 8.19%, DST15, DST15
+Cleveland Browns DST: 8.02%, DST6, DST25
+Dallas Cowboys DST: 7.20%, DST10, DST20
+Houston Texans DST: 7.16%, DST8, DST23
+Minnesota Vikings DST: 7.02%, DST4, DST7
+Los Angeles Chargers DST: 6.46%, DST13, DST27
+Chicago Bears DST: 5.5%, DST1, DST18
+Jacksonville Jaguars DST: 5.08%, DST3, DST17
+
+K:
+Matt Prater: 13.22%, K14, K7
+Chris Boswell: 11.68%, K17, K11
+Brett Maher: 11.24%, K15, K22
+Austin Seibert: 11.15%, K13, K16
+Eddy Pineiro: 11.00%, K18, K23
+Jason Myers: 10.57%, K16, K14
+Harrison Butker: 10.22%, K3, K1
+Jake Elliott: 10.19%, K12, K20
+Justin Tucker: 9.07%, K2, K3
+Robbie Gould: 8.52%, K7, K15
+Adam Vinatieri: 8.35%, K10, K29
+Wil Lutz: 8.29%, K6, K2
+Giorgio Tavecchio: 8.09%, K11, K50
+Mason Crosby: 7.11%, K8, K18
+Ka'imi Fairbairn: 6.53%, K5, K19
+Michael Badgley: 5.92%, K9, K31
+Greg Zuerlein: 5.67%, K1, K10
+Stephen Gostkowski: 5.26%, K4, K36
+
+2020:
+Top player ownership (all positions):
+Player, ownership, ADP, Ranking
+Alvin Kamara: 22.18%, RB5, RB1
+Justin Jefferson: 21.26%, WR49, WR6
+Derrick Henry: 21.07%, RB6, RB2
+Dalvin Cook: 17.77%, RB4, RB3
+Darren Waller: 17.67%, TE5, TE2
+Travis Kelce: 17.03%, TE1, TE1
+Stefon Diggs: 16.84%, WR27, WR3
+Jonathan Taylor: 16.77%, RB18, RB6
+Josh Allen: 16.32%, QB9, QB1
+David Montgomery: 16.14%, RB29, RB4
+Davante Adams: 15.74%, WR2, WR1
+Aaron Rodgers: 15.25%, QB10, QB3
+Ryan Tannehill: 15.07%, QB20, QB7
+Calvin Ridley: 14.31%, WR17, WR4
+Marvin Jones Jr.: 13.24%, WR37, WR17
+A.J. Brown: 13.19%, WR15, WR11
+Los Angeles Rams DST: 13.15%, DST11, DST1
+Brandin Cooks: 13.14%, WR36, WR15
+Tom Brady: 13.03%, QB11, QB8
+Tyreek Hill: 12.8%, WR3, WR2
+Kyler Murray: 12.78%, QB5, QB2
+Antonio Gibson: 12.78%, RB44, RB12
+Nyheim Hines: 12.76%, RB57, RB20
+Curtis Samuel: 12.42%, WR66, WR25
+Jonnu Smith: 11.99%, TE16, TE10
+Jimmy Graham: 11.96%, TE20, TE11
+Jamison Crowder: 11.94%, WR42, WR39
+Jamaal Williams: 11.91%, RB66, RB39
+Mike Gesicki: 11.89%, TE14, TE7
+Kirk Cousins: 11.81%, QB25, QB11
+Younghoe Koo: 11.75%, K8, K2
+Robbie Chosen: 11.58%, WR57, WR24
+T.J. Hockenson: 11.56%, TE15, TE4
+Aaron Jones: 11.49%, RB13, RB5
+Ka'imi Fairbairn: 11.44%, K10, K15
+Adam Thielen: 11.33%, WR11, WR8
+William Fuller V: 11.21%, WR33, WR28
+New Orleans Saints DST: 11.14%, DST8, DST7
+CeeDee Lamb: 11.03%, WR39, WR20
+DK Metcalf: 10.98%, WR22, WR7
+Jason Sanders: 10.89%, K15, K1
+Diontae Johnson: 10.86%, WR38, WR23
+Deshaun Watson: 10.80%, QB6, QB5
+Tyler Lockett: 10.73%, WR18, WR9
+Kareem Hunt: 10.72%, RB28, RB10
+Russell Wilson: 10.68%, QB4, QB6
+Mike Williams: 10.65%, WR55, WR45
+Washington Commanders DST: 10.43%, DST18, DST6
+J.K. Dobbins: 10.39%, RB31, RB21
+Baltimore Ravens DST: 10.38%, DST3, DST5
+Pittsburgh Steelers DST: 10.29%, DST2, DST2
+Eric Ebron: 10.24%, TE18, TE15
+Latavius Murray: 10.20%, RB41, RB33
+Kansas City Chiefs DST: 10.14%, DST9, DST12
+Brandon McManus: 10.12%, K18, K11
+Melvin Gordon III: 10.09%, RB19, RB13
+Zane Gonzalez: 10.06%, K7, K27
+Tony Pollard: 9.6%, RB47, RB41
+D'Andre Swift: 9.54%, RB27, RB18
+Josh Jacobs: 9.54%, RB10, RB8
+Amari Cooper: 9.39%, WR13, WR16
+Michael Badgley: 9.38%, K11, K20
+JuJu Smith-Schuster: 9.37%, WR14, WR18
+Emmanuel Sanders: 9.28%, WR41, WR43
+Damien Harris: 9.27%, RB52, RB50
+Noah Fant: 9.23%, TE13, TE12
+Ronald Jones II: 9.22%, RB30, RB16
+Cam Newton: 9.06%, QB19, QB16
+Darius Slayton: 9.04%, WR40, WR55
+Matt Gay: 9.01%, K9, K30
+David Johnson: 8.89%, RB21, RB19
+Baker Mayfield: 8.86%, QB17, QB17
+Carlos Hyde: 8.86%, RB61, RB57
+Christian Kirk: 8.85%, WR44, WR50
+Sterling Shepard: 8.83%, WR45, WR46
+Chase Edmonds: 8.80%, RB48, RB28
+New England Patriots DST: 8.74%, DST6, DST11
+DeAndre Hopkins: 8.74%, WR5, WR5
+Nick Chubb: 8.69%, RB8, RB9
+Allen Robinson II: 8.67%, WR10, WR12
+Greg Zuerlein: 8.49%, K4, K5
+Derek Carr: 8.44%, QB27, QB13
+Rob Gronkowski: 8.41%, TE8, TE8
+Matt Prater: 8.38%, K6, K22
+Keenan Allen: 8.36%, WR20, WR14
+Adrian Peterson: 8.34%, RB49, RB37
+Hayden Hurst: 8.31%, TE11, TE9
+Terry McLaurin: 8.27%, WR23, WR21
+DJ Moore: 8.08%, WR12, WR22
+Philip Rivers: 8.07%, QB23, QB20
+Michael Pittman Jr.: 8.06%, WR61, WR81
+Darrell Henderson Jr.: 8.06%, RB45, RB36
+Robert Woods: 8.00%, WR21, WR13
+Chris Herndon IV: 7.97%, TE23, TE35
+Mike Evans: 7.93%, WR8, WR10
+James Conner: 7.93%, RB17, RB26
+Jerry Jeudy: 7.91%, WR46, WR44
+Mecole Hardman Jr.: 7.9%, WR48, WR58
+Austin Hooper: 7.89%, TE12, TE21
+AJ Dillon: 7.85%, RB53, RB79
+Jarvis Landry: 7.85%, WR32, WR36
+Teddy Bridgewater: 7.78%, QB26, QB19
+Matthew Stafford: 7.76%, QB13, QB15
+Mason Crosby: 7.74%, K12, K19
+Drew Lock: 7.72%, QB22, QB23
+Allen Lazard: 7.72%, WR58, WR78
+Tampa Bay Buccaneers DST: 7.61%, DST12, DST8
+Patrick Mahomes II: 7.60%, QB1, QB4
+Mark Andrews: 7.6%, TE3, TE5
+Preston Williams: 7.58%, WR50, WR96
+Justin Jackson: 7.57%, RB58, RB68
+Dallas Goedert: 7.49%, TE19, TE20
+Jared Goff: 7.48%, QB18, QB18
+Boston Scott: 7.45%, RB51, RB51
+Hunter Renfrow: 7.42%, WR64, WR61
+Cooper Kupp: 7.38%, WR16, WR27
+Jared Cook: 7.38%, TE10, TE17
+Kyle Rudolph: 7.29%, TE21, TE40
+Golden Tate: 7.29%, WR56, WR95
+Hunter Henry: 7.26%, TE9, TE13
+Chris Carson: 7.24%, RB15, RB17
+John Brown: 7.21%, WR43, WR80
+Ryquell Armstead: 7.19%, RB54, RBDNP
+Joe Burrow: 7.16%, QB16, QB25
+O.J. Howard: 7.15%, TE25, TE55
+Jake Elliott: 7.13%, K13, K29
+Los Angeles Chargers DST: 7.13%, DST10, DST23
+Anthony Miller: 7.12%, WR54, WR73
+Todd Gurley II: 7.11%, RB16, RB25
+Darrel Williams: 7.09%, RB59, RB77
+Jalen Reagor: 7.02%, WR51, WR88
+Chicago Bears DST: 6.95%, DST5, DST19
+Buffalo Bills DST: 6.91%, DST4, DST9
+Dallas Cowboys DST: 6.90%, DST15, DST21
+Kenyan Drake: 6.84%, RB11, RB14
+Parris Campbell: 6.80%, WR62, WR169
+Ben Roethlisberger: 6.76%, QB14, QB14
+Wil Lutz: 6.76%, K3, K12
+Philadelphia Eagles DST: 6.75%, DST17, DST15
+Larry Fitzgerald: 6.62%, WR60, WR87
+Duke Johnson Jr.: 6.60%, RB50, RB60
+Joshua Kelley: 6.60%, RB64, RB62
+Zack Moss: 6.58%, RB39, RB45
+N'Keal Harry: 6.49%, WR59, WR100
+Leonard Fournette: 6.44%, RB26, RB38
+T.Y. Hilton: 6.43%, WR25, WR40
+Harrison Butker: 6.43%, K2, K13
+Deebo Samuel: 6.39%, WR35, WR97
+Alexander Mattison: 6.34%, RB43, RB54
+James White: 6.31%, RB34, RB47
+Ke'Shawn Vaughn: 6.29%, RB46, RB96
+Gardner Minshew II: 6.25%, QB24, QB26
+Tyler Higbee: 6.25%, TE7, TE18
+LeSean McCoy: 6.16%, RB60, RB98
+Derrius Guice: 6.14%, RB55, RBDNP
+Robbie Gould: 6.12%, K5, K24
+Cincinnati Bengals DST: 6.08%, DST19, DST29
+Phillip Lindsay: 6.06%, RB33, RB65
+Denver Broncos DST: 6.05%, DST16, DST22
+DeVante Parker: 6.05%, WR26, WR42
+Daniel Jones: 6.02%, QB15, QB24
+Justin Tucker: 5.99%, K1, K7
+Carson Wentz: 5.97%, QB12, QB22
+Miles Sanders: 5.96%, RB14, RB23
+Breshad Perriman: 5.93%, WR65, WR75
+Austin Seibert: 5.93%, K16, K37
+Tyler Boyd: 5.92%, WR31, WR35
+Sammy Watkins: 5.91%, WR53, WR92
+Marquise Brown: 5.91%, WR28, WR34
+Chris Thompson: 5.85%, RB56, RB84
+Cam Akers: 5.78%, RB25, RB43
+Atlanta Falcons DST: 5.77%, DST20, DST24
+Minnesota Vikings DST: 5.77%, DST7, DST27
+Matt Ryan: 5.70%, QB7, QB12
+Greg Olsen: 5.70%, TE22, TE46
+Jimmy Garoppolo: 5.66%, QB21, QB38
+Evan Engram: 5.66%, TE6, TE16
+DeSean Jackson: 5.66%, WR52, WR120
+Tevin Coleman: 5.65%, RB42, RB123
+San Francisco 49ers DST: 5.57%, DST1, DST20
+Dan Bailey: 5.57%, K14, K28
+Devin Singletary: 5.54%, RB24, RB34
+Blake Jarwin: 5.53%, TE17, TE106
+Tarik Cohen: 5.46%, RB40, RB114
+Tua Tagovailoa: 5.43%, QB28, QB31
+Clyde Edwards-Helaire: 5.38%, RB9, RB22
+DJ Chark Jr.: 5.35%, WR24, WR49
+Julian Edelman: 5.33%, WR34, WR110
+Michael Gallup: 5.33%, WR29, WR38
+Sony Michel: 5.32%, RB37, RB59
+Lamar Jackson: 5.32%, QB2, QB10
+Austin Ekeler: 5.28%, RB12, RB29
+Green Bay Packers DST: 5.25%, DST13, DST18
+Chris Godwin: 5.19%, WR6, WR32
+Sam Sloman: 5.15%, K17, K31
+Jordan Howard: 5.08%, RB32, RB88
+Henry Ruggs III: 5.03%, WR47, WR89
+Alshon Jeffery: 4.95%, WR63, WR151
+Kerryon Johnson: 4.91%, RB38, RB66
+Raheem Mostert: 4.75%, RB23, RB48
+Lamar Miller: 4.73%, RB69, RB150
+Jack Doyle: 4.39%, TE24, TE39
+Drew Brees: 4.29%, QB8, QB21
+Julio Jones: 4.26%, WR4, WR53
+Matt Breida: 4.23%, RB36, RB82
+A.J. Green: 4.19%, WR30, WR68
+Marlon Mack: 4.16%, RB35, RB133
+George Kittle: 4.15%, TE2, TE19
+Le'Veon Bell: 4.07%, RB20, RB63
+Ezekiel Elliott: 3.92%, RB3, RB11
+Odell Beckham Jr.: 3.86%, WR9, WR85
+Ian Thomas: 3.73%, TE26, TE58
+Dak Prescott: 3.65%, QB3, QB32
+Rashaad Penny: 3.63%, RB68, RB141
+Detroit Lions DST: 3.37%, DST21, DST32
+Mark Ingram II: 3.16%, RB22, RB72
+Kenny Golladay: 3.%, WR7, WR102
+Zach Ertz: 2.99%, TE4, TE32
+Courtland Sutton: 2.71%, WR19, WR180
+Joe Mixon: 2.68%, RB7, RB49
+Christian McCaffrey: 1.50%, RB1, RB53
+Michael Thomas: 1.38%, WR1, WR98
+Sam Darnold: 0.84%, QB29, QB29
+Dede Westbrook: 0.78%, WR69, WR254
+Saquon Barkley: 0.69%, RB2, RB119
+
+QB:
+Josh Allen: 16.32%, QB9, QB1
+Aaron Rodgers: 15.25%, QB10, QB3
+Ryan Tannehill: 15.07%, QB20, QB7
+Tom Brady: 13.03%, QB11, QB8
+Kyler Murray: 12.78%, QB5, QB2
+Kirk Cousins: 11.81%, QB25, QB11
+Deshaun Watson: 10.80%, QB6, QB5
+Russell Wilson: 10.68%, QB4, QB6
+Cam Newton: 9.06%, QB19, QB16
+Baker Mayfield: 8.86%, QB17, QB17
+Derek Carr: 8.44%, QB27, QB13
+Philip Rivers: 8.07%, QB23, QB20
+Teddy Bridgewater: 7.78%, QB26, QB19
+Matthew Stafford: 7.76%, QB13, QB15
+Drew Lock: 7.72%, QB22, QB23
+Patrick Mahomes II: 7.60%, QB1, QB4
+Jared Goff: 7.48%, QB18, QB18
+Joe Burrow: 7.16%, QB16, QB25
+Ben Roethlisberger: 6.76%, QB14, QB14
+Gardner Minshew II: 6.25%, QB24, QB26
+Daniel Jones: 6.02%, QB15, QB24
+Carson Wentz: 5.97%, QB12, QB22
+Matt Ryan: 5.70%, QB7, QB12
+Jimmy Garoppolo: 5.66%, QB21, QB38
+Tua Tagovailoa: 5.43%, QB28, QB31
+Lamar Jackson: 5.32%, QB2, QB10
+Drew Brees: 4.29%, QB8, QB21
+Dak Prescott: 3.65%, QB3, QB32
+Sam Darnold: 0.84%, QB29, QB29
+
+RB:
+Alvin Kamara: 22.18%, RB5, RB1
+Derrick Henry: 21.07%, RB6, RB2
+Dalvin Cook: 17.77%, RB4, RB3
+Jonathan Taylor: 16.77%, RB18, RB6
+David Montgomery: 16.14%, RB29, RB4
+Antonio Gibson: 12.78%, RB44, RB12
+Nyheim Hines: 12.76%, RB57, RB20
+Jamaal Williams: 11.91%, RB66, RB39
+Aaron Jones: 11.49%, RB13, RB5
+Kareem Hunt: 10.72%, RB28, RB10
+J.K. Dobbins: 10.39%, RB31, RB21
+Latavius Murray: 10.20%, RB41, RB33
+Melvin Gordon III: 10.09%, RB19, RB13
+Tony Pollard: 9.6%, RB47, RB41
+D'Andre Swift: 9.54%, RB27, RB18
+Josh Jacobs: 9.54%, RB10, RB8
+Damien Harris: 9.27%, RB52, RB50
+Ronald Jones II: 9.22%, RB30, RB16
+David Johnson: 8.89%, RB21, RB19
+Carlos Hyde: 8.86%, RB61, RB57
+Chase Edmonds: 8.80%, RB48, RB28
+Nick Chubb: 8.69%, RB8, RB9
+Adrian Peterson: 8.34%, RB49, RB37
+Darrell Henderson Jr.: 8.06%, RB45, RB36
+James Conner: 7.93%, RB17, RB26
+AJ Dillon: 7.85%, RB53, RB79
+Justin Jackson: 7.57%, RB58, RB68
+Boston Scott: 7.45%, RB51, RB51
+Chris Carson: 7.24%, RB15, RB17
+Ryquell Armstead: 7.19%, RB54, RBDNP
+Todd Gurley II: 7.11%, RB16, RB25
+Darrel Williams: 7.09%, RB59, RB77
+Kenyan Drake: 6.84%, RB11, RB14
+Duke Johnson Jr.: 6.60%, RB50, RB60
+Joshua Kelley: 6.60%, RB64, RB62
+Zack Moss: 6.58%, RB39, RB45
+Leonard Fournette: 6.44%, RB26, RB38
+Alexander Mattison: 6.34%, RB43, RB54
+James White: 6.31%, RB34, RB47
+Ke'Shawn Vaughn: 6.29%, RB46, RB96
+LeSean McCoy: 6.16%, RB60, RB98
+Derrius Guice: 6.14%, RB55, RBDNP
+Phillip Lindsay: 6.06%, RB33, RB65
+Miles Sanders: 5.96%, RB14, RB23
+Chris Thompson: 5.85%, RB56, RB84
+Cam Akers: 5.78%, RB25, RB43
+Tevin Coleman: 5.65%, RB42, RB123
+Devin Singletary: 5.54%, RB24, RB34
+Tarik Cohen: 5.46%, RB40, RB114
+Clyde Edwards-Helaire: 5.38%, RB9, RB22
+Sony Michel: 5.32%, RB37, RB59
+Austin Ekeler: 5.28%, RB12, RB29
+Jordan Howard: 5.08%, RB32, RB88
+Kerryon Johnson: 4.91%, RB38, RB66
+Raheem Mostert: 4.75%, RB23, RB48
+Lamar Miller: 4.73%, RB69, RB150
+Matt Breida: 4.23%, RB36, RB82
+Marlon Mack: 4.16%, RB35, RB133
+Le'Veon Bell: 4.07%, RB20, RB63
+Ezekiel Elliott: 3.92%, RB3, RB11
+Rashaad Penny: 3.63%, RB68, RB141
+Mark Ingram II: 3.16%, RB22, RB72
+Joe Mixon: 2.68%, RB7, RB49
+Christian McCaffrey: 1.50%, RB1, RB53
+Saquon Barkley: 0.69%, RB2, RB119
+
+WR:
+Justin Jefferson: 21.26%, WR49, WR6
+Stefon Diggs: 16.84%, WR27, WR3
+Davante Adams: 15.74%, WR2, WR1
+Calvin Ridley: 14.31%, WR17, WR4
+Marvin Jones Jr.: 13.24%, WR37, WR17
+A.J. Brown: 13.19%, WR15, WR11
+Brandin Cooks: 13.14%, WR36, WR15
+Tyreek Hill: 12.8%, WR3, WR2
+Curtis Samuel: 12.42%, WR66, WR25
+Jamison Crowder: 11.94%, WR42, WR39
+Robbie Chosen: 11.58%, WR57, WR24
+Adam Thielen: 11.33%, WR11, WR8
+William Fuller V: 11.21%, WR33, WR28
+CeeDee Lamb: 11.03%, WR39, WR20
+DK Metcalf: 10.98%, WR22, WR7
+Diontae Johnson: 10.86%, WR38, WR23
+Tyler Lockett: 10.73%, WR18, WR9
+Mike Williams: 10.65%, WR55, WR45
+Amari Cooper: 9.39%, WR13, WR16
+JuJu Smith-Schuster: 9.37%, WR14, WR18
+Emmanuel Sanders: 9.28%, WR41, WR43
+Darius Slayton: 9.04%, WR40, WR55
+Christian Kirk: 8.85%, WR44, WR50
+Sterling Shepard: 8.83%, WR45, WR46
+DeAndre Hopkins: 8.74%, WR5, WR5
+Allen Robinson II: 8.67%, WR10, WR12
+Keenan Allen: 8.36%, WR20, WR14
+Terry McLaurin: 8.27%, WR23, WR21
+DJ Moore: 8.08%, WR12, WR22
+Michael Pittman Jr.: 8.06%, WR61, WR81
+Robert Woods: 8.00%, WR21, WR13
+Mike Evans: 7.93%, WR8, WR10
+Jerry Jeudy: 7.91%, WR46, WR44
+Mecole Hardman Jr.: 7.9%, WR48, WR58
+Jarvis Landry: 7.85%, WR32, WR36
+Allen Lazard: 7.72%, WR58, WR78
+Preston Williams: 7.58%, WR50, WR96
+Hunter Renfrow: 7.42%, WR64, WR61
+Cooper Kupp: 7.38%, WR16, WR27
+Golden Tate: 7.29%, WR56, WR95
+John Brown: 7.21%, WR43, WR80
+Anthony Miller: 7.12%, WR54, WR73
+Jalen Reagor: 7.02%, WR51, WR88
+Parris Campbell: 6.80%, WR62, WR169
+Larry Fitzgerald: 6.62%, WR60, WR87
+N'Keal Harry: 6.49%, WR59, WR100
+T.Y. Hilton: 6.43%, WR25, WR40
+Deebo Samuel: 6.39%, WR35, WR97
+DeVante Parker: 6.05%, WR26, WR42
+Breshad Perriman: 5.93%, WR65, WR75
+Tyler Boyd: 5.92%, WR31, WR35
+Sammy Watkins: 5.91%, WR53, WR92
+Marquise Brown: 5.91%, WR28, WR34
+DeSean Jackson: 5.66%, WR52, WR120
+DJ Chark Jr.: 5.35%, WR24, WR49
+Julian Edelman: 5.33%, WR34, WR110
+Michael Gallup: 5.33%, WR29, WR38
+Chris Godwin: 5.19%, WR6, WR32
+Henry Ruggs III: 5.03%, WR47, WR89
+Alshon Jeffery: 4.95%, WR63, WR151
+Julio Jones: 4.26%, WR4, WR53
+A.J. Green: 4.19%, WR30, WR68
+Odell Beckham Jr.: 3.86%, WR9, WR85
+Kenny Golladay: 3.%, WR7, WR102
+Courtland Sutton: 2.71%, WR19, WR180
+Michael Thomas: 1.38%, WR1, WR98
+Dede Westbrook: 0.78%, WR69, WR254
+
+TE:
+Darren Waller: 17.67%, TE5, TE2
+Travis Kelce: 17.03%, TE1, TE1
+Jonnu Smith: 11.99%, TE16, TE10
+Jimmy Graham: 11.96%, TE20, TE11
+Mike Gesicki: 11.89%, TE14, TE7
+T.J. Hockenson: 11.56%, TE15, TE4
+Eric Ebron: 10.24%, TE18, TE15
+Noah Fant: 9.23%, TE13, TE12
+Rob Gronkowski: 8.41%, TE8, TE8
+Hayden Hurst: 8.31%, TE11, TE9
+Chris Herndon IV: 7.97%, TE23, TE35
+Austin Hooper: 7.89%, TE12, TE21
+Mark Andrews: 7.6%, TE3, TE5
+Dallas Goedert: 7.49%, TE19, TE20
+Jared Cook: 7.38%, TE10, TE17
+Kyle Rudolph: 7.29%, TE21, TE40
+Hunter Henry: 7.26%, TE9, TE13
+O.J. Howard: 7.15%, TE25, TE55
+Tyler Higbee: 6.25%, TE7, TE18
+Greg Olsen: 5.70%, TE22, TE46
+Evan Engram: 5.66%, TE6, TE16
+Blake Jarwin: 5.53%, TE17, TE106
+Jack Doyle: 4.39%, TE24, TE39
+George Kittle: 4.15%, TE2, TE19
+Ian Thomas: 3.73%, TE26, TE58
+Zach Ertz: 2.99%, TE4, TE32
+
+DST:
+Los Angeles Rams DST: 13.15%, DST11, DST1
+New Orleans Saints DST: 11.14%, DST8, DST7
+Washington Commanders DST: 10.43%, DST18, DST6
+Baltimore Ravens DST: 10.38%, DST3, DST5
+Pittsburgh Steelers DST: 10.29%, DST2, DST2
+Kansas City Chiefs DST: 10.14%, DST9, DST12
+New England Patriots DST: 8.74%, DST6, DST11
+Tampa Bay Buccaneers DST: 7.61%, DST12, DST8
+Los Angeles Chargers DST: 7.13%, DST10, DST23
+Chicago Bears DST: 6.95%, DST5, DST19
+Buffalo Bills DST: 6.91%, DST4, DST9
+Dallas Cowboys DST: 6.90%, DST15, DST21
+Philadelphia Eagles DST: 6.75%, DST17, DST15
+Cincinnati Bengals DST: 6.08%, DST19, DST29
+Denver Broncos DST: 6.05%, DST16, DST22
+Atlanta Falcons DST: 5.77%, DST20, DST24
+Minnesota Vikings DST: 5.77%, DST7, DST27
+San Francisco 49ers DST: 5.57%, DST1, DST20
+Green Bay Packers DST: 5.25%, DST13, DST18
+Detroit Lions DST: 3.37%, DST21, DST32
+
+K:
+Younghoe Koo: 11.75%, K8, K2
+Ka'imi Fairbairn: 11.44%, K10, K15
+Jason Sanders: 10.89%, K15, K1
+Brandon McManus: 10.12%, K18, K11
+Zane Gonzalez: 10.06%, K7, K27
+Michael Badgley: 9.38%, K11, K20
+Matt Gay: 9.01%, K9, K30
+Greg Zuerlein: 8.49%, K4, K5
+Matt Prater: 8.38%, K6, K22
+Mason Crosby: 7.74%, K12, K19
+Jake Elliott: 7.13%, K13, K29
+Wil Lutz: 6.76%, K3, K12
+Harrison Butker: 6.43%, K2, K13
+Robbie Gould: 6.12%, K5, K24
+Justin Tucker: 5.99%, K1, K7
+Austin Seibert: 5.93%, K16, K37
+Dan Bailey: 5.57%, K14, K28
+Sam Sloman: 5.15%, K17, K31
+
+2021:
+Top player ownership (all positions):
+Player, ownership, ADP, Ranking
+Cooper Kupp: 30.17%, WR17, WR1
+Jonathan Taylor: 26.38%, RB8, RB1
+Deebo Samuel: 22.47%, WR34, WR2
+Mark Andrews: 17.70%, TE5, TE1
+Ja'Marr Chase: 17.57%, WR28, WR5
+Leonard Fournette: 16.76%, RB32, RB7
+Austin Ekeler: 16.39%, RB10, RB2
+James Conner: 15.64%, RB36, RB5
+Dallas Cowboys DST: 15.03%, DST20, DST1
+Joe Mixon: 14.91%, RB13, RB3
+Josh Allen: 14.66%, QB2, QB1
+Justin Herbert: 14.3%, QB8, QB2
+Tom Brady: 14.14%, QB9, QB3
+Darrel Williams: 14.13%, RB57, RB22
+Marquise Brown: 13.3%, WR54, WR23
+Najee Harris: 13.29%, RB11, RB4
+Joe Burrow: 13.14%, QB13, QB8
+Zach Ertz: 12.86%, TE16, TE5
+Hunter Henry: 12.69%, TE15, TE9
+Jaylen Waddle: 12.5%, WR44, WR16
+Darnell Mooney: 12.1%, WR51, WR24
+Damien Harris: 11.93%, RB25, RB13
+Mike Williams: 11.88%, WR47, WR10
+Davante Adams: 11.73%, WR1, WR3
+Miami Dolphins DST: 11.55%, DST13, DST3
+New England Patriots DST: 11.48%, DST10, DST2
+Rob Gronkowski: 11.27%, TE12, TE6
+Justin Jefferson: 11.26%, WR7, WR4
+Devin Singletary: 11.21%, RB38, RB20
+Tennessee Titans DST: 11.18%, DST14, DST11
+Tee Higgins: 10.99%, WR24, WR22
+Jalen Hurts: 10.96%, QB11, QB9
+Daniel Carlson: 10.93%, K14, K1
+Mike Evans: 10.55%, WR13, WR8
+Kirk Cousins: 10.48%, QB20, QB11
+Michael Pittman Jr.: 10.47%, WR45, WR15
+Kansas City Chiefs DST: 10.42%, DST12, DST8
+Brandin Cooks: 10.36%, WR39, WR20
+Javonte Williams: 10.28%, RB27, RB17
+Aaron Rodgers: 10.28%, QB7, QB6
+Buffalo Bills DST: 10.26%, DST8, DST4
+Rashaad Penny: 10.08%, RB54, RB36
+Pat Freiermuth: 10.07%, TE20, TE13
+Elijah Moore: 10.05%, WR57, WR48
+Evan McPherson: 10.03%, K18, K7
+Diontae Johnson: 9.98%, WR22, WR9
+AJ Dillon: 9.96%, RB34, RB23
+Mason Crosby: 9.93%, K9, K15
+Matthew Stafford: 9.79%, QB10, QB5
+Chicago Bears DST: 9.68%, DST15, DST19
+Devontae Booker: 9.62%, RB60, RB34
+Jakobi Meyers: 9.6%, WR55, WR33
+A.J. Green: 9.58%, WR63, WR41
+Chuba Hubbard: 9.49%, RB51, RB33
+Arizona Cardinals DST: 9.49%, DST22, DST9
+Tyreek Hill: 9.48%, WR2, WR6
+Travis Kelce: 9.47%, TE1, TE2
+Russell Gage: 9.47%, WR58, WR39
+Rhamondre Stevenson: 9.45%, RB46, RB40
+Gabe Davis: 9.35%, WR70, WR53
+Chris Godwin: 9.35%, WR14, WR17
+Tyler Bass: 9.30%, K4, K11
+J.D. McKissic: 9.29%, RB49, RB44
+Tony Pollard: 9.24%, RB43, RB28
+CeeDee Lamb: 9.21%, WR12, WR18
+Mike Gesicki: 9.21%, TE13, TE11
+Melvin Gordon III: 9.14%, RB31, RB18
+Alexander Mattison: 9.09%, RB45, RB38
+Matt Prater: 9.08%, K11, K8
+Marvin Jones Jr.: 9.08%, WR53, WR34
+Jared Cook: 9.05%, TE18, TE16
+Dallas Goedert: 9.02%, TE11, TE10
+Mark Ingram II: 9.00%, RB56, RB50
+Sony Michel: 8.99%, RB42, RB30
+Josh Jacobs: 8.98%, RB17, RB14
+D'Andre Swift: 8.8%, RB19, RB19
+Marquez Valdes-Scantling: 8.59%, WR69, WR80
+Brandon McManus: 8.58%, K15, K17
+Mac Jones: 8.54%, QB19, QB18
+Robbie Gould: 8.52%, K10, K22
+Matt Ryan: 8.51%, QB16, QB20
+Gerald Everett: 8.50%, TE17, TE20
+Minnesota Vikings DST: 8.49%, DST18, DST10
+Justin Tucker: 8.44%, K1, K4
+DeVonta Smith: 8.43%, WR35, WR29
+James Robinson: 8.26%, RB18, RB24
+Michael Carter: 8.23%, RB33, RB29
+Greg Zuerlein: 8.21%, K5, K13
+David Montgomery: 8.2%, RB15, RB21
+Henry Ruggs III: 8.19%, WR52, WR82
+Younghoe Koo: 8.14%, K3, K18
+Indianapolis Colts DST: 8.06%, DST9, DST7
+Wil Lutz: 8.03%, K12, KDNP
+Ryan Succop: 8.02%, K7, K14
+DeVante Parker: 8.00%, WR59, WR69
+Dak Prescott: 7.99%, QB5, QB7
+Mike Davis: 7.95%, RB39, RB37
+Tampa Bay Buccaneers DST: 7.94%, DST2, DST6
+Noah Fant: 7.93%, TE8, TE12
+Tyler Boyd: 7.93%, WR37, WR31
+Nyheim Hines: 7.92%, RB44, RB53
+George Kittle: 7.92%, TE3, TE4
+Jamaal Williams: 7.91%, RB40, RB43
+Tua Tagovailoa: 7.88%, QB21, QB26
+Green Bay Packers DST: 7.87%, DST17, DST15
+New Orleans Saints DST: 7.80%, DST19, DST5
+Evan Engram: 7.76%, TE19, TE23
+Rodrigo Blankenship: 7.75%, K8, K33
+Ezekiel Elliott: 7.73%, RB5, RB6
+Cleveland Browns DST: 7.69%, DST11, DST20
+Matt Gay: 7.66%, K16, K5
+Jason Sanders: 7.66%, K6, K21
+Patrick Mahomes II: 7.65%, QB1, QB4
+Marquez Callaway: 7.64%, WR46, WR42
+Chase Edmonds: 7.6%, RB26, RB35
+Antonio Brown: 7.59%, WR36, WR58
+Tyler Lockett: 7.58%, WR19, WR13
+Adam Thielen: 7.55%, WR21, WR28
+Denver Broncos DST: 7.46%, DST7, DST13
+Cole Beasley: 7.44%, WR56, WR47
+Latavius Murray: 7.43%, RB52, RB49
+Keenan Allen: 7.42%, WR9, WR14
+Sam Ficken: 7.41%, K19, KDNP
+Corey Davis: 7.39%, WR41, WR66
+Derrick Henry: 7.38%, RB3, RB16
+T.J. Hockenson: 7.36%, TE6, TE15
+Emmanuel Sanders: 7.36%, WR71, WR52
+Brandon Aiyuk: 7.31%, WR23, WR36
+Nick Chubb: 7.29%, RB6, RB11
+Kyler Murray: 7.23%, QB3, QB10
+Aaron Jones: 7.21%, RB7, RB12
+Nelson Agholor: 7.21%, WR62, WR67
+Kenyan Drake: 7.13%, RB37, RB57
+Alvin Kamara: 7.11%, RB4, RB8
+Jason Myers: 7.10%, K13, K23
+Trevor Lawrence: 7.04%, QB14, QB22
+Randall Cobb: 6.98%, WR68, WR74
+Jarvis Landry: 6.98%, WR42, WR56
+Baker Mayfield: 6.92%, QB15, QB25
+Bryan Edwards: 6.87%, WR65, WR64
+Justin Fields: 6.84%, QB17, QB31
+Derek Carr: 6.84%, QB27, QB13
+Rondale Moore: 6.84%, WR61, WR71
+Courtland Sutton: 6.81%, WR33, WR46
+Harrison Butker: 6.78%, K2, K12
+Seattle Seahawks DST: 6.77%, DST16, DST21
+Antonio Gibson: 6.77%, RB12, RB10
+Ben Roethlisberger: 6.77%, QB22, QB21
+DK Metcalf: 6.72%, WR6, WR12
+Amari Cooper: 6.66%, WR16, WR27
+Kyle Pitts: 6.62%, TE4, TE7
+Stefon Diggs: 6.61%, WR3, WR7
+Ryan Tannehill: 6.59%, QB12, QB12
+Zach Wilson: 6.56%, QB25, QB30
+Pittsburgh Steelers DST: 6.52%, DST3, DST17
+Kenneth Gainwell: 6.43%, RB58, RB42
+San Francisco 49ers DST: 6.42%, DST6, DST14
+Sterling Shepard: 6.41%, WR67, WR99
+Terry McLaurin: 6.39%, WR10, WR25
+Mecole Hardman Jr.: 6.38%, WR50, WR51
+Michael Gallup: 6.36%, WR48, WR79
+David Johnson: 6.35%, RB41, RB63
+Giovani Bernard: 6.34%, RB53, RB76
+Phillip Lindsay: 6.32%, RB50, RB81
+Chase Claypool: 6.3%, WR25, WR37
+DJ Moore: 6.29%, WR20, WR19
+Marlon Mack: 6.26%, RB55, RB121
+Darrell Henderson Jr.: 6.24%, RB21, RB27
+Dalvin Cook: 6.16%, RB2, RB15
+Tevin Coleman: 6.16%, RB47, RB77
+Tyrell Williams: 6.10%, WR64, WR208
+Lamar Jackson: 6.09%, QB4, QB15
+Odell Beckham Jr.: 6.03%, WR26, WR55
+Jonnu Smith: 5.97%, TE14, TE34
+James White: 5.95%, RB48, RB97
+Austin Hooper: 5.93%, TE21, TE24
+Ty Johnson: 5.90%, RB62, RB47
+Myles Gaskin: 5.9%, RB22, RB26
+Jalen Reagor: 5.87%, WR66, WR97
+Jameis Winston: 5.86%, QB23, QB32
+Tyler Higbee: 5.85%, TE10, TE14
+Terrace Marshall Jr.: 5.65%, WR60, WR142
+Baltimore Ravens DST: 5.62%, DST5, DST26
+Zack Moss: 5.61%, RB35, RB52
+Los Angeles Rams DST: 5.60%, DST1, DST12
+Curtis Samuel: 5.47%, WR49, WR183
+Russell Wilson: 5.41%, QB6, QB16
+Kareem Hunt: 5.39%, RB23, RB48
+Robbie Chosen: 5.37%, WR31, WR50
+Laviska Shenault Jr.: 5.36%, WR40, WR60
+Robert Woods: 5.35%, WR15, WR49
+Washington Commanders DST: 5.35%, DST4, DST22
+A.J. Brown: 5.34%, WR8, WR32
+Ryan Fitzpatrick: 5.28%, QB24, QB70
+Trey Lance: 5.24%, QB18, QB39
+William Fuller V: 4.98%, WR43, WR184
+Jerry Jeudy: 4.90%, WR27, WR89
+Ronald Jones II: 4.87%, RB30, RB59
+Miles Sanders: 4.74%, RB20, RB45
+DJ Chark Jr.: 4.7%, WR38, WR133
+Robert Tonyan: 4.58%, TE9, TE49
+Logan Thomas: 4.48%, TE7, TE45
+Kenny Golladay: 4.43%, WR29, WR84
+Cole Kmet: 4.36%, TE23, TE21
+Clyde Edwards-Helaire: 4.36%, RB14, RB41
+Ty'Son Williams: 4.34%, RB59, RB87
+JuJu Smith-Schuster: 4.24%, WR32, WR137
+Darren Waller: 4.24%, TE2, TE18
+Gus Edwards: 3.97%, RB28, RBDNP
+Raheem Mostert: 3.97%, RB24, RB152
+DeAndre Hopkins: 3.93%, WR4, WR43
+Saquon Barkley: 3.92%, RB9, RB32
+Michael Thomas: 3.9%, WR30, WRDNP
+Trey Sermon: 3.83%, RB29, RB95
+Chris Carson: 3.72%, RB16, RB78
+Jordan Akins: 3.68%, TE28, TE57
+Christian McCaffrey: 3.53%, RB1, RB39
+Blake Jarwin: 3.36%, TE22, TE60
+Tony Jones Jr.: 3.29%, RB61, RB106
+Allen Robinson II: 3.25%, WR11, WR86
+Taysom Hill: 3.%, TE29, TE141
+Julio Jones: 2.79%, WR18, WR93
+Calvin Ridley: 2.74%, WR5, WR105
+Deshaun Watson: 1.96%, QB26, QBDNP
+Cam Newton: 0.18%, QB30, QB35
+
+QB:
+Josh Allen: 14.66%, QB2, QB1
+Justin Herbert: 14.3%, QB8, QB2
+Tom Brady: 14.14%, QB9, QB3
+Joe Burrow: 13.14%, QB13, QB8
+Jalen Hurts: 10.96%, QB11, QB9
+Kirk Cousins: 10.48%, QB20, QB11
+Aaron Rodgers: 10.28%, QB7, QB6
+Matthew Stafford: 9.79%, QB10, QB5
+Mac Jones: 8.54%, QB19, QB18
+Matt Ryan: 8.51%, QB16, QB20
+Dak Prescott: 7.99%, QB5, QB7
+Tua Tagovailoa: 7.88%, QB21, QB26
+Patrick Mahomes II: 7.65%, QB1, QB4
+Kyler Murray: 7.23%, QB3, QB10
+Trevor Lawrence: 7.04%, QB14, QB22
+Baker Mayfield: 6.92%, QB15, QB25
+Justin Fields: 6.84%, QB17, QB31
+Derek Carr: 6.84%, QB27, QB13
+Ben Roethlisberger: 6.77%, QB22, QB21
+Ryan Tannehill: 6.59%, QB12, QB12
+Zach Wilson: 6.56%, QB25, QB30
+Lamar Jackson: 6.09%, QB4, QB15
+Jameis Winston: 5.86%, QB23, QB32
+Russell Wilson: 5.41%, QB6, QB16
+Ryan Fitzpatrick: 5.28%, QB24, QB70
+Trey Lance: 5.24%, QB18, QB39
+Deshaun Watson: 1.96%, QB26, QBDNP
+Cam Newton: 0.18%, QB30, QB35
+
+RB:
+Jonathan Taylor: 26.38%, RB8, RB1
+Leonard Fournette: 16.76%, RB32, RB7
+Austin Ekeler: 16.39%, RB10, RB2
+James Conner: 15.64%, RB36, RB5
+Joe Mixon: 14.91%, RB13, RB3
+Darrel Williams: 14.13%, RB57, RB22
+Najee Harris: 13.29%, RB11, RB4
+Damien Harris: 11.93%, RB25, RB13
+Devin Singletary: 11.21%, RB38, RB20
+Javonte Williams: 10.28%, RB27, RB17
+Rashaad Penny: 10.08%, RB54, RB36
+AJ Dillon: 9.96%, RB34, RB23
+Devontae Booker: 9.62%, RB60, RB34
+Chuba Hubbard: 9.49%, RB51, RB33
+Rhamondre Stevenson: 9.45%, RB46, RB40
+J.D. McKissic: 9.29%, RB49, RB44
+Tony Pollard: 9.24%, RB43, RB28
+Melvin Gordon III: 9.14%, RB31, RB18
+Alexander Mattison: 9.09%, RB45, RB38
+Mark Ingram II: 9.00%, RB56, RB50
+Sony Michel: 8.99%, RB42, RB30
+Josh Jacobs: 8.98%, RB17, RB14
+D'Andre Swift: 8.8%, RB19, RB19
+James Robinson: 8.26%, RB18, RB24
+Michael Carter: 8.23%, RB33, RB29
+David Montgomery: 8.2%, RB15, RB21
+Mike Davis: 7.95%, RB39, RB37
+Nyheim Hines: 7.92%, RB44, RB53
+Jamaal Williams: 7.91%, RB40, RB43
+Ezekiel Elliott: 7.73%, RB5, RB6
+Chase Edmonds: 7.6%, RB26, RB35
+Latavius Murray: 7.43%, RB52, RB49
+Derrick Henry: 7.38%, RB3, RB16
+Nick Chubb: 7.29%, RB6, RB11
+Aaron Jones: 7.21%, RB7, RB12
+Kenyan Drake: 7.13%, RB37, RB57
+Alvin Kamara: 7.11%, RB4, RB8
+Antonio Gibson: 6.77%, RB12, RB10
+Kenneth Gainwell: 6.43%, RB58, RB42
+David Johnson: 6.35%, RB41, RB63
+Giovani Bernard: 6.34%, RB53, RB76
+Phillip Lindsay: 6.32%, RB50, RB81
+Marlon Mack: 6.26%, RB55, RB121
+Darrell Henderson Jr.: 6.24%, RB21, RB27
+Dalvin Cook: 6.16%, RB2, RB15
+Tevin Coleman: 6.16%, RB47, RB77
+James White: 5.95%, RB48, RB97
+Ty Johnson: 5.90%, RB62, RB47
+Myles Gaskin: 5.9%, RB22, RB26
+Zack Moss: 5.61%, RB35, RB52
+Kareem Hunt: 5.39%, RB23, RB48
+Ronald Jones II: 4.87%, RB30, RB59
+Miles Sanders: 4.74%, RB20, RB45
+Clyde Edwards-Helaire: 4.36%, RB14, RB41
+Ty'Son Williams: 4.34%, RB59, RB87
+Gus Edwards: 3.97%, RB28, RBDNP
+Raheem Mostert: 3.97%, RB24, RB152
+Saquon Barkley: 3.92%, RB9, RB32
+Trey Sermon: 3.83%, RB29, RB95
+Chris Carson: 3.72%, RB16, RB78
+Christian McCaffrey: 3.53%, RB1, RB39
+Tony Jones Jr.: 3.29%, RB61, RB106
+
+WR:
+Cooper Kupp: 30.17%, WR17, WR1
+Deebo Samuel: 22.47%, WR34, WR2
+Ja'Marr Chase: 17.57%, WR28, WR5
+Marquise Brown: 13.3%, WR54, WR23
+Jaylen Waddle: 12.5%, WR44, WR16
+Darnell Mooney: 12.1%, WR51, WR24
+Mike Williams: 11.88%, WR47, WR10
+Davante Adams: 11.73%, WR1, WR3
+Justin Jefferson: 11.26%, WR7, WR4
+Tee Higgins: 10.99%, WR24, WR22
+Mike Evans: 10.55%, WR13, WR8
+Michael Pittman Jr.: 10.47%, WR45, WR15
+Brandin Cooks: 10.36%, WR39, WR20
+Elijah Moore: 10.05%, WR57, WR48
+Diontae Johnson: 9.98%, WR22, WR9
+Jakobi Meyers: 9.6%, WR55, WR33
+A.J. Green: 9.58%, WR63, WR41
+Tyreek Hill: 9.48%, WR2, WR6
+Russell Gage: 9.47%, WR58, WR39
+Gabe Davis: 9.35%, WR70, WR53
+Chris Godwin: 9.35%, WR14, WR17
+CeeDee Lamb: 9.21%, WR12, WR18
+Marvin Jones Jr.: 9.08%, WR53, WR34
+Marquez Valdes-Scantling: 8.59%, WR69, WR80
+DeVonta Smith: 8.43%, WR35, WR29
+Henry Ruggs III: 8.19%, WR52, WR82
+DeVante Parker: 8.00%, WR59, WR69
+Tyler Boyd: 7.93%, WR37, WR31
+Marquez Callaway: 7.64%, WR46, WR42
+Antonio Brown: 7.59%, WR36, WR58
+Tyler Lockett: 7.58%, WR19, WR13
+Adam Thielen: 7.55%, WR21, WR28
+Cole Beasley: 7.44%, WR56, WR47
+Keenan Allen: 7.42%, WR9, WR14
+Corey Davis: 7.39%, WR41, WR66
+Emmanuel Sanders: 7.36%, WR71, WR52
+Brandon Aiyuk: 7.31%, WR23, WR36
+Nelson Agholor: 7.21%, WR62, WR67
+Randall Cobb: 6.98%, WR68, WR74
+Jarvis Landry: 6.98%, WR42, WR56
+Bryan Edwards: 6.87%, WR65, WR64
+Rondale Moore: 6.84%, WR61, WR71
+Courtland Sutton: 6.81%, WR33, WR46
+DK Metcalf: 6.72%, WR6, WR12
+Amari Cooper: 6.66%, WR16, WR27
+Stefon Diggs: 6.61%, WR3, WR7
+Sterling Shepard: 6.41%, WR67, WR99
+Terry McLaurin: 6.39%, WR10, WR25
+Mecole Hardman Jr.: 6.38%, WR50, WR51
+Michael Gallup: 6.36%, WR48, WR79
+Chase Claypool: 6.3%, WR25, WR37
+DJ Moore: 6.29%, WR20, WR19
+Tyrell Williams: 6.10%, WR64, WR208
+Odell Beckham Jr.: 6.03%, WR26, WR55
+Jalen Reagor: 5.87%, WR66, WR97
+Terrace Marshall Jr.: 5.65%, WR60, WR142
+Curtis Samuel: 5.47%, WR49, WR183
+Robbie Chosen: 5.37%, WR31, WR50
+Laviska Shenault Jr.: 5.36%, WR40, WR60
+Robert Woods: 5.35%, WR15, WR49
+A.J. Brown: 5.34%, WR8, WR32
+William Fuller V: 4.98%, WR43, WR184
+Jerry Jeudy: 4.90%, WR27, WR89
+DJ Chark Jr.: 4.7%, WR38, WR133
+Kenny Golladay: 4.43%, WR29, WR84
+JuJu Smith-Schuster: 4.24%, WR32, WR137
+DeAndre Hopkins: 3.93%, WR4, WR43
+Michael Thomas: 3.9%, WR30, WRDNP
+Allen Robinson II: 3.25%, WR11, WR86
+Julio Jones: 2.79%, WR18, WR93
+Calvin Ridley: 2.74%, WR5, WR105
+
+TE:
+Mark Andrews: 17.70%, TE5, TE1
+Zach Ertz: 12.86%, TE16, TE5
+Hunter Henry: 12.69%, TE15, TE9
+Rob Gronkowski: 11.27%, TE12, TE6
+Pat Freiermuth: 10.07%, TE20, TE13
+Travis Kelce: 9.47%, TE1, TE2
+Mike Gesicki: 9.21%, TE13, TE11
+Jared Cook: 9.05%, TE18, TE16
+Dallas Goedert: 9.02%, TE11, TE10
+Gerald Everett: 8.50%, TE17, TE20
+Noah Fant: 7.93%, TE8, TE12
+George Kittle: 7.92%, TE3, TE4
+Evan Engram: 7.76%, TE19, TE23
+T.J. Hockenson: 7.36%, TE6, TE15
+Kyle Pitts: 6.62%, TE4, TE7
+Jonnu Smith: 5.97%, TE14, TE34
+Austin Hooper: 5.93%, TE21, TE24
+Tyler Higbee: 5.85%, TE10, TE14
+Robert Tonyan: 4.58%, TE9, TE49
+Logan Thomas: 4.48%, TE7, TE45
+Cole Kmet: 4.36%, TE23, TE21
+Darren Waller: 4.24%, TE2, TE18
+Jordan Akins: 3.68%, TE28, TE57
+Blake Jarwin: 3.36%, TE22, TE60
+Taysom Hill: 3.%, TE29, TE141
+
+DST:
+Dallas Cowboys DST: 15.03%, DST20, DST1
+Miami Dolphins DST: 11.55%, DST13, DST3
+New England Patriots DST: 11.48%, DST10, DST2
+Tennessee Titans DST: 11.18%, DST14, DST11
+Kansas City Chiefs DST: 10.42%, DST12, DST8
+Buffalo Bills DST: 10.26%, DST8, DST4
+Chicago Bears DST: 9.68%, DST15, DST19
+Arizona Cardinals DST: 9.49%, DST22, DST9
+Minnesota Vikings DST: 8.49%, DST18, DST10
+Indianapolis Colts DST: 8.06%, DST9, DST7
+Tampa Bay Buccaneers DST: 7.94%, DST2, DST6
+Green Bay Packers DST: 7.87%, DST17, DST15
+New Orleans Saints DST: 7.80%, DST19, DST5
+Cleveland Browns DST: 7.69%, DST11, DST20
+Denver Broncos DST: 7.46%, DST7, DST13
+Seattle Seahawks DST: 6.77%, DST16, DST21
+Pittsburgh Steelers DST: 6.52%, DST3, DST17
+San Francisco 49ers DST: 6.42%, DST6, DST14
+Baltimore Ravens DST: 5.62%, DST5, DST26
+Los Angeles Rams DST: 5.60%, DST1, DST12
+Washington Commanders DST: 5.35%, DST4, DST22
+
+K:
+Daniel Carlson: 10.93%, K14, K1
+Evan McPherson: 10.03%, K18, K7
+Mason Crosby: 9.93%, K9, K15
+Tyler Bass: 9.30%, K4, K11
+Matt Prater: 9.08%, K11, K8
+Brandon McManus: 8.58%, K15, K17
+Robbie Gould: 8.52%, K10, K22
+Justin Tucker: 8.44%, K1, K4
+Greg Zuerlein: 8.21%, K5, K13
+Younghoe Koo: 8.14%, K3, K18
+Wil Lutz: 8.03%, K12, KDNP
+Ryan Succop: 8.02%, K7, K14
+Rodrigo Blankenship: 7.75%, K8, K33
+Matt Gay: 7.66%, K16, K5
+Jason Sanders: 7.66%, K6, K21
+Sam Ficken: 7.41%, K19, KDNP
+Jason Myers: 7.10%, K13, K23
+Harrison Butker: 6.78%, K2, K12
+
+2022:
+Top player ownership (all positions):
+Player, ownership, ADP, Ranking
+Josh Jacobs: 27.18%, RB22, RB3
+Patrick Mahomes II: 19.05%, QB2, QB1
+Tony Pollard: 18.66%, RB34, RB7
+Jamaal Williams: 17.49%, RB57, RB8
+Jalen Hurts: 17.42%, QB7, QB3
+New England Patriots DST: 16.76%, DST14, DST1
+Justin Fields: 16.54%, QB17, QB6
+Travis Kelce: 16.11%, TE1, TE1
+Austin Ekeler: 15.46%, RB3, RB1
+Justin Jefferson: 15.3%, WR2, WR1
+T.J. Hockenson: 14.86%, TE7, TE2
+Miles Sanders: 14.62%, RB30, RB13
+Tyreek Hill: 14.6%, WR7, WR3
+Rhamondre Stevenson: 14.13%, RB36, RB11
+Joe Burrow: 14.09%, QB6, QB4
+Taysom Hill: 14.02%, TE19, TE5
+A.J. Brown: 13.52%, WR11, WR5
+Davante Adams: 13.41%, WR4, WR2
+Amon-Ra St. Brown: 13.32%, WR25, WR8
+Kenneth Walker III: 13.21%, RB38, RB16
+DeVonta Smith: 13.02%, WR38, WR10
+Christian McCaffrey: 13.%, RB2, RB2
+Dallas Cowboys DST: 12.85%, DST9, DST2
+Christian Watson: 12.82%, WR67, WR35
+Trevor Lawrence: 12.77%, QB19, QB8
+Garrett Wilson: 12.64%, WR49, WR19
+Tyler Lockett: 12.50%, WR42, WR13
+Jaylen Waddle: 12.31%, WR19, WR7
+Christian Kirk: 12.29%, WR40, WR11
+Amari Cooper: 12.29%, WR30, WR9
+Kirk Cousins: 11.91%, QB15, QB7
+Tyler Higbee: 11.58%, TE17, TE9
+Josh Allen: 11.35%, QB1, QB2
+Derrick Henry: 11.15%, RB4, RB4
+Nick Folk: 10.98%, K10, K8
+Tyler Allgeier: 10.96%, RB52, RB28
+Tua Tagovailoa: 10.96%, QB16, QB15
+Raheem Mostert: 10.74%, RB47, RB26
+Joshua Palmer: 10.70%, WR65, WR41
+Saquon Barkley: 10.55%, RB11, RB6
+Brandon Aiyuk: 10.48%, WR37, WR15
+Cole Kmet: 10.44%, TE12, TE7
+David Njoku: 10.29%, TE16, TE13
+George Kittle: 10.13%, TE4, TE3
+Nick Chubb: 10.13%, RB12, RB5
+Pat Freiermuth: 10.10%, TE11, TE8
+Daniel Carlson: 9.96%, K3, K2
+D'Onta Foreman: 9.91%, RB60, RB35
+Cleveland Browns DST: 9.88%, DST15, DST21
+San Francisco 49ers DST: 9.87%, DST3, DST3
+Jakobi Meyers: 9.76%, WR70, WR28
+Tyler Boyd: 9.75%, WR54, WR30
+Stefon Diggs: 9.53%, WR5, WR4
+Chris Olave: 9.53%, WR44, WR25
+Jahan Dotson: 9.44%, WR59, WR50
+Pittsburgh Steelers DST: 9.29%, DST16, DST19
+Travis Etienne Jr.: 9.24%, RB17, RB17
+Isiah Pacheco: 9.18%, RB46, RB36
+Brian Robinson Jr.: 9.16%, RB45, RB41
+Khalil Herbert: 9.08%, RB55, RB39
+Green Bay Packers DST: 9.04%, DST7, DST12
+Dameon Pierce: 8.96%, RB29, RB27
+Chris Godwin: 8.89%, WR32, WR20
+Tyler Bass: 8.89%, K5, K7
+Cordarrelle Patterson: 8.87%, RB35, RB30
+Younghoe Koo: 8.86%, K7, K5
+George Pickens: 8.86%, WR45, WR37
+Devin Singletary: 8.85%, RB31, RB24
+Rachaad White: 8.83%, RB54, RB38
+DeAndre Hopkins: 8.82%, WR36, WR47
+CeeDee Lamb: 8.76%, WR6, WR6
+Tee Higgins: 8.75%, WR13, WR17
+Philadelphia Eagles DST: 8.72%, DST17, DST5
+Mecole Hardman Jr.: 8.72%, WR57, WR75
+DJ Chark Jr.: 8.69%, WR68, WR70
+Mike Gesicki: 8.68%, TE13, TE23
+Baltimore Ravens DST: 8.58%, DST10, DST7
+Hayden Hurst: 8.51%, TE18, TE22
+Robbie Gould: 8.45%, K8, K10
+Washington Commanders DST: 8.45%, DST18, DST11
+Tennessee Titans DST: 8.43%, DST19, DST25
+Matt Prater: 8.43%, K9, K29
+Ryan Succop: 8.43%, K16, K18
+Hunter Henry: 8.39%, TE15, TE21
+Russell Gage: 8.32%, WR56, WR55
+Greg Zuerlein: 8.28%, K12, K12
+DJ Moore: 8.23%, WR14, WR22
+DK Metcalf: 8.16%, WR21, WR18
+Justin Tucker: 8.13%, K1, K1
+Dawson Knox: 8.12%, TE9, TE14
+Isaiah McKenzie: 8.09%, WR63, WR54
+Mike Williams: 8.03%, WR15, WR32
+Los Angeles Chargers DST: 7.91%, DST13, DST23
+Tom Brady: 7.91%, QB8, QB12
+Matt Gay: 7.91%, K6, K17
+Terry McLaurin: 7.88%, WR16, WR14
+Denver Broncos DST: 7.86%, DST6, DST28
+Mark Andrews: 7.85%, TE2, TE4
+Gabe Davis: 7.84%, WR26, WR27
+James Robinson: 7.78%, RB42, RB47
+Dallas Goedert: 7.74%, TE8, TE12
+Drake London: 7.73%, WR41, WR36
+James Conner: 7.71%, RB16, RB20
+Greg Joseph: 7.70%, K11, K16
+JuJu Smith-Schuster: 7.69%, WR24, WR29
+Harrison Butker: 7.69%, K4, K28
+Cincinnati Bengals DST: 7.69%, DST20, DST17
+Jerry Jeudy: 7.68%, WR22, WR21
+Brandon McManus: 7.68%, K13, K15
+Rondale Moore: 7.67%, WR61, WR88
+David Montgomery: 7.63%, RB19, RB23
+Allen Lazard: 7.54%, WR39, WR33
+Indianapolis Colts DST: 7.48%, DST5, DST15
+Michael Carter: 7.42%, RB41, RB43
+New Orleans Saints DST: 7.36%, DST8, DST16
+Jared Goff: 7.35%, QB27, QB10
+Zach Ertz: 7.32%, TE10, TE19
+Dalton Schultz: 7.3%, TE6, TE10
+Chris Boswell: 7.29%, K15, K30
+Romeo Doubs: 7.26%, WR58, WR76
+Michael Gallup: 7.24%, WR60, WR68
+Marquez Valdes-Scantling: 7.23%, WR51, WR53
+Derek Carr: 7.13%, QB14, QB17
+Mike Evans: 7.11%, WR8, WR16
+Kenneth Gainwell: 7.11%, RB50, RB54
+Buffalo Bills DST: 7.06%, DST1, DST4
+Marlon Mack: 7.05%, RB53, RB83
+Adam Thielen: 7.01%, WR29, WR31
+Aaron Jones: 7.%, RB10, RB9
+Evan McPherson: 7.%, K2, K19
+Antonio Gibson: 6.98%, RB25, RB31
+Mac Jones: 6.97%, QB21, QB23
+Ezekiel Elliott: 6.94%, RB15, RB19
+Robert Woods: 6.90%, WR43, WR64
+Wil Lutz: 6.90%, K17, K26
+DeVante Parker: 6.88%, WR55, WR65
+Cade York: 6.86%, K18, K22
+Chase Claypool: 6.83%, WR47, WR71
+Jalen Tolbert: 6.73%, WR69, WR203
+Treylon Burks: 6.73%, WR50, WR80
+Cam Akers: 6.71%, RB20, RB33
+Julio Jones: 6.71%, WR48, WR97
+AJ Dillon: 6.71%, RB23, RB25
+Kenny Pickett: 6.64%, QB20, QB28
+Dak Prescott: 6.63%, QB10, QB18
+Marquise Brown: 6.6%, WR27, WR46
+Aaron Rodgers: 6.58%, QB11, QB13
+James Cook: 6.58%, RB39, RB44
+Lamar Jackson: 6.52%, QB4, QB14
+Los Angeles Rams DST: 6.47%, DST4, DST24
+Jarvis Landry: 6.45%, WR52, WR109
+Odell Beckham Jr.: 6.39%, WR64, WR409
+Sammy Watkins: 6.36%, WR66, WR118
+Breece Hall: 6.31%, RB18, RB42
+Tampa Bay Buccaneers DST: 6.28%, DST2, DST26
+Mark Ingram II: 6.27%, RB51, RB75
+Skyy Moore: 6.27%, WR53, WR123
+Nyheim Hines: 6.18%, RB44, RB58
+Leonard Fournette: 6.18%, RB13, RB15
+Alexander Mattison: 6.11%, RB43, RB49
+Albert Okwuegbunam: 6.08%, TE14, TE69
+Darrell Henderson Jr.: 6.07%, RB40, RB60
+Clyde Edwards-Helaire: 6.05%, RB26, RB46
+Michael Pittman Jr.: 6.01%, WR10, WR23
+Kenny Golladay: 6.00%, WR62, WR147
+Kareem Hunt: 5.99%, RB33, RB40
+Kadarius Toney: 5.9%, WR46, WR107
+Darnell Mooney: 5.87%, WR33, WR74
+Baker Mayfield: 5.82%, QB18, QB29
+Isaiah Likely: 5.81%, TE21, TE26
+Dalvin Cook: 5.79%, RB5, RB10
+Rodrigo Blankenship: 5.73%, K14, K37
+Ronald Jones II: 5.73%, RB49, RB109
+Melvin Gordon III: 5.72%, RB37, RB55
+Joe Mixon: 5.70%, RB7, RB12
+Isaiah Spiller: 5.70%, RB48, RB130
+Russell Wilson: 5.63%, QB9, QB16
+Zamir White: 5.60%, RB56, RB129
+Justin Herbert: 5.58%, QB3, QB11
+Chicago Bears DST: 5.54%, DST12, DST32
+Ja'Marr Chase: 5.53%, WR3, WR12
+Las Vegas Raiders DST: 5.34%, DST11, DST31
+Rashaad Penny: 5.30%, RB32, RB67
+Damien Harris: 5.18%, RB28, RB48
+Alvin Kamara: 5.14%, RB9, RB18
+Courtland Sutton: 5.05%, WR17, WR43
+J.K. Dobbins: 5.04%, RB24, RB52
+Matthew Stafford: 5.01%, QB13, QB32
+Deshaun Watson: 4.98%, QB22, QB35
+Diontae Johnson: 4.96%, WR18, WR39
+Brandin Cooks: 4.95%, WR23, WR49
+Rashod Bateman: 4.92%, WR31, WR110
+Keenan Allen: 4.91%, WR12, WR42
+Elijah Moore: 4.88%, WR35, WR83
+Kyler Murray: 4.86%, QB5, QB19
+Robert Tonyan: 4.86%, TE24, TE20
+Chase Edmonds: 4.74%, RB27, RB59
+Michael Thomas: 4.67%, WR28, WR114
+Cooper Kupp: 4.63%, WR1, WR24
+Hunter Renfrow: 4.61%, WR34, WR93
+Deebo Samuel: 4.54%, WR9, WR38
+Jameis Winston: 4.49%, QB23, QB42
+Darren Waller: 4.44%, TE5, TE28
+Mo Alie-Cox: 4.38%, TE22, TE44
+Chuba Hubbard: 4.25%, RB63, RB50
+Najee Harris: 4.02%, RB6, RB14
+Trey Lance: 4.02%, QB12, QB63
+J.D. McKissic: 3.95%, RB58, RB73
+Allen Robinson II: 3.95%, WR20, WR86
+D'Andre Swift: 3.82%, RB8, RB22
+Kyle Pitts: 3.7%, TE3, TE33
+Ryan Tannehill: 3.44%, QB25, QB27
+Elijah Mitchell: 3.34%, RB21, RB74
+Cameron Brate: 3.33%, TE20, TE60
+Mike Davis: 3.33%, RB59, RB143
+Irv Smith Jr.: 3.17%, TE23, TE46
+Sony Michel: 2.84%, RB61, RB99
+Tyrion Davis-Price: 2.77%, RB64, RB119
+Jonathan Taylor: 2.62%, RB1, RB34
+Javonte Williams: 2.1%, RB14, RB84
+Carson Wentz: 1.14%, QB24, QB31
+
+QB:
+Patrick Mahomes II: 19.05%, QB2, QB1
+Jalen Hurts: 17.42%, QB7, QB3
+Justin Fields: 16.54%, QB17, QB6
+Joe Burrow: 14.09%, QB6, QB4
+Trevor Lawrence: 12.77%, QB19, QB8
+Kirk Cousins: 11.91%, QB15, QB7
+Josh Allen: 11.35%, QB1, QB2
+Tua Tagovailoa: 10.96%, QB16, QB15
+Tom Brady: 7.91%, QB8, QB12
+Jared Goff: 7.35%, QB27, QB10
+Derek Carr: 7.13%, QB14, QB17
+Mac Jones: 6.97%, QB21, QB23
+Kenny Pickett: 6.64%, QB20, QB28
+Dak Prescott: 6.63%, QB10, QB18
+Aaron Rodgers: 6.58%, QB11, QB13
+Lamar Jackson: 6.52%, QB4, QB14
+Baker Mayfield: 5.82%, QB18, QB29
+Russell Wilson: 5.63%, QB9, QB16
+Justin Herbert: 5.58%, QB3, QB11
+Matthew Stafford: 5.01%, QB13, QB32
+Deshaun Watson: 4.98%, QB22, QB35
+Kyler Murray: 4.86%, QB5, QB19
+Jameis Winston: 4.49%, QB23, QB42
+Trey Lance: 4.02%, QB12, QB63
+Ryan Tannehill: 3.44%, QB25, QB27
+Carson Wentz: 1.14%, QB24, QB31
+
+RB:
+Josh Jacobs: 27.18%, RB22, RB3
+Tony Pollard: 18.66%, RB34, RB7
+Jamaal Williams: 17.49%, RB57, RB8
+Austin Ekeler: 15.46%, RB3, RB1
+Miles Sanders: 14.62%, RB30, RB13
+Rhamondre Stevenson: 14.13%, RB36, RB11
+Kenneth Walker III: 13.21%, RB38, RB16
+Christian McCaffrey: 13.%, RB2, RB2
+Derrick Henry: 11.15%, RB4, RB4
+Tyler Allgeier: 10.96%, RB52, RB28
+Raheem Mostert: 10.74%, RB47, RB26
+Saquon Barkley: 10.55%, RB11, RB6
+Nick Chubb: 10.13%, RB12, RB5
+D'Onta Foreman: 9.91%, RB60, RB35
+Travis Etienne Jr.: 9.24%, RB17, RB17
+Isiah Pacheco: 9.18%, RB46, RB36
+Brian Robinson Jr.: 9.16%, RB45, RB41
+Khalil Herbert: 9.08%, RB55, RB39
+Dameon Pierce: 8.96%, RB29, RB27
+Cordarrelle Patterson: 8.87%, RB35, RB30
+Devin Singletary: 8.85%, RB31, RB24
+Rachaad White: 8.83%, RB54, RB38
+James Robinson: 7.78%, RB42, RB47
+James Conner: 7.71%, RB16, RB20
+David Montgomery: 7.63%, RB19, RB23
+Michael Carter: 7.42%, RB41, RB43
+Kenneth Gainwell: 7.11%, RB50, RB54
+Marlon Mack: 7.05%, RB53, RB83
+Aaron Jones: 7.%, RB10, RB9
+Antonio Gibson: 6.98%, RB25, RB31
+Ezekiel Elliott: 6.94%, RB15, RB19
+Cam Akers: 6.71%, RB20, RB33
+AJ Dillon: 6.71%, RB23, RB25
+James Cook: 6.58%, RB39, RB44
+Breece Hall: 6.31%, RB18, RB42
+Mark Ingram II: 6.27%, RB51, RB75
+Nyheim Hines: 6.18%, RB44, RB58
+Leonard Fournette: 6.18%, RB13, RB15
+Alexander Mattison: 6.11%, RB43, RB49
+Darrell Henderson Jr.: 6.07%, RB40, RB60
+Clyde Edwards-Helaire: 6.05%, RB26, RB46
+Kareem Hunt: 5.99%, RB33, RB40
+Dalvin Cook: 5.79%, RB5, RB10
+Ronald Jones II: 5.73%, RB49, RB109
+Melvin Gordon III: 5.72%, RB37, RB55
+Joe Mixon: 5.70%, RB7, RB12
+Isaiah Spiller: 5.70%, RB48, RB130
+Zamir White: 5.60%, RB56, RB129
+Rashaad Penny: 5.30%, RB32, RB67
+Damien Harris: 5.18%, RB28, RB48
+Alvin Kamara: 5.14%, RB9, RB18
+J.K. Dobbins: 5.04%, RB24, RB52
+Chase Edmonds: 4.74%, RB27, RB59
+Chuba Hubbard: 4.25%, RB63, RB50
+Najee Harris: 4.02%, RB6, RB14
+J.D. McKissic: 3.95%, RB58, RB73
+D'Andre Swift: 3.82%, RB8, RB22
+Elijah Mitchell: 3.34%, RB21, RB74
+Mike Davis: 3.33%, RB59, RB143
+Sony Michel: 2.84%, RB61, RB99
+Tyrion Davis-Price: 2.77%, RB64, RB119
+Jonathan Taylor: 2.62%, RB1, RB34
+Javonte Williams: 2.1%, RB14, RB84
+
+WR:
+Justin Jefferson: 15.3%, WR2, WR1
+Tyreek Hill: 14.6%, WR7, WR3
+A.J. Brown: 13.52%, WR11, WR5
+Davante Adams: 13.41%, WR4, WR2
+Amon-Ra St. Brown: 13.32%, WR25, WR8
+DeVonta Smith: 13.02%, WR38, WR10
+Christian Watson: 12.82%, WR67, WR35
+Garrett Wilson: 12.64%, WR49, WR19
+Tyler Lockett: 12.50%, WR42, WR13
+Jaylen Waddle: 12.31%, WR19, WR7
+Christian Kirk: 12.29%, WR40, WR11
+Amari Cooper: 12.29%, WR30, WR9
+Joshua Palmer: 10.70%, WR65, WR41
+Brandon Aiyuk: 10.48%, WR37, WR15
+Jakobi Meyers: 9.76%, WR70, WR28
+Tyler Boyd: 9.75%, WR54, WR30
+Stefon Diggs: 9.53%, WR5, WR4
+Chris Olave: 9.53%, WR44, WR25
+Jahan Dotson: 9.44%, WR59, WR50
+Chris Godwin: 8.89%, WR32, WR20
+George Pickens: 8.86%, WR45, WR37
+DeAndre Hopkins: 8.82%, WR36, WR47
+CeeDee Lamb: 8.76%, WR6, WR6
+Tee Higgins: 8.75%, WR13, WR17
+Mecole Hardman Jr.: 8.72%, WR57, WR75
+DJ Chark Jr.: 8.69%, WR68, WR70
+Russell Gage: 8.32%, WR56, WR55
+DJ Moore: 8.23%, WR14, WR22
+DK Metcalf: 8.16%, WR21, WR18
+Isaiah McKenzie: 8.09%, WR63, WR54
+Mike Williams: 8.03%, WR15, WR32
+Terry McLaurin: 7.88%, WR16, WR14
+Gabe Davis: 7.84%, WR26, WR27
+Drake London: 7.73%, WR41, WR36
+JuJu Smith-Schuster: 7.69%, WR24, WR29
+Jerry Jeudy: 7.68%, WR22, WR21
+Rondale Moore: 7.67%, WR61, WR88
+Allen Lazard: 7.54%, WR39, WR33
+Romeo Doubs: 7.26%, WR58, WR76
+Michael Gallup: 7.24%, WR60, WR68
+Marquez Valdes-Scantling: 7.23%, WR51, WR53
+Mike Evans: 7.11%, WR8, WR16
+Adam Thielen: 7.01%, WR29, WR31
+Robert Woods: 6.90%, WR43, WR64
+DeVante Parker: 6.88%, WR55, WR65
+Chase Claypool: 6.83%, WR47, WR71
+Jalen Tolbert: 6.73%, WR69, WR203
+Treylon Burks: 6.73%, WR50, WR80
+Julio Jones: 6.71%, WR48, WR97
+Marquise Brown: 6.6%, WR27, WR46
+Jarvis Landry: 6.45%, WR52, WR109
+Odell Beckham Jr.: 6.39%, WR64, WR409
+Sammy Watkins: 6.36%, WR66, WR118
+Skyy Moore: 6.27%, WR53, WR123
+Michael Pittman Jr.: 6.01%, WR10, WR23
+Kenny Golladay: 6.00%, WR62, WR147
+Kadarius Toney: 5.9%, WR46, WR107
+Darnell Mooney: 5.87%, WR33, WR74
+Ja'Marr Chase: 5.53%, WR3, WR12
+Courtland Sutton: 5.05%, WR17, WR43
+Diontae Johnson: 4.96%, WR18, WR39
+Brandin Cooks: 4.95%, WR23, WR49
+Rashod Bateman: 4.92%, WR31, WR110
+Keenan Allen: 4.91%, WR12, WR42
+Elijah Moore: 4.88%, WR35, WR83
+Michael Thomas: 4.67%, WR28, WR114
+Cooper Kupp: 4.63%, WR1, WR24
+Hunter Renfrow: 4.61%, WR34, WR93
+Deebo Samuel: 4.54%, WR9, WR38
+Allen Robinson II: 3.95%, WR20, WR86
+
+TE:
+Travis Kelce: 16.11%, TE1, TE1
+T.J. Hockenson: 14.86%, TE7, TE2
+Taysom Hill: 14.02%, TE19, TE5
+Tyler Higbee: 11.58%, TE17, TE9
+Cole Kmet: 10.44%, TE12, TE7
+David Njoku: 10.29%, TE16, TE13
+George Kittle: 10.13%, TE4, TE3
+Pat Freiermuth: 10.10%, TE11, TE8
+Mike Gesicki: 8.68%, TE13, TE23
+Hayden Hurst: 8.51%, TE18, TE22
+Hunter Henry: 8.39%, TE15, TE21
+Dawson Knox: 8.12%, TE9, TE14
+Mark Andrews: 7.85%, TE2, TE4
+Dallas Goedert: 7.74%, TE8, TE12
+Zach Ertz: 7.32%, TE10, TE19
+Dalton Schultz: 7.3%, TE6, TE10
+Albert Okwuegbunam: 6.08%, TE14, TE69
+Isaiah Likely: 5.81%, TE21, TE26
+Robert Tonyan: 4.86%, TE24, TE20
+Darren Waller: 4.44%, TE5, TE28
+Mo Alie-Cox: 4.38%, TE22, TE44
+Kyle Pitts: 3.7%, TE3, TE33
+Cameron Brate: 3.33%, TE20, TE60
+Irv Smith Jr.: 3.17%, TE23, TE46
+
+DST:
+New England Patriots DST: 16.76%, DST14, DST1
+Dallas Cowboys DST: 12.85%, DST9, DST2
+Cleveland Browns DST: 9.88%, DST15, DST21
+San Francisco 49ers DST: 9.87%, DST3, DST3
+Pittsburgh Steelers DST: 9.29%, DST16, DST19
+Green Bay Packers DST: 9.04%, DST7, DST12
+Philadelphia Eagles DST: 8.72%, DST17, DST5
+Baltimore Ravens DST: 8.58%, DST10, DST7
+Washington Commanders DST: 8.45%, DST18, DST11
+Tennessee Titans DST: 8.43%, DST19, DST25
+Los Angeles Chargers DST: 7.91%, DST13, DST23
+Denver Broncos DST: 7.86%, DST6, DST28
+Cincinnati Bengals DST: 7.69%, DST20, DST17
+Indianapolis Colts DST: 7.48%, DST5, DST15
+New Orleans Saints DST: 7.36%, DST8, DST16
+Buffalo Bills DST: 7.06%, DST1, DST4
+Los Angeles Rams DST: 6.47%, DST4, DST24
+Tampa Bay Buccaneers DST: 6.28%, DST2, DST26
+Chicago Bears DST: 5.54%, DST12, DST32
+Las Vegas Raiders DST: 5.34%, DST11, DST31
+
+K:
+Nick Folk: 10.98%, K10, K8
+Daniel Carlson: 9.96%, K3, K2
+Tyler Bass: 8.89%, K5, K7
+Younghoe Koo: 8.86%, K7, K5
+Robbie Gould: 8.45%, K8, K10
+Matt Prater: 8.43%, K9, K29
+Ryan Succop: 8.43%, K16, K18
+Greg Zuerlein: 8.28%, K12, K12
+Justin Tucker: 8.13%, K1, K1
+Matt Gay: 7.91%, K6, K17
+Greg Joseph: 7.70%, K11, K16
+Harrison Butker: 7.69%, K4, K28
+Brandon McManus: 7.68%, K13, K15
+Chris Boswell: 7.29%, K15, K30
+Evan McPherson: 7.%, K2, K19
+Wil Lutz: 6.90%, K17, K26
+Cade York: 6.86%, K18, K22
+Rodrigo Blankenship: 5.73%, K14, K37
+

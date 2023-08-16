@@ -391,8 +391,8 @@ def simulate_season(draft_output, file, num_drafts, num_teams, num_rounds, bestb
     roster["dst"] = set()
     roster["k"] = set()
     if bestball == False:
-        roster["dst"].add(Triple("Streaming", None, np.array([5] * 17)))
-        roster["k"].add(Triple("Streaming", None, np.array([6] * 17)))
+        roster["dst"].add(Triple("Streaming", None, np.array([6] * 17)))
+        roster["k"].add(Triple("Streaming", None, np.array([7.5] * 17)))
 
     position_min = ['rb', 'rb', 'rb', 'wr', 'wr', 'wr', 'te', 'qb']
     if bestball == True:
@@ -776,6 +776,18 @@ def get_statistics(bestball):
                            '2020': {}, '2021': {}, '2022': {}}
     winning_player_stats = {'2018': {}, '2019': {},
                             '2020': {}, '2021': {}, '2022': {}}
+    qb_player_stats = {'2018': {}, '2019': {},
+                       '2020': {}, '2021': {}, '2022': {}}
+    rb_player_stats = {'2018': {}, '2019': {},
+                       '2020': {}, '2021': {}, '2022': {}}
+    wr_player_stats = {'2018': {}, '2019': {},
+                       '2020': {}, '2021': {}, '2022': {}}
+    te_player_stats = {'2018': {}, '2019': {},
+                       '2020': {}, '2021': {}, '2022': {}}
+    dst_player_stats = {'2018': {}, '2019': {},
+                        '2020': {}, '2021': {}, '2022': {}}
+    k_player_stats = {'2018': {}, '2019': {},
+                      '2020': {}, '2021': {}, '2022': {}}
     with open(input_file, 'rb') as inp:
         for int_year in range(2018, 2023):
             print(int_year)
@@ -801,6 +813,8 @@ def get_statistics(bestball):
                     roster_rbs = roster['rb']
                     roster_wrs = roster['wr']
                     roster_tes = roster['te']
+                    roster_dsts = roster['dst']
+                    roster_ks = roster['k']
 
                     if team_index == 0:
                         if current_team[1] >= top200_points:
@@ -832,9 +846,16 @@ def get_statistics(bestball):
                         name = qb.get_name()
                         if team_index == 0:
                             try:
-                                player_stats[year][name] += 1
-                            except:
-                                player_stats[year][name] = 1
+                                player_stats[year][(name, "QB")] = (player_stats[year][(
+                                    name, "QB")][0] + 1, player_stats[year][(name, "QB")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "QB")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "QB")] = (
+                                    player_stats[year][(name, "QB")][0], player_stats[year][(name, "QB")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "QB")] = (0, 1)
                         if round < first_qb:
                             first_qb = round
                         if round == 1:
@@ -866,9 +887,16 @@ def get_statistics(bestball):
                         name = rb.get_name()
                         if team_index == 0:
                             try:
-                                player_stats[year][name] += 1
-                            except:
-                                player_stats[year][name] = 1
+                                player_stats[year][(name, "RB")] = (player_stats[year][(
+                                    name, "RB")][0] + 1, player_stats[year][(name, "RB")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "RB")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "RB")] = (
+                                    player_stats[year][(name, "RB")][0], player_stats[year][(name, "RB")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "RB")] = (0, 1)
                         if round < first_rb:
                             first_rb = round
                         if round == 1:
@@ -900,9 +928,16 @@ def get_statistics(bestball):
                         name = wr.get_name()
                         if team_index == 0:
                             try:
-                                player_stats[year][name] += 1
-                            except:
-                                player_stats[year][name] = 1
+                                player_stats[year][(name, "WR")] = (player_stats[year][(
+                                    name, "WR")][0] + 1, player_stats[year][(name, "WR")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "WR")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "WR")] = (
+                                    player_stats[year][(name, "WR")][0], player_stats[year][(name, "WR")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "WR")] = (0, 1)
                         if round < first_wr:
                             first_wr = round
                         if round == 1:
@@ -934,9 +969,16 @@ def get_statistics(bestball):
                         name = te.get_name()
                         if team_index == 0:
                             try:
-                                player_stats[year][name] += 1
-                            except:
-                                player_stats[year][name] = 1
+                                player_stats[year][(name, "TE")] = (player_stats[year][(
+                                    name, "TE")][0] + 1, player_stats[year][(name, "TE")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "TE")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "TE")] = (
+                                    player_stats[year][(name, "TE")][0], player_stats[year][(name, "TE")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "TE")] = (0, 1)
                         if round < first_te:
                             first_te = round
                         if round == 1:
@@ -962,6 +1004,36 @@ def get_statistics(bestball):
                         elif round == 10:
                             yearly_stats[year]['10th round TE'] += 1
                     yearly_stats[year]['first TE drafted'] += first_te
+
+                    for dst in roster_dsts:
+                        name = dst.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][(name, "DST")] = (player_stats[year][(
+                                    name, "DST")][0] + 1, player_stats[year][(name, "DST")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "DST")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "DST")] = (
+                                    player_stats[year][(name, "DST")][0], player_stats[year][(name, "DST")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "DST")] = (0, 1)
+
+                    for k in roster_ks:
+                        name = k.get_name()
+                        if team_index == 0:
+                            try:
+                                player_stats[year][(name, "K")] = (player_stats[year][(
+                                    name, "K")][0] + 1, player_stats[year][(name, "K")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "K")] = (1, 1)
+                        else:
+                            try:
+                                player_stats[year][(name, "K")] = (
+                                    player_stats[year][(name, "K")][0], player_stats[year][(name, "K")][1] + 1)
+                            except KeyError:
+                                player_stats[year][(name, "K")] = (0, 1)
 
                     if round_one_pick == 'RB':
                         if round_two_pick == 'RB':
@@ -1034,17 +1106,53 @@ def get_statistics(bestball):
                     winning_yearly_stats[year][stat] + top200_yearly_stats[year][stat]) / league_count
             for stat in top200_yearly_stats[year]:
                 top200_yearly_stats[year][stat] /= 200
+            delete_player_list = []
             for player in winning_player_stats[year]:
                 try:
-                    winning_player_stats[year][player] = (
-                        winning_player_stats[year][player] + top200_player_stats[year][player]) / league_count
+                    num_wins = winning_player_stats[year][player][0] + \
+                        top200_player_stats[year][player][0]
+                    num_drafts = winning_player_stats[year][player][1] + \
+                        top200_player_stats[year][player][1]
                 except KeyError:
-                    winning_player_stats[year][player] /= league_count
+                    num_wins = winning_player_stats[year][player][0]
+                    num_drafts = winning_player_stats[year][player][1]
+                if player[1] == 'K':
+                    min_num_drafts = 500
+                else:
+                    min_num_drafts = 200
+                if num_drafts >= min_num_drafts:
+                    winning_player_stats[year][player] = num_wins / num_drafts
+                else:
+                    delete_player_list.append(player)
+            for player in delete_player_list:
+                del winning_player_stats[year][player]
             for player in top200_player_stats[year]:
-                top200_player_stats[year][player] /= 200
+                top200_player_stats[year][player] = top200_player_stats[year][player][0] / \
+                    top200_player_stats[year][player][1]
 
             winning_player_stats[year] = dict(
                 sorted(winning_player_stats[year].items(), key=lambda x: x[1], reverse=True))
+            for player in winning_player_stats[year]:
+                player_name = player[0]
+                player_position = player[1]
+                if player_position == "QB":
+                    position_player_dict = qb_player_stats
+                elif player_position == "RB":
+                    position_player_dict = rb_player_stats
+                elif player_position == "WR":
+                    position_player_dict = wr_player_stats
+                elif player_position == "TE":
+                    position_player_dict = te_player_stats
+                elif player_position == "DST":
+                    position_player_dict = dst_player_stats
+                else:
+                    position_player_dict = k_player_stats
+                try:
+                    position_player_dict[year][player_name] = (
+                        winning_player_stats[year][player], top200_player_stats[year][player])
+                except KeyError:
+                    position_player_dict[year][player_name] = (
+                        winning_player_stats[year][player], 0)
 
     top200_overall_stats = copy.deepcopy(stat_dict)
     for stat in top200_overall_stats:
@@ -1066,8 +1174,11 @@ def get_statistics(bestball):
 
     if bestball == True:
         output_file_name = 'adp_data/bestball_data_analysis.txt'
+        output_player_file_name = 'adp/bestball_player_analysis.txt'
     else:
         output_file_name = 'adp_data/data_analysis.txt'
+        output_player_file_name = 'adp_data/player_analysis.txt'
+        ranking_file_name = 'adp_data/eos_rankings.pkl'
     with open(output_file_name, "w") as file:
         for year in winning_yearly_stats:
             file.write(year + ":\n")
@@ -1081,10 +1192,10 @@ def get_statistics(bestball):
                 "Percentage of time player seen on top 200 team (left) and league's highest scoring team (right):\n")
             for player in winning_player_stats[year]:
                 try:
-                    file.write(player + ": " + str(top200_player_stats[year][player]) + ", " +
+                    file.write(player[0] + ": " + str(top200_player_stats[year][player]) + ", " +
                                str(winning_player_stats[year][player]) + "\n")
                 except KeyError:
-                    file.write(player + ": 0, " +
+                    file.write(player[0] + ": 0, " +
                                str(winning_player_stats[year][player]) + "\n")
             file.write("\n")
         file.write("Overall: \n")
@@ -1093,6 +1204,159 @@ def get_statistics(bestball):
         for stat in winning_overall_stats:
             file.write(stat + ": " + str(top200_overall_stats[stat]) + ", " + str(winning_overall_stats[stat]) + ", " + str(
                 average_overall_stats[stat]) + "\n")
+    with open(output_player_file_name, "w") as file:
+        with open(ranking_file_name, 'rb') as inp:
+            ranking_dict = pickle5.load(inp)
+        for year in winning_player_stats:
+            file.write(year + ":\n")
+            file.write("Top player ownership (all positions):\n")
+            file.write("Player, ownership, ADP, Ranking\n")
+            for player in winning_player_stats[year]:
+                # try:
+                #     file.write(player[0] + ", " + player[1] + ": " + str(top200_player_stats[year][player]) + ", " +
+                #                str(winning_player_stats[year][player]) + "\n")
+                # except KeyError:
+                player_name = player[0]
+                player_position = player[1]
+                player_ownership = winning_player_stats[year][player]
+                if player_ownership < 0.1:
+                    player_ownership = str(player_ownership)
+                    player_ownership = player_ownership[3:4] + \
+                        "." + player_ownership[4:6]
+                else:
+                    player_ownership = str(player_ownership)
+                    player_ownership = player_ownership[2:4] + \
+                        "." + player_ownership[4:6]
+                if player_name != "Streaming":
+                    file.write(player_name + ": " + player_ownership + "%, " + player_position + ranking_dict[year][player_position][player_name][0] +
+                               ", " + player_position + ranking_dict[year][player_position][player_name][1] + "\n")
+            file.write('\n')
+            position_player_list = [qb_player_stats, rb_player_stats,
+                                    wr_player_stats, te_player_stats, dst_player_stats, k_player_stats]
+            for position_dict in position_player_list:
+                if position_dict == qb_player_stats:
+                    player_position = "QB"
+                elif position_dict == rb_player_stats:
+                    player_position = "RB"
+                elif position_dict == wr_player_stats:
+                    player_position = "WR"
+                elif position_dict == te_player_stats:
+                    player_position = "TE"
+                elif position_dict == dst_player_stats:
+                    player_position = "DST"
+                else:
+                    player_position = "K"
+                file.write(player_position + ":\n")
+                for player in position_dict[year]:
+                    player_ownership = position_dict[year][player][0]
+                    if player_ownership < 0.1:
+                        player_ownership = str(player_ownership)
+                        player_ownership = player_ownership[3:4] + \
+                            "." + player_ownership[4:6]
+                    else:
+                        player_ownership = str(player_ownership)
+                        player_ownership = player_ownership[2:4] + \
+                            "." + player_ownership[4:6]
+                    if player != "Streaming":
+                        file.write(player + ": " + player_ownership + "%, " + player_position + ranking_dict[year][player_position][player][0] +
+                                   ", " + player_position + ranking_dict[year][player_position][player][1] + "\n")
+                file.write("\n")
+
+
+def get_position_rankings(bestball):
+    """
+    Store the adp and end of season rankings.
+    """
+    if bestball:
+        file_prefix = 'bestball_'
+    else:
+        file_prefix = ''
+    with open('adp_data/' + file_prefix + 'qb_adp_data.pkl', 'rb') as inp:
+        qb_values = pickle5.load(inp)
+    with open('adp_data/' + file_prefix + 'rb_adp_data.pkl', 'rb') as inp:
+        rb_values = pickle5.load(inp)
+    with open('adp_data/' + file_prefix + 'wr_adp_data.pkl', 'rb') as inp:
+        wr_values = pickle5.load(inp)
+    with open('adp_data/' + file_prefix + 'te_adp_data.pkl', 'rb') as inp:
+        te_values = pickle5.load(inp)
+    with open('adp_data/dst_adp_data.pkl', 'rb') as inp:
+        dst_values = pickle5.load(inp)
+    with open('adp_data/k_adp_data.pkl', 'rb') as inp:
+        k_values = pickle5.load(inp)
+
+    # Chrome webdriver options
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+
+    # Different driver paths per computer
+    driver_path = "Program Files\Google\Chrome\Application\chrome.exe"
+    driver = webdriver.Chrome(executable_path=driver_path, options=options)
+    # driver = webdriver.Chrome(options=options)
+
+    year_dict = {"QB": {}, "RB": {}, "WR": {}, "TE": {}, "DST": {}, "K": {}}
+    ranking_dict = {'2018': copy.deepcopy(year_dict), '2019': copy.deepcopy(year_dict), '2020': copy.deepcopy(
+        year_dict), '2021': copy.deepcopy(year_dict), '2022': copy.deepcopy(year_dict)}
+    for int_year in range(2018, 2023):
+        year = str(int_year)
+        for position in ranking_dict[year]:
+            # Load the URL in the webdriver
+            ranking_url = "https://www.fantasypros.com/nfl/stats/" + \
+                position.lower() + ".php?year=" + year + "&scoring=HALF"
+            driver.get(ranking_url)
+            time.sleep(2)
+
+            # Parse the HTML content
+            htmlSource = driver.page_source
+            soup = BeautifulSoup(htmlSource, "html.parser")
+
+            if position == "DST" or position == "K":
+                results = soup.find(
+                    "div", class_="mobile-table").find("tbody")
+            else:
+                results = soup.find(
+                    "div", class_="mobile-table double-header").find("tbody")
+            players = results.find_all("tr")
+
+            if position == "QB":
+                fantasy_pts_index = 15
+                value_dict = qb_values
+            elif position == "RB":
+                fantasy_pts_index = 15
+                value_dict = rb_values
+            elif position == "WR":
+                fantasy_pts_index = 14
+                value_dict = wr_values
+            elif position == "TE":
+                fantasy_pts_index = 14
+                value_dict = te_values
+            elif position == "K":
+                fantasy_pts_index = 14
+                value_dict = k_values
+            elif position == "DST":
+                fantasy_pts_index = 10
+                value_dict = dst_values
+
+            for player in players:
+                stats = player.find_all("td")
+                ranking = stats[0].text
+                name = stats[1].find("a").text
+                if position == "DST":
+                    name += " DST"
+                fantasy_pts = stats[fantasy_pts_index].text
+                ranking_dict[year][position][name] = (ranking, fantasy_pts)
+
+            index = 1
+            for player in value_dict[year]:
+                try:
+                    previous_tuple = ranking_dict[year][position][player[0]]
+                    ranking_dict[year][position][player[0]] = (
+                        str(index), previous_tuple[0], previous_tuple[1])
+                except KeyError:
+                    ranking_dict[year][position][player[0]] = (
+                        str(index), 'DNP', '0')
+                index += 1
+    with open('adp_data/eos_rankings.pkl', 'wb') as outp:
+        pickle5.dump(ranking_dict, outp, pickle5.HIGHEST_PROTOCOL)
 
 
 # get_adp_data()
@@ -1101,7 +1365,8 @@ def get_statistics(bestball):
 # get_positional_adps(True)
 # simulate_drafts_store_data(20000, 12, 16, False)
 # simulate_drafts_store_data(20000, 12, 18, True)
+# get_position_rankings(False)
 get_statistics(False)
-get_statistics(True)
+# get_statistics(True)
 # simulate_season_display_draft(12, 16, False)
 # simulate_season_display_draft(12, 18, True)
