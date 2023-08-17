@@ -1154,6 +1154,26 @@ def get_statistics(bestball):
                     position_player_dict[year][player_name] = (
                         winning_player_stats[year][player], 0)
 
+    overall_player_stats = {}
+    for year in winning_player_stats:
+        for player in winning_player_stats[year]:
+            player_ownership = winning_player_stats[year][player]
+            if player_ownership > (1/12):
+                above_threshold = 1
+            else:
+                above_threshold = 0
+            try:
+                overall_player_stats[player] = (
+                    overall_player_stats[player][0] + player_ownership, overall_player_stats[player][1] + 1, overall_player_stats[player][2] + above_threshold)
+            except KeyError:
+                overall_player_stats[player] = (
+                    player_ownership, 1, above_threshold)
+    for player in overall_player_stats:
+        overall_player_stats[player] = (
+            overall_player_stats[player][0] / overall_player_stats[player][1], overall_player_stats[player][2])
+    overall_player_stats = dict(
+        sorted(overall_player_stats.items(), key=lambda x: x[1][0], reverse=True))
+
     top200_overall_stats = copy.deepcopy(stat_dict)
     for stat in top200_overall_stats:
         top200_overall_stats[stat] = (top200_yearly_stats['2018'][stat] + top200_yearly_stats['2019'][stat] +
@@ -1261,6 +1281,20 @@ def get_statistics(bestball):
                         file.write(player + ": " + player_ownership + "%, " + player_position + ranking_dict[year][player_position][player][0] +
                                    ", " + player_position + ranking_dict[year][player_position][player][1] + "\n")
                 file.write("\n")
+        file.write("Overall Player Ownerships:\n")
+        for player in overall_player_stats:
+            player_name = player[0]
+            player_ownership = overall_player_stats[player][0]
+            if player_ownership < 0.1:
+                player_ownership = str(player_ownership)
+                player_ownership = player_ownership[3:4] + \
+                    "." + player_ownership[4:6]
+            else:
+                player_ownership = str(player_ownership)
+                player_ownership = player_ownership[2:4] + \
+                    "." + player_ownership[4:6]
+            file.write(player_name + ": " + player_ownership +
+                       "%, " + str(overall_player_stats[player][1]) + "\n")
 
 
 def get_position_rankings(bestball):
